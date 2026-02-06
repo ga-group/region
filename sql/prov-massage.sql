@@ -1,0 +1,14 @@
+SET u{PRED} dct:modified;
+LOAD '/home/freundt/author/region/sql/prov-maxi-loop.sql';
+SET u{PRED} pav:importedOn;
+LOAD '/home/freundt/author/region/sql/prov-mini-loop.sql';
+SET u{PRED} pav:createdOn;
+LOAD '/home/freundt/author/region/sql/prov-mini-loop.sql';
+SET u{PRED} pav:lastRefreshedOn;
+LOAD '/home/freundt/author/region/sql/prov-maxi-loop.sql';
+SET u{PRED} prov:generatedAtTime;
+LOAD '/home/freundt/author/region/sql/prov-mini-loop.sql';
+SET u{PRED} pav:sourceAccessedOn;
+LOAD '/home/freundt/author/region/sql/prov-mini-loop.sql';
+SET u{PRED} pav:sourceLastAccessedOn;
+LOAD '/home/freundt/author/region/sql/prov-maxi-loop.sql';
