@@ -47,35 +47,110 @@
 
 
 
+wd:Q106127374
+	a	wd:Q52110228 ;
+	dct:modified	"2025-02-23T04:22:04Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2315590477 ;
+	rdfs:label	"Group of Friends in Defense of the Charter of the United Nations"@en .
+
 wd:Q107969762
 	a	wd:Q1129645 ;
 	a	wd:Q218819 ;
 	dct:modified	"2023-12-16T14:18:16Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2030882838 ;
-	rdfs:label	"United Kingdom–Crown Dependencies Customs Union"@en .
+	rdfs:label	"United Kingdom–Crown Dependencies Customs Union"@en ;
+	wdt:P527	wd:Q145 , wd:Q25230 , wd:Q785 , wd:Q9676 .
+
+wd:Q10860602
+	a	wd:Q52110228 ;
+	dct:modified	"2025-12-15T12:09:02Z"^^xsd:dateTime ;
+	dct:replaces	wd:Q36704 ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2442648969 ;
+	rdfs:label	"post-Yugoslavia states"@en ;
+	wdt:P527	wd:Q1246 , wd:Q215 , wd:Q221 , wd:Q224 , wd:Q225 , wd:Q236 , wd:Q37024 , wd:Q403 .
+
+wd:Q109647832
+	a	wd:Q52110228 ;
+	dct:modified	"2025-11-11T09:10:23Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2428208213 ;
+	rdfs:label	"Gulf States"@en ;
+	wdt:P527	wd:Q398 , wd:Q817 , wd:Q842 , wd:Q846 , wd:Q851 , wd:Q878 .
 
 wd:Q11283358
 	a	wd:Q1129645 ;
 	a	wd:Q5335686 ;
 	dct:modified	"2022-08-04T09:47:23Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	1696071482 ;
 	rdfs:label	"Free Trade Area of the Asia-Pacific"@en .
+
+wd:Q113111004
+	a	wd:Q52110228 ;
+	dct:modified	"2025-11-07T14:30:16Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2426941151 ;
+	rdfs:label	"I2U2 Group"@en .
+
+wd:Q1143093
+	a	wd:Q52110228 ;
+	dct:modified	"2025-05-28T19:49:50Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2353897905 ;
+	rdfs:label	"Tiger Cub Economies"@en ;
+	wdt:P527	wd:Q252 , wd:Q833 , wd:Q869 , wd:Q881 , wd:Q928 .
+
+wd:Q1144513
+	a	wd:Q52110228 ;
+	dct:modified	"2024-09-06T09:01:53Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2244246571 ;
+	rdfs:label	"G20 developing nations"@en .
+
+wd:Q1149903
+	a	wd:Q52110228 ;
+	dct:modified	"2025-10-15T09:41:33Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2416705915 ;
+	rdfs:label	"Global South"@en .
 
 wd:Q115475291
 	a	wd:Q1129645 ;
 	dct:modified	"2022-11-27T21:06:28Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	1779926494 ;
 	rdfs:label	"IPETCA"@en .
 
@@ -84,45 +159,131 @@ wd:Q1165797
 	a	wd:Q5335686 ;
 	dct:modified	"2025-11-17T19:50:03Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2430834602 ;
 	rdfs:label	"Common Market for Eastern and Southern Africa"@en ;
+	wdt:P527	wd:Q1016 , wd:Q1019 , wd:Q1020 , wd:Q1027 , wd:Q1036 , wd:Q1037 , wd:Q1042 , wd:Q1045 , wd:Q1049 , wd:Q1050 , wd:Q114 , wd:Q115 , wd:Q79 , wd:Q948 , wd:Q953 , wd:Q954 , wd:Q967 , wd:Q970 , wd:Q974 , wd:Q977 , wd:Q986 ;
 	wdt:P856	"http://www.comesa.int/"^^xsd:anyURI .
+
+wd:Q118874804
+	a	wd:Q52110228 ;
+	dct:modified	"2025-09-26T10:39:43Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2409522173 ;
+	rdfs:label	"NATO global partners"@en .
 
 wd:Q1201934
 	a	wd:Q1129645 ;
 	a	wd:Q218819 ;
 	dct:modified	"2026-01-16T09:38:51Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2455392242 ;
 	rdfs:label	"Austro-German Customs Union"@en .
+
+wd:Q121029742
+	a	wd:Q52110228 ;
+	dct:modified	"2025-12-07T17:09:17Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2439271860 ;
+	rdfs:label	"Coup Belt"@en ;
+	wdt:P527	wd:Q110663445 .
+
+wd:Q121921323
+	a	wd:Q52110228 ;
+	dct:modified	"2025-10-14T07:45:08Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2416241531 ;
+	rdfs:label	"American–Japanese–Korean trilateral pact"@en ;
+	wdt:P527	wd:Q17 , wd:Q30 , wd:Q884 .
+
+wd:Q123209
+	a	wd:Q137290726 ;
+	a	wd:Q52110228 ;
+	dct:modified	"2026-02-02T17:15:35Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2460116618 ;
+	rdfs:label	"Latin Union"@en ;
+	wdt:P856	"https://www.unilat.org"^^xsd:anyURI .
+
+wd:Q123515243
+	a	wd:Q52110228 ;
+	dct:modified	"2024-02-07T01:35:35Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2070720982 ;
+	rdfs:label	"MIRAB"@en .
+
+wd:Q124382882
+	a	wd:Q52110228 ;
+	dct:modified	"2025-11-12T12:07:00Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2428627304 ;
+	rdfs:label	"mittlere Mächte"@de .
+
+wd:Q128790031
+	a	wd:Q52110228 ;
+	dct:modified	"2025-08-15T15:34:25Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2392474286 ;
+	rdfs:label	"Axis of Upheaval"@en ;
+	wdt:P527	wd:Q148 , wd:Q159 , wd:Q423 , wd:Q794 .
 
 wd:Q13116
 	a	wd:Q1129645 ;
 	a	wd:Q120121699 ;
 	dct:modified	"2026-02-03T14:19:40Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2460349908 ;
 	rdfs:label	"Benelux"@en ;
 	wdt:P1448	"Benelux Unie"@nl , "Union Benelux"@fr ;
 	wdt:P856	"https://benelux.int"^^xsd:anyURI , "https://www.benelux.int/"^^xsd:anyURI .
+
+wd:Q131296776
+	a	wd:Q52110228 ;
+	dct:modified	"2026-02-02T20:57:46Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2460174464 ;
+	rdfs:label	"CRINK"@en .
 
 wd:Q131300036
 	a	wd:Q1129645 ;
 	a	wd:Q1327750 , wd:Q3623811 , wd:Q5335686 ;
 	dct:modified	"2024-11-21T14:34:13Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2277943169 ;
 	rdfs:label	"Maghreb Economic Area"@en .
 
@@ -130,58 +291,130 @@ wd:Q1323760
 	a	wd:Q1129645 ;
 	dct:modified	"2025-10-27T07:59:59Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2422427982 ;
 	rdfs:label	"ASEAN Plus Three"@en ;
 	wdt:P856	"http://www.asean.org/"^^xsd:anyURI .
+
+wd:Q134102
+	a	wd:Q137290726 ;
+	a	wd:Q52110228 ;
+	dct:modified	"2025-12-08T13:21:03Z"^^xsd:dateTime ;
+	dct:replaces	wd:Q2826590 ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2439599077 ;
+	rdfs:label	"Organisation internationale de la Francophonie"@en ;
+	wdt:P1813	"OIF"@fr ;
+	wdt:P856	"https://www.francophonie.org/"^^xsd:anyURI , "https://www.francophonie.org/francofonia-em-resumo-1772"^^xsd:anyURI , "https://www.francophonie.org/francophonie-brief-1763"^^xsd:anyURI , "https://www.francophonie.org/la-francofonia-en-pocas-palabras-1771"^^xsd:anyURI , "https://www.francophonie.org/la-francophonie-en-bref-arabe-1734"^^xsd:anyURI .
 
 wd:Q1344350
 	a	wd:Q1129645 ;
 	a	wd:Q218819 ;
 	dct:modified	"2025-07-08T02:39:42Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2375668546 ;
 	rdfs:label	"Southern African Customs Union"@en ;
 	wdt:P856	"https://www.sacu.int/"^^xsd:anyURI .
+
+wd:Q1360686
+	a	wd:Q137290726 ;
+	a	wd:Q52110228 ;
+	dct:modified	"2025-12-08T13:42:14Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2439604701 ;
+	rdfs:label	"Portuguese-speaking African countries"@en ;
+	wdt:P1813	"PALOP"@pt ;
+	wdt:P527	wd:Q1007 , wd:Q1011 , wd:Q1029 , wd:Q1039 , wd:Q916 , wd:Q983 .
+
+wd:Q136798564
+	a	wd:Q52110228 ;
+	dct:modified	"2025-11-17T06:12:03Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2430582653 ;
+	rdfs:label	"post-Hittite states"@en ;
+	wdt:P527	wd:Q6104781 , wd:Q770281 .
+
+wd:Q1376093
+	a	wd:Q52110228 ;
+	dct:modified	"2025-11-10T07:21:11Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2427799813 ;
+	rdfs:label	"Samhan"@en ;
+	wdt:P527	wd:Q1378584 , wd:Q701273 , wd:Q704278 .
 
 wd:Q1377619
 	a	wd:Q1129645 ;
 	a	wd:Q218819 ;
 	dct:modified	"2026-02-04T21:49:49Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2460733604 ;
 	rdfs:label	"European Union Customs Union"@en ;
+	wdt:P527	wd:Q5413378 ;
 	wdt:P856	"https://www.consilium.europa.eu/en/policies/the-eu-customs-union/"^^xsd:anyURI .
+
+wd:Q143487
+	a	wd:Q52110228 ;
+	dct:modified	"2025-12-27T00:18:44Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2447591848 ;
+	rdfs:label	"Arab world"@en .
 
 wd:Q145700
 	a	wd:Q1129645 ;
 	a	wd:Q3623811 ;
 	dct:modified	"2025-12-21T08:35:15Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2444857974 ;
 	rdfs:label	"South Asian Association for Regional Cooperation"@en ;
 	wdt:P1813	"ACRAM"@pt , "ASACR"@es , "ASACR"@fr , "ASACR"@it , "ASACR"@pt , "SAARC"@en , "АРСПА"@uk , "СААРК"@ru , "سارک"@fa , "سارک"@mzn , "سارک"@pnb , "سارک"@ps , "سارک"@ur , "ސާރކް"@dv , "दक्षेस"@hi , "सार्क"@awa , "सार्क"@mr , "सार्क"@ne , "ছাৰ্ক"@as , "সার্ক"@bn , "સાર્ક"@gu , "சார்க்"@ta , "సార్క్"@te , "സാർക്ക്"@ml , "南盟"@zh-cn ;
 	wdt:P856	"https://saarc-sec.org"^^xsd:anyURI .
+
+wd:Q152299
+	a	wd:Q137290726 ;
+	a	wd:Q52110228 ;
+	dct:modified	"2026-01-17T13:59:30Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2455650336 ;
+	rdfs:label	"Dutch Language Union"@en ;
+	wdt:P856	"https://taalunie.org/"^^xsd:anyURI .
 
 wd:Q1542735
 	a	wd:Q1129645 ;
 	a	wd:Q3623811 ;
 	dct:modified	"2025-06-22T12:56:33Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2365639326 ;
 	rdfs:label	"Belgium–Luxembourg Economic Union"@en ;
 	wdt:P1813	"BLEU"@nl , "UEBL"@fr .
@@ -192,24 +425,46 @@ wd:Q155707
 	dct:modified	"2026-01-26T14:52:37Z"^^xsd:dateTime ;
 	dct:replaces	wd:Q1940103 , wd:Q2109167 , wd:Q2380679 ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2457969286 ;
 	rdfs:label	"Zollverein"@en ;
 	wdt:P1448	"Zollverein"@de .
+
+wd:Q1570993
+	a	wd:Q52110228 ;
+	dct:modified	"2025-07-23T17:18:47Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2383188657 ;
+	rdfs:label	"IBSA Dialogue Forum"@en .
+
+wd:Q165292
+	a	wd:Q52110228 ;
+	dct:modified	"2026-01-05T12:44:03Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2451675174 ;
+	rdfs:label	"Three Kingdoms of Korea"@en ;
+	wdt:P527	wd:Q28370 , wd:Q28428 , wd:Q28456 .
 
 wd:Q166546
 	a	wd:Q1129645 ;
 	a	wd:Q5335686 ;
 	dct:modified	"2026-01-26T15:08:59Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2457973189 ;
 	rdfs:label	"European Free Trade Association"@en ;
 	wdt:P1813	"EFTA"@en ;
+	wdt:P527	wd:Q145 , wd:Q189 , wd:Q20 , wd:Q33 , wd:Q34 , wd:Q347 , wd:Q35 , wd:Q39 , wd:Q40 , wd:Q45 ;
 	wdt:P856	"http://www.efta.int/"^^xsd:anyURI .
 
 wd:Q16700363
@@ -217,33 +472,56 @@ wd:Q16700363
 	a	wd:Q5335686 ;
 	dct:modified	"2024-02-09T00:02:08Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2072309939 ;
-	rdfs:label	"European Union–Ukraine free trade area"@en .
+	rdfs:label	"European Union–Ukraine free trade area"@en ;
+	wdt:P527	wd:Q212 , wd:Q458 .
 
 wd:Q16720712
 	a	wd:Q1129645 ;
 	a	wd:Q5335686 ;
 	dct:modified	"2026-01-28T10:33:02Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2458624050 ;
-	rdfs:label	"Deep and Comprehensive Free Trade Area"@en .
+	rdfs:label	"Deep and Comprehensive Free Trade Area"@en ;
+	wdt:P527	wd:Q16700363 , wd:Q48742357 .
 
 wd:Q1702783
 	a	wd:Q1129645 ;
 	a	wd:Q5335686 ;
 	dct:modified	"2024-12-16T06:16:49Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2288063128 ;
 	rdfs:label	"Commonwealth of Independent States Free Trade Area"@en .
+
+wd:Q170541
+	a	wd:Q52110228 ;
+	dct:modified	"2025-12-29T14:52:06Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2448627508 ;
+	rdfs:label	"Eastern Bloc"@en .
+
+wd:Q17076426
+	a	wd:Q52110228 ;
+	dct:modified	"2025-09-02T11:35:51Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2399576057 ;
+	rdfs:label	"G4"@en ;
+	wdt:P527	wd:Q142 , wd:Q145 , wd:Q183 , wd:Q38 .
 
 wd:Q181574
 	a	wd:Q1129645 ;
@@ -251,33 +529,104 @@ wd:Q181574
 	dct:replacedBy	wd:Q56839716 ;
 	dct:replaces	wd:Q2665587 ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2453193807 ;
 	rdfs:label	"North American Free Trade Agreement"@en ;
 	wdt:P1813	"ALENA"@fr , "NAFTA"@en , "TLC"@es , "НАФТА"@ru ;
+	wdt:P527	wd:Q16 , wd:Q30 , wd:Q96 ;
 	wdt:P856	"http://www.nafta-sec-alena.org/"^^xsd:anyURI .
+
+wd:Q182500
+	a	wd:Q137290726 ;
+	a	wd:Q52110228 ;
+	dct:modified	"2025-12-08T13:21:23Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2439599197 ;
+	rdfs:label	"Community of Portuguese Language Countries"@en ;
+	wdt:P1813	"CPLP"@pt ;
+	wdt:P527	wd:Q1007 , wd:Q1011 , wd:Q1029 , wd:Q1039 , wd:Q1360686 , wd:Q155 , wd:Q45 , wd:Q574 , wd:Q916 , wd:Q983 ;
+	wdt:P856	"http://www.cplp.org/"^^xsd:anyURI .
+
+wd:Q18346327
+	a	wd:Q1535468 ;
+	a	wd:Q52110228 ;
+	dct:modified	"2025-07-14T05:40:08Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2379343664 ;
+	rdfs:label	"Group of Latin American and Caribbean Countries in the United Nations"@en ;
+	wdt:P1813	"GRULAC"@es , "GRULAC"@pt .
+
+wd:Q190918
+	a	wd:Q52110228 ;
+	dct:modified	"2026-01-26T17:39:42Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2458005445 ;
+	rdfs:label	"Four Asian Tigers"@en ;
+	wdt:P527	wd:Q334 , wd:Q8646 , wd:Q865 , wd:Q884 .
 
 wd:Q19727372
 	a	wd:Q1129645 ;
 	a	wd:Q5335686 ;
 	dct:modified	"2023-06-09T01:42:29Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	1911161892 ;
 	rdfs:label	"Indonesia Free Trade Zone"@en .
+
+wd:Q19771
+	a	wd:Q52110228 ;
+	dct:modified	"2026-02-01T12:32:53Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2459755445 ;
+	rdfs:label	"G20"@en ;
+	wdt:P1813	"G20"@en ;
+	wdt:P527	wd:Q142 , wd:Q145 , wd:Q148 , wd:Q155 , wd:Q159 , wd:Q16 , wd:Q17 , wd:Q183 , wd:Q252 , wd:Q258 , wd:Q30 , wd:Q38 , wd:Q408 , wd:Q414 , wd:Q43 , wd:Q458 , wd:Q668 , wd:Q7159 , wd:Q851 , wd:Q884 , wd:Q96 ;
+	wdt:P856	"https://g20.org"^^xsd:anyURI .
+
+wd:Q20036753
+	a	wd:Q52110228 ;
+	dct:modified	"2025-09-02T12:36:44Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2399595252 ;
+	rdfs:label	"Craiova Group"@en .
+
+wd:Q2011772
+	a	wd:Q52110228 ;
+	dct:modified	"2025-10-12T05:33:10Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2415358764 ;
+	rdfs:label	"Free World"@en .
 
 wd:Q205995
 	a	wd:Q1129645 ;
 	dct:modified	"2026-01-08T14:11:00Z"^^xsd:dateTime ;
 	dct:replaces	wd:Q5039385 ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2452834840 ;
 	rdfs:label	"Caribbean Community"@en ;
 	wdt:P1813	"CARICOM"@mul ;
@@ -287,12 +636,13 @@ wd:Q217172
 	a	wd:Q1129645 ;
 	dct:modified	"2026-01-30T07:41:07Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2459205642 ;
 	rdfs:label	"Cooperation Council for the Arab States of the Persian Gulf"@en ;
 	wdt:P1813	"CCEAG"@ast , "CCEAG"@ca , "CCEAG"@es , "CCG"@fr , "CCG"@gl , "CCG"@pt , "CCG"@ro , "GCC"@en , "GKR"@de , "ΣΣΚ"@el , "РСАДПЗ"@uk , "ССАГПЗ"@ru , "مجلس التعاون الخليجي"@ar , "海合会"@zh-hans , "海合會"@zh-hant ;
+	wdt:P527	wd:Q398 , wd:Q817 , wd:Q842 , wd:Q846 , wd:Q851 , wd:Q878 ;
 	wdt:P856	"https://gcc-sg.ae"^^xsd:anyURI , "https://gcc-sg.org/ar-sa/Pages/default.aspx"^^xsd:anyURI , "https://www.gcc-sg.org/en/Pages/default.aspx"^^xsd:anyURI .
 
 wd:Q21745481
@@ -301,20 +651,54 @@ wd:Q21745481
 	dct:modified	"2026-02-07T16:31:11Z"^^xsd:dateTime ;
 	dct:replacedBy	wd:Q955276 ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2461554828 ;
 	rdfs:label	"common market of the European Economic Community"@en .
+
+wd:Q226050
+	a	wd:Q137290726 ;
+	a	wd:Q52110228 ;
+	dct:modified	"2026-01-19T00:34:20Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2455975049 ;
+	rdfs:label	"Celtic League"@en ;
+	wdt:P856	"https://www.celticleague.net"^^xsd:anyURI .
+
+wd:Q2401689
+	a	wd:Q52110228 ;
+	dct:modified	"2022-02-08T01:39:48Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	1574493262 ;
+	rdfs:label	"vorstenlanden"@en ;
+	wdt:P527	wd:Q1853386 , wd:Q2114397 , wd:Q2122499 , wd:Q3177663 .
+
+wd:Q243630
+	a	wd:Q52110228 ;
+	dct:modified	"2026-01-22T16:30:46Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2456913303 ;
+	rdfs:label	"BRICS"@en ;
+	wdt:P527	wd:Q115 , wd:Q148 , wd:Q155 , wd:Q159 , wd:Q184 , wd:Q252 , wd:Q258 , wd:Q262 , wd:Q398 , wd:Q668 , wd:Q79 , wd:Q794 , wd:Q851 , wd:Q878 , wd:Q902 .
 
 wd:Q2595976
 	a	wd:Q1129645 ;
 	a	wd:Q3623811 ;
 	dct:modified	"2025-01-03T16:32:44Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2294309986 ;
 	rdfs:label	"Economic, Monetary and Social Union"@en .
 
@@ -323,11 +707,12 @@ wd:Q2628395
 	a	wd:Q1327750 ;
 	dct:modified	"2026-01-20T15:54:12Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2456355275 ;
 	rdfs:label	"Single Economic Space of the Eurasian Economic Union"@en ;
+	wdt:P527	wd:Q159 , wd:Q184 , wd:Q232 , wd:Q399 , wd:Q813 ;
 	wdt:P856	"http://www.eurasiancommission.org/ru/Pages/default.aspx"^^xsd:anyURI .
 
 wd:Q2663713
@@ -335,11 +720,12 @@ wd:Q2663713
 	a	wd:Q218819 ;
 	dct:modified	"2026-01-24T08:06:48Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2457303280 ;
 	rdfs:label	"Eurasian Customs Union"@en ;
+	wdt:P527	wd:Q159 , wd:Q184 , wd:Q232 , wd:Q399 , wd:Q813 ;
 	wdt:P856	"http://www.eurasiancommission.org"^^xsd:anyURI .
 
 wd:Q2665587
@@ -347,34 +733,90 @@ wd:Q2665587
 	dct:modified	"2025-12-10T10:16:18Z"^^xsd:dateTime ;
 	dct:replacedBy	wd:Q181574 ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2440414312 ;
 	rdfs:label	"Canada–United States Free Trade Agreement"@en ;
-	wdt:P1813	"CUSFTA"@en .
+	wdt:P1813	"CUSFTA"@en ;
+	wdt:P527	wd:Q16 , wd:Q30 .
 
 wd:Q2822802
 	a	wd:Q1129645 ;
 	a	wd:Q1373407 ;
 	dct:modified	"2024-02-07T01:29:36Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2070717873 ;
 	rdfs:label	"Australia–United States Free Trade Agreement"@en .
+
+wd:Q29467109
+	a	wd:Q52110228 ;
+	dct:modified	"2025-11-10T05:13:07Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2427764179 ;
+	rdfs:label	"NATO Quint"@en .
 
 wd:Q297472
 	a	wd:Q1129645 ;
 	a	wd:Q5335686 ;
 	dct:modified	"2025-02-15T14:06:49Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2311857881 ;
-	rdfs:label	"ASEAN Free Trade Area"@en .
+	rdfs:label	"ASEAN Free Trade Area"@en ;
+	wdt:P527	wd:Q252 , wd:Q334 , wd:Q424 , wd:Q819 , wd:Q833 , wd:Q836 , wd:Q869 , wd:Q881 , wd:Q921 , wd:Q928 .
+
+wd:Q302045
+	a	wd:Q52110228 ;
+	dct:modified	"2025-07-30T16:29:03Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2386093696 ;
+	rdfs:label	"Post-Soviet states"@en ;
+	wdt:P527	wd:Q159 , wd:Q212 , wd:Q232 .
+
+wd:Q3117794
+	a	wd:Q52110228 ;
+	dct:modified	"2024-08-03T11:23:58Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2219756004 ;
+	rdfs:label	"Polynesian Leaders Group"@en .
+
+wd:Q3117820
+	a	wd:Q1535468 ;
+	a	wd:Q52110228 ;
+	dct:modified	"2025-09-27T19:57:23Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2410056108 ;
+	rdfs:label	"Western European and Others Group"@en .
+
+wd:Q32069506
+	a	wd:Q52110228 ;
+	dct:modified	"2025-11-29T01:03:57Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2435381500 ;
+	rdfs:label	"Three Seas Initiative"@en ;
+	wdt:P1813	"3SI"@en , "TSI"@en ;
+	wdt:P856	"https://3seas.eu"^^xsd:anyURI .
 
 wd:Q3304607
 	a	wd:Q1129645 ;
@@ -382,22 +824,33 @@ wd:Q3304607
 	dct:modified	"2026-01-26T15:09:27Z"^^xsd:dateTime ;
 	dct:replacedBy	wd:Q607301 ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2457973313 ;
 	rdfs:label	"Latin American Free Trade Association"@en ;
 	wdt:P1448	"Asociación Latinoamericana de Libre Comercio"@es ;
 	wdt:P1813	"ALALC"@es , "ALALC"@pt , "ALALE"@fr , "LAFTA"@en .
+
+wd:Q340700
+	a	wd:Q52110228 ;
+	dct:modified	"2025-07-12T07:46:37Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2378547381 ;
+	rdfs:label	"axis of evil"@en ;
+	wdt:P527	wd:Q423 , wd:Q794 , wd:Q796 .
 
 wd:Q3575889
 	a	wd:Q1129645 ;
 	a	wd:Q5335686 ;
 	dct:modified	"2026-01-27T22:46:17Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2458465253 ;
 	rdfs:label	"Euro-Mediterranean free trade area"@en .
 
@@ -406,9 +859,9 @@ wd:Q370862
 	a	wd:Q120121699 ;
 	dct:modified	"2025-12-23T08:43:05Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2445936413 ;
 	rdfs:label	"Arab Maghreb Union"@en ;
 	wdt:P1448	"الاتحاد المغاربي"@ar , "ⵜⴰⵎⵓⵏⵜ ⵏ ⵍⵎⵖⵔⵉⴱ"@zgh ;
@@ -420,9 +873,9 @@ wd:Q3829543
 	a	wd:Q218819 ;
 	dct:modified	"2021-03-08T06:58:14Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	1377755517 ;
 	rdfs:label	"Lega doganale"@it .
 
@@ -431,9 +884,9 @@ wd:Q388083
 	a	wd:Q3623811 , wd:Q825026 ;
 	dct:modified	"2025-11-25T20:42:28Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2433968500 ;
 	rdfs:label	"African Monetary Union"@en .
 
@@ -442,27 +895,54 @@ wd:Q4173083
 	a	wd:Q3623811 ;
 	dct:modified	"2026-01-24T08:07:07Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2457303314 ;
 	rdfs:label	"Eurasian Economic Union"@en ;
 	wdt:P1813	"AEB"@tr , "AİB"@tt-latn , "BEE"@sq , "EAEU"@en , "EAEU"@sl , "EAEU"@sv , "EAIU"@li , "EAWU"@de , "EBE"@eu , "EEU"@nl , "EGS"@hr , "UEE"@ca , "UEE"@es , "UEE"@pt , "UEE"@ro , "UEEA"@fr , "XEE"@ast , "YOII"@uz , "ЄАЕС"@uk , "ЕАЕС"@sr-cyrl , "ЕАЭБ"@ce , "ЕАЭП"@cv , "ЕАЭС"@be , "ЕАЭС"@ru , "ЕЭО"@kk-cyrl , "欧亚联盟"@zh-hans , "歐亞聯盟"@zh-hant ;
+	wdt:P527	wd:Q159 , wd:Q184 , wd:Q232 , wd:Q2628395 , wd:Q2663713 , wd:Q399 , wd:Q813 ;
 	wdt:P856	"http://eaeunion.org/"^^xsd:anyURI .
+
+wd:Q421023
+	a	wd:Q137290726 ;
+	a	wd:Q52110228 ;
+	dct:modified	"2025-12-08T13:31:04Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2439601863 ;
+	rdfs:label	"Organization of Ibero-American States"@en ;
+	wdt:P1448	"Organização de Estados Ibero-Americanos para a Educação, a Ciência e a Cultura"@pt , "Organización de Estados Iberoamericanos para la Educación, la Ciencia y la Cultura"@es ;
+	wdt:P1813	"OEI"@es ;
+	wdt:P856	"http://www.oei.int/"^^xsd:anyURI , "https://oei.int/pt"^^xsd:anyURI .
 
 wd:Q4264
 	a	wd:Q1129645 ;
 	a	wd:Q218819 ;
-	dct:modified	"2026-02-02T06:02:00Z"^^xsd:dateTime ;
+	dct:modified	"2026-02-09T15:19:20Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:version	2459964003 ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2459964003 , 2462006920 ;
 	rdfs:label	"Mercosur"@mul ;
 	wdt:P1448	"Mercado Común del Sur"@es , "Mercado Comum do Sul"@pt , "Ñemby Ñemuha"@gn ;
 	wdt:P1813	"MERCOSUL"@pt , "MERCOSUR"@es ;
+	wdt:P527	wd:Q155 , wd:Q414 , wd:Q717 , wd:Q733 , wd:Q750 , wd:Q77 ;
 	wdt:P856	"http://www.mercosur.int/"^^xsd:anyURI , "http://www.mercosur.int/pt-br/"^^xsd:anyURI , "https://www.mercosur.int/en/"^^xsd:anyURI .
+
+wd:Q43079362
+	a	wd:Q1535468 ;
+	a	wd:Q52110228 ;
+	dct:modified	"2025-07-14T08:03:47Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2379396334 ;
+	rdfs:label	"African Group"@en .
 
 wd:Q458
 	a	wd:Q1129645 ;
@@ -470,13 +950,14 @@ wd:Q458
 	dct:modified	"2026-02-09T14:41:59Z"^^xsd:dateTime ;
 	dct:replaces	wd:Q161549 , wd:Q189946 , wd:Q52847 ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2461999722 ;
 	rdfs:label	"European Union"@en ;
 	wdt:P1448	"An tAontas Eorpach"@ga , "Den Europæiske Union"@da , "Eiropas Savienība"@lv , "Európai Unió"@hu , "Európska únia"@sk , "Euroopa Liit"@et , "Euroopan unioni"@fi , "Europäische Union"@de , "European Union"@en , "Europeiska unionen"@sv , "Europese Unie"@nl , "Europos Sąjunga"@lt , "Europska unija"@hr , "Evropska unija"@sl , "Evropská unie"@cs , "Unia Europejska"@pl , "União Europeia"@pt , "Unión Europea"@es , "Union européenne"@fr , "Unione europea"@it , "Uniunea Europeană"@ro , "Unjoni Ewropea"@mt , "Ευρωπαϊκή Ένωση"@el , "Европейски съюз"@bg ;
 	wdt:P1813	"EL"@et , "EU"@mul , "UE"@mul , "ЄС"@uk , "ЕС"@ru , "欧盟"@zh-hans , "歐盟"@zh-hant ;
+	wdt:P527	wd:Q142 , wd:Q183 , wd:Q191 , wd:Q211 , wd:Q213 , wd:Q214 , wd:Q215 , wd:Q218 , wd:Q219 , wd:Q224 , wd:Q229 , wd:Q233 , wd:Q27 , wd:Q28 , wd:Q29 , wd:Q31 , wd:Q32 , wd:Q33 , wd:Q34 , wd:Q35 , wd:Q36 , wd:Q37 , wd:Q38 , wd:Q40 , wd:Q41 , wd:Q45 , wd:Q55 , wd:Q67147037 ;
 	wdt:P856	"https://european-union.europa.eu/"^^xsd:anyURI .
 
 wd:Q468591
@@ -484,9 +965,9 @@ wd:Q468591
 	a	wd:Q5335686 ;
 	dct:modified	"2025-07-16T11:09:51Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2380518848 ;
 	rdfs:label	"Free Trade Area of the Americas"@en .
 
@@ -495,24 +976,26 @@ wd:Q4689770
 	a	wd:Q5335686 ;
 	dct:modified	"2023-09-06T16:59:40Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	1969266175 ;
-	rdfs:label	"African Free Trade Zone"@en .
+	rdfs:label	"African Free Trade Zone"@en ;
+	wdt:P527	wd:Q1165797 , wd:Q337456 , wd:Q816706 .
 
 wd:Q471690
 	a	wd:Q1129645 ;
 	a	wd:Q218819 ;
 	dct:modified	"2026-01-22T11:44:57Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2456837711 ;
 	rdfs:label	"Andean Community"@en ;
 	wdt:P1448	"Comunidad Andina"@es-419 ;
 	wdt:P1813	"CAN"@en , "CAN"@es-419 ;
+	wdt:P527	wd:Q419 , wd:Q736 , wd:Q739 , wd:Q750 ;
 	wdt:P856	"https://www.comunidadandina.org/"^^xsd:anyURI .
 
 wd:Q48742357
@@ -520,20 +1003,32 @@ wd:Q48742357
 	a	wd:Q5335686 ;
 	dct:modified	"2025-09-22T06:22:25Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2408234348 ;
-	rdfs:label	"European Union–Moldova Deep and Comprehensive Free Trade Area"@en .
+	rdfs:label	"European Union–Moldova Deep and Comprehensive Free Trade Area"@en ;
+	wdt:P527	wd:Q217 , wd:Q458 .
+
+wd:Q496967
+	a	wd:Q52110228 ;
+	dct:modified	"2025-11-07T00:01:10Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2426725305 ;
+	rdfs:label	"Alliance of Small Island States"@en ;
+	wdt:P856	"http://www.aosis.org/"^^xsd:anyURI .
 
 wd:Q50828855
 	a	wd:Q1129645 ;
 	a	wd:Q5335686 ;
 	dct:modified	"2025-10-29T16:33:45Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2423384394 ;
 	rdfs:label	"African Continental Free Trade Area"@en ;
 	wdt:P1813	"AfCFTA"@en ;
@@ -544,9 +1039,9 @@ wd:Q5153887
 	a	wd:Q218819 ;
 	dct:modified	"2024-11-06T21:22:55Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2271059596 ;
 	rdfs:label	"Commonwealth free trade"@en .
 
@@ -555,22 +1050,43 @@ wd:Q51720373
 	a	wd:Q1327750 ;
 	dct:modified	"2025-03-11T21:09:38Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2323294088 ;
 	rdfs:label	"Single African Air Transport Market"@en ;
 	wdt:P1813	"SAATM"@en ;
 	wdt:P856	"https://au.int/en"^^xsd:anyURI , "https://au.int/fr"^^xsd:anyURI .
+
+wd:Q5322445
+	a	wd:Q52110228 ;
+	dct:modified	"2025-07-18T21:10:08Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2381472858 ;
+	rdfs:label	"E7"@en .
+
+wd:Q5330133
+	a	wd:Q1535468 ;
+	a	wd:Q52110228 ;
+	dct:modified	"2025-10-13T14:28:06Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2415912532 ;
+	rdfs:label	"Eastern European Group"@en .
 
 wd:Q5412411
 	a	wd:Q1129645 ;
 	a	wd:Q1327750 ;
 	dct:modified	"2024-09-11T02:54:03Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2246491740 ;
 	rdfs:label	"European Common Aviation Area"@en .
 
@@ -579,20 +1095,30 @@ wd:Q55394470
 	a	wd:Q218819 ;
 	dct:modified	"2022-12-05T06:22:42Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	1784804626 ;
 	rdfs:label	"Customs Union between the EU and the UK"@en .
+
+wd:Q556938
+	a	wd:Q52110228 ;
+	dct:modified	"2024-12-03T10:00:51Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2283020203 ;
+	rdfs:label	"Group of 22"@en .
 
 wd:Q5570670
 	a	wd:Q1129645 ;
 	a	wd:Q1373407 ;
 	dct:modified	"2024-10-09T15:56:31Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2258332941 ;
 	rdfs:label	"Global System of Trade Preferences among Developing Countries"@en ;
 	wdt:P1813	"SGPC"@pt .
@@ -602,22 +1128,38 @@ wd:Q56839716
 	dct:modified	"2026-01-09T12:52:40Z"^^xsd:dateTime ;
 	dct:replaces	wd:Q181574 ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2453192921 ;
 	rdfs:label	"United States–Mexico–Canada Agreement"@en ;
 	wdt:P1448	"Accord Canada–États-Unis–Mexique"@fr , "Canada–United States–Mexico Agreement"@en-ca , "Tratado entre México, Estados Unidos y Canadá"@es , "United States–Mexico–Canada Agreement"@en-us ;
 	wdt:P1813	"ACEUM"@fr , "CUSMA"@en-ca , "T-MEC"@es , "USMCA"@en , "美墨加协议"@zh-hans , "美墨加協議"@zh-hant ;
+	wdt:P527	wd:Q16 , wd:Q30 , wd:Q96 ;
 	wdt:P856	"https://ustr.gov/trade-agreements/free-trade-agreements/united-states-mexico-canada-agreement"^^xsd:anyURI , "https://www.gob.mx/t-mec"^^xsd:anyURI , "https://www.international.gc.ca/trade-commerce/trade-agreements-accords-commerciaux/agr-acc/cusma-aceum/text-texte/toc-tdm.aspx?lang=eng"^^xsd:anyURI , "https://www.international.gc.ca/trade-commerce/trade-agreements-accords-commerciaux/agr-acc/cusma-aceum/text-texte/toc-tdm.aspx?lang=fra"^^xsd:anyURI .
+
+wd:Q596850
+	a	wd:Q137290726 ;
+	a	wd:Q52110228 ;
+	dct:modified	"2026-01-04T14:13:54Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2451280919 ;
+	rdfs:label	"Organization of Turkic States"@en ;
+	wdt:P1448	"Türk Dövlətləri Təşkilatı"@az , "Türk Devletleri Teşkilatı"@tr , "Türkı memleketterınıñ ūiymy"@kk-latn , "Turk Davlatlari Tashkiloti"@uz , "Түрк мамлекеттеринин уюму"@ky , "Түркі Мемлекеттерінің Ұйымы"@kk-cyrl ;
+	wdt:P1813	"OTS"@en , "TDT"@az , "TDT"@tr ;
+	wdt:P527	wd:Q227 , wd:Q232 , wd:Q23681 , wd:Q265 , wd:Q28 , wd:Q43 , wd:Q813 , wd:Q874 ;
+	wdt:P856	"https://turkicstates.org"^^xsd:anyURI .
 
 wd:Q605595
 	a	wd:Q1129645 ;
 	dct:modified	"2025-08-03T01:54:05Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2387426863 ;
 	rdfs:label	"Latin American and the Caribbean Economic System"@en ;
 	wdt:P1813	"SELA"@es ;
@@ -628,33 +1170,151 @@ wd:Q61466832
 	a	wd:Q5335686 ;
 	dct:modified	"2024-10-09T20:29:43Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2258449680 ;
 	rdfs:label	"Montenegro–Ukraine Free Trade Area"@en .
+
+wd:Q65078190
+	a	wd:Q1535468 ;
+	a	wd:Q52110228 ;
+	dct:modified	"2025-10-14T09:56:40Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2416288885 ;
+	rdfs:label	"Group of Asia and the Pacific Small Island Developing States"@en .
+
+wd:Q6547111
+	a	wd:Q52110228 ;
+	dct:modified	"2025-03-26T20:32:03Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2330818903 ;
+	rdfs:label	"Like-Minded Developing Countries"@en .
 
 wd:Q6670304
 	a	wd:Q1129645 ;
 	a	wd:Q218819 ;
 	dct:modified	"2023-10-09T00:33:04Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	1988971496 ;
-	rdfs:label	"London Customs Convention"@en .
+	rdfs:label	"London Customs Convention"@en ;
+	wdt:P527	wd:Q31 , wd:Q32 , wd:Q55 .
+
+wd:Q712129
+	a	wd:Q52110228 ;
+	dct:modified	"2026-01-31T22:43:25Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2459610459 ;
+	rdfs:label	"EU three"@en ;
+	wdt:P527	wd:Q142 , wd:Q183 , wd:Q38 .
+
+wd:Q7172
+	a	wd:Q137290726 ;
+	a	wd:Q52110228 ;
+	dct:modified	"2026-01-11T18:43:38Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2453997792 ;
+	rdfs:label	"League of Arab States"@en ;
+	wdt:P527	wd:Q822 ;
+	wdt:P856	"http://www.leagueofarabstates.net/"^^xsd:anyURI .
+
+wd:Q7268404
+	a	wd:Q52110228 ;
+	dct:modified	"2024-02-24T07:37:01Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2085584644 ;
+	rdfs:label	"Quadrilateral group"@en .
+
+wd:Q7268405
+	a	wd:Q52110228 ;
+	dct:modified	"2026-01-04T15:18:25Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2451298298 ;
+	rdfs:label	"The Quad"@en ;
+	wdt:P527	wd:Q100148200 .
 
 wd:Q7566035
 	a	wd:Q1129645 ;
 	a	wd:Q5335686 ;
 	dct:modified	"2025-02-02T14:42:10Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2305832021 ;
-	rdfs:label	"South Asian Free Trade Area"@en .
+	rdfs:label	"South Asian Free Trade Area"@en ;
+	wdt:P527	wd:Q668 , wd:Q826 , wd:Q837 , wd:Q843 , wd:Q854 , wd:Q889 , wd:Q902 , wd:Q917 .
+
+wd:Q76522946
+	a	wd:Q52110228 ;
+	dct:modified	"2026-01-28T10:13:29Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2458618742 ;
+	rdfs:label	"contact group"@en ;
+	wdt:P527	wd:Q6256 .
+
+wd:Q7768
+	a	wd:Q52110228 ;
+	dct:modified	"2026-02-08T15:23:47Z"^^xsd:dateTime ;
+	dct:replaces	wd:Q743994 ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2461773703 ;
+	rdfs:label	"Association of Southeast Asian Nations"@en ;
+	wdt:P1813	"ANASO"@es-mx , "ANASO"@pt-ao1990 , "ASEAN"@en , "ஆசியான்"@ta , "ອາຊຽນ"@lo , "အာစီယံ"@my , "អាស៊ាន"@km , "亚细安"@zh-sg , "東盟"@zh-my ;
+	wdt:P527	wd:Q252 , wd:Q334 , wd:Q424 , wd:Q574 , wd:Q691 , wd:Q819 , wd:Q833 , wd:Q836 , wd:Q869 , wd:Q881 , wd:Q921 , wd:Q928 ;
+	wdt:P856	"https://asean.org"^^xsd:anyURI .
+
+wd:Q7785
+	a	wd:Q137290726 ;
+	a	wd:Q52110228 ;
+	dct:modified	"2026-02-01T13:17:56Z"^^xsd:dateTime ;
+	dct:replaces	wd:Q8680 ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2459767362 ;
+	rdfs:label	"Commonwealth of Nations"@en ;
+	wdt:P527	wd:Q124653007 , wd:Q145 , wd:Q16 , wd:Q408 , wd:Q664 , wd:Q668 ;
+	wdt:P856	"https://thecommonwealth.org"^^xsd:anyURI .
+
+wd:Q7813776
+	a	wd:Q52110228 ;
+	dct:modified	"2025-11-21T01:10:11Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2432049578 ;
+	rdfs:label	"Tokutei Asia"@en ;
+	wdt:P527	wd:Q148 , wd:Q423 , wd:Q884 .
 
 wd:Q7887623
 	a	wd:Q1129645 ;
@@ -663,24 +1323,89 @@ wd:Q7887623
 	dct:replacedBy	wd:Q30 ;
 	dct:replaces	wd:Q179997 ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2349185549 , 2454444075 ;
 	rdfs:label	"United Colonies"@en ;
 	wdt:P1813	"UC"@en .
+
+wd:Q795464
+	a	wd:Q52110228 ;
+	dct:modified	"2025-07-23T17:19:48Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2383188977 ;
+	rdfs:label	"BASIC countries"@en .
+
+wd:Q838116
+	a	wd:Q52110228 ;
+	dct:modified	"2025-05-26T12:57:20Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2352911974 ;
+	rdfs:label	"G4 nations"@en ;
+	wdt:P527	wd:Q155 , wd:Q17 , wd:Q183 , wd:Q668 .
+
+wd:Q865479
+	a	wd:Q52110228 ;
+	dct:modified	"2025-05-13T00:04:43Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2347970597 ;
+	rdfs:label	"MIKTA"@en ;
+	wdt:P527	wd:Q252 , wd:Q408 , wd:Q43 , wd:Q884 , wd:Q96 .
 
 wd:Q8932
 	a	wd:Q1129645 ;
 	a	wd:Q1327750 , wd:Q3623811 , wd:Q5335686 ;
 	dct:modified	"2026-01-27T13:24:27Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2458298481 ;
 	rdfs:label	"European Economic Area"@en ;
-	wdt:P1813	"EEA"@en .
+	wdt:P1813	"EEA"@en ;
+	wdt:P527	wd:Q142 , wd:Q183 , wd:Q189 , wd:Q191 , wd:Q20 , wd:Q211 , wd:Q213 , wd:Q214 , wd:Q215 , wd:Q218 , wd:Q219 , wd:Q229 , wd:Q233 , wd:Q27 , wd:Q28 , wd:Q29 , wd:Q29999 , wd:Q31 , wd:Q32 , wd:Q33 , wd:Q34 , wd:Q347 , wd:Q35 , wd:Q36 , wd:Q37 , wd:Q38 , wd:Q40 , wd:Q41 , wd:Q45 , wd:Q458 .
+
+wd:Q90696277
+	a	wd:Q52110228 ;
+	dct:modified	"2025-07-10T19:44:34Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2377609709 ;
+	rdfs:label	"European colonies in Africa"@en .
+
+wd:Q92382754
+	a	wd:Q52110228 ;
+	dct:modified	"2022-12-28T12:52:34Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	1797308725 ;
+	rdfs:label	"British Oceania"@en .
+
+wd:Q943105
+	a	wd:Q52110228 ;
+	dct:modified	"2026-01-19T05:29:06Z"^^xsd:dateTime ;
+	dct:replacedBy	wd:Q1045401 ;
+	dct:replaces	wd:Q1128460 , wd:Q5886539 ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2456024084 ;
+	rdfs:label	"Rio Group"@en .
 
 wd:Q955276
 	a	wd:Q1129645 ;
@@ -688,9 +1413,9 @@ wd:Q955276
 	dct:modified	"2026-02-04T21:50:46Z"^^xsd:dateTime ;
 	dct:replaces	wd:Q21745481 ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2460733875 ;
 	rdfs:label	"European Single Market"@en .
 
@@ -698,22 +1423,54 @@ wd:Q958154
 	a	wd:Q1129645 ;
 	dct:modified	"2025-10-10T01:51:52Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	2414513276 ;
 	rdfs:label	"Assembly of European Regions"@en ;
 	wdt:P1813	"AER"@fr ;
 	wdt:P856	"https://aer.eu/"^^xsd:anyURI .
+
+wd:Q967957
+	a	wd:Q52110228 ;
+	dct:modified	"2025-02-04T12:30:13Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2306797247 ;
+	rdfs:label	"Uniting for Consensus"@en ;
+	wdt:P1813	"UfC"@en .
+
+wd:Q97060007
+	a	wd:Q52110228 ;
+	dct:modified	"2021-01-08T18:38:54Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	1337291884 ;
+	rdfs:label	"Solomon Islands and Bismarck Archipelago"@en ;
+	wdt:P527	wd:Q154628 , wd:Q685 .
+
+wd:Q97365082
+	a	wd:Q52110228 ;
+	dct:modified	"2025-10-15T09:41:38Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
+	pav:version	2416705938 ;
+	rdfs:label	"Global North"@en .
 
 wd:Q98280283
 	a	wd:Q1129645 ;
 	a	wd:Q1373407 ;
 	dct:modified	"2021-02-10T12:25:48Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	1358327506 ;
 	rdfs:label	"Indonesia–Pakistan Preferential Trade Agreement"@en .
 
@@ -722,8 +1479,8 @@ wd:Q98636172
 	a	wd:Q1373407 ;
 	dct:modified	"2021-02-10T13:09:21Z"^^xsd:dateTime ;
 	pav:importedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-02-09T14:56:37"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-09T15:21:21"^^xsd:dateTime ;
 	pav:version	1358346629 ;
 	rdfs:label	"Indonesia–Mozambique Preferential Trade Agreement"@en .

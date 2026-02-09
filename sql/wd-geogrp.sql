@@ -30,8 +30,8 @@ CONSTRUCT {
 }
 WHERE {
 	VALUES ?y {
-	## trade bloc
-	wd:Q1129645
+	## geopolitical group
+	wd:Q52110228
 	}
 	?x wdt:P279* ?y .
 	## not tribal councils

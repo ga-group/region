@@ -64,7 +64,7 @@ tmp/wd-%.out:: sql/wd-%.sql /data/data-source/stamp/today
 	$(if $(V),| tee $@.t,> $@.t) \
 	&& mv $@.t $@
 
-wd-bloc.daily: tmp/wd-bloc.out
+wd-bloc.daily: tmp/wd-bloc.out tmp/wd-geogrp.out
 	for i in $^; do \
 		rapper -i rdfxml -o turtle $${i}; \
 	done \
