@@ -42,7 +42,7 @@ check.%: %.ttl shacl/%.shacl.sql
 	$(csvsql) < sql/load-$*.sql \
 	&& touch $@
 
-.imported.eurovoc: sql/load-eurovoc.sql
+.imported.%:: sql/load-%.sql
 	$(csvsql) < $< \
 	&& touch $@
 
