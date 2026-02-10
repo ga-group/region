@@ -75,20 +75,13 @@ tmp/%.out:: tmp/%.sql
 
 WDQS := https://query.wikidata.org/sparql
 tmp/wd-%.out:: sql/wd-%.sql /data/data-source/stamp/today
-	curl 'https://query.wikidata.org/sparql' -H 'Accept: text/tab-separated-values' --data-urlencode "query@$<" \
+	curl 'https://query.wikidata.org/sparql' -H 'Accept: text/turtle,text/tab-separated-values' --data-urlencode "query@$<" \
 	$(if $(V),| tee $@.t,> $@.t) \
 	&& mv $@.t $@
 
 wd-bloc.daily: tmp/wd-bloc.out tmp/wd-geogrp.out
-	for i in $^; do \
-		rapper -i rdfxml -o turtle $${i}; \
-	done \
-	> $@.t \
-	&& cat $@.t >> wd-bloc.ttl.repl \
-	&& ttl2ttl --sortable $@.t \
-	| cut -f1 | grep -vF @ | uniq \
-	| mawk '$$0=$$0" pav:importedOn \"$(NOW)\"^^xsd:dateTime .\n"$$0" pav:lastRefreshedOn \"$(NOW)\"^^xsd:dateTime .\n"$$0" pav:sourceAccessedOn \"$(NOW)\"^^xsd:dateTime .\n"$$0" pav:sourceLastAccessedOn \"$(NOW)\"^^xsd:dateTime .\n"' \
-	>> wd-bloc.ttl.repl && $(RM) $@.t
+	cat $^ >> wd-bloc.ttl.repl
+	ttl-pav $^ >> wd-bloc.ttl.repl
 
 
 setup-stardog:
