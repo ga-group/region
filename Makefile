@@ -42,6 +42,10 @@ check.%: %.ttl shacl/%.shacl.sql
 	$(csvsql) < sql/load-$*.sql \
 	&& touch $@
 
+.imported.eurovoc: sql/load-eurovoc.sql
+	$(csvsql) < $< \
+	&& touch $@
+
 /var/scratch/lakshmi/freundt/%.ttl: sql/dump-%.sql .imported.%
 	m4 $< | $(csvsql)
 
@@ -57,6 +61,17 @@ export.%: /var/scratch/lakshmi/freundt/%.ttl
 	>> $@
 	mv $@ $*.ttl
 	touch .imported.$*
+
+tmp/%.out:: sql/%.sql
+	$(csvsql) < $< \
+        | unqpc --only-printable \
+	$(if $(V),| tee $@.t,> $@.t) \
+	&& mv $@.t $@
+
+tmp/%.out:: tmp/%.sql
+	$(csvsql) < $< \
+        | unqpc --only-printable \
+	| tee $@.t && mv $@.t $@
 
 WDQS := https://query.wikidata.org/sparql
 tmp/wd-%.out:: sql/wd-%.sql /data/data-source/stamp/today
