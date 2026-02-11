@@ -2,7 +2,7 @@ SHELL := /bin/zsh
 
 include .make.env
 
-all: .imported.wd-bloc
+all: .imported.wd-bloc .imported.wd-region
 check: check.region
 
 TODAY := $(shell dateconv today)
@@ -79,9 +79,17 @@ tmp/wd-%.out:: sql/wd-%.sql /data/data-source/stamp/today
 	$(if $(V),| tee $@.t,> $@.t) \
 	&& mv $@.t $@
 
+tmp/wd-%.out:: tmp/wd-%.sql /data/data-source/stamp/today
+	curl 'https://query.wikidata.org/sparql' -H 'Accept: text/turtle,text/tab-separated-values' --data-urlencode "query@$<" \
+	| tee $@.t && mv $@.t $@
+
 wd-bloc.daily: tmp/wd-bloc.out tmp/wd-geogrp.out
 	cat $^ >> wd-bloc.ttl.repl
 	ttl-pav $^ >> wd-bloc.ttl.repl
+
+wd-region.daily: tmp/wd-region.out tmp/wd-cultrgn.out tmp/wd-histrgn.out tmp/wd-macrorgn.out tmp/wd-transconti.out
+	cat $^ >> wd-region.ttl.repl
+	ttl-pav $^ >> wd-region.ttl.repl
 
 
 setup-stardog:
