@@ -181,18 +181,190 @@
 	tempo:validFrom	"2023-01-01"^^xsd:date ;
 	tempo:validTill	"2026-01-01"^^xsd:date .
 
+<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6>
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual , rgn:CosumRegion ;
+	dct:replaces	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2026_0> ;
+	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> , lcc-3166-1-adj:AD , lcc-3166-1-adj:MC , lcc-3166-1-adj:SM , lcc-3166-1-adj:VA ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:label	"Eurozone with monetary agreement" ;
+	rgn:cosumSummand	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
+	rgn:hasCurrentVariant	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6> ;
+	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
+	tempo:validFrom	"2026-01-01"^^xsd:date .
+
 <urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2001_0>
 	a	lcc-cr:GeographicRegion ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2007_0> ;
 	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2001_0> , lcc-3166-1-adj:MC , lcc-3166-1-adj:SM , lcc-3166-1-adj:VA ;
 	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
 	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
 	pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2001_0> ;
 	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	rdfs:label	"agreement Eurozone" ;
-	rgn:hasCurrentVariant	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2001_0> ;
-	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en .
+	rdfs:label	"Eurozone with monetary agreement" ;
+	rgn:hasCurrentVariant	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6> ;
+	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
+	tempo:validFrom	"1999-01-01"^^xsd:date ;
+	tempo:validTill	"2001-01-01"^^xsd:date .
+
+<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2007_0>
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2008_0> ;
+	dct:replaces	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2001_0> ;
+	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2007_0> , lcc-3166-1-adj:MC , lcc-3166-1-adj:SM , lcc-3166-1-adj:VA ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2007_0> ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:label	"Eurozone with monetary agreement" ;
+	rgn:hasCurrentVariant	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6> ;
+	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
+	tempo:validFrom	"2001-01-01"^^xsd:date ;
+	tempo:validTill	"2007-01-01"^^xsd:date .
+
+<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2008_0>
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2009_0> ;
+	dct:replaces	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2007_0> ;
+	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2008_0> , lcc-3166-1-adj:MC , lcc-3166-1-adj:SM , lcc-3166-1-adj:VA ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2008_0> ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:label	"Eurozone with monetary agreement" ;
+	rgn:hasCurrentVariant	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6> ;
+	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
+	tempo:validFrom	"2007-01-01"^^xsd:date ;
+	tempo:validTill	"2008-01-01"^^xsd:date .
+
+<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2009_0>
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2011_0> ;
+	dct:replaces	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2008_0> ;
+	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2009_0> , lcc-3166-1-adj:MC , lcc-3166-1-adj:SM , lcc-3166-1-adj:VA ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2009_0> ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:label	"Eurozone with monetary agreement" ;
+	rgn:hasCurrentVariant	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6> ;
+	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
+	tempo:validFrom	"2008-01-01"^^xsd:date ;
+	tempo:validTill	"2009-01-01"^^xsd:date .
+
+<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2011_0>
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2012_0> ;
+	dct:replaces	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2009_0> ;
+	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2011_0> , lcc-3166-1-adj:MC , lcc-3166-1-adj:SM , lcc-3166-1-adj:VA ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2011_0> ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:label	"Eurozone with monetary agreement" ;
+	rgn:hasCurrentVariant	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6> ;
+	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
+	tempo:validFrom	"2009-01-01"^^xsd:date ;
+	tempo:validTill	"2011-01-01"^^xsd:date .
+
+<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2012_0>
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2014_0> ;
+	dct:replaces	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2011_0> ;
+	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2014_0> , lcc-3166-1-adj:MC , lcc-3166-1-adj:SM , lcc-3166-1-adj:VA ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2014_0> ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:label	"Eurozone with monetary agreement" ;
+	rgn:hasCurrentVariant	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6> ;
+	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
+	tempo:validFrom	"2011-01-01"^^xsd:date ;
+	tempo:validTill	"2012-04-01"^^xsd:date .
+
+<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2014_0>
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2015_0> ;
+	dct:replaces	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2012_0> ;
+	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2014_0> , lcc-3166-1-adj:AD , lcc-3166-1-adj:MC , lcc-3166-1-adj:SM , lcc-3166-1-adj:VA ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2014_0> ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:label	"Eurozone with monetary agreement" ;
+	rgn:hasCurrentVariant	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6> ;
+	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
+	tempo:validFrom	"2012-04-01"^^xsd:date ;
+	tempo:validTill	"2014-01-01"^^xsd:date .
+
+<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2015_0>
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2023_0> ;
+	dct:replaces	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2014_0> ;
+	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2015_0> , lcc-3166-1-adj:AD , lcc-3166-1-adj:MC , lcc-3166-1-adj:SM , lcc-3166-1-adj:VA ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2015_0> ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:label	"Eurozone with monetary agreement" ;
+	rgn:hasCurrentVariant	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6> ;
+	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
+	tempo:validFrom	"2014-01-01"^^xsd:date ;
+	tempo:validTill	"2015-01-01"^^xsd:date .
+
+<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2023_0>
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2026_0> ;
+	dct:replaces	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2015_0> ;
+	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2023_0> , lcc-3166-1-adj:AD , lcc-3166-1-adj:MC , lcc-3166-1-adj:SM , lcc-3166-1-adj:VA ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2023_0> ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:label	"Eurozone with monetary agreement" ;
+	rgn:hasCurrentVariant	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6> ;
+	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
+	tempo:validFrom	"2015-01-01"^^xsd:date ;
+	tempo:validTill	"2023-01-01"^^xsd:date .
+
+<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2026_0>
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6> ;
+	dct:replaces	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2023_0> ;
+	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2026_0> , lcc-3166-1-adj:AD , lcc-3166-1-adj:MC , lcc-3166-1-adj:SM , lcc-3166-1-adj:VA ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2026_0> ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:label	"Eurozone with monetary agreement" ;
+	rgn:hasCurrentVariant	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6> ;
+	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
+	tempo:validFrom	"2023-01-01"^^xsd:date ;
+	tempo:validTill	"2026-01-01"^^xsd:date .
 
 rgn:EconomicUnion
 	a	lcc-cr:GeographicRegionKind ;

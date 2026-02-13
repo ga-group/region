@@ -113,11 +113,13 @@ PREFIX rgn: <http://data.ga-group.nl/region/>
 
 WITH <$u{GRAPH}>
 DELETE {
-	?x tempo:validFrom ?z ;
+	?x a rgn:keep ;
+		tempo:validFrom ?z ;
 		tempo:validTill ?z .
 }
 WHERE {
-	?x tempo:validFrom ?z ;
+	?x a rgn:keep ;
+		tempo:validFrom ?z ;
 		tempo:validTill ?z .
 }
 ;

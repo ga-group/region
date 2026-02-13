@@ -6,6 +6,9 @@ PREFIX lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/>
 PREFIX rgn: <http://data.ga-group.nl/region/>
 
 WITH <$u{GRAPH}>
+DELETE {
+	?x rgn:hasCurrentVariant ?w
+}
 INSERT {
 	?x rgn:hasCurrentVariant ?z
 }
@@ -18,6 +21,10 @@ WHERE {
 
 	FILTER NOT EXISTS {
 	?x rgn:hasCurrentVariant ?z
+	}
+
+	OPTIONAL {
+	?x rgn:hasCurrentVariant ?w
 	}
 }
 ;
