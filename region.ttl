@@ -1,0 +1,228 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1-adj: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-m49: <https://www.omg.org/spec/LCC/Countries/UN-M49-RegionCodes/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix part: <http://schema.ga-group.nl/partition#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rgn: <http://data.ga-group.nl/region/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix tempo: <http://purl.org/tempo/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+
+
+<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55>
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isClassifiedBy	lcc-m49:Planet ;
+	pav:createdOn	"2026-02-12T12:54:29Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:label	"World"@en ;
+	rgn:hasCurrentVariant	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
+	skos:definition	"the top individual that every region is a subregion of"@en .
+
+<urn:ulid:01KH9049WY3VRF1RS69KHZS47P>
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:replaces	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2026_0> ;
+	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2026_0> , lcc-3166-1-adj:BG ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:label	"Eurozone" ;
+	rgn:hasCurrentVariant	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
+	skos:definition	"individual representing the Eurozone"@en ;
+	tempo:validFrom	"2026-01-01"^^xsd:date .
+
+<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2001_0>
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2007_0> ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AT , lcc-3166-1-adj:BE , lcc-3166-1-adj:DE , lcc-3166-1-adj:ES , lcc-3166-1-adj:FI , lcc-3166-1-adj:FR , lcc-3166-1-adj:IE , lcc-3166-1-adj:IT , lcc-3166-1-adj:LU , lcc-3166-1-adj:NL , lcc-3166-1-adj:PT ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:label	"Eurozone" ;
+	rgn:hasCurrentVariant	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
+	skos:definition	"individual representing the Eurozone"@en ;
+	tempo:validFrom	"1999-01-01"^^xsd:date ;
+	tempo:validTill	"2001-01-01"^^xsd:date .
+
+<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2007_0>
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2008_0> ;
+	dct:replaces	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2001_0> ;
+	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2001_0> , lcc-3166-1-adj:GR ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:label	"Eurozone" ;
+	rgn:hasCurrentVariant	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
+	skos:definition	"individual representing the Eurozone"@en ;
+	tempo:validFrom	"2001-01-01"^^xsd:date ;
+	tempo:validTill	"2007-01-01"^^xsd:date .
+
+<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2008_0>
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2009_0> ;
+	dct:replaces	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2007_0> ;
+	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2007_0> , lcc-3166-1-adj:SI ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:label	"Eurozone" ;
+	rgn:hasCurrentVariant	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
+	skos:definition	"individual representing the Eurozone"@en ;
+	tempo:validFrom	"2007-01-01"^^xsd:date ;
+	tempo:validTill	"2008-01-01"^^xsd:date .
+
+<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2009_0>
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2011_0> ;
+	dct:replaces	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2008_0> ;
+	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2008_0> , lcc-3166-1-adj:CY , lcc-3166-1-adj:MT ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:label	"Eurozone" ;
+	rgn:hasCurrentVariant	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
+	skos:definition	"individual representing the Eurozone"@en ;
+	tempo:validFrom	"2008-01-01"^^xsd:date ;
+	tempo:validTill	"2009-01-01"^^xsd:date .
+
+<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2011_0>
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2014_0> ;
+	dct:replaces	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2009_0> ;
+	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2009_0> , lcc-3166-1-adj:SK ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:label	"Eurozone" ;
+	rgn:hasCurrentVariant	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
+	skos:definition	"individual representing the Eurozone"@en ;
+	tempo:validFrom	"2009-01-01"^^xsd:date ;
+	tempo:validTill	"2011-01-01"^^xsd:date .
+
+<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2014_0>
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2015_0> ;
+	dct:replaces	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2011_0> ;
+	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2011_0> , lcc-3166-1-adj:EE ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:label	"Eurozone" ;
+	rgn:hasCurrentVariant	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
+	skos:definition	"individual representing the Eurozone"@en ;
+	tempo:validFrom	"2011-01-01"^^xsd:date ;
+	tempo:validTill	"2014-01-01"^^xsd:date .
+
+<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2015_0>
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2023_0> ;
+	dct:replaces	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2014_0> ;
+	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2014_0> , lcc-3166-1-adj:LV ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:label	"Eurozone" ;
+	rgn:hasCurrentVariant	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
+	skos:definition	"individual representing the Eurozone"@en ;
+	tempo:validFrom	"2014-01-01"^^xsd:date ;
+	tempo:validTill	"2015-01-01"^^xsd:date .
+
+<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2023_0>
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2026_0> ;
+	dct:replaces	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2015_0> ;
+	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2015_0> , lcc-3166-1-adj:LT ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:label	"Eurozone" ;
+	rgn:hasCurrentVariant	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
+	skos:definition	"individual representing the Eurozone"@en ;
+	tempo:validFrom	"2015-01-01"^^xsd:date ;
+	tempo:validTill	"2023-01-01"^^xsd:date .
+
+<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2026_0>
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
+	dct:replaces	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2023_0> ;
+	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2023_0> , lcc-3166-1-adj:HR ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:label	"Eurozone" ;
+	rgn:hasCurrentVariant	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
+	skos:definition	"individual representing the Eurozone"@en ;
+	tempo:validFrom	"2023-01-01"^^xsd:date ;
+	tempo:validTill	"2026-01-01"^^xsd:date .
+
+<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2001_0>
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2001_0> , lcc-3166-1-adj:MC , lcc-3166-1-adj:SM , lcc-3166-1-adj:VA ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2001_0> ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:label	"agreement Eurozone" ;
+	rgn:hasCurrentVariant	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2001_0> ;
+	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en .
+
+rgn:EconomicUnion
+	a	lcc-cr:GeographicRegionKind ;
+	a	owl:NamedIndividual ;
+	pav:createdOn	"2026-02-12T12:54:29Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"economic union"@en ;
+	skos:definition	"the kind of region that is an economic union"@en .
+
+rgn:MonetaryUnion
+	a	lcc-cr:GeographicRegionKind ;
+	a	owl:NamedIndividual ;
+	pav:createdOn	"2026-02-12T12:54:29Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"monetary union"@en ;
+	skos:definition	"the kind of region that is a monetary union"@en .
+
+rgn:TradeBloc
+	a	lcc-cr:GeographicRegionKind ;
+	a	owl:NamedIndividual ;
+	pav:createdOn	"2026-02-12T12:54:29Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"trade bloc"@en ;
+	skos:definition	"the kind of region that is a trade bloc"@en .
+
+rgn:hasCurrentVariant
+	a	owl:ObjectProperty ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:subPropertyOf	pav:hasCurrentVersion ;
+	skos:definition	"relates the concept with the current variant of the concept"@en .

@@ -1,0 +1,290 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix lcc-cr:	<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix rgn:	<http://data.ga-group.nl/region/> .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix lcc-3166-1-adj:	<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+@prefix tempo:	<http://purl.org/tempo/> .
+@prefix pav:	<http://purl.org/pav/> .
+
+
+
+
+lcc-3166-1-adj:AT
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
+		rdfs:label	"Eurozone" ;
+		tempo:validFrom	"1999-01-01"^^xsd:date ;
+	] ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2001_0> ;
+		rdfs:label	"agreement Eurozone" ;
+	] .
+
+lcc-3166-1-adj:BE
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
+		rdfs:label	"Eurozone" ;
+		tempo:validFrom	"1999-01-01"^^xsd:date ;
+	] ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2001_0> ;
+		rdfs:label	"agreement Eurozone" ;
+	] .
+
+lcc-3166-1-adj:BG
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
+		rdfs:label	"Eurozone" ;
+		tempo:validFrom	"2026-01-01"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:CY
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
+		rdfs:label	"Eurozone" ;
+		tempo:validFrom	"2008-01-01"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:DE
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
+		rdfs:label	"Eurozone" ;
+		tempo:validFrom	"1999-01-01"^^xsd:date ;
+	] ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2001_0> ;
+		rdfs:label	"agreement Eurozone" ;
+	] .
+
+lcc-3166-1-adj:EE
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
+		rdfs:label	"Eurozone" ;
+		tempo:validFrom	"2011-01-01"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:ES
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
+		rdfs:label	"Eurozone" ;
+		tempo:validFrom	"1999-01-01"^^xsd:date ;
+	] ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2001_0> ;
+		rdfs:label	"agreement Eurozone" ;
+	] .
+
+lcc-3166-1-adj:FI
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
+		rdfs:label	"Eurozone" ;
+		tempo:validFrom	"1999-01-01"^^xsd:date ;
+	] ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2001_0> ;
+		rdfs:label	"agreement Eurozone" ;
+	] .
+
+lcc-3166-1-adj:FR
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
+		rdfs:label	"Eurozone" ;
+		tempo:validFrom	"1999-01-01"^^xsd:date ;
+	] ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2001_0> ;
+		rdfs:label	"agreement Eurozone" ;
+	] .
+
+lcc-3166-1-adj:GR
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
+		rdfs:label	"Eurozone" ;
+		tempo:validFrom	"2001-01-01"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:HR
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
+		rdfs:label	"Eurozone" ;
+		tempo:validFrom	"2023-01-01"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:IE
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
+		rdfs:label	"Eurozone" ;
+		tempo:validFrom	"1999-01-01"^^xsd:date ;
+	] ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2001_0> ;
+		rdfs:label	"agreement Eurozone" ;
+	] .
+
+lcc-3166-1-adj:IT
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
+		rdfs:label	"Eurozone" ;
+		tempo:validFrom	"1999-01-01"^^xsd:date ;
+	] ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2001_0> ;
+		rdfs:label	"agreement Eurozone" ;
+	] .
+
+lcc-3166-1-adj:LT
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
+		rdfs:label	"Eurozone" ;
+		tempo:validFrom	"2015-01-01"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:LU
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
+		rdfs:label	"Eurozone" ;
+		tempo:validFrom	"1999-01-01"^^xsd:date ;
+	] ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2001_0> ;
+		rdfs:label	"agreement Eurozone" ;
+	] .
+
+lcc-3166-1-adj:LV
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
+		rdfs:label	"Eurozone" ;
+		tempo:validFrom	"2014-01-01"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:MC
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2001_0> ;
+		rdfs:label	"agreement Eurozone" ;
+	] .
+
+lcc-3166-1-adj:MT
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
+		rdfs:label	"Eurozone" ;
+		tempo:validFrom	"2008-01-01"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:NL
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
+		rdfs:label	"Eurozone" ;
+		tempo:validFrom	"1999-01-01"^^xsd:date ;
+	] ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2001_0> ;
+		rdfs:label	"agreement Eurozone" ;
+	] .
+
+lcc-3166-1-adj:PT
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
+		rdfs:label	"Eurozone" ;
+		tempo:validFrom	"1999-01-01"^^xsd:date ;
+	] ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2001_0> ;
+		rdfs:label	"agreement Eurozone" ;
+	] .
+
+lcc-3166-1-adj:SI
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
+		rdfs:label	"Eurozone" ;
+		tempo:validFrom	"2007-01-01"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:SK
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
+		rdfs:label	"Eurozone" ;
+		tempo:validFrom	"2009-01-01"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:SM
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2001_0> ;
+		rdfs:label	"agreement Eurozone" ;
+	] .
+
+lcc-3166-1-adj:VA
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		a	rgn:keep ;
+		pav:derivedFrom	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2001_0> ;
+		rdfs:label	"agreement Eurozone" ;
+	] .

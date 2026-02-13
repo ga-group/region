@@ -1,0 +1,10 @@
+@prefix lcc-m49: <https://www.omg.org/spec/LCC/Countries/UN-M49-RegionCodes/> .
+@prefix skal: <http://schema.ga-group.nl/skos-align#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+
+
+<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55.align>
+	a	skal:ExactMatch ;
+	skal:constituent	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> , lcc-m49:World .

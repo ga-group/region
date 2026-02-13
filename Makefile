@@ -2,11 +2,13 @@ SHELL := /bin/zsh
 
 include .make.env
 
-all: .imported.wd-bloc .imported.wd-region
+all: .imported.wd-bloc .imported.wd-region .imported.region .imported.region-align
 check: check.region
 
 TODAY := $(shell dateconv today)
 NOW := $(shell dateconv now)
+
+.inferred.region-inv: .imported.region
 
 
 check.region: ADDITIONAL = 
@@ -46,11 +48,19 @@ check.%: %.ttl shacl/%.shacl.sql
 	$(csvsql) < $< \
 	&& touch $@
 
+.inferred.%:: sql/infer-%.sql
+	$(csvsql) < $< \
+	&& touch $@
+
 /var/scratch/lakshmi/freundt/%.ttl: sql/dump-%.sql .imported.%
 	m4 $< | $(csvsql)
 
+/var/scratch/lakshmi/freundt/%.ttl: sql/dump-%.sql .inferred.%
+	m4 $< | $(csvsql)
+
 export.%: /var/scratch/lakshmi/freundt/%.ttl
-	-mawk '(x+=$$0=="")<=3&&($$0==""||(x=0)||1)' $*.ttl > $@
+	-mawk 'END{if (x<3){exit 1}}(x+=$$0=="")<=3&&($$0==""||(x=0)||1)' $*.ttl > $@ \
+	|| { grep -F @prefix $<; echo; echo; echo; } > $@
 	sed 's/rdf:type/a/' $< \
 	| ttl2ttl --sortable --expand-generic \
 	| tr 'a' '\a' \
@@ -60,7 +70,7 @@ export.%: /var/scratch/lakshmi/freundt/%.ttl
 	| sed '/^@/d;s@rdf:predicate\ta@rdf:predicate\trdf:type@' \
 	>> $@
 	mv $@ $*.ttl
-	touch .imported.$*
+	touch .*.$*
 
 tmp/%.out:: sql/%.sql
 	$(csvsql) < $< \

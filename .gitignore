@@ -2,6 +2,7 @@ tmp
 download
 onto
 .imported*
+.inferred*
 .make.env
 .daily
 .irreg
