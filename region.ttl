@@ -14,358 +14,6 @@
 
 
 
-<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55>
-	a	lcc-cr:GeographicRegion ;
-	a	owl:NamedIndividual ;
-	lcc-cr:isClassifiedBy	lcc-m49:Planet ;
-	pav:createdOn	"2026-02-12T12:54:29Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	rdfs:label	"World"@en ;
-	rgn:hasCurrentVariant	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
-	skos:definition	"the top individual that every region is a subregion of"@en .
-
-<urn:ulid:01KH9049WY3VRF1RS69KHZS47P>
-	a	lcc-cr:GeographicRegion ;
-	a	owl:NamedIndividual ;
-	dct:replaces	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2026_0> ;
-	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2026_0> , lcc-3166-1-adj:BG ;
-	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
-	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
-	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	rdfs:label	"Eurozone" ;
-	rgn:hasCurrentVariant	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
-	skos:definition	"individual representing the Eurozone"@en ;
-	tempo:validFrom	"2026-01-01"^^xsd:date .
-
-<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2001_0>
-	a	lcc-cr:GeographicRegion ;
-	a	owl:NamedIndividual ;
-	dct:isReplacedBy	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2007_0> ;
-	lcc-cr:hasSubregion	lcc-3166-1-adj:AT , lcc-3166-1-adj:BE , lcc-3166-1-adj:DE , lcc-3166-1-adj:ES , lcc-3166-1-adj:FI , lcc-3166-1-adj:FR , lcc-3166-1-adj:IE , lcc-3166-1-adj:IT , lcc-3166-1-adj:LU , lcc-3166-1-adj:NL , lcc-3166-1-adj:PT ;
-	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
-	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
-	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	rdfs:label	"Eurozone" ;
-	rgn:hasCurrentVariant	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
-	skos:definition	"individual representing the Eurozone"@en ;
-	tempo:validFrom	"1999-01-01"^^xsd:date ;
-	tempo:validTill	"2001-01-01"^^xsd:date .
-
-<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2007_0>
-	a	lcc-cr:GeographicRegion ;
-	a	owl:NamedIndividual ;
-	dct:isReplacedBy	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2008_0> ;
-	dct:replaces	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2001_0> ;
-	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2001_0> , lcc-3166-1-adj:GR ;
-	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
-	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
-	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	rdfs:label	"Eurozone" ;
-	rgn:hasCurrentVariant	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
-	skos:definition	"individual representing the Eurozone"@en ;
-	tempo:validFrom	"2001-01-01"^^xsd:date ;
-	tempo:validTill	"2007-01-01"^^xsd:date .
-
-<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2008_0>
-	a	lcc-cr:GeographicRegion ;
-	a	owl:NamedIndividual ;
-	dct:isReplacedBy	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2009_0> ;
-	dct:replaces	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2007_0> ;
-	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2007_0> , lcc-3166-1-adj:SI ;
-	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
-	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
-	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	rdfs:label	"Eurozone" ;
-	rgn:hasCurrentVariant	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
-	skos:definition	"individual representing the Eurozone"@en ;
-	tempo:validFrom	"2007-01-01"^^xsd:date ;
-	tempo:validTill	"2008-01-01"^^xsd:date .
-
-<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2009_0>
-	a	lcc-cr:GeographicRegion ;
-	a	owl:NamedIndividual ;
-	dct:isReplacedBy	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2011_0> ;
-	dct:replaces	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2008_0> ;
-	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2008_0> , lcc-3166-1-adj:CY , lcc-3166-1-adj:MT ;
-	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
-	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
-	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	rdfs:label	"Eurozone" ;
-	rgn:hasCurrentVariant	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
-	skos:definition	"individual representing the Eurozone"@en ;
-	tempo:validFrom	"2008-01-01"^^xsd:date ;
-	tempo:validTill	"2009-01-01"^^xsd:date .
-
-<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2011_0>
-	a	lcc-cr:GeographicRegion ;
-	a	owl:NamedIndividual ;
-	dct:isReplacedBy	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2014_0> ;
-	dct:replaces	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2009_0> ;
-	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2009_0> , lcc-3166-1-adj:SK ;
-	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
-	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
-	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	rdfs:label	"Eurozone" ;
-	rgn:hasCurrentVariant	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
-	skos:definition	"individual representing the Eurozone"@en ;
-	tempo:validFrom	"2009-01-01"^^xsd:date ;
-	tempo:validTill	"2011-01-01"^^xsd:date .
-
-<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2014_0>
-	a	lcc-cr:GeographicRegion ;
-	a	owl:NamedIndividual ;
-	dct:isReplacedBy	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2015_0> ;
-	dct:replaces	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2011_0> ;
-	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2011_0> , lcc-3166-1-adj:EE ;
-	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
-	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
-	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	rdfs:label	"Eurozone" ;
-	rgn:hasCurrentVariant	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
-	skos:definition	"individual representing the Eurozone"@en ;
-	tempo:validFrom	"2011-01-01"^^xsd:date ;
-	tempo:validTill	"2014-01-01"^^xsd:date .
-
-<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2015_0>
-	a	lcc-cr:GeographicRegion ;
-	a	owl:NamedIndividual ;
-	dct:isReplacedBy	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2023_0> ;
-	dct:replaces	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2014_0> ;
-	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2014_0> , lcc-3166-1-adj:LV ;
-	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
-	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
-	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	rdfs:label	"Eurozone" ;
-	rgn:hasCurrentVariant	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
-	skos:definition	"individual representing the Eurozone"@en ;
-	tempo:validFrom	"2014-01-01"^^xsd:date ;
-	tempo:validTill	"2015-01-01"^^xsd:date .
-
-<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2023_0>
-	a	lcc-cr:GeographicRegion ;
-	a	owl:NamedIndividual ;
-	dct:isReplacedBy	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2026_0> ;
-	dct:replaces	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2015_0> ;
-	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2015_0> , lcc-3166-1-adj:LT ;
-	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
-	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
-	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	rdfs:label	"Eurozone" ;
-	rgn:hasCurrentVariant	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
-	skos:definition	"individual representing the Eurozone"@en ;
-	tempo:validFrom	"2015-01-01"^^xsd:date ;
-	tempo:validTill	"2023-01-01"^^xsd:date .
-
-<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2026_0>
-	a	lcc-cr:GeographicRegion ;
-	a	owl:NamedIndividual ;
-	dct:isReplacedBy	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
-	dct:replaces	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2023_0> ;
-	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2023_0> , lcc-3166-1-adj:HR ;
-	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
-	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
-	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	rdfs:label	"Eurozone" ;
-	rgn:hasCurrentVariant	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
-	skos:definition	"individual representing the Eurozone"@en ;
-	tempo:validFrom	"2023-01-01"^^xsd:date ;
-	tempo:validTill	"2026-01-01"^^xsd:date .
-
-<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6>
-	a	lcc-cr:GeographicRegion ;
-	a	owl:NamedIndividual , rgn:CosumRegion ;
-	dct:replaces	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2026_0> ;
-	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> , lcc-3166-1-adj:AD , lcc-3166-1-adj:MC , lcc-3166-1-adj:SM , lcc-3166-1-adj:VA ;
-	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
-	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
-	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
-	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	rdfs:label	"Eurozone with monetary agreement" ;
-	rgn:cosumSummand	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P> ;
-	rgn:hasCurrentVariant	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6> ;
-	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
-	tempo:validFrom	"2026-01-01"^^xsd:date .
-
-<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2001_0>
-	a	lcc-cr:GeographicRegion ;
-	a	owl:NamedIndividual ;
-	dct:isReplacedBy	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2007_0> ;
-	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2001_0> , lcc-3166-1-adj:MC , lcc-3166-1-adj:SM , lcc-3166-1-adj:VA ;
-	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
-	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
-	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2001_0> ;
-	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	rdfs:label	"Eurozone with monetary agreement" ;
-	rgn:hasCurrentVariant	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6> ;
-	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
-	tempo:validFrom	"1999-01-01"^^xsd:date ;
-	tempo:validTill	"2001-01-01"^^xsd:date .
-
-<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2007_0>
-	a	lcc-cr:GeographicRegion ;
-	a	owl:NamedIndividual ;
-	dct:isReplacedBy	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2008_0> ;
-	dct:replaces	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2001_0> ;
-	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2007_0> , lcc-3166-1-adj:MC , lcc-3166-1-adj:SM , lcc-3166-1-adj:VA ;
-	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
-	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
-	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2007_0> ;
-	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	rdfs:label	"Eurozone with monetary agreement" ;
-	rgn:hasCurrentVariant	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6> ;
-	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
-	tempo:validFrom	"2001-01-01"^^xsd:date ;
-	tempo:validTill	"2007-01-01"^^xsd:date .
-
-<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2008_0>
-	a	lcc-cr:GeographicRegion ;
-	a	owl:NamedIndividual ;
-	dct:isReplacedBy	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2009_0> ;
-	dct:replaces	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2007_0> ;
-	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2008_0> , lcc-3166-1-adj:MC , lcc-3166-1-adj:SM , lcc-3166-1-adj:VA ;
-	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
-	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
-	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2008_0> ;
-	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	rdfs:label	"Eurozone with monetary agreement" ;
-	rgn:hasCurrentVariant	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6> ;
-	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
-	tempo:validFrom	"2007-01-01"^^xsd:date ;
-	tempo:validTill	"2008-01-01"^^xsd:date .
-
-<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2009_0>
-	a	lcc-cr:GeographicRegion ;
-	a	owl:NamedIndividual ;
-	dct:isReplacedBy	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2011_0> ;
-	dct:replaces	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2008_0> ;
-	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2009_0> , lcc-3166-1-adj:MC , lcc-3166-1-adj:SM , lcc-3166-1-adj:VA ;
-	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
-	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
-	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2009_0> ;
-	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	rdfs:label	"Eurozone with monetary agreement" ;
-	rgn:hasCurrentVariant	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6> ;
-	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
-	tempo:validFrom	"2008-01-01"^^xsd:date ;
-	tempo:validTill	"2009-01-01"^^xsd:date .
-
-<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2011_0>
-	a	lcc-cr:GeographicRegion ;
-	a	owl:NamedIndividual ;
-	dct:isReplacedBy	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2012_0> ;
-	dct:replaces	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2009_0> ;
-	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2011_0> , lcc-3166-1-adj:MC , lcc-3166-1-adj:SM , lcc-3166-1-adj:VA ;
-	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
-	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
-	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2011_0> ;
-	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	rdfs:label	"Eurozone with monetary agreement" ;
-	rgn:hasCurrentVariant	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6> ;
-	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
-	tempo:validFrom	"2009-01-01"^^xsd:date ;
-	tempo:validTill	"2011-01-01"^^xsd:date .
-
-<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2012_0>
-	a	lcc-cr:GeographicRegion ;
-	a	owl:NamedIndividual ;
-	dct:isReplacedBy	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2014_0> ;
-	dct:replaces	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2011_0> ;
-	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2014_0> , lcc-3166-1-adj:MC , lcc-3166-1-adj:SM , lcc-3166-1-adj:VA ;
-	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
-	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
-	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2014_0> ;
-	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	rdfs:label	"Eurozone with monetary agreement" ;
-	rgn:hasCurrentVariant	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6> ;
-	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
-	tempo:validFrom	"2011-01-01"^^xsd:date ;
-	tempo:validTill	"2012-04-01"^^xsd:date .
-
-<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2014_0>
-	a	lcc-cr:GeographicRegion ;
-	a	owl:NamedIndividual ;
-	dct:isReplacedBy	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2015_0> ;
-	dct:replaces	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2012_0> ;
-	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2014_0> , lcc-3166-1-adj:AD , lcc-3166-1-adj:MC , lcc-3166-1-adj:SM , lcc-3166-1-adj:VA ;
-	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
-	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
-	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2014_0> ;
-	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	rdfs:label	"Eurozone with monetary agreement" ;
-	rgn:hasCurrentVariant	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6> ;
-	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
-	tempo:validFrom	"2012-04-01"^^xsd:date ;
-	tempo:validTill	"2014-01-01"^^xsd:date .
-
-<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2015_0>
-	a	lcc-cr:GeographicRegion ;
-	a	owl:NamedIndividual ;
-	dct:isReplacedBy	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2023_0> ;
-	dct:replaces	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2014_0> ;
-	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2015_0> , lcc-3166-1-adj:AD , lcc-3166-1-adj:MC , lcc-3166-1-adj:SM , lcc-3166-1-adj:VA ;
-	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
-	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
-	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2015_0> ;
-	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	rdfs:label	"Eurozone with monetary agreement" ;
-	rgn:hasCurrentVariant	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6> ;
-	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
-	tempo:validFrom	"2014-01-01"^^xsd:date ;
-	tempo:validTill	"2015-01-01"^^xsd:date .
-
-<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2023_0>
-	a	lcc-cr:GeographicRegion ;
-	a	owl:NamedIndividual ;
-	dct:isReplacedBy	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2026_0> ;
-	dct:replaces	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2015_0> ;
-	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2023_0> , lcc-3166-1-adj:AD , lcc-3166-1-adj:MC , lcc-3166-1-adj:SM , lcc-3166-1-adj:VA ;
-	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
-	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
-	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2023_0> ;
-	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	rdfs:label	"Eurozone with monetary agreement" ;
-	rgn:hasCurrentVariant	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6> ;
-	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
-	tempo:validFrom	"2015-01-01"^^xsd:date ;
-	tempo:validTill	"2023-01-01"^^xsd:date .
-
-<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2026_0>
-	a	lcc-cr:GeographicRegion ;
-	a	owl:NamedIndividual ;
-	dct:isReplacedBy	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6> ;
-	dct:replaces	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6_2023_0> ;
-	lcc-cr:hasSubregion	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2026_0> , lcc-3166-1-adj:AD , lcc-3166-1-adj:MC , lcc-3166-1-adj:SM , lcc-3166-1-adj:VA ;
-	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
-	lcc-cr:isSubregionOf	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> ;
-	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	pav:derivedFrom	<urn:ulid:01KH9049WY3VRF1RS69KHZS47P_2026_0> ;
-	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
-	rdfs:label	"Eurozone with monetary agreement" ;
-	rgn:hasCurrentVariant	<urn:ulid:01KH92MDSJWQH15QR3QJ8GMNF6> ;
-	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
-	tempo:validFrom	"2023-01-01"^^xsd:date ;
-	tempo:validTill	"2026-01-01"^^xsd:date .
-
 rgn:EconomicUnion
 	a	lcc-cr:GeographicRegionKind ;
 	a	owl:NamedIndividual ;
@@ -398,3 +46,1048 @@ rgn:hasCurrentVariant
 	rdfs:isDefinedBy	rgn: ;
 	rdfs:subPropertyOf	pav:hasCurrentVersion ;
 	skos:definition	"relates the concept with the current variant of the concept"@en .
+
+rgn:r01KH8R0PYDTV2B66AGWN37WS55
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	lcc-cr:isClassifiedBy	lcc-m49:Planet ;
+	pav:createdOn	"2026-02-12T12:54:29Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:label	"World"@en ;
+	rgn:hasCurrentVariant	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	skos:definition	"the top individual that every region is a subregion of"@en .
+
+rgn:r01KH9049WY3VRF1RS69KHZS47P
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:replaces	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BG , rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"Eurozone" ;
+	rgn:hasCurrentVariant	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+	skos:definition	"individual representing the Eurozone"@en ;
+	tempo:validFrom	"2026-01-01"^^xsd:date .
+
+rgn:r01KH9049WY3VRF1RS69KHZS47P_2001_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KH9049WY3VRF1RS69KHZS47P_2007_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AT , lcc-3166-1-adj:BE , lcc-3166-1-adj:DE , lcc-3166-1-adj:ES , lcc-3166-1-adj:FI , lcc-3166-1-adj:FR , lcc-3166-1-adj:IE , lcc-3166-1-adj:IT , lcc-3166-1-adj:LU , lcc-3166-1-adj:NL , lcc-3166-1-adj:PT ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"Eurozone" ;
+	rgn:hasCurrentVariant	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+	skos:definition	"individual representing the Eurozone"@en ;
+	tempo:validFrom	"1999-01-01"^^xsd:date ;
+	tempo:validTill	"2001-01-01"^^xsd:date .
+
+rgn:r01KH9049WY3VRF1RS69KHZS47P_2007_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KH9049WY3VRF1RS69KHZS47P_2008_0 ;
+	dct:replaces	rgn:r01KH9049WY3VRF1RS69KHZS47P_2001_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:GR , rgn:r01KH9049WY3VRF1RS69KHZS47P_2001_0 ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"Eurozone" ;
+	rgn:hasCurrentVariant	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+	skos:definition	"individual representing the Eurozone"@en ;
+	tempo:validFrom	"2001-01-01"^^xsd:date ;
+	tempo:validTill	"2007-01-01"^^xsd:date .
+
+rgn:r01KH9049WY3VRF1RS69KHZS47P_2008_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KH9049WY3VRF1RS69KHZS47P_2009_0 ;
+	dct:replaces	rgn:r01KH9049WY3VRF1RS69KHZS47P_2007_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:SI , rgn:r01KH9049WY3VRF1RS69KHZS47P_2007_0 ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"Eurozone" ;
+	rgn:hasCurrentVariant	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+	skos:definition	"individual representing the Eurozone"@en ;
+	tempo:validFrom	"2007-01-01"^^xsd:date ;
+	tempo:validTill	"2008-01-01"^^xsd:date .
+
+rgn:r01KH9049WY3VRF1RS69KHZS47P_2009_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KH9049WY3VRF1RS69KHZS47P_2011_0 ;
+	dct:replaces	rgn:r01KH9049WY3VRF1RS69KHZS47P_2008_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:CY , lcc-3166-1-adj:MT , rgn:r01KH9049WY3VRF1RS69KHZS47P_2008_0 ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"Eurozone" ;
+	rgn:hasCurrentVariant	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+	skos:definition	"individual representing the Eurozone"@en ;
+	tempo:validFrom	"2008-01-01"^^xsd:date ;
+	tempo:validTill	"2009-01-01"^^xsd:date .
+
+rgn:r01KH9049WY3VRF1RS69KHZS47P_2011_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KH9049WY3VRF1RS69KHZS47P_2014_0 ;
+	dct:replaces	rgn:r01KH9049WY3VRF1RS69KHZS47P_2009_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:SK , rgn:r01KH9049WY3VRF1RS69KHZS47P_2009_0 ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"Eurozone" ;
+	rgn:hasCurrentVariant	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+	skos:definition	"individual representing the Eurozone"@en ;
+	tempo:validFrom	"2009-01-01"^^xsd:date ;
+	tempo:validTill	"2011-01-01"^^xsd:date .
+
+rgn:r01KH9049WY3VRF1RS69KHZS47P_2014_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KH9049WY3VRF1RS69KHZS47P_2015_0 ;
+	dct:replaces	rgn:r01KH9049WY3VRF1RS69KHZS47P_2011_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:EE , rgn:r01KH9049WY3VRF1RS69KHZS47P_2011_0 ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"Eurozone" ;
+	rgn:hasCurrentVariant	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+	skos:definition	"individual representing the Eurozone"@en ;
+	tempo:validFrom	"2011-01-01"^^xsd:date ;
+	tempo:validTill	"2014-01-01"^^xsd:date .
+
+rgn:r01KH9049WY3VRF1RS69KHZS47P_2015_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KH9049WY3VRF1RS69KHZS47P_2023_0 ;
+	dct:replaces	rgn:r01KH9049WY3VRF1RS69KHZS47P_2014_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:LV , rgn:r01KH9049WY3VRF1RS69KHZS47P_2014_0 ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"Eurozone" ;
+	rgn:hasCurrentVariant	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+	skos:definition	"individual representing the Eurozone"@en ;
+	tempo:validFrom	"2014-01-01"^^xsd:date ;
+	tempo:validTill	"2015-01-01"^^xsd:date .
+
+rgn:r01KH9049WY3VRF1RS69KHZS47P_2023_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+	dct:replaces	rgn:r01KH9049WY3VRF1RS69KHZS47P_2015_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:LT , rgn:r01KH9049WY3VRF1RS69KHZS47P_2015_0 ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"Eurozone" ;
+	rgn:hasCurrentVariant	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+	skos:definition	"individual representing the Eurozone"@en ;
+	tempo:validFrom	"2015-01-01"^^xsd:date ;
+	tempo:validTill	"2023-01-01"^^xsd:date .
+
+rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+	dct:replaces	rgn:r01KH9049WY3VRF1RS69KHZS47P_2023_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:HR , rgn:r01KH9049WY3VRF1RS69KHZS47P_2023_0 ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"Eurozone" ;
+	rgn:hasCurrentVariant	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+	skos:definition	"individual representing the Eurozone"@en ;
+	tempo:validFrom	"2023-01-01"^^xsd:date ;
+	tempo:validTill	"2026-01-01"^^xsd:date .
+
+rgn:r01KH92MDSJWQH15QR3QJ8GMNF6
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual , rgn:CosumRegion ;
+	dct:replaces	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2026_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AD , lcc-3166-1-adj:MC , lcc-3166-1-adj:SM , lcc-3166-1-adj:VA , rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"Eurozone with monetary agreement" ;
+	rgn:cosumSummand	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+	rgn:hasCurrentVariant	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
+	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
+	tempo:validFrom	"2026-01-01"^^xsd:date .
+
+rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2001_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2007_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:MC , lcc-3166-1-adj:SM , lcc-3166-1-adj:VA , rgn:r01KH9049WY3VRF1RS69KHZS47P_2001_0 ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2001_0 ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"Eurozone with monetary agreement" ;
+	rgn:hasCurrentVariant	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
+	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
+	tempo:validFrom	"1999-01-01"^^xsd:date ;
+	tempo:validTill	"2001-01-01"^^xsd:date .
+
+rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2007_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2008_0 ;
+	dct:replaces	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2001_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:MC , lcc-3166-1-adj:SM , lcc-3166-1-adj:VA , rgn:r01KH9049WY3VRF1RS69KHZS47P_2007_0 ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2007_0 ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"Eurozone with monetary agreement" ;
+	rgn:hasCurrentVariant	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
+	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
+	tempo:validFrom	"2001-01-01"^^xsd:date ;
+	tempo:validTill	"2007-01-01"^^xsd:date .
+
+rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2008_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2009_0 ;
+	dct:replaces	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2007_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:MC , lcc-3166-1-adj:SM , lcc-3166-1-adj:VA , rgn:r01KH9049WY3VRF1RS69KHZS47P_2008_0 ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2008_0 ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"Eurozone with monetary agreement" ;
+	rgn:hasCurrentVariant	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
+	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
+	tempo:validFrom	"2007-01-01"^^xsd:date ;
+	tempo:validTill	"2008-01-01"^^xsd:date .
+
+rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2009_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2011_0 ;
+	dct:replaces	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2008_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:MC , lcc-3166-1-adj:SM , lcc-3166-1-adj:VA , rgn:r01KH9049WY3VRF1RS69KHZS47P_2009_0 ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2009_0 ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"Eurozone with monetary agreement" ;
+	rgn:hasCurrentVariant	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
+	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
+	tempo:validFrom	"2008-01-01"^^xsd:date ;
+	tempo:validTill	"2009-01-01"^^xsd:date .
+
+rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2011_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2012_0 ;
+	dct:replaces	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2009_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:MC , lcc-3166-1-adj:SM , lcc-3166-1-adj:VA , rgn:r01KH9049WY3VRF1RS69KHZS47P_2011_0 ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2011_0 ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"Eurozone with monetary agreement" ;
+	rgn:hasCurrentVariant	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
+	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
+	tempo:validFrom	"2009-01-01"^^xsd:date ;
+	tempo:validTill	"2011-01-01"^^xsd:date .
+
+rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2012_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2014_0 ;
+	dct:replaces	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2011_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:MC , lcc-3166-1-adj:SM , lcc-3166-1-adj:VA , rgn:r01KH9049WY3VRF1RS69KHZS47P_2014_0 ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2014_0 ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"Eurozone with monetary agreement" ;
+	rgn:hasCurrentVariant	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
+	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
+	tempo:validFrom	"2011-01-01"^^xsd:date ;
+	tempo:validTill	"2012-04-01"^^xsd:date .
+
+rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2014_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2015_0 ;
+	dct:replaces	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2012_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AD , lcc-3166-1-adj:MC , lcc-3166-1-adj:SM , lcc-3166-1-adj:VA , rgn:r01KH9049WY3VRF1RS69KHZS47P_2014_0 ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2014_0 ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"Eurozone with monetary agreement" ;
+	rgn:hasCurrentVariant	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
+	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
+	tempo:validFrom	"2012-04-01"^^xsd:date ;
+	tempo:validTill	"2014-01-01"^^xsd:date .
+
+rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2015_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2023_0 ;
+	dct:replaces	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2014_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AD , lcc-3166-1-adj:MC , lcc-3166-1-adj:SM , lcc-3166-1-adj:VA , rgn:r01KH9049WY3VRF1RS69KHZS47P_2015_0 ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2015_0 ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"Eurozone with monetary agreement" ;
+	rgn:hasCurrentVariant	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
+	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
+	tempo:validFrom	"2014-01-01"^^xsd:date ;
+	tempo:validTill	"2015-01-01"^^xsd:date .
+
+rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2023_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2026_0 ;
+	dct:replaces	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2015_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AD , lcc-3166-1-adj:MC , lcc-3166-1-adj:SM , lcc-3166-1-adj:VA , rgn:r01KH9049WY3VRF1RS69KHZS47P_2023_0 ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2023_0 ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"Eurozone with monetary agreement" ;
+	rgn:hasCurrentVariant	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
+	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
+	tempo:validFrom	"2015-01-01"^^xsd:date ;
+	tempo:validTill	"2023-01-01"^^xsd:date .
+
+rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2026_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
+	dct:replaces	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2023_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AD , lcc-3166-1-adj:MC , lcc-3166-1-adj:SM , lcc-3166-1-adj:VA , rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"Eurozone with monetary agreement" ;
+	rgn:hasCurrentVariant	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
+	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
+	tempo:validFrom	"2023-01-01"^^xsd:date ;
+	tempo:validTill	"2026-01-01"^^xsd:date .
+
+rgn:r01KHDGXBHWYBBNPN9ZMDP3DMYT
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AO , lcc-3166-1-adj:BI , lcc-3166-1-adj:BW , lcc-3166-1-adj:CD , lcc-3166-1-adj:ER , lcc-3166-1-adj:ET , lcc-3166-1-adj:KE , lcc-3166-1-adj:KM , lcc-3166-1-adj:LS , lcc-3166-1-adj:MG , lcc-3166-1-adj:MU , lcc-3166-1-adj:MW , lcc-3166-1-adj:MZ , lcc-3166-1-adj:NA , lcc-3166-1-adj:RW , lcc-3166-1-adj:SC , lcc-3166-1-adj:SD , lcc-3166-1-adj:SO , lcc-3166-1-adj:SS , lcc-3166-1-adj:ST , lcc-3166-1-adj:SZ , lcc-3166-1-adj:TZ , lcc-3166-1-adj:UG , lcc-3166-1-adj:ZA , lcc-3166-1-adj:ZM , lcc-3166-1-adj:ZW ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"AFE" ;
+	rgn:hasCurrentVariant	rgn:r01KHDGXBHWYBBNPN9ZMDP3DMYT ;
+	skos:definition	"individual representing countries of Africa Eastern and Southern according to World Bank"@en .
+
+rgn:r01KHDH1KJ38RMKJA5EAKT59D00
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BF , lcc-3166-1-adj:BJ , lcc-3166-1-adj:CF , lcc-3166-1-adj:CG , lcc-3166-1-adj:CI , lcc-3166-1-adj:CM , lcc-3166-1-adj:CV , lcc-3166-1-adj:GA , lcc-3166-1-adj:GH , lcc-3166-1-adj:GM , lcc-3166-1-adj:GN , lcc-3166-1-adj:GQ , lcc-3166-1-adj:GW , lcc-3166-1-adj:LR , lcc-3166-1-adj:ML , lcc-3166-1-adj:MR , lcc-3166-1-adj:NE , lcc-3166-1-adj:NG , lcc-3166-1-adj:SL , lcc-3166-1-adj:SN , lcc-3166-1-adj:TD , lcc-3166-1-adj:TG ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"AFW" ;
+	rgn:hasCurrentVariant	rgn:r01KHDH1KJ38RMKJA5EAKT59D00 ;
+	skos:definition	"individual representing countries of Africa Western and Central according to World Bank"@en .
+
+rgn:r01KHDHGS1W450HH81HC3XWKTA8
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AE , lcc-3166-1-adj:BH , lcc-3166-1-adj:DJ , lcc-3166-1-adj:DZ , lcc-3166-1-adj:EG , lcc-3166-1-adj:IQ , lcc-3166-1-adj:JO , lcc-3166-1-adj:KM , lcc-3166-1-adj:KW , lcc-3166-1-adj:LB , lcc-3166-1-adj:LY , lcc-3166-1-adj:MA , lcc-3166-1-adj:MR , lcc-3166-1-adj:OM , lcc-3166-1-adj:PS , lcc-3166-1-adj:QA , lcc-3166-1-adj:SA , lcc-3166-1-adj:SD , lcc-3166-1-adj:SO , lcc-3166-1-adj:SY , lcc-3166-1-adj:TN , lcc-3166-1-adj:YE ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"ARB" ;
+	rgn:hasCurrentVariant	rgn:r01KHDHGS1W450HH81HC3XWKTA8 ;
+	skos:definition	"individual representing countries of Arab World according to World Bank"@en .
+
+rgn:r01KHDHMKGNJMV1BPRFJKQYA52S
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BG , lcc-3166-1-adj:CZ , lcc-3166-1-adj:EE , lcc-3166-1-adj:HR , lcc-3166-1-adj:HU , lcc-3166-1-adj:LT , lcc-3166-1-adj:LV , lcc-3166-1-adj:PL , lcc-3166-1-adj:RO , lcc-3166-1-adj:SI , lcc-3166-1-adj:SK ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"CEB" ;
+	rgn:hasCurrentVariant	rgn:r01KHDHMKGNJMV1BPRFJKQYA52S ;
+	skos:definition	"individual representing countries of Central Europe and the Baltics according to World Bank"@en .
+
+rgn:r01KHDHQPPC4P45KRVS4M5X1JP8
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AG , lcc-3166-1-adj:BB , lcc-3166-1-adj:BS , lcc-3166-1-adj:BZ , lcc-3166-1-adj:DM , lcc-3166-1-adj:GD , lcc-3166-1-adj:GY , lcc-3166-1-adj:KN , lcc-3166-1-adj:LC , lcc-3166-1-adj:SR , lcc-3166-1-adj:VC ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"CSS" ;
+	rgn:hasCurrentVariant	rgn:r01KHDHQPPC4P45KRVS4M5X1JP8 ;
+	skos:definition	"individual representing countries of Caribbean small states according to World Bank"@en .
+
+rgn:r01KHDJ5ZRSC6Y3NA6S9BS177WD
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:CN , lcc-3166-1-adj:FJ , lcc-3166-1-adj:FM , lcc-3166-1-adj:ID , lcc-3166-1-adj:KH , lcc-3166-1-adj:KI , lcc-3166-1-adj:KP , lcc-3166-1-adj:LA , lcc-3166-1-adj:MH , lcc-3166-1-adj:MM , lcc-3166-1-adj:MN , lcc-3166-1-adj:MY , lcc-3166-1-adj:PG , lcc-3166-1-adj:PH , lcc-3166-1-adj:SB , lcc-3166-1-adj:TH , lcc-3166-1-adj:TL , lcc-3166-1-adj:TO , lcc-3166-1-adj:TV , lcc-3166-1-adj:VN , lcc-3166-1-adj:VU , lcc-3166-1-adj:WS ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"EAP" ;
+	rgn:hasCurrentVariant	rgn:r01KHDJ5ZRSC6Y3NA6S9BS177WD ;
+	skos:definition	"individual representing countries of East Asia & Pacific (excluding high income) according to World Bank"@en .
+
+rgn:r01KHDJ7EVSYKT3A7VVE1V3KKQF
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AS , lcc-3166-1-adj:AU , lcc-3166-1-adj:BN , lcc-3166-1-adj:GU , lcc-3166-1-adj:HK , lcc-3166-1-adj:JP , lcc-3166-1-adj:KR , lcc-3166-1-adj:MO , lcc-3166-1-adj:MP , lcc-3166-1-adj:NC , lcc-3166-1-adj:NR , lcc-3166-1-adj:NZ , lcc-3166-1-adj:PF , lcc-3166-1-adj:PW , lcc-3166-1-adj:SG , lcc-3166-1-adj:TW , rgn:r01KHDJ5ZRSC6Y3NA6S9BS177WD ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"EAS" ;
+	rgn:hasCurrentVariant	rgn:r01KHDJ7EVSYKT3A7VVE1V3KKQF ;
+	skos:definition	"individual representing countries of East Asia & Pacific according to World Bank"@en .
+
+rgn:r01KHDJ8E3H98ZY72M0PCEFCR0A
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AR , lcc-3166-1-adj:BD , lcc-3166-1-adj:BH , lcc-3166-1-adj:BO , lcc-3166-1-adj:BT , lcc-3166-1-adj:BW , lcc-3166-1-adj:BZ , lcc-3166-1-adj:CV , lcc-3166-1-adj:DJ , lcc-3166-1-adj:DO , lcc-3166-1-adj:DZ , lcc-3166-1-adj:EC , lcc-3166-1-adj:EG , lcc-3166-1-adj:ET , lcc-3166-1-adj:FM , lcc-3166-1-adj:GA , lcc-3166-1-adj:GD , lcc-3166-1-adj:GH , lcc-3166-1-adj:GT , lcc-3166-1-adj:HN , lcc-3166-1-adj:HT , lcc-3166-1-adj:ID , lcc-3166-1-adj:IL , lcc-3166-1-adj:IN , lcc-3166-1-adj:IR , lcc-3166-1-adj:JO , lcc-3166-1-adj:KH , lcc-3166-1-adj:KI , lcc-3166-1-adj:LA , lcc-3166-1-adj:LS , lcc-3166-1-adj:LY , lcc-3166-1-adj:MM , lcc-3166-1-adj:MV , lcc-3166-1-adj:MX , lcc-3166-1-adj:NA , lcc-3166-1-adj:NI , lcc-3166-1-adj:NP , lcc-3166-1-adj:PA , lcc-3166-1-adj:PE , lcc-3166-1-adj:PG , lcc-3166-1-adj:PH , lcc-3166-1-adj:PK , lcc-3166-1-adj:PS , lcc-3166-1-adj:PY , lcc-3166-1-adj:RW , lcc-3166-1-adj:SA , lcc-3166-1-adj:SB , lcc-3166-1-adj:SR , lcc-3166-1-adj:SV , lcc-3166-1-adj:SY , lcc-3166-1-adj:SZ , lcc-3166-1-adj:TJ , lcc-3166-1-adj:TM , lcc-3166-1-adj:TO , lcc-3166-1-adj:TR , lcc-3166-1-adj:UZ , lcc-3166-1-adj:VE , lcc-3166-1-adj:VU , lcc-3166-1-adj:WS , lcc-3166-1-adj:YE , lcc-3166-1-adj:ZA , lcc-3166-1-adj:ZW ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"EAR" ;
+	rgn:hasCurrentVariant	rgn:r01KHDJ8E3H98ZY72M0PCEFCR0A ;
+	skos:definition	"individual representing countries of Early-demographic dividend according to World Bank"@en .
+
+rgn:r01KHDJ9RKC77B2KA2B0PJCW56H
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AL , lcc-3166-1-adj:AM , lcc-3166-1-adj:AZ , lcc-3166-1-adj:BA , lcc-3166-1-adj:BY , lcc-3166-1-adj:GE , lcc-3166-1-adj:KG , lcc-3166-1-adj:KZ , lcc-3166-1-adj:MD , lcc-3166-1-adj:ME , lcc-3166-1-adj:MK , lcc-3166-1-adj:RS , lcc-3166-1-adj:TJ , lcc-3166-1-adj:TM , lcc-3166-1-adj:TR , lcc-3166-1-adj:UA , lcc-3166-1-adj:UZ , lcc-3166-1-adj:XK ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"ECA" ;
+	rgn:hasCurrentVariant	rgn:r01KHDJ9RKC77B2KA2B0PJCW56H ;
+	skos:definition	"individual representing countries of Europe & Central Asia (excluding high income) according to World Bank"@en .
+
+rgn:r01KHDJBX0QMEPEQEJQFYSABKRR
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AD , lcc-3166-1-adj:AT , lcc-3166-1-adj:BE , lcc-3166-1-adj:BG , lcc-3166-1-adj:CH , lcc-3166-1-adj:CY , lcc-3166-1-adj:CZ , lcc-3166-1-adj:DE , lcc-3166-1-adj:DK , lcc-3166-1-adj:EE , lcc-3166-1-adj:ES , lcc-3166-1-adj:FI , lcc-3166-1-adj:FO , lcc-3166-1-adj:FR , lcc-3166-1-adj:GB , lcc-3166-1-adj:GI , lcc-3166-1-adj:GL , lcc-3166-1-adj:GR , lcc-3166-1-adj:HR , lcc-3166-1-adj:HU , lcc-3166-1-adj:IE , lcc-3166-1-adj:IM , lcc-3166-1-adj:IS , lcc-3166-1-adj:IT , lcc-3166-1-adj:JE , lcc-3166-1-adj:LI , lcc-3166-1-adj:LT , lcc-3166-1-adj:LU , lcc-3166-1-adj:LV , lcc-3166-1-adj:MC , lcc-3166-1-adj:NL , lcc-3166-1-adj:NO , lcc-3166-1-adj:PL , lcc-3166-1-adj:PT , lcc-3166-1-adj:RO , lcc-3166-1-adj:RU , lcc-3166-1-adj:SE , lcc-3166-1-adj:SI , lcc-3166-1-adj:SK , lcc-3166-1-adj:SM , rgn:r01KHDJ9RKC77B2KA2B0PJCW56H ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"ECS" ;
+	rgn:hasCurrentVariant	rgn:r01KHDJBX0QMEPEQEJQFYSABKRR ;
+	skos:definition	"individual representing countries of Europe & Central Asia according to World Bank"@en .
+
+rgn:r01KHDJJ8CKPMW0K7ZAWTRC3CN1
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AT , lcc-3166-1-adj:BE , lcc-3166-1-adj:CY , lcc-3166-1-adj:DE , lcc-3166-1-adj:EE , lcc-3166-1-adj:ES , lcc-3166-1-adj:FI , lcc-3166-1-adj:FR , lcc-3166-1-adj:GR , lcc-3166-1-adj:HR , lcc-3166-1-adj:IE , lcc-3166-1-adj:IT , lcc-3166-1-adj:LT , lcc-3166-1-adj:LU , lcc-3166-1-adj:LV , lcc-3166-1-adj:MT , lcc-3166-1-adj:NL , lcc-3166-1-adj:PT , lcc-3166-1-adj:SI , lcc-3166-1-adj:SK ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"EMU" ;
+	rgn:hasCurrentVariant	rgn:r01KHDJJ8CKPMW0K7ZAWTRC3CN1 ;
+	skos:definition	"individual representing countries of Euro area according to World Bank"@en .
+
+rgn:r01KHDJRWQS5FB52ARDB5ZZ9MNR
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AT , lcc-3166-1-adj:BE , lcc-3166-1-adj:BG , lcc-3166-1-adj:CY , lcc-3166-1-adj:CZ , lcc-3166-1-adj:DE , lcc-3166-1-adj:DK , lcc-3166-1-adj:EE , lcc-3166-1-adj:ES , lcc-3166-1-adj:FI , lcc-3166-1-adj:FR , lcc-3166-1-adj:GR , lcc-3166-1-adj:HR , lcc-3166-1-adj:HU , lcc-3166-1-adj:IE , lcc-3166-1-adj:IT , lcc-3166-1-adj:LT , lcc-3166-1-adj:LU , lcc-3166-1-adj:LV , lcc-3166-1-adj:MT , lcc-3166-1-adj:NL , lcc-3166-1-adj:PL , lcc-3166-1-adj:PT , lcc-3166-1-adj:RO , lcc-3166-1-adj:SE , lcc-3166-1-adj:SI , lcc-3166-1-adj:SK ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"EUU" ;
+	rgn:hasCurrentVariant	rgn:r01KHDJRWQS5FB52ARDB5ZZ9MNR ;
+	skos:definition	"individual representing countries of European Union according to World Bank"@en .
+
+rgn:r01KHDJSK3GW1KGQ5QB1M9DJ9RA
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AF , lcc-3166-1-adj:BF , lcc-3166-1-adj:BI , lcc-3166-1-adj:CD , lcc-3166-1-adj:CF , lcc-3166-1-adj:CG , lcc-3166-1-adj:CM , lcc-3166-1-adj:ER , lcc-3166-1-adj:ET , lcc-3166-1-adj:FM , lcc-3166-1-adj:GW , lcc-3166-1-adj:HT , lcc-3166-1-adj:IQ , lcc-3166-1-adj:KI , lcc-3166-1-adj:KM , lcc-3166-1-adj:LB , lcc-3166-1-adj:LY , lcc-3166-1-adj:MH , lcc-3166-1-adj:ML , lcc-3166-1-adj:MM , lcc-3166-1-adj:MZ , lcc-3166-1-adj:NE , lcc-3166-1-adj:NG , lcc-3166-1-adj:PG , lcc-3166-1-adj:PS , lcc-3166-1-adj:SB , lcc-3166-1-adj:SD , lcc-3166-1-adj:SO , lcc-3166-1-adj:SS , lcc-3166-1-adj:ST , lcc-3166-1-adj:SY , lcc-3166-1-adj:TD , lcc-3166-1-adj:TL , lcc-3166-1-adj:TV , lcc-3166-1-adj:UA , lcc-3166-1-adj:VE , lcc-3166-1-adj:XK , lcc-3166-1-adj:YE , lcc-3166-1-adj:ZW ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"FCS" ;
+	rgn:hasCurrentVariant	rgn:r01KHDJSK3GW1KGQ5QB1M9DJ9RA ;
+	skos:definition	"individual representing countries of Fragile and conflict affected situations according to World Bank"@en .
+
+rgn:r01KHDJVBRN9CV9H8C61TJ6WFH5
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AD , lcc-3166-1-adj:AE , lcc-3166-1-adj:AG , lcc-3166-1-adj:AS , lcc-3166-1-adj:AT , lcc-3166-1-adj:AU , lcc-3166-1-adj:AW , lcc-3166-1-adj:BB , lcc-3166-1-adj:BE , lcc-3166-1-adj:BG , lcc-3166-1-adj:BH , lcc-3166-1-adj:BM , lcc-3166-1-adj:BN , lcc-3166-1-adj:BS , lcc-3166-1-adj:CA , lcc-3166-1-adj:CH , lcc-3166-1-adj:CL , lcc-3166-1-adj:CW , lcc-3166-1-adj:CY , lcc-3166-1-adj:CZ , lcc-3166-1-adj:DE , lcc-3166-1-adj:DK , lcc-3166-1-adj:EE , lcc-3166-1-adj:ES , lcc-3166-1-adj:FI , lcc-3166-1-adj:FO , lcc-3166-1-adj:FR , lcc-3166-1-adj:GB , lcc-3166-1-adj:GG , lcc-3166-1-adj:GI , lcc-3166-1-adj:GL , lcc-3166-1-adj:GR , lcc-3166-1-adj:GU , lcc-3166-1-adj:GY , lcc-3166-1-adj:HK , lcc-3166-1-adj:HR , lcc-3166-1-adj:HU , lcc-3166-1-adj:IE , lcc-3166-1-adj:IL , lcc-3166-1-adj:IM , lcc-3166-1-adj:IS , lcc-3166-1-adj:IT , lcc-3166-1-adj:JE , lcc-3166-1-adj:JP , lcc-3166-1-adj:KN , lcc-3166-1-adj:KR , lcc-3166-1-adj:KW , lcc-3166-1-adj:KY , lcc-3166-1-adj:LI , lcc-3166-1-adj:LT , lcc-3166-1-adj:LU , lcc-3166-1-adj:LV , lcc-3166-1-adj:MC , lcc-3166-1-adj:MF , lcc-3166-1-adj:MO , lcc-3166-1-adj:MP , lcc-3166-1-adj:MT , lcc-3166-1-adj:NC , lcc-3166-1-adj:NL , lcc-3166-1-adj:NO , lcc-3166-1-adj:NR , lcc-3166-1-adj:NZ , lcc-3166-1-adj:OM , lcc-3166-1-adj:PA , lcc-3166-1-adj:PF , lcc-3166-1-adj:PL , lcc-3166-1-adj:PR , lcc-3166-1-adj:PT , lcc-3166-1-adj:PW , lcc-3166-1-adj:QA , lcc-3166-1-adj:RO , lcc-3166-1-adj:RU , lcc-3166-1-adj:SA , lcc-3166-1-adj:SC , lcc-3166-1-adj:SE , lcc-3166-1-adj:SG , lcc-3166-1-adj:SI , lcc-3166-1-adj:SK , lcc-3166-1-adj:SM , lcc-3166-1-adj:SX , lcc-3166-1-adj:TC , lcc-3166-1-adj:TT , lcc-3166-1-adj:TW , lcc-3166-1-adj:US , lcc-3166-1-adj:UY , lcc-3166-1-adj:VG , lcc-3166-1-adj:VI ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"HIC" ;
+	rgn:hasCurrentVariant	rgn:r01KHDJVBRN9CV9H8C61TJ6WFH5 ;
+	skos:definition	"individual representing countries of High income according to World Bank"@en .
+
+rgn:r01KHDJVXYGT0198DG2XZGHNYD0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AF , lcc-3166-1-adj:BF , lcc-3166-1-adj:BI , lcc-3166-1-adj:BJ , lcc-3166-1-adj:BO , lcc-3166-1-adj:CD , lcc-3166-1-adj:CF , lcc-3166-1-adj:CG , lcc-3166-1-adj:CI , lcc-3166-1-adj:CM , lcc-3166-1-adj:ER , lcc-3166-1-adj:ET , lcc-3166-1-adj:GH , lcc-3166-1-adj:GM , lcc-3166-1-adj:GN , lcc-3166-1-adj:GW , lcc-3166-1-adj:GY , lcc-3166-1-adj:HN , lcc-3166-1-adj:HT , lcc-3166-1-adj:KM , lcc-3166-1-adj:LR , lcc-3166-1-adj:MG , lcc-3166-1-adj:ML , lcc-3166-1-adj:MR , lcc-3166-1-adj:MW , lcc-3166-1-adj:MZ , lcc-3166-1-adj:NE , lcc-3166-1-adj:NI , lcc-3166-1-adj:RW , lcc-3166-1-adj:SD , lcc-3166-1-adj:SL , lcc-3166-1-adj:SN , lcc-3166-1-adj:SO , lcc-3166-1-adj:ST , lcc-3166-1-adj:TD , lcc-3166-1-adj:TG , lcc-3166-1-adj:TZ , lcc-3166-1-adj:UG , lcc-3166-1-adj:ZM ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"HPC" ;
+	rgn:hasCurrentVariant	rgn:r01KHDJVXYGT0198DG2XZGHNYD0 ;
+	skos:definition	"individual representing countries of Heavily indebted poor countries (HIPC) according to World Bank"@en .
+
+rgn:r01KHDJX64BQK0RPE65KQ0YSXWV
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AG , lcc-3166-1-adj:AL , lcc-3166-1-adj:AM , lcc-3166-1-adj:AO , lcc-3166-1-adj:AR , lcc-3166-1-adj:AZ , lcc-3166-1-adj:BA , lcc-3166-1-adj:BB , lcc-3166-1-adj:BG , lcc-3166-1-adj:BO , lcc-3166-1-adj:BR , lcc-3166-1-adj:BW , lcc-3166-1-adj:BY , lcc-3166-1-adj:CL , lcc-3166-1-adj:CN , lcc-3166-1-adj:CO , lcc-3166-1-adj:CR , lcc-3166-1-adj:DO , lcc-3166-1-adj:DZ , lcc-3166-1-adj:EC , lcc-3166-1-adj:EG , lcc-3166-1-adj:GA , lcc-3166-1-adj:GE , lcc-3166-1-adj:GQ , lcc-3166-1-adj:GT , lcc-3166-1-adj:HR , lcc-3166-1-adj:ID , lcc-3166-1-adj:IN , lcc-3166-1-adj:IQ , lcc-3166-1-adj:IR , lcc-3166-1-adj:JM , lcc-3166-1-adj:JO , lcc-3166-1-adj:KN , lcc-3166-1-adj:KZ , lcc-3166-1-adj:LB , lcc-3166-1-adj:LY , lcc-3166-1-adj:MA , lcc-3166-1-adj:MD , lcc-3166-1-adj:ME , lcc-3166-1-adj:MK , lcc-3166-1-adj:MN , lcc-3166-1-adj:MU , lcc-3166-1-adj:MX , lcc-3166-1-adj:MY , lcc-3166-1-adj:NA , lcc-3166-1-adj:NR , lcc-3166-1-adj:PA , lcc-3166-1-adj:PE , lcc-3166-1-adj:PH , lcc-3166-1-adj:PL , lcc-3166-1-adj:PW , lcc-3166-1-adj:PY , lcc-3166-1-adj:RO , lcc-3166-1-adj:RS , lcc-3166-1-adj:RU , lcc-3166-1-adj:SC , lcc-3166-1-adj:SV , lcc-3166-1-adj:TH , lcc-3166-1-adj:TM , lcc-3166-1-adj:TN , lcc-3166-1-adj:TR , lcc-3166-1-adj:TT , lcc-3166-1-adj:UA , lcc-3166-1-adj:UY , lcc-3166-1-adj:VE , lcc-3166-1-adj:VN , lcc-3166-1-adj:ZA ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"IBD" ;
+	rgn:hasCurrentVariant	rgn:r01KHDJX64BQK0RPE65KQ0YSXWV ;
+	skos:definition	"individual representing countries of IBRD only according to World Bank"@en .
+
+rgn:r01KHDK07T5R261TMV2SY11M8S6
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	rgn:r01KHDJX64BQK0RPE65KQ0YSXWV , rgn:r01KHDK2SCPW3XG27HF05SZFH87 ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"IBT" ;
+	rgn:hasCurrentVariant	rgn:r01KHDK07T5R261TMV2SY11M8S6 ;
+	skos:definition	"individual representing countries of IDA & IBRD total according to World Bank"@en .
+
+rgn:r01KHDK2SCPW3XG27HF05SZFH87
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AF , lcc-3166-1-adj:BD , lcc-3166-1-adj:BF , lcc-3166-1-adj:BI , lcc-3166-1-adj:BJ , lcc-3166-1-adj:BT , lcc-3166-1-adj:BZ , lcc-3166-1-adj:CD , lcc-3166-1-adj:CF , lcc-3166-1-adj:CG , lcc-3166-1-adj:CI , lcc-3166-1-adj:CM , lcc-3166-1-adj:CV , lcc-3166-1-adj:DJ , lcc-3166-1-adj:DM , lcc-3166-1-adj:ER , lcc-3166-1-adj:ET , lcc-3166-1-adj:FJ , lcc-3166-1-adj:FM , lcc-3166-1-adj:GD , lcc-3166-1-adj:GH , lcc-3166-1-adj:GM , lcc-3166-1-adj:GN , lcc-3166-1-adj:GW , lcc-3166-1-adj:GY , lcc-3166-1-adj:HN , lcc-3166-1-adj:HT , lcc-3166-1-adj:KE , lcc-3166-1-adj:KG , lcc-3166-1-adj:KH , lcc-3166-1-adj:KI , lcc-3166-1-adj:KM , lcc-3166-1-adj:LA , lcc-3166-1-adj:LC , lcc-3166-1-adj:LK , lcc-3166-1-adj:LR , lcc-3166-1-adj:LS , lcc-3166-1-adj:MG , lcc-3166-1-adj:MH , lcc-3166-1-adj:ML , lcc-3166-1-adj:MM , lcc-3166-1-adj:MR , lcc-3166-1-adj:MV , lcc-3166-1-adj:MW , lcc-3166-1-adj:MZ , lcc-3166-1-adj:NE , lcc-3166-1-adj:NG , lcc-3166-1-adj:NI , lcc-3166-1-adj:NP , lcc-3166-1-adj:PG , lcc-3166-1-adj:PK , lcc-3166-1-adj:RW , lcc-3166-1-adj:SB , lcc-3166-1-adj:SD , lcc-3166-1-adj:SL , lcc-3166-1-adj:SN , lcc-3166-1-adj:SO , lcc-3166-1-adj:SR , lcc-3166-1-adj:SS , lcc-3166-1-adj:ST , lcc-3166-1-adj:SY , lcc-3166-1-adj:SZ , lcc-3166-1-adj:TD , lcc-3166-1-adj:TG , lcc-3166-1-adj:TJ , lcc-3166-1-adj:TL , lcc-3166-1-adj:TO , lcc-3166-1-adj:TV , lcc-3166-1-adj:TZ , lcc-3166-1-adj:UG , lcc-3166-1-adj:UZ , lcc-3166-1-adj:VC , lcc-3166-1-adj:VU , lcc-3166-1-adj:WS , lcc-3166-1-adj:XK , lcc-3166-1-adj:YE , lcc-3166-1-adj:ZM , lcc-3166-1-adj:ZW ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"IDA" ;
+	rgn:hasCurrentVariant	rgn:r01KHDK2SCPW3XG27HF05SZFH87 ;
+	skos:definition	"individual representing countries of IDA total according to World Bank"@en .
+
+rgn:r01KHDKGKPEG4P19CZS3W0G99ZZ
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BZ , lcc-3166-1-adj:CG , lcc-3166-1-adj:CM , lcc-3166-1-adj:CV , lcc-3166-1-adj:DM , lcc-3166-1-adj:FJ , lcc-3166-1-adj:GD , lcc-3166-1-adj:KE , lcc-3166-1-adj:LC , lcc-3166-1-adj:NG , lcc-3166-1-adj:PG , lcc-3166-1-adj:PK , lcc-3166-1-adj:SR , lcc-3166-1-adj:SZ , lcc-3166-1-adj:TL , lcc-3166-1-adj:UZ , lcc-3166-1-adj:VC , lcc-3166-1-adj:ZW ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"IDB" ;
+	rgn:hasCurrentVariant	rgn:r01KHDKGKPEG4P19CZS3W0G99ZZ ;
+	skos:definition	"individual representing countries of IDA blend according to World Bank"@en .
+
+rgn:r01KHDKJSVKDEVKVXHZFKWP3411
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AF , lcc-3166-1-adj:BD , lcc-3166-1-adj:BF , lcc-3166-1-adj:BI , lcc-3166-1-adj:BJ , lcc-3166-1-adj:BT , lcc-3166-1-adj:CD , lcc-3166-1-adj:CF , lcc-3166-1-adj:CI , lcc-3166-1-adj:DJ , lcc-3166-1-adj:ER , lcc-3166-1-adj:ET , lcc-3166-1-adj:FM , lcc-3166-1-adj:GH , lcc-3166-1-adj:GM , lcc-3166-1-adj:GN , lcc-3166-1-adj:GW , lcc-3166-1-adj:GY , lcc-3166-1-adj:HN , lcc-3166-1-adj:HT , lcc-3166-1-adj:KG , lcc-3166-1-adj:KH , lcc-3166-1-adj:KI , lcc-3166-1-adj:KM , lcc-3166-1-adj:LA , lcc-3166-1-adj:LK , lcc-3166-1-adj:LR , lcc-3166-1-adj:LS , lcc-3166-1-adj:MG , lcc-3166-1-adj:MH , lcc-3166-1-adj:ML , lcc-3166-1-adj:MM , lcc-3166-1-adj:MR , lcc-3166-1-adj:MV , lcc-3166-1-adj:MW , lcc-3166-1-adj:MZ , lcc-3166-1-adj:NE , lcc-3166-1-adj:NI , lcc-3166-1-adj:NP , lcc-3166-1-adj:RW , lcc-3166-1-adj:SB , lcc-3166-1-adj:SD , lcc-3166-1-adj:SL , lcc-3166-1-adj:SN , lcc-3166-1-adj:SO , lcc-3166-1-adj:SS , lcc-3166-1-adj:ST , lcc-3166-1-adj:SY , lcc-3166-1-adj:TD , lcc-3166-1-adj:TG , lcc-3166-1-adj:TJ , lcc-3166-1-adj:TO , lcc-3166-1-adj:TV , lcc-3166-1-adj:TZ , lcc-3166-1-adj:UG , lcc-3166-1-adj:VU , lcc-3166-1-adj:WS , lcc-3166-1-adj:XK , lcc-3166-1-adj:YE , lcc-3166-1-adj:ZM ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"IDX" ;
+	rgn:hasCurrentVariant	rgn:r01KHDKJSVKDEVKVXHZFKWP3411 ;
+	skos:definition	"individual representing countries of IDA only according to World Bank"@en .
+
+rgn:r01KHDKP6XTXY88HG4KAT76MG78
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AR , lcc-3166-1-adj:BO , lcc-3166-1-adj:BR , lcc-3166-1-adj:BZ , lcc-3166-1-adj:CO , lcc-3166-1-adj:CR , lcc-3166-1-adj:CU , lcc-3166-1-adj:DM , lcc-3166-1-adj:DO , lcc-3166-1-adj:EC , lcc-3166-1-adj:GD , lcc-3166-1-adj:GT , lcc-3166-1-adj:HN , lcc-3166-1-adj:HT , lcc-3166-1-adj:JM , lcc-3166-1-adj:LC , lcc-3166-1-adj:MX , lcc-3166-1-adj:NI , lcc-3166-1-adj:PE , lcc-3166-1-adj:PY , lcc-3166-1-adj:SR , lcc-3166-1-adj:SV , lcc-3166-1-adj:VC ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"LAC" ;
+	rgn:hasCurrentVariant	rgn:r01KHDKP6XTXY88HG4KAT76MG78 ;
+	skos:definition	"individual representing countries of Latin America & Caribbean (excluding high income) according to World Bank"@en .
+
+rgn:r01KHDKT1RJDCCRRWPZRCCGJDXQ
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AG , lcc-3166-1-adj:AW , lcc-3166-1-adj:BB , lcc-3166-1-adj:BS , lcc-3166-1-adj:CL , lcc-3166-1-adj:CW , lcc-3166-1-adj:GY , lcc-3166-1-adj:KN , lcc-3166-1-adj:KY , lcc-3166-1-adj:MF , lcc-3166-1-adj:PA , lcc-3166-1-adj:PR , lcc-3166-1-adj:SX , lcc-3166-1-adj:TC , lcc-3166-1-adj:TT , lcc-3166-1-adj:UY , lcc-3166-1-adj:VE , lcc-3166-1-adj:VG , lcc-3166-1-adj:VI , rgn:r01KHDKP6XTXY88HG4KAT76MG78 ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"LCN" ;
+	rgn:hasCurrentVariant	rgn:r01KHDKT1RJDCCRRWPZRCCGJDXQ ;
+	skos:definition	"individual representing countries of Latin America & Caribbean according to World Bank"@en .
+
+rgn:r01KHDKV90QQMYV1SMNTEN062G5
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AF , lcc-3166-1-adj:AO , lcc-3166-1-adj:BD , lcc-3166-1-adj:BF , lcc-3166-1-adj:BI , lcc-3166-1-adj:BJ , lcc-3166-1-adj:CD , lcc-3166-1-adj:CF , lcc-3166-1-adj:DJ , lcc-3166-1-adj:ER , lcc-3166-1-adj:ET , lcc-3166-1-adj:GM , lcc-3166-1-adj:GN , lcc-3166-1-adj:GW , lcc-3166-1-adj:HT , lcc-3166-1-adj:KH , lcc-3166-1-adj:KI , lcc-3166-1-adj:KM , lcc-3166-1-adj:LA , lcc-3166-1-adj:LR , lcc-3166-1-adj:LS , lcc-3166-1-adj:MG , lcc-3166-1-adj:ML , lcc-3166-1-adj:MM , lcc-3166-1-adj:MR , lcc-3166-1-adj:MW , lcc-3166-1-adj:MZ , lcc-3166-1-adj:NE , lcc-3166-1-adj:NP , lcc-3166-1-adj:RW , lcc-3166-1-adj:SB , lcc-3166-1-adj:SD , lcc-3166-1-adj:SL , lcc-3166-1-adj:SN , lcc-3166-1-adj:SO , lcc-3166-1-adj:SS , lcc-3166-1-adj:ST , lcc-3166-1-adj:TD , lcc-3166-1-adj:TG , lcc-3166-1-adj:TL , lcc-3166-1-adj:TV , lcc-3166-1-adj:TZ , lcc-3166-1-adj:UG , lcc-3166-1-adj:YE , lcc-3166-1-adj:ZM ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"LDC" ;
+	rgn:hasCurrentVariant	rgn:r01KHDKV90QQMYV1SMNTEN062G5 ;
+	skos:definition	"individual representing countries of Least developed countries: UN classification according to World Bank"@en .
+
+rgn:r01KHDKVT47KM2663NDM8WAPQC4
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AF , lcc-3166-1-adj:BF , lcc-3166-1-adj:BI , lcc-3166-1-adj:CD , lcc-3166-1-adj:CF , lcc-3166-1-adj:ER , lcc-3166-1-adj:ET , lcc-3166-1-adj:GM , lcc-3166-1-adj:GW , lcc-3166-1-adj:KP , lcc-3166-1-adj:LR , lcc-3166-1-adj:MG , lcc-3166-1-adj:ML , lcc-3166-1-adj:MW , lcc-3166-1-adj:MZ , lcc-3166-1-adj:NE , lcc-3166-1-adj:RW , lcc-3166-1-adj:SD , lcc-3166-1-adj:SL , lcc-3166-1-adj:SO , lcc-3166-1-adj:SS , lcc-3166-1-adj:SY , lcc-3166-1-adj:TD , lcc-3166-1-adj:TG , lcc-3166-1-adj:UG , lcc-3166-1-adj:YE ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"LIC" ;
+	rgn:hasCurrentVariant	rgn:r01KHDKVT47KM2663NDM8WAPQC4 ;
+	skos:definition	"individual representing countries of Low income according to World Bank"@en .
+
+rgn:r01KHDKWZA2J2X3ZWS7V7BVQRG8
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AO , lcc-3166-1-adj:BD , lcc-3166-1-adj:BJ , lcc-3166-1-adj:BO , lcc-3166-1-adj:BT , lcc-3166-1-adj:CG , lcc-3166-1-adj:CI , lcc-3166-1-adj:CM , lcc-3166-1-adj:CV , lcc-3166-1-adj:DJ , lcc-3166-1-adj:EG , lcc-3166-1-adj:FM , lcc-3166-1-adj:GH , lcc-3166-1-adj:GN , lcc-3166-1-adj:HN , lcc-3166-1-adj:HT , lcc-3166-1-adj:IN , lcc-3166-1-adj:JO , lcc-3166-1-adj:KE , lcc-3166-1-adj:KG , lcc-3166-1-adj:KH , lcc-3166-1-adj:KI , lcc-3166-1-adj:KM , lcc-3166-1-adj:LA , lcc-3166-1-adj:LB , lcc-3166-1-adj:LK , lcc-3166-1-adj:LS , lcc-3166-1-adj:MA , lcc-3166-1-adj:MM , lcc-3166-1-adj:MR , lcc-3166-1-adj:NG , lcc-3166-1-adj:NI , lcc-3166-1-adj:NP , lcc-3166-1-adj:PG , lcc-3166-1-adj:PH , lcc-3166-1-adj:PK , lcc-3166-1-adj:PS , lcc-3166-1-adj:SB , lcc-3166-1-adj:SN , lcc-3166-1-adj:ST , lcc-3166-1-adj:SZ , lcc-3166-1-adj:TJ , lcc-3166-1-adj:TL , lcc-3166-1-adj:TN , lcc-3166-1-adj:TZ , lcc-3166-1-adj:UZ , lcc-3166-1-adj:VN , lcc-3166-1-adj:VU , lcc-3166-1-adj:WS , lcc-3166-1-adj:ZM , lcc-3166-1-adj:ZW ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"LMC" ;
+	rgn:hasCurrentVariant	rgn:r01KHDKWZA2J2X3ZWS7V7BVQRG8 ;
+	skos:definition	"individual representing countries of Lower middle income according to World Bank"@en .
+
+rgn:r01KHDKXG8FQJ4NDAZR9EZPJWWS
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AF , lcc-3166-1-adj:AL , lcc-3166-1-adj:AM , lcc-3166-1-adj:AO , lcc-3166-1-adj:AR , lcc-3166-1-adj:AZ , lcc-3166-1-adj:BA , lcc-3166-1-adj:BD , lcc-3166-1-adj:BF , lcc-3166-1-adj:BI , lcc-3166-1-adj:BJ , lcc-3166-1-adj:BO , lcc-3166-1-adj:BR , lcc-3166-1-adj:BT , lcc-3166-1-adj:BW , lcc-3166-1-adj:BY , lcc-3166-1-adj:BZ , lcc-3166-1-adj:CD , lcc-3166-1-adj:CF , lcc-3166-1-adj:CG , lcc-3166-1-adj:CI , lcc-3166-1-adj:CM , lcc-3166-1-adj:CN , lcc-3166-1-adj:CO , lcc-3166-1-adj:CR , lcc-3166-1-adj:CU , lcc-3166-1-adj:CV , lcc-3166-1-adj:DJ , lcc-3166-1-adj:DM , lcc-3166-1-adj:DO , lcc-3166-1-adj:DZ , lcc-3166-1-adj:EC , lcc-3166-1-adj:EG , lcc-3166-1-adj:ER , lcc-3166-1-adj:ET , lcc-3166-1-adj:FJ , lcc-3166-1-adj:FM , lcc-3166-1-adj:GA , lcc-3166-1-adj:GD , lcc-3166-1-adj:GE , lcc-3166-1-adj:GH , lcc-3166-1-adj:GM , lcc-3166-1-adj:GN , lcc-3166-1-adj:GQ , lcc-3166-1-adj:GT , lcc-3166-1-adj:GW , lcc-3166-1-adj:HN , lcc-3166-1-adj:HT , lcc-3166-1-adj:ID , lcc-3166-1-adj:IN , lcc-3166-1-adj:IQ , lcc-3166-1-adj:IR , lcc-3166-1-adj:JM , lcc-3166-1-adj:JO , lcc-3166-1-adj:KE , lcc-3166-1-adj:KG , lcc-3166-1-adj:KH , lcc-3166-1-adj:KI , lcc-3166-1-adj:KM , lcc-3166-1-adj:KP , lcc-3166-1-adj:KZ , lcc-3166-1-adj:LA , lcc-3166-1-adj:LB , lcc-3166-1-adj:LC , lcc-3166-1-adj:LK , lcc-3166-1-adj:LR , lcc-3166-1-adj:LS , lcc-3166-1-adj:LY , lcc-3166-1-adj:MA , lcc-3166-1-adj:MD , lcc-3166-1-adj:ME , lcc-3166-1-adj:MG , lcc-3166-1-adj:MH , lcc-3166-1-adj:MK , lcc-3166-1-adj:ML , lcc-3166-1-adj:MM , lcc-3166-1-adj:MN , lcc-3166-1-adj:MR , lcc-3166-1-adj:MU , lcc-3166-1-adj:MV , lcc-3166-1-adj:MW , lcc-3166-1-adj:MX , lcc-3166-1-adj:MY , lcc-3166-1-adj:MZ , lcc-3166-1-adj:NA , lcc-3166-1-adj:NE , lcc-3166-1-adj:NG , lcc-3166-1-adj:NI , lcc-3166-1-adj:NP , lcc-3166-1-adj:PE , lcc-3166-1-adj:PG , lcc-3166-1-adj:PH , lcc-3166-1-adj:PK , lcc-3166-1-adj:PS , lcc-3166-1-adj:PY , lcc-3166-1-adj:RS , lcc-3166-1-adj:RW , lcc-3166-1-adj:SB , lcc-3166-1-adj:SD , lcc-3166-1-adj:SL , lcc-3166-1-adj:SN , lcc-3166-1-adj:SO , lcc-3166-1-adj:SR , lcc-3166-1-adj:SS , lcc-3166-1-adj:ST , lcc-3166-1-adj:SV , lcc-3166-1-adj:SY , lcc-3166-1-adj:SZ , lcc-3166-1-adj:TD , lcc-3166-1-adj:TG , lcc-3166-1-adj:TH , lcc-3166-1-adj:TJ , lcc-3166-1-adj:TL , lcc-3166-1-adj:TM , lcc-3166-1-adj:TN , lcc-3166-1-adj:TO , lcc-3166-1-adj:TR , lcc-3166-1-adj:TV , lcc-3166-1-adj:TZ , lcc-3166-1-adj:UA , lcc-3166-1-adj:UG , lcc-3166-1-adj:UZ , lcc-3166-1-adj:VC , lcc-3166-1-adj:VN , lcc-3166-1-adj:VU , lcc-3166-1-adj:WS , lcc-3166-1-adj:XK , lcc-3166-1-adj:YE , lcc-3166-1-adj:ZA , lcc-3166-1-adj:ZM , lcc-3166-1-adj:ZW ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"LMY" ;
+	rgn:hasCurrentVariant	rgn:r01KHDKXG8FQJ4NDAZR9EZPJWWS ;
+	skos:definition	"individual representing countries of Low & middle income according to World Bank"@en .
+
+rgn:r01KHDKY0ZQFWVJG1D52C9BXVTX
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AE , lcc-3166-1-adj:AL , lcc-3166-1-adj:AM , lcc-3166-1-adj:AW , lcc-3166-1-adj:AZ , lcc-3166-1-adj:BN , lcc-3166-1-adj:BR , lcc-3166-1-adj:BS , lcc-3166-1-adj:CL , lcc-3166-1-adj:CN , lcc-3166-1-adj:CO , lcc-3166-1-adj:CR , lcc-3166-1-adj:CY , lcc-3166-1-adj:EE , lcc-3166-1-adj:FJ , lcc-3166-1-adj:GE , lcc-3166-1-adj:GU , lcc-3166-1-adj:GY , lcc-3166-1-adj:IE , lcc-3166-1-adj:IS , lcc-3166-1-adj:JM , lcc-3166-1-adj:KG , lcc-3166-1-adj:KP , lcc-3166-1-adj:KW , lcc-3166-1-adj:KZ , lcc-3166-1-adj:LB , lcc-3166-1-adj:LC , lcc-3166-1-adj:LK , lcc-3166-1-adj:LV , lcc-3166-1-adj:MA , lcc-3166-1-adj:MD , lcc-3166-1-adj:ME , lcc-3166-1-adj:MK , lcc-3166-1-adj:MN , lcc-3166-1-adj:MU , lcc-3166-1-adj:MY , lcc-3166-1-adj:NC , lcc-3166-1-adj:OM , lcc-3166-1-adj:PF , lcc-3166-1-adj:PL , lcc-3166-1-adj:PR , lcc-3166-1-adj:QA , lcc-3166-1-adj:RO , lcc-3166-1-adj:RS , lcc-3166-1-adj:RU , lcc-3166-1-adj:SC , lcc-3166-1-adj:SK , lcc-3166-1-adj:TH , lcc-3166-1-adj:TN , lcc-3166-1-adj:TT , lcc-3166-1-adj:UY , lcc-3166-1-adj:VC , lcc-3166-1-adj:VI , lcc-3166-1-adj:VN ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"LTE" ;
+	rgn:hasCurrentVariant	rgn:r01KHDKY0ZQFWVJG1D52C9BXVTX ;
+	skos:definition	"individual representing countries of Late-demographic dividend according to World Bank"@en .
+
+rgn:r01KHDKZA50H7P7ZMM1P7PJHPPR
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AE , lcc-3166-1-adj:BH , lcc-3166-1-adj:IL , lcc-3166-1-adj:KW , lcc-3166-1-adj:MT , lcc-3166-1-adj:OM , lcc-3166-1-adj:QA , lcc-3166-1-adj:SA , rgn:r01KHDM0FVZDGYPHNZ1SN4TVARQ ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"MEA" ;
+	rgn:hasCurrentVariant	rgn:r01KHDKZA50H7P7ZMM1P7PJHPPR ;
+	skos:definition	"individual representing countries of Middle East & North Africa according to World Bank"@en .
+
+rgn:r01KHDM098WPVF56J6VHER7CV9R
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AL , lcc-3166-1-adj:AM , lcc-3166-1-adj:AO , lcc-3166-1-adj:AR , lcc-3166-1-adj:AZ , lcc-3166-1-adj:BA , lcc-3166-1-adj:BD , lcc-3166-1-adj:BJ , lcc-3166-1-adj:BO , lcc-3166-1-adj:BR , lcc-3166-1-adj:BT , lcc-3166-1-adj:BW , lcc-3166-1-adj:BY , lcc-3166-1-adj:BZ , lcc-3166-1-adj:CG , lcc-3166-1-adj:CI , lcc-3166-1-adj:CM , lcc-3166-1-adj:CN , lcc-3166-1-adj:CO , lcc-3166-1-adj:CR , lcc-3166-1-adj:CU , lcc-3166-1-adj:CV , lcc-3166-1-adj:DJ , lcc-3166-1-adj:DM , lcc-3166-1-adj:DO , lcc-3166-1-adj:DZ , lcc-3166-1-adj:EC , lcc-3166-1-adj:EG , lcc-3166-1-adj:FJ , lcc-3166-1-adj:FM , lcc-3166-1-adj:GA , lcc-3166-1-adj:GD , lcc-3166-1-adj:GE , lcc-3166-1-adj:GH , lcc-3166-1-adj:GN , lcc-3166-1-adj:GQ , lcc-3166-1-adj:GT , lcc-3166-1-adj:HN , lcc-3166-1-adj:HT , lcc-3166-1-adj:ID , lcc-3166-1-adj:IN , lcc-3166-1-adj:IQ , lcc-3166-1-adj:IR , lcc-3166-1-adj:JM , lcc-3166-1-adj:JO , lcc-3166-1-adj:KE , lcc-3166-1-adj:KG , lcc-3166-1-adj:KH , lcc-3166-1-adj:KI , lcc-3166-1-adj:KM , lcc-3166-1-adj:KZ , lcc-3166-1-adj:LA , lcc-3166-1-adj:LB , lcc-3166-1-adj:LC , lcc-3166-1-adj:LK , lcc-3166-1-adj:LS , lcc-3166-1-adj:LY , lcc-3166-1-adj:MA , lcc-3166-1-adj:MD , lcc-3166-1-adj:ME , lcc-3166-1-adj:MH , lcc-3166-1-adj:MK , lcc-3166-1-adj:MM , lcc-3166-1-adj:MN , lcc-3166-1-adj:MR , lcc-3166-1-adj:MU , lcc-3166-1-adj:MV , lcc-3166-1-adj:MX , lcc-3166-1-adj:MY , lcc-3166-1-adj:NA , lcc-3166-1-adj:NG , lcc-3166-1-adj:NI , lcc-3166-1-adj:NP , lcc-3166-1-adj:PE , lcc-3166-1-adj:PG , lcc-3166-1-adj:PH , lcc-3166-1-adj:PK , lcc-3166-1-adj:PS , lcc-3166-1-adj:PY , lcc-3166-1-adj:RS , lcc-3166-1-adj:SB , lcc-3166-1-adj:SN , lcc-3166-1-adj:SR , lcc-3166-1-adj:ST , lcc-3166-1-adj:SV , lcc-3166-1-adj:SZ , lcc-3166-1-adj:TH , lcc-3166-1-adj:TJ , lcc-3166-1-adj:TL , lcc-3166-1-adj:TM , lcc-3166-1-adj:TN , lcc-3166-1-adj:TO , lcc-3166-1-adj:TR , lcc-3166-1-adj:TV , lcc-3166-1-adj:TZ , lcc-3166-1-adj:UA , lcc-3166-1-adj:UZ , lcc-3166-1-adj:VC , lcc-3166-1-adj:VN , lcc-3166-1-adj:VU , lcc-3166-1-adj:WS , lcc-3166-1-adj:XK , lcc-3166-1-adj:ZA , lcc-3166-1-adj:ZM , lcc-3166-1-adj:ZW ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"MIC" ;
+	rgn:hasCurrentVariant	rgn:r01KHDM098WPVF56J6VHER7CV9R ;
+	skos:definition	"individual representing countries of Middle income according to World Bank"@en .
+
+rgn:r01KHDM0FVZDGYPHNZ1SN4TVARQ
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:DJ , lcc-3166-1-adj:DZ , lcc-3166-1-adj:EG , lcc-3166-1-adj:IQ , lcc-3166-1-adj:IR , lcc-3166-1-adj:JO , lcc-3166-1-adj:LB , lcc-3166-1-adj:LY , lcc-3166-1-adj:MA , lcc-3166-1-adj:PS , lcc-3166-1-adj:SY , lcc-3166-1-adj:TN , lcc-3166-1-adj:YE ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"MNA" ;
+	rgn:hasCurrentVariant	rgn:r01KHDM0FVZDGYPHNZ1SN4TVARQ ;
+	skos:definition	"individual representing countries of Middle East & North Africa (excluding high income) according to World Bank"@en .
+
+rgn:r01KHDM435EHN6FAEQXYDMGSKRC
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BM , lcc-3166-1-adj:CA , lcc-3166-1-adj:US ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"NAC" ;
+	rgn:hasCurrentVariant	rgn:r01KHDM435EHN6FAEQXYDMGSKRC ;
+	skos:definition	"individual representing countries of North America according to World Bank"@en .
+
+rgn:r01KHDM5H9GS0Q3CYV273350K9J
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AT , lcc-3166-1-adj:AU , lcc-3166-1-adj:BE , lcc-3166-1-adj:CA , lcc-3166-1-adj:CH , lcc-3166-1-adj:CL , lcc-3166-1-adj:CO , lcc-3166-1-adj:CR , lcc-3166-1-adj:CZ , lcc-3166-1-adj:DE , lcc-3166-1-adj:DK , lcc-3166-1-adj:EE , lcc-3166-1-adj:ES , lcc-3166-1-adj:FI , lcc-3166-1-adj:FR , lcc-3166-1-adj:GB , lcc-3166-1-adj:GR , lcc-3166-1-adj:HU , lcc-3166-1-adj:IE , lcc-3166-1-adj:IL , lcc-3166-1-adj:IS , lcc-3166-1-adj:IT , lcc-3166-1-adj:JP , lcc-3166-1-adj:KR , lcc-3166-1-adj:LT , lcc-3166-1-adj:LU , lcc-3166-1-adj:LV , lcc-3166-1-adj:MX , lcc-3166-1-adj:NL , lcc-3166-1-adj:NO , lcc-3166-1-adj:NZ , lcc-3166-1-adj:PL , lcc-3166-1-adj:PT , lcc-3166-1-adj:SE , lcc-3166-1-adj:SI , lcc-3166-1-adj:SK , lcc-3166-1-adj:TR , lcc-3166-1-adj:US ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"OED" ;
+	rgn:hasCurrentVariant	rgn:r01KHDM5H9GS0Q3CYV273350K9J ;
+	skos:definition	"individual representing countries of OECD members according to World Bank"@en .
+
+rgn:r01KHDM665WFC9QC8HSYXEZNMJY
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BH , lcc-3166-1-adj:BN , lcc-3166-1-adj:BT , lcc-3166-1-adj:CV , lcc-3166-1-adj:CY , lcc-3166-1-adj:DJ , lcc-3166-1-adj:EE , lcc-3166-1-adj:IS , lcc-3166-1-adj:KM , lcc-3166-1-adj:ME , lcc-3166-1-adj:MT , lcc-3166-1-adj:MU , lcc-3166-1-adj:MV , lcc-3166-1-adj:SC , lcc-3166-1-adj:SM , lcc-3166-1-adj:ST , lcc-3166-1-adj:SZ , lcc-3166-1-adj:TL ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"OSS" ;
+	rgn:hasCurrentVariant	rgn:r01KHDM665WFC9QC8HSYXEZNMJY ;
+	skos:definition	"individual representing countries of Other small states according to World Bank"@en .
+
+rgn:r01KHDM6PJ240JDFZEN9EH6SJFZ
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AF , lcc-3166-1-adj:AO , lcc-3166-1-adj:BF , lcc-3166-1-adj:BI , lcc-3166-1-adj:BJ , lcc-3166-1-adj:CD , lcc-3166-1-adj:CF , lcc-3166-1-adj:CG , lcc-3166-1-adj:CI , lcc-3166-1-adj:CM , lcc-3166-1-adj:ER , lcc-3166-1-adj:GM , lcc-3166-1-adj:GN , lcc-3166-1-adj:GQ , lcc-3166-1-adj:GW , lcc-3166-1-adj:IQ , lcc-3166-1-adj:KE , lcc-3166-1-adj:KM , lcc-3166-1-adj:LR , lcc-3166-1-adj:MG , lcc-3166-1-adj:ML , lcc-3166-1-adj:MR , lcc-3166-1-adj:MW , lcc-3166-1-adj:MZ , lcc-3166-1-adj:NE , lcc-3166-1-adj:NG , lcc-3166-1-adj:SD , lcc-3166-1-adj:SL , lcc-3166-1-adj:SN , lcc-3166-1-adj:SO , lcc-3166-1-adj:SS , lcc-3166-1-adj:TD , lcc-3166-1-adj:TG , lcc-3166-1-adj:TL , lcc-3166-1-adj:TZ , lcc-3166-1-adj:UG , lcc-3166-1-adj:ZM ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"PRE" ;
+	rgn:hasCurrentVariant	rgn:r01KHDM6PJ240JDFZEN9EH6SJFZ ;
+	skos:definition	"individual representing countries of Pre-demographic dividend according to World Bank"@en .
+
+rgn:r01KHDM7C7ZXA5RARTRPGWFZB1X
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:FJ , lcc-3166-1-adj:FM , lcc-3166-1-adj:KI , lcc-3166-1-adj:MH , lcc-3166-1-adj:NR , lcc-3166-1-adj:PW , lcc-3166-1-adj:SB , lcc-3166-1-adj:TO , lcc-3166-1-adj:TV , lcc-3166-1-adj:VU , lcc-3166-1-adj:WS ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"PSS" ;
+	rgn:hasCurrentVariant	rgn:r01KHDM7C7ZXA5RARTRPGWFZB1X ;
+	skos:definition	"individual representing countries of Pacific island small states according to World Bank"@en .
+
+rgn:r01KHDM9W8DRQRY8ZNPXV7P8AFV
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AG , lcc-3166-1-adj:AT , lcc-3166-1-adj:AU , lcc-3166-1-adj:BA , lcc-3166-1-adj:BB , lcc-3166-1-adj:BE , lcc-3166-1-adj:BG , lcc-3166-1-adj:BY , lcc-3166-1-adj:CA , lcc-3166-1-adj:CH , lcc-3166-1-adj:CU , lcc-3166-1-adj:CZ , lcc-3166-1-adj:DE , lcc-3166-1-adj:DK , lcc-3166-1-adj:ES , lcc-3166-1-adj:FI , lcc-3166-1-adj:FR , lcc-3166-1-adj:GB , lcc-3166-1-adj:GR , lcc-3166-1-adj:HK , lcc-3166-1-adj:HR , lcc-3166-1-adj:HU , lcc-3166-1-adj:IT , lcc-3166-1-adj:JP , lcc-3166-1-adj:KR , lcc-3166-1-adj:LT , lcc-3166-1-adj:LU , lcc-3166-1-adj:MO , lcc-3166-1-adj:MT , lcc-3166-1-adj:NL , lcc-3166-1-adj:NO , lcc-3166-1-adj:NZ , lcc-3166-1-adj:PT , lcc-3166-1-adj:SE , lcc-3166-1-adj:SG , lcc-3166-1-adj:SI , lcc-3166-1-adj:UA , lcc-3166-1-adj:US ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"PST" ;
+	rgn:hasCurrentVariant	rgn:r01KHDM9W8DRQRY8ZNPXV7P8AFV ;
+	skos:definition	"individual representing countries of Post-demographic dividend according to World Bank"@en .
+
+rgn:r01KHDMAM4R1DXPAH8APWESVRTD
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AF , lcc-3166-1-adj:BD , lcc-3166-1-adj:BT , lcc-3166-1-adj:IN , lcc-3166-1-adj:LK , lcc-3166-1-adj:MV , lcc-3166-1-adj:NP , lcc-3166-1-adj:PK ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"SAS" ;
+	rgn:hasCurrentVariant	rgn:r01KHDMAM4R1DXPAH8APWESVRTD ;
+	skos:definition	"individual representing countries of South Asia according to World Bank"@en .
+
+rgn:r01KHDMB7DWF5GSVF79PJF8P8FR
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AO , lcc-3166-1-adj:BF , lcc-3166-1-adj:BI , lcc-3166-1-adj:BJ , lcc-3166-1-adj:BW , lcc-3166-1-adj:CD , lcc-3166-1-adj:CF , lcc-3166-1-adj:CG , lcc-3166-1-adj:CI , lcc-3166-1-adj:CM , lcc-3166-1-adj:CV , lcc-3166-1-adj:ER , lcc-3166-1-adj:ET , lcc-3166-1-adj:GA , lcc-3166-1-adj:GH , lcc-3166-1-adj:GM , lcc-3166-1-adj:GN , lcc-3166-1-adj:GQ , lcc-3166-1-adj:GW , lcc-3166-1-adj:KE , lcc-3166-1-adj:KM , lcc-3166-1-adj:LR , lcc-3166-1-adj:LS , lcc-3166-1-adj:MG , lcc-3166-1-adj:ML , lcc-3166-1-adj:MR , lcc-3166-1-adj:MU , lcc-3166-1-adj:MW , lcc-3166-1-adj:MZ , lcc-3166-1-adj:NA , lcc-3166-1-adj:NE , lcc-3166-1-adj:NG , lcc-3166-1-adj:RW , lcc-3166-1-adj:SD , lcc-3166-1-adj:SL , lcc-3166-1-adj:SN , lcc-3166-1-adj:SO , lcc-3166-1-adj:SS , lcc-3166-1-adj:ST , lcc-3166-1-adj:SZ , lcc-3166-1-adj:TD , lcc-3166-1-adj:TG , lcc-3166-1-adj:TZ , lcc-3166-1-adj:UG , lcc-3166-1-adj:ZA , lcc-3166-1-adj:ZM , lcc-3166-1-adj:ZW ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"SSA" ;
+	rgn:hasCurrentVariant	rgn:r01KHDMB7DWF5GSVF79PJF8P8FR ;
+	skos:definition	"individual representing countries of Sub-Saharan Africa (excluding high income) according to World Bank"@en .
+
+rgn:r01KHDMBX1TE2ARYHRGRNSTKVT1
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	rgn:r01KHDGXBHWYBBNPN9ZMDP3DMYT , rgn:r01KHDH1KJ38RMKJA5EAKT59D00 ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"SSF" ;
+	rgn:hasCurrentVariant	rgn:r01KHDMBX1TE2ARYHRGRNSTKVT1 ;
+	skos:definition	"individual representing countries of Sub-Saharan Africa according to World Bank"@en .
+
+rgn:r01KHDMEGEC33V48SBRN6F7HJ65
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AG , lcc-3166-1-adj:BB , lcc-3166-1-adj:BH , lcc-3166-1-adj:BN , lcc-3166-1-adj:BS , lcc-3166-1-adj:BT , lcc-3166-1-adj:BZ , lcc-3166-1-adj:CV , lcc-3166-1-adj:CY , lcc-3166-1-adj:DJ , lcc-3166-1-adj:DM , lcc-3166-1-adj:EE , lcc-3166-1-adj:FJ , lcc-3166-1-adj:FM , lcc-3166-1-adj:GD , lcc-3166-1-adj:GY , lcc-3166-1-adj:IS , lcc-3166-1-adj:KI , lcc-3166-1-adj:KM , lcc-3166-1-adj:KN , lcc-3166-1-adj:LC , lcc-3166-1-adj:ME , lcc-3166-1-adj:MH , lcc-3166-1-adj:MT , lcc-3166-1-adj:MU , lcc-3166-1-adj:MV , lcc-3166-1-adj:NR , lcc-3166-1-adj:PW , lcc-3166-1-adj:SB , lcc-3166-1-adj:SC , lcc-3166-1-adj:SM , lcc-3166-1-adj:SR , lcc-3166-1-adj:ST , lcc-3166-1-adj:SZ , lcc-3166-1-adj:TL , lcc-3166-1-adj:TO , lcc-3166-1-adj:TV , lcc-3166-1-adj:VC , lcc-3166-1-adj:VU , lcc-3166-1-adj:WS ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"SST" ;
+	rgn:hasCurrentVariant	rgn:r01KHDMEGEC33V48SBRN6F7HJ65 ;
+	skos:definition	"individual representing countries of Small states (SST) according to World Bank"@en .
+
+rgn:r01KHDMFB2CSY9W8PQKQ2R7TZFB
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:CN , lcc-3166-1-adj:FJ , lcc-3166-1-adj:FM , lcc-3166-1-adj:ID , lcc-3166-1-adj:KH , lcc-3166-1-adj:KI , lcc-3166-1-adj:LA , lcc-3166-1-adj:MH , lcc-3166-1-adj:MM , lcc-3166-1-adj:MN , lcc-3166-1-adj:MY , lcc-3166-1-adj:NR , lcc-3166-1-adj:PG , lcc-3166-1-adj:PH , lcc-3166-1-adj:PW , lcc-3166-1-adj:SB , lcc-3166-1-adj:TH , lcc-3166-1-adj:TL , lcc-3166-1-adj:TO , lcc-3166-1-adj:TV , lcc-3166-1-adj:VN , lcc-3166-1-adj:VU , lcc-3166-1-adj:WS ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"TEA" ;
+	rgn:hasCurrentVariant	rgn:r01KHDMFB2CSY9W8PQKQ2R7TZFB ;
+	skos:definition	"individual representing countries of East Asia & Pacific (IDA & IBRD) according to World Bank"@en .
+
+rgn:r01KHDMFX9FGJ0X7C3SH2190P0A
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AL , lcc-3166-1-adj:AM , lcc-3166-1-adj:AZ , lcc-3166-1-adj:BA , lcc-3166-1-adj:BG , lcc-3166-1-adj:BY , lcc-3166-1-adj:GE , lcc-3166-1-adj:HR , lcc-3166-1-adj:KG , lcc-3166-1-adj:KZ , lcc-3166-1-adj:MD , lcc-3166-1-adj:ME , lcc-3166-1-adj:MK , lcc-3166-1-adj:PL , lcc-3166-1-adj:RO , lcc-3166-1-adj:RS , lcc-3166-1-adj:RU , lcc-3166-1-adj:TJ , lcc-3166-1-adj:TM , lcc-3166-1-adj:TR , lcc-3166-1-adj:UA , lcc-3166-1-adj:UZ , lcc-3166-1-adj:XK ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"TEC" ;
+	rgn:hasCurrentVariant	rgn:r01KHDMFX9FGJ0X7C3SH2190P0A ;
+	skos:definition	"individual representing countries of Europe & Central Asia (IDA & IBRD) according to World Bank"@en .
+
+rgn:r01KHDMH0XERP569WGF9D2VR80K
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AG , lcc-3166-1-adj:AR , lcc-3166-1-adj:BB , lcc-3166-1-adj:BO , lcc-3166-1-adj:BR , lcc-3166-1-adj:BZ , lcc-3166-1-adj:CL , lcc-3166-1-adj:CO , lcc-3166-1-adj:CR , lcc-3166-1-adj:DM , lcc-3166-1-adj:DO , lcc-3166-1-adj:EC , lcc-3166-1-adj:GD , lcc-3166-1-adj:GT , lcc-3166-1-adj:GY , lcc-3166-1-adj:HN , lcc-3166-1-adj:HT , lcc-3166-1-adj:JM , lcc-3166-1-adj:KN , lcc-3166-1-adj:LC , lcc-3166-1-adj:MX , lcc-3166-1-adj:NI , lcc-3166-1-adj:PA , lcc-3166-1-adj:PE , lcc-3166-1-adj:PY , lcc-3166-1-adj:SR , lcc-3166-1-adj:SV , lcc-3166-1-adj:TT , lcc-3166-1-adj:UY , lcc-3166-1-adj:VC , lcc-3166-1-adj:VE ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"TLA" ;
+	rgn:hasCurrentVariant	rgn:r01KHDMH0XERP569WGF9D2VR80K ;
+	skos:definition	"individual representing countries of Latin America & Caribbean (IDA & IBRD) according to World Bank"@en .
+
+rgn:r01KHDMHDVFS6WAFHDFK5MM276T
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:DJ , lcc-3166-1-adj:DZ , lcc-3166-1-adj:EG , lcc-3166-1-adj:IQ , lcc-3166-1-adj:IR , lcc-3166-1-adj:JO , lcc-3166-1-adj:LB , lcc-3166-1-adj:LY , lcc-3166-1-adj:MA , lcc-3166-1-adj:SY , lcc-3166-1-adj:TN , lcc-3166-1-adj:YE ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"TMN" ;
+	rgn:hasCurrentVariant	rgn:r01KHDMHDVFS6WAFHDFK5MM276T ;
+	skos:definition	"individual representing countries of Middle East & North Africa (IDA & IBRD) according to World Bank"@en .
+
+rgn:r01KHDMJ3TSNBSVY2JPVB87TTQ5
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AF , lcc-3166-1-adj:BD , lcc-3166-1-adj:BT , lcc-3166-1-adj:IN , lcc-3166-1-adj:LK , lcc-3166-1-adj:MV , lcc-3166-1-adj:NP , lcc-3166-1-adj:PK ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"TSA" ;
+	rgn:hasCurrentVariant	rgn:r01KHDMJ3TSNBSVY2JPVB87TTQ5 ;
+	skos:definition	"individual representing countries of South Asia (IDA & IBRD) according to World Bank"@en .
+
+rgn:r01KHDMJMEVZH4V9T9530ZR4BHF
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AO , lcc-3166-1-adj:BF , lcc-3166-1-adj:BI , lcc-3166-1-adj:BJ , lcc-3166-1-adj:BW , lcc-3166-1-adj:CD , lcc-3166-1-adj:CF , lcc-3166-1-adj:CG , lcc-3166-1-adj:CI , lcc-3166-1-adj:CM , lcc-3166-1-adj:CV , lcc-3166-1-adj:ER , lcc-3166-1-adj:ET , lcc-3166-1-adj:GA , lcc-3166-1-adj:GH , lcc-3166-1-adj:GM , lcc-3166-1-adj:GN , lcc-3166-1-adj:GQ , lcc-3166-1-adj:GW , lcc-3166-1-adj:KE , lcc-3166-1-adj:KM , lcc-3166-1-adj:LR , lcc-3166-1-adj:LS , lcc-3166-1-adj:MG , lcc-3166-1-adj:ML , lcc-3166-1-adj:MR , lcc-3166-1-adj:MU , lcc-3166-1-adj:MW , lcc-3166-1-adj:MZ , lcc-3166-1-adj:NA , lcc-3166-1-adj:NE , lcc-3166-1-adj:NG , lcc-3166-1-adj:RW , lcc-3166-1-adj:SC , lcc-3166-1-adj:SD , lcc-3166-1-adj:SL , lcc-3166-1-adj:SN , lcc-3166-1-adj:SO , lcc-3166-1-adj:SS , lcc-3166-1-adj:ST , lcc-3166-1-adj:SZ , lcc-3166-1-adj:TD , lcc-3166-1-adj:TG , lcc-3166-1-adj:TZ , lcc-3166-1-adj:UG , lcc-3166-1-adj:ZA , lcc-3166-1-adj:ZM , lcc-3166-1-adj:ZW ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"TSS" ;
+	rgn:hasCurrentVariant	rgn:r01KHDMJMEVZH4V9T9530ZR4BHF ;
+	skos:definition	"individual representing countries of Sub-Saharan Africa (IDA & IBRD) according to World Bank"@en .
+
+rgn:r01KHDMK578T99QEW21E2J30S86
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AL , lcc-3166-1-adj:AM , lcc-3166-1-adj:AR , lcc-3166-1-adj:AZ , lcc-3166-1-adj:BA , lcc-3166-1-adj:BR , lcc-3166-1-adj:BW , lcc-3166-1-adj:BY , lcc-3166-1-adj:BZ , lcc-3166-1-adj:CN , lcc-3166-1-adj:CO , lcc-3166-1-adj:CR , lcc-3166-1-adj:CU , lcc-3166-1-adj:DM , lcc-3166-1-adj:DO , lcc-3166-1-adj:DZ , lcc-3166-1-adj:EC , lcc-3166-1-adj:FJ , lcc-3166-1-adj:GA , lcc-3166-1-adj:GD , lcc-3166-1-adj:GE , lcc-3166-1-adj:GQ , lcc-3166-1-adj:GT , lcc-3166-1-adj:ID , lcc-3166-1-adj:IQ , lcc-3166-1-adj:IR , lcc-3166-1-adj:JM , lcc-3166-1-adj:KZ , lcc-3166-1-adj:LC , lcc-3166-1-adj:LY , lcc-3166-1-adj:MD , lcc-3166-1-adj:ME , lcc-3166-1-adj:MH , lcc-3166-1-adj:MK , lcc-3166-1-adj:MN , lcc-3166-1-adj:MU , lcc-3166-1-adj:MV , lcc-3166-1-adj:MX , lcc-3166-1-adj:MY , lcc-3166-1-adj:NA , lcc-3166-1-adj:PE , lcc-3166-1-adj:PY , lcc-3166-1-adj:RS , lcc-3166-1-adj:SR , lcc-3166-1-adj:SV , lcc-3166-1-adj:TH , lcc-3166-1-adj:TM , lcc-3166-1-adj:TO , lcc-3166-1-adj:TR , lcc-3166-1-adj:TV , lcc-3166-1-adj:UA , lcc-3166-1-adj:VC , lcc-3166-1-adj:XK , lcc-3166-1-adj:ZA ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"UMC" ;
+	rgn:hasCurrentVariant	rgn:r01KHDMK578T99QEW21E2J30S86 ;
+	skos:definition	"individual representing countries of Upper middle income according to World Bank"@en .
+
+rgn:r01KHDMKH5D5Z5N5W33DZVJRACX
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	rgn:r01KHDJ7EVSYKT3A7VVE1V3KKQF , rgn:r01KHDJBX0QMEPEQEJQFYSABKRR , rgn:r01KHDKT1RJDCCRRWPZRCCGJDXQ , rgn:r01KHDKZA50H7P7ZMM1P7PJHPPR , rgn:r01KHDM435EHN6FAEQXYDMGSKRC , rgn:r01KHDMBX1TE2ARYHRGRNSTKVT1 ;
+	lcc-cr:isClassifiedBy	lcc-m49:Region ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-14T08:35:41Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"WLD" ;
+	rgn:hasCurrentVariant	rgn:r01KHDMKH5D5Z5N5W33DZVJRACX ;
+	skos:definition	"individual representing countries of World according to World Bank"@en .

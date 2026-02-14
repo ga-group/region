@@ -14,6 +14,7 @@ WITH <$u{GRAPH}>
 INSERT {
 	?y lcc-cr:isSubregionOf [
 		a	lcc-cr:GeographicRegion ;
+		dct:source ?src ;
 		tempo:validFrom ?from ;
 		tempo:validTill ?till ;
 		rdfs:label ?lbl ;
@@ -39,6 +40,9 @@ WHERE {
 	}
 	OPTIONAL {
 	?z rdfs:label ?lbl
+	}
+	OPTIONAL {
+	?z dct:source ?src
 	}
 }
 ;
@@ -113,14 +117,30 @@ PREFIX rgn: <http://data.ga-group.nl/region/>
 
 WITH <$u{GRAPH}>
 DELETE {
-	?x a rgn:keep ;
+	?x
 		tempo:validFrom ?z ;
 		tempo:validTill ?z .
 }
 WHERE {
-	?x a rgn:keep ;
+	?x
 		tempo:validFrom ?z ;
 		tempo:validTill ?z .
+}
+;
+ECHO $ROWCNT"\n";
+
+ECHO "cleaning up ... ";
+SPARQL
+DEFINE sql:log-enable 3
+PREFIX lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/>
+PREFIX rgn: <http://data.ga-group.nl/region/>
+
+WITH <$u{GRAPH}>
+DELETE {
+	?x a rgn:keep 
+}
+WHERE {
+	?x a rgn:keep
 }
 ;
 ECHO $ROWCNT"\n";
