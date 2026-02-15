@@ -1,10 +1,29 @@
 @prefix lcc-m49: <https://www.omg.org/spec/LCC/Countries/UN-M49-RegionCodes/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix rgn: <http://data.ga-group.nl/region/> .
 @prefix skal: <http://schema.ga-group.nl/skos-align#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix tempo: <http://purl.org/tempo/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 
 
 
-<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55.align>
+rgn:r01KH8R0PYDTV2B66AGWN37WS55_align
 	a	skal:ExactMatch ;
-	skal:constituent	<urn:ulid:01KH8R0PYDTV2B66AGWN37WS55> , lcc-m49:World .
+	pav:createdOn	"2026-02-15T06:28:30Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-15T06:28:30Z"^^xsd:dateTime ;
+	skal:constituent	lcc-m49:World , rgn:r01KH8R0PYDTV2B66AGWN37WS55 .
+
+rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_align
+	a	skal:ExactMatch ;
+	pav:createdOn	"2026-02-15T06:28:30Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-15T06:28:30Z"^^xsd:dateTime ;
+	skal:constituent	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A , wd:Q7768 .
+
+rgn:r01KHG17ZMT9600XSW2BWPM3RJA_align
+	a	skal:ExactMatch ;
+	pav:createdOn	"2026-02-15T08:11:33Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-15T08:11:33Z"^^xsd:dateTime ;
+	skal:constituent	rgn:r01KHG17ZMT9600XSW2BWPM3RJA , wd:Q743994 .

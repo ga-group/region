@@ -12,7 +12,8 @@ PREFIX rgn: <http://data.ga-group.nl/region/>
 
 WITH <$u{GRAPH}>
 INSERT {
-	?y lcc-cr:isSubregionOf [
+	?y a lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf [
 		a	lcc-cr:GeographicRegion ;
 		dct:source ?src ;
 		tempo:validFrom ?from ;

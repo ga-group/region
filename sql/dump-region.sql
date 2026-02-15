@@ -7,6 +7,7 @@ DB.DBA.XML_SET_NS_DECL('lcc-cr', 'https://www.omg.org/spec/LCC/Countries/Country
 DB.DBA.XML_SET_NS_DECL('dct', 'http://purl.org/dc/terms/', 3);
 DB.DBA.XML_SET_NS_DECL('gr', 'http://purl.org/goodrelations/v1#', 3);
 DB.DBA.XML_SET_NS_DECL('gas', 'http://schema.ga-group.nl/symbology#', 3);
+DB.DBA.XML_SET_NS_DECL('geopol', 'http://aims.fao.org/aos/geopolitical.owl#', 3);
 DB.DBA.XML_SET_NS_DECL('mic', 'http://fadyart.com/markets#', 3);
 DB.DBA.XML_SET_NS_DECL('time', 'http://www.w3.org/2006/time#', 3);
 DB.DBA.XML_SET_NS_DECL('dbo', 'http://dbpedia.org/ontology/', 3);

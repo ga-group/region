@@ -1,4 +1,6 @@
+@prefix cc: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix geopol: <http://aims.fao.org/aos/geopolitical.owl#> .
 @prefix lcc-3166-1-adj: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/> .
 @prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
 @prefix lcc-m49: <https://www.omg.org/spec/LCC/Countries/UN-M49-RegionCodes/> .
@@ -9,6 +11,7 @@
 @prefix rgn: <http://data.ga-group.nl/region/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix tempo: <http://purl.org/tempo/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 
@@ -1091,3 +1094,118 @@ rgn:r01KHDMKH5D5Z5N5W33DZVJRACX
 	rdfs:label	"WLD" ;
 	rgn:hasCurrentVariant	rgn:r01KHDMKH5D5Z5N5W33DZVJRACX ;
 	skos:definition	"individual representing countries of World according to World Bank"@en .
+
+rgn:r01KHFTGAKKTWHJGE0JWFEARS2A
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:replaces	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_2025_0 ;
+	dct:source	"https://asean.org/"^^xsd:anyURI ;
+	geopol:isSuccessorOf	rgn:r01KHG17ZMT9600XSW2BWPM3RJA ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:TL , rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_2025_0 ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-15T06:12:12Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-15T06:12:12Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"ASEAN" ;
+	rgn:hasCurrentVariant	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A ;
+	skos:definition	"individual representing the ASEAN bloc"@en ;
+	tempo:validFrom	"2025-10-26"^^xsd:date .
+
+rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1984_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1995_0 ;
+	dct:source	"https://asean.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:ID , lcc-3166-1-adj:MY , lcc-3166-1-adj:PH , lcc-3166-1-adj:SG , lcc-3166-1-adj:TH ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-15T06:12:12Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-15T06:12:12Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"ASEAN" ;
+	rgn:hasCurrentVariant	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A ;
+	skos:definition	"individual representing the ASEAN bloc"@en ;
+	tempo:validFrom	"1967-08-08"^^xsd:date ;
+	tempo:validTill	"1984-01-07"^^xsd:date .
+
+rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1995_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1997_0 ;
+	dct:replaces	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1984_0 ;
+	dct:source	"https://asean.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BN , rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1984_0 ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-15T06:12:12Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-15T06:12:12Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"ASEAN" ;
+	rgn:hasCurrentVariant	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A ;
+	skos:definition	"individual representing the ASEAN bloc"@en ;
+	tempo:validFrom	"1984-01-07"^^xsd:date ;
+	tempo:validTill	"1995-07-28"^^xsd:date .
+
+rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1997_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1999_0 ;
+	dct:replaces	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1995_0 ;
+	dct:source	"https://asean.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:VN , rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1995_0 ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-15T06:12:12Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-15T06:12:12Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"ASEAN" ;
+	rgn:hasCurrentVariant	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A ;
+	skos:definition	"individual representing the ASEAN bloc"@en ;
+	tempo:validFrom	"1995-07-28"^^xsd:date ;
+	tempo:validTill	"1997-07-23"^^xsd:date .
+
+rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1999_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_2025_0 ;
+	dct:replaces	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1997_0 ;
+	dct:source	"https://asean.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:LA , lcc-3166-1-adj:MM , rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1997_0 ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-15T06:12:12Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-15T06:12:12Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"ASEAN" ;
+	rgn:hasCurrentVariant	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A ;
+	skos:definition	"individual representing the ASEAN bloc"@en ;
+	tempo:validFrom	"1997-07-23"^^xsd:date ;
+	tempo:validTill	"1999-04-30"^^xsd:date .
+
+rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_2025_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A ;
+	dct:replaces	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1999_0 ;
+	dct:source	"https://asean.org/"^^xsd:anyURI ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:KH , rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1999_0 ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-15T06:12:12Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-15T06:12:12Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"ASEAN" ;
+	rgn:hasCurrentVariant	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A ;
+	skos:definition	"individual representing the ASEAN bloc"@en ;
+	tempo:validFrom	"1999-04-30"^^xsd:date ;
+	tempo:validTill	"2025-10-26"^^xsd:date .
+
+rgn:r01KHG17ZMT9600XSW2BWPM3RJA
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	geopol:isPredecessorOf	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:PH , lcc-3166-1-adj:TH , wd:Q1479726 ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-15T06:12:12Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-15T06:12:12Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"ASA" ;
+	rgn:hasCurrentVariant	rgn:r01KHG17ZMT9600XSW2BWPM3RJA ;
+	skos:definition	"individual representing the Association of Southeast Asia"@en ;
+	tempo:validFrom	"1961-07-31"^^xsd:date ;
+	tempo:validTill	"1967-08-08"^^xsd:date .
