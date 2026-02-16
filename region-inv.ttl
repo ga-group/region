@@ -469,6 +469,12 @@ lcc-3166-1-adj:AU
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
+		rdfs:label	"PIF" ;
+		tempo:validFrom	"1971-08-05"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
 		pav:derivedFrom	rgn:r01KHDJ7EVSYKT3A7VVE1V3KKQF ;
 		rdfs:label	"EAS" ;
@@ -1894,6 +1900,16 @@ lcc-3166-1-adj:CI
 		rdfs:label	"WLD" ;
 	] .
 
+lcc-3166-1-adj:CK
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
+		rdfs:label	"PIF" ;
+		tempo:validFrom	"1971-08-05"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:CL
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -3175,6 +3191,12 @@ lcc-3166-1-adj:FJ
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
+		rdfs:label	"PIF" ;
+		tempo:validFrom	"1971-08-05"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
 		pav:derivedFrom	rgn:r01KHDJ5ZRSC6Y3NA6S9BS177WD ;
 		rdfs:label	"EAP" ;
@@ -3243,6 +3265,12 @@ lcc-3166-1-adj:FJ
 lcc-3166-1-adj:FM
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
+		rdfs:label	"PIF" ;
+		tempo:validFrom	"1987-05-29"^^xsd:date ;
+	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
 		pav:derivedFrom	rgn:r01KHDJ5ZRSC6Y3NA6S9BS177WD ;
@@ -5201,6 +5229,12 @@ lcc-3166-1-adj:KI
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
+		rdfs:label	"PIF" ;
+		tempo:validFrom	"1979-07-09"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
 		pav:derivedFrom	rgn:r01KHDJ5ZRSC6Y3NA6S9BS177WD ;
 		rdfs:label	"EAP" ;
@@ -6501,6 +6535,12 @@ lcc-3166-1-adj:MG
 lcc-3166-1-adj:MH
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
+		rdfs:label	"PIF" ;
+		tempo:validFrom	"1988-09-20"^^xsd:date ;
+	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
 		pav:derivedFrom	rgn:r01KHDJ5ZRSC6Y3NA6S9BS177WD ;
@@ -7816,6 +7856,12 @@ lcc-3166-1-adj:NR
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
+		rdfs:label	"PIF" ;
+		tempo:validFrom	"1971-08-05"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
 		pav:derivedFrom	rgn:r01KHDJ7EVSYKT3A7VVE1V3KKQF ;
 		rdfs:label	"EAS" ;
@@ -7856,9 +7902,25 @@ lcc-3166-1-adj:NR
 		rdfs:label	"WLD" ;
 	] .
 
+lcc-3166-1-adj:NU
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
+		rdfs:label	"PIF" ;
+		tempo:validFrom	"1976-07-26"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:NZ
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
+		rdfs:label	"PIF" ;
+		tempo:validFrom	"1971-08-05"^^xsd:date ;
+	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
 		pav:derivedFrom	rgn:r01KHDJ7EVSYKT3A7VVE1V3KKQF ;
@@ -8034,6 +8096,12 @@ lcc-3166-1-adj:PF
 lcc-3166-1-adj:PG
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
+		rdfs:label	"PIF" ;
+		tempo:validFrom	"1976-07-26"^^xsd:date ;
+	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
 		pav:derivedFrom	rgn:r01KHDJ5ZRSC6Y3NA6S9BS177WD ;
@@ -8389,6 +8457,12 @@ lcc-3166-1-adj:PT
 lcc-3166-1-adj:PW
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
+		rdfs:label	"PIF" ;
+		tempo:validFrom	"1997-10-13"^^xsd:date ;
+	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
 		pav:derivedFrom	rgn:r01KHDJ7EVSYKT3A7VVE1V3KKQF ;
@@ -8756,6 +8830,12 @@ lcc-3166-1-adj:SA
 lcc-3166-1-adj:SB
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
+		rdfs:label	"PIF" ;
+		tempo:validFrom	"1978-09-16"^^xsd:date ;
+	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
 		pav:derivedFrom	rgn:r01KHDJ5ZRSC6Y3NA6S9BS177WD ;
@@ -10315,6 +10395,12 @@ lcc-3166-1-adj:TO
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
+		rdfs:label	"PIF" ;
+		tempo:validFrom	"1971-08-05"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
 		pav:derivedFrom	rgn:r01KHDJ5ZRSC6Y3NA6S9BS177WD ;
 		rdfs:label	"EAP" ;
@@ -10481,6 +10567,12 @@ lcc-3166-1-adj:TT
 lcc-3166-1-adj:TV
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
+		rdfs:label	"PIF" ;
+		tempo:validFrom	"1978-09-16"^^xsd:date ;
+	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
 		pav:derivedFrom	rgn:r01KHDJ5ZRSC6Y3NA6S9BS177WD ;
@@ -11124,6 +11216,12 @@ lcc-3166-1-adj:VU
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
+		rdfs:label	"PIF" ;
+		tempo:validFrom	"1980-07-14"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
 		pav:derivedFrom	rgn:r01KHDJ5ZRSC6Y3NA6S9BS177WD ;
 		rdfs:label	"EAP" ;
@@ -11192,6 +11290,12 @@ lcc-3166-1-adj:VU
 lcc-3166-1-adj:WS
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
+		rdfs:label	"PIF" ;
+		tempo:validFrom	"1971-08-05"^^xsd:date ;
+	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
 		pav:derivedFrom	rgn:r01KHDJ5ZRSC6Y3NA6S9BS177WD ;
@@ -11586,6 +11690,17 @@ lcc-3166-1-adj:ZW
 		dct:source	"https://www.worldbank.org/"^^xsd:anyURI ;
 		pav:derivedFrom	rgn:r01KHDMKH5D5Z5N5W33DZVJRACX ;
 		rdfs:label	"WLD" ;
+	] .
+
+lcc-3166-3-adj:GEHH
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
+		rdfs:label	"PIF" ;
+		tempo:validFrom	"1976-07-26"^^xsd:date ;
+		tempo:validTill	"1979-07-09"^^xsd:date ;
 	] .
 
 wd:Q1479726
