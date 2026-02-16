@@ -1,0 +1,217 @@
+@prefix dc:  <http://purl.org/dc/elements/1.1/> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix figi:  <http://openfigi.com/id/> .
+@prefix lcc-3166-3-adj:  <https://www.omg.org/spec/LCC/Countries/ISO3166-3-FormerCountries-Adjunct/> .
+@prefix lcc-3166-3:  <https://www.omg.org/spec/LCC/Countries/ISO3166-3-FormerCountries/> .
+@prefix lcc-cr:  <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix pav:  <http://purl.org/pav/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm:  <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix tempo:  <http://purl.org/tempo/> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+
+
+
+<https://www.omg.org/spec/LCC/Countries/ISO3166-3-FormerCountries-Adjunct/>
+	a	owl:Ontology .
+
+lcc-3166-3-adj:
+	dct:issued	"2026-02-16T15:43:26Z"^^xsd:dateTime ;
+	dct:license	"http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	owl:imports	<https://www.omg.org/spec/LCC/Countries/ISO3166-3-FormerCountries/> , lcc-cr: ;
+	owl:versionIRI	<https://www.omg.org/spec/LCC/20211101/Countries/ISO3166-3-FormerCountries-Adjunct/> ;
+	rdfs:label	"ISO 3166-3 Former Countries Adjunct Ontology" ;
+	sm:copyright	"Copyright (c) 2015-2017 Unisys"^^xsd:string , "Copyright (c) 2015-2020 Adaptive Inc."^^xsd:string , "Copyright (c) 2015-2021 Object Management Group, Inc."^^xsd:string , "Copyright (c) 2015-2021 Thematix Partners LLC"^^xsd:string , "Copyright (c) 2021 agnos.ai UK Ltd."^^xsd:string , "Copyright (c) 2026 PAMIYA Strategic Advisors GmbH"^^xsd:string ;
+	sm:fileAbbreviation	"lcc-3166-3-adj"^^xsd:string ;
+	sm:fileAbstract	"This ontology represents an additional set of URIs for ISO 3166-3 former countries, based on their 4-char codes."^^xsd:string ;
+	sm:filename	"ISO3166-3-FormerCountries-Adjunct.ttl"^^xsd:string .
+
+lcc-3166-3-adj:AIDJ
+	a	lcc-cr:Country ;
+	owl:sameAs	lcc-3166-3:FrenchAfarsAndIssas ;
+	pav:importedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime .
+
+lcc-3166-3-adj:ANHH
+	a	lcc-cr:Country ;
+	owl:sameAs	lcc-3166-3:NetherlandsAntilles ;
+	pav:importedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime .
+
+lcc-3166-3-adj:BQAQ
+	a	lcc-cr:Country ;
+	owl:sameAs	lcc-3166-3:BritishAntarcticTerritory ;
+	pav:importedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime .
+
+lcc-3166-3-adj:BUMM
+	a	lcc-cr:Country ;
+	owl:sameAs	lcc-3166-3:Burma ;
+	pav:importedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime .
+
+lcc-3166-3-adj:BYAA
+	a	lcc-cr:Country ;
+	owl:sameAs	lcc-3166-3:ByelorussianSSR ;
+	pav:importedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime .
+
+lcc-3166-3-adj:CSHH
+	a	lcc-cr:Country ;
+	owl:sameAs	lcc-3166-3:Czechoslovakia ;
+	pav:importedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime .
+
+lcc-3166-3-adj:CSXX
+	a	lcc-cr:Country ;
+	owl:sameAs	lcc-3166-3:SerbiaAndMontenegro ;
+	pav:importedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime .
+
+lcc-3166-3-adj:CTKI
+	a	lcc-cr:Country ;
+	owl:sameAs	lcc-3166-3:CantonAndEnderburyIslands ;
+	pav:importedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime .
+
+lcc-3166-3-adj:DDDE
+	a	lcc-cr:Country ;
+	owl:sameAs	lcc-3166-3:GermanDemocraticRepublic ;
+	pav:importedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime .
+
+lcc-3166-3-adj:DYBJ
+	a	lcc-cr:Country ;
+	owl:sameAs	lcc-3166-3:Dahomey ;
+	pav:importedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime .
+
+lcc-3166-3-adj:FQHH
+	a	lcc-cr:Country ;
+	owl:sameAs	lcc-3166-3:FrenchSouthernAndAntarcticTerritories ;
+	pav:importedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime .
+
+lcc-3166-3-adj:FXFR
+	a	lcc-cr:Country ;
+	owl:sameAs	lcc-3166-3:FranceMetropolitan ;
+	pav:importedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime .
+
+lcc-3166-3-adj:GEHH
+	a	lcc-cr:Country ;
+	owl:sameAs	lcc-3166-3:GilbertIslands ;
+	pav:importedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime .
+
+lcc-3166-3-adj:HVBF
+	a	lcc-cr:Country ;
+	owl:sameAs	lcc-3166-3:UpperVolta ;
+	pav:importedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime .
+
+lcc-3166-3-adj:JTUM
+	a	lcc-cr:Country ;
+	owl:sameAs	lcc-3166-3:JohnstonIsland ;
+	pav:importedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime .
+
+lcc-3166-3-adj:MIUM
+	a	lcc-cr:Country ;
+	owl:sameAs	lcc-3166-3:MidwayIslands ;
+	pav:importedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime .
+
+lcc-3166-3-adj:NHVU
+	a	lcc-cr:Country ;
+	owl:sameAs	lcc-3166-3:NewHebrides ;
+	pav:importedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime .
+
+lcc-3166-3-adj:NQAQ
+	a	lcc-cr:Country ;
+	owl:sameAs	lcc-3166-3:DronningMaudLand ;
+	pav:importedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime .
+
+lcc-3166-3-adj:NTHH
+	a	lcc-cr:Country ;
+	owl:sameAs	lcc-3166-3:NeutralZone ;
+	pav:importedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime .
+
+lcc-3166-3-adj:PCHH
+	a	lcc-cr:Country ;
+	owl:sameAs	lcc-3166-3:PacificIslands ;
+	pav:importedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime .
+
+lcc-3166-3-adj:PUUM
+	a	lcc-cr:Country ;
+	owl:sameAs	lcc-3166-3:UnitedStatesMiscellaneousPacificIslands ;
+	pav:importedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime .
+
+lcc-3166-3-adj:PZPA
+	a	lcc-cr:Country ;
+	owl:sameAs	lcc-3166-3:PanamaCanalZone ;
+	pav:importedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime .
+
+lcc-3166-3-adj:RHZW
+	a	lcc-cr:Country ;
+	owl:sameAs	lcc-3166-3:SouthernRhodesia ;
+	pav:importedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime .
+
+lcc-3166-3-adj:SKIN
+	a	lcc-cr:Country ;
+	owl:sameAs	lcc-3166-3:Sikkim ;
+	pav:importedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime .
+
+lcc-3166-3-adj:SUHH
+	a	lcc-cr:Country ;
+	owl:sameAs	lcc-3166-3:USSR ;
+	pav:importedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime .
+
+lcc-3166-3-adj:TPTL
+	a	lcc-cr:Country ;
+	owl:sameAs	lcc-3166-3:EastTimor ;
+	pav:importedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime .
+
+lcc-3166-3-adj:VDVN
+	a	lcc-cr:Country ;
+	owl:sameAs	lcc-3166-3:VietNamDemocraticRepublicOf ;
+	pav:importedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime .
+
+lcc-3166-3-adj:WKUM
+	a	lcc-cr:Country ;
+	owl:sameAs	lcc-3166-3:WakeIsland ;
+	pav:importedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime .
+
+lcc-3166-3-adj:YDYE
+	a	lcc-cr:Country ;
+	owl:sameAs	lcc-3166-3:YemenDemocratic ;
+	pav:importedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime .
+
+lcc-3166-3-adj:YUCS
+	a	lcc-cr:Country ;
+	owl:sameAs	lcc-3166-3:Yugoslavia ;
+	pav:importedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime .
+
+lcc-3166-3-adj:ZRCD
+	a	lcc-cr:Country ;
+	owl:sameAs	lcc-3166-3:Zaire ;
+	pav:importedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:38:46.255Z"^^xsd:dateTime .

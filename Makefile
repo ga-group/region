@@ -2,7 +2,7 @@ SHELL := /bin/zsh
 
 include .make.env
 
-all: .imported.wd-bloc .imported.wd-region .imported.region .imported.region-align
+all: .imported.wd-bloc .imported.wd-region .imported.region .imported.region-align .imported.ISO3166-3-FormerCountries .imported.ISO3166-3-FormerCountries-Adjunct
 check: check.region
 
 TODAY := $(shell dateconv today)

@@ -1,0 +1,1850 @@
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-3: <https://www.omg.org/spec/LCC/Countries/ISO3166-3-FormerCountries/> .
+@prefix lcc-639-1: <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> .
+@prefix lcc-639-2: <https://www.omg.org/spec/LCC/Languages/ISO639-2-LanguageCodes/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix tempo: <http://purl.org/tempo/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+
+
+lcc-3166-3:
+	a	owl:Ontology ;
+	dct:issued	"2026-02-16T11:35:11Z"^^xsd:dateTime ;
+	dct:license	"http://opensource.org/licenses/MIT"^^xsd:anyURI ;
+	owl:imports	lcc-cr: , lcc-lr: ;
+	owl:versionIRI	<https://www.omg.org/spec/LCC/20211101/ISO3166-3-FormerCountries/> ;
+	rdfs:label	"ISO 3166-3 Former Countries Ontology" ;
+	rdfs:seeAlso	"https://www.omg.org/spec/LCC/AboutLCC/"^^xsd:anyURI , "https://www.omg.org/spec/LCC/Countries/AboutCountries/"^^xsd:anyURI ;
+	sm:contentLanguage	"https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright	"Copyright (c) 2015-2017 Unisys" , "Copyright (c) 2015-2020 Adaptive Inc." , "Copyright (c) 2015-2021 Object Management Group, Inc." , "Copyright (c) 2015-2021 Thematix Partners LLC" , "Copyright (c) 2021 agnos.ai UK Ltd." , "Copyright (c) 2026 PAMIYA Strategic Advisors GmbH" ;
+	sm:dependsOn	"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI , "https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI ;
+	sm:fileAbbreviation	"lcc-3166-3" ;
+	sm:fileAbstract	"This ontology represents the subset of the ISO 3166 standard that include the actual ISO 3166-3 country codes.  It is modelled after OMG's ISO3166-1-CountryCodes.rdf." ;
+	sm:filename	"ISO3166-3-FormerCountries.ttl" .
+
+lcc-3166-3:AFI
+	a	lcc-cr:Alpha3Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:FrenchAfarsAndIssas ;
+	lcc-lr:hasTag	"AFI" ;
+	lcc-lr:identifies	lcc-3166-3:FrenchAfarsAndIssas ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha3-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"AFI" ;
+	skos:definition	"Alpha-3 code for French Afars and Issas" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1978"^^xsd:gYear .
+
+lcc-3166-3:AI
+	a	lcc-cr:Alpha2Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:FrenchAfarsAndIssas ;
+	lcc-lr:hasTag	"AI" ;
+	lcc-lr:identifies	lcc-3166-3:FrenchAfarsAndIssas ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha2-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"AI" ;
+	skos:definition	"Alpha-2 code for French Afars and Issas" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1978"^^xsd:gYear .
+
+lcc-3166-3:AIDJ
+	a	lcc-cr:Alpha4Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:FrenchAfarsAndIssas ;
+	lcc-lr:hasTag	"AIDJ" ;
+	lcc-lr:identifies	lcc-3166-3:FrenchAfarsAndIssas ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha4-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"AIDJ" ;
+	skos:definition	"Alpha-4 code for French Afars and Issas" ;
+	tempo:validFrom	"1978"^^xsd:gYear .
+
+lcc-3166-3:AN
+	a	lcc-cr:Alpha2Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:NetherlandsAntilles ;
+	lcc-lr:hasTag	"AN" ;
+	lcc-lr:identifies	lcc-3166-3:NetherlandsAntilles ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha2-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"AN" ;
+	skos:definition	"Alpha-2 code for Netherlands Antilles" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"2011"^^xsd:gYear .
+
+lcc-3166-3:ANHH
+	a	lcc-cr:Alpha4Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:NetherlandsAntilles ;
+	lcc-lr:hasTag	"ANHH" ;
+	lcc-lr:identifies	lcc-3166-3:NetherlandsAntilles ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha4-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"ANHH" ;
+	skos:definition	"Alpha-4 code for Netherlands Antilles" ;
+	tempo:validFrom	"2011"^^xsd:gYear .
+
+lcc-3166-3:ANT
+	a	lcc-cr:Alpha3Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:NetherlandsAntilles ;
+	lcc-lr:hasTag	"ANT" ;
+	lcc-lr:identifies	lcc-3166-3:NetherlandsAntilles ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha3-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"ANT" ;
+	skos:definition	"Alpha-3 code for Netherlands Antilles" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"2011"^^xsd:gYear .
+
+lcc-3166-3:ATB
+	a	lcc-cr:Alpha3Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:BritishAntarcticTerritory ;
+	lcc-lr:hasTag	"ATB" ;
+	lcc-lr:identifies	lcc-3166-3:BritishAntarcticTerritory ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha3-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"ATB" ;
+	skos:definition	"Alpha-3 code for British Antarctic Territory" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1980"^^xsd:gYear .
+
+lcc-3166-3:ATF
+	a	lcc-cr:Alpha3Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:FrenchSouthernAndAntarcticTerritories ;
+	lcc-lr:hasTag	"ATF" ;
+	lcc-lr:identifies	lcc-3166-3:FrenchSouthernAndAntarcticTerritories ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha3-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"ATF" ;
+	skos:definition	"Alpha-3 code for French Southern and Antarctic Territories" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1980"^^xsd:gYear .
+
+lcc-3166-3:ATN
+	a	lcc-cr:Alpha3Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:DronningMaudLand ;
+	lcc-lr:hasTag	"ATN" ;
+	lcc-lr:identifies	lcc-3166-3:DronningMaudLand ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha3-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"ATN" ;
+	skos:definition	"Alpha-3 code for Dronning Maud Land" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1984"^^xsd:gYear .
+
+lcc-3166-3:BQ
+	a	lcc-cr:Alpha2Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:BritishAntarcticTerritory ;
+	lcc-lr:hasTag	"BQ" ;
+	lcc-lr:identifies	lcc-3166-3:BritishAntarcticTerritory ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha2-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"BQ" ;
+	skos:definition	"Alpha-2 code for British Antarctic Territory" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1980"^^xsd:gYear .
+
+lcc-3166-3:BQAQ
+	a	lcc-cr:Alpha4Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:BritishAntarcticTerritory ;
+	lcc-lr:hasTag	"BQAQ" ;
+	lcc-lr:identifies	lcc-3166-3:BritishAntarcticTerritory ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha4-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"BQAQ" ;
+	skos:definition	"Alpha-4 code for British Antarctic Territory" ;
+	tempo:validFrom	"1980"^^xsd:gYear .
+
+lcc-3166-3:BU
+	a	lcc-cr:Alpha2Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:Burma ;
+	lcc-lr:hasTag	"BU" ;
+	lcc-lr:identifies	lcc-3166-3:Burma ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha2-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"BU" ;
+	skos:definition	"Alpha-2 code for Burma" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1990"^^xsd:gYear .
+
+lcc-3166-3:BUMM
+	a	lcc-cr:Alpha4Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:Burma ;
+	lcc-lr:hasTag	"BUMM" ;
+	lcc-lr:identifies	lcc-3166-3:Burma ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha4-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"BUMM" ;
+	skos:definition	"Alpha-4 code for Burma" ;
+	tempo:validFrom	"1990"^^xsd:gYear .
+
+lcc-3166-3:BUR
+	a	lcc-cr:Alpha3Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:Burma ;
+	lcc-lr:hasTag	"BUR" ;
+	lcc-lr:identifies	lcc-3166-3:Burma ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha3-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"BUR" ;
+	skos:definition	"Alpha-3 code for Burma" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1990"^^xsd:gYear .
+
+lcc-3166-3:BY
+	a	lcc-cr:Alpha2Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:ByelorussianSSR ;
+	lcc-lr:hasTag	"BY" ;
+	lcc-lr:identifies	lcc-3166-3:ByelorussianSSR ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha2-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"BY" ;
+	skos:definition	"Alpha-2 code for Byelorussian SSR" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1993"^^xsd:gYear .
+
+lcc-3166-3:BYAA
+	a	lcc-cr:Alpha4Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:ByelorussianSSR ;
+	lcc-lr:hasTag	"BYAA" ;
+	lcc-lr:identifies	lcc-3166-3:ByelorussianSSR ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha4-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"BYAA" ;
+	skos:definition	"Alpha-4 code for Byelorussian SSR" ;
+	tempo:validFrom	"1993"^^xsd:gYear .
+
+lcc-3166-3:BYS
+	a	lcc-cr:Alpha3Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:ByelorussianSSR ;
+	lcc-lr:hasTag	"BYS" ;
+	lcc-lr:identifies	lcc-3166-3:ByelorussianSSR ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha3-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"BYS" ;
+	skos:definition	"Alpha-3 code for Byelorussian SSR" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1993"^^xsd:gYear .
+
+lcc-3166-3:BritishAntarcticTerritory
+	a	lcc-cr:Country ;
+	a	owl:NamedIndividual ;
+	lcc-cr:hasEnglishFullName	"British Antarctic Territory"@en ;
+	lcc-cr:hasEnglishShortName	"British Antarctic Territory"@en ;
+	lcc-cr:hasEnglishShortNameInCapitals	"BRITISH ANTARCTIC TERRITORY"@en ;
+	lcc-cr:hasLocalShortName	"British Antarctic Territories"@en ;
+	lcc-cr:isClassifiedBy	lcc-3166-3:FormerCountry ;
+	lcc-cr:isIndependent	"false"^^xsd:boolean ;
+	lcc-cr:usesAdministrativeLanguage	lcc-639-1:English ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"British Antarctic Territory"@en ;
+	skos:definition	"the former country of British Antarctic Territory" .
+
+lcc-3166-3:Burma
+	a	lcc-cr:Country ;
+	a	owl:NamedIndividual ;
+	lcc-cr:hasEnglishFullName	"the Union of Burma"@en ;
+	lcc-cr:hasEnglishShortName	"Burma"@en ;
+	lcc-cr:hasEnglishShortNameInCapitals	"BURMA"@en ;
+	lcc-cr:hasNumericRegionCode	"104" ;
+	lcc-cr:isClassifiedBy	lcc-3166-3:FormerCountry ;
+	lcc-cr:isIndependent	"true"^^xsd:boolean ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"Burma"@en ;
+	skos:definition	"the former country of Burma" .
+
+lcc-3166-3:ByelorussianSSR
+	a	lcc-cr:Country ;
+	a	owl:NamedIndividual ;
+	lcc-cr:hasEnglishFullName	"Byelorussian SSR"@en ;
+	lcc-cr:hasEnglishShortName	"Byelorussian SSR"@en ;
+	lcc-cr:hasEnglishShortNameInCapitals	"BYELORUSSIAN SSR"@en ;
+	lcc-cr:hasNumericRegionCode	"112" ;
+	lcc-cr:isClassifiedBy	lcc-3166-3:FormerCountry ;
+	lcc-cr:isIndependent	"false"^^xsd:boolean ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"Byelorussian SSR"@en ;
+	skos:definition	"the former country of Byelorussian SSR" .
+
+lcc-3166-3:CantonAndEnderburyIslands
+	a	lcc-cr:Country ;
+	a	owl:NamedIndividual ;
+	lcc-cr:hasEnglishFullName	"Canton and Enderbury Islands"@en ;
+	lcc-cr:hasEnglishShortName	"Canton and Enderbury Islands"@en ;
+	lcc-cr:hasEnglishShortNameInCapitals	"CANTON AND ENDERBURY ISLANDS"@en ;
+	lcc-cr:hasNumericRegionCode	"128" ;
+	lcc-cr:isClassifiedBy	lcc-3166-3:FormerCountry ;
+	lcc-cr:isIndependent	"false"^^xsd:boolean ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"Canton and Enderbury Islands"@en ;
+	skos:definition	"the former country of Canton and Enderbury Islands" .
+
+lcc-3166-3:CS
+	a	lcc-cr:Alpha2Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:SerbiaAndMontenegro ;
+	lcc-lr:hasTag	"CS" ;
+	lcc-lr:identifies	lcc-3166-3:SerbiaAndMontenegro ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha2-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"CS" ;
+	skos:definition	"Alpha-2 code for Serbia and Montenegro" ;
+	tempo:efficaciousFrom	"2002"^^xsd:gYear ;
+	tempo:validFrom	"2003"^^xsd:gYear ;
+	tempo:validTill	"2007"^^xsd:gYear .
+
+lcc-3166-3:CSHH
+	a	lcc-cr:Alpha4Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:Czechoslovakia ;
+	lcc-lr:hasTag	"CSHH" ;
+	lcc-lr:identifies	lcc-3166-3:Czechoslovakia ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha4-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"CSHH" ;
+	skos:definition	"Alpha-4 code for Czechoslovakia" ;
+	tempo:validFrom	"1994"^^xsd:gYear .
+
+lcc-3166-3:CSK
+	a	lcc-cr:Alpha3Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:Czechoslovakia ;
+	lcc-lr:hasTag	"CSK" ;
+	lcc-lr:identifies	lcc-3166-3:Czechoslovakia ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha3-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"CSK" ;
+	skos:definition	"Alpha-3 code for Czechoslovakia" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1994"^^xsd:gYear .
+
+lcc-3166-3:CSXX
+	a	lcc-cr:Alpha4Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:SerbiaAndMontenegro ;
+	lcc-lr:hasTag	"CSXX" ;
+	lcc-lr:identifies	lcc-3166-3:SerbiaAndMontenegro ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha4-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"CSXX" ;
+	skos:definition	"Alpha-4 code for Serbia and Montenegro" ;
+	tempo:validFrom	"2007"^^xsd:gYear .
+
+lcc-3166-3:CS_2002
+	a	lcc-cr:Alpha2Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:Czechoslovakia ;
+	lcc-lr:hasTag	"CS" ;
+	lcc-lr:identifies	lcc-3166-3:Czechoslovakia ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha2-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"CS" ;
+	skos:definition	"Alpha-2 code for Czechoslovakia" ;
+	tempo:efficaciousTill	"2002"^^xsd:gYear ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1994"^^xsd:gYear .
+
+lcc-3166-3:CT
+	a	lcc-cr:Alpha2Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:CantonAndEnderburyIslands ;
+	lcc-lr:hasTag	"CT" ;
+	lcc-lr:identifies	lcc-3166-3:CantonAndEnderburyIslands ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha2-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"CT" ;
+	skos:definition	"Alpha-2 code for Canton and Enderbury Islands" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1985"^^xsd:gYear .
+
+lcc-3166-3:CTE
+	a	lcc-cr:Alpha3Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:CantonAndEnderburyIslands ;
+	lcc-lr:hasTag	"CTE" ;
+	lcc-lr:identifies	lcc-3166-3:CantonAndEnderburyIslands ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha3-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"CTE" ;
+	skos:definition	"Alpha-3 code for Canton and Enderbury Islands" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1985"^^xsd:gYear .
+
+lcc-3166-3:CTKI
+	a	lcc-cr:Alpha4Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:CantonAndEnderburyIslands ;
+	lcc-lr:hasTag	"CTKI" ;
+	lcc-lr:identifies	lcc-3166-3:CantonAndEnderburyIslands ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha4-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"CTKI" ;
+	skos:definition	"Alpha-4 code for Canton and Enderbury Islands" ;
+	tempo:validFrom	"1985"^^xsd:gYear .
+
+lcc-3166-3:CYKI
+	a	lcc-cr:Alpha4Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:CantonAndEnderburyIslands ;
+	lcc-lr:hasTag	"CYKI" ;
+	lcc-lr:identifies	lcc-3166-3:CantonAndEnderburyIslands ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha4-CodeSet ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"CTKI" ;
+	skos:definition	"Alpha-4 code for Canton and Enderbury Islands" ;
+	tempo:validFrom	"1985"^^xsd:gYear .
+
+lcc-3166-3:Czechoslovakia
+	a	lcc-cr:Country ;
+	a	owl:NamedIndividual ;
+	lcc-cr:hasEnglishFullName	"Czechoslovakia"@en ;
+	lcc-cr:hasEnglishShortName	"Czechoslovakia"@en ;
+	lcc-cr:hasEnglishShortNameInCapitals	"CZECHOSLOVAKIA"@en ;
+	lcc-cr:hasNumericRegionCode	"200" ;
+	lcc-cr:isClassifiedBy	lcc-3166-3:FormerCountry ;
+	lcc-cr:isIndependent	"false"^^xsd:boolean ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"Czechoslovakia"@en ;
+	skos:definition	"the former country of Czechoslovakia" .
+
+lcc-3166-3:Dahomey
+	a	lcc-cr:Country ;
+	a	owl:NamedIndividual ;
+	lcc-cr:hasEnglishFullName	"Dahomey"@en ;
+	lcc-cr:hasEnglishShortName	"Dahomey"@en ;
+	lcc-cr:hasEnglishShortNameInCapitals	"DAHOMEY"@en ;
+	lcc-cr:hasNumericRegionCode	"204" ;
+	lcc-cr:isClassifiedBy	lcc-3166-3:FormerCountry ;
+	lcc-cr:isIndependent	"true"^^xsd:boolean ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"Dahomey"@en ;
+	skos:definition	"the former country of Dahomey" .
+
+lcc-3166-3:DD
+	a	lcc-cr:Alpha2Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:GermanDemocraticRepublic ;
+	lcc-lr:hasTag	"DD" ;
+	lcc-lr:identifies	lcc-3166-3:GermanDemocraticRepublic ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha2-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"DD" ;
+	skos:definition	"Alpha-2 code for German Democratic Republic" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1991"^^xsd:gYear .
+
+lcc-3166-3:DDDE
+	a	lcc-cr:Alpha4Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:GermanDemocraticRepublic ;
+	lcc-lr:hasTag	"DDDE" ;
+	lcc-lr:identifies	lcc-3166-3:GermanDemocraticRepublic ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha4-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"DDDE" ;
+	skos:definition	"Alpha-4 code for German Democratic Republic" ;
+	tempo:validFrom	"1991"^^xsd:gYear .
+
+lcc-3166-3:DDR
+	a	lcc-cr:Alpha3Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:GermanDemocraticRepublic ;
+	lcc-lr:hasTag	"DDR" ;
+	lcc-lr:identifies	lcc-3166-3:GermanDemocraticRepublic ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha3-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"DDR" ;
+	skos:definition	"Alpha-3 code for German Democratic Republic" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1991"^^xsd:gYear .
+
+lcc-3166-3:DHY
+	a	lcc-cr:Alpha3Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:Dahomey ;
+	lcc-lr:hasTag	"DHY" ;
+	lcc-lr:identifies	lcc-3166-3:Dahomey ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha3-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"DHY" ;
+	skos:definition	"Alpha-3 code for Dahomey" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1978"^^xsd:gYear .
+
+lcc-3166-3:DY
+	a	lcc-cr:Alpha2Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:Dahomey ;
+	lcc-lr:hasTag	"DY" ;
+	lcc-lr:identifies	lcc-3166-3:Dahomey ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha2-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"DY" ;
+	skos:definition	"Alpha-2 code for Dahomey" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1978"^^xsd:gYear .
+
+lcc-3166-3:DYBJ
+	a	lcc-cr:Alpha4Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:Dahomey ;
+	lcc-lr:hasTag	"DYBJ" ;
+	lcc-lr:identifies	lcc-3166-3:Dahomey ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha4-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"DYBJ" ;
+	skos:definition	"Alpha-4 code for Dahomey" ;
+	tempo:validFrom	"1978"^^xsd:gYear .
+
+lcc-3166-3:DronningMaudLand
+	a	lcc-cr:Country ;
+	a	owl:NamedIndividual ;
+	lcc-cr:hasEnglishFullName	"Dronning Maud Land"@en ;
+	lcc-cr:hasEnglishShortName	"Dronning Maud Land"@en ;
+	lcc-cr:hasEnglishShortNameInCapitals	"DRONNING MAUD LAND"@en ;
+	lcc-cr:hasNumericRegionCode	"216" ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"Dronning Maud Land"@en ;
+	skos:definition	"the former country of Dronning Maud Land" .
+
+lcc-3166-3:EastTimor
+	a	lcc-cr:Country ;
+	a	owl:NamedIndividual ;
+	lcc-cr:hasEnglishFullName	"East Timor"@en ;
+	lcc-cr:hasEnglishShortName	"East Timor"@en ;
+	lcc-cr:hasEnglishShortNameInCapitals	"EAST TIMOR"@en ;
+	lcc-cr:hasNumericRegionCode	"626" ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"East Timor"@en ;
+	skos:definition	"the former country of East Timor" .
+
+lcc-3166-3:FQ
+	a	lcc-cr:Alpha2Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:FrenchSouthernAndAntarcticTerritories ;
+	lcc-lr:hasTag	"FQ" ;
+	lcc-lr:identifies	lcc-3166-3:FrenchSouthernAndAntarcticTerritories ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha2-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"FQ" ;
+	skos:definition	"Alpha-2 code for French Southern and Antarctic Territories" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1980"^^xsd:gYear .
+
+lcc-3166-3:FQHH
+	a	lcc-cr:Alpha4Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:FrenchSouthernAndAntarcticTerritories ;
+	lcc-lr:hasTag	"FQHH" ;
+	lcc-lr:identifies	lcc-3166-3:FrenchSouthernAndAntarcticTerritories ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha4-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"FQHH" ;
+	skos:definition	"Alpha-4 code for French Southern and Antarctic Territories" ;
+	tempo:validFrom	"1980"^^xsd:gYear .
+
+lcc-3166-3:FX
+	a	lcc-cr:Alpha2Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:FranceMetropolitan ;
+	lcc-lr:hasTag	"FX" ;
+	lcc-lr:identifies	lcc-3166-3:FranceMetropolitan ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha2-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"FX" ;
+	skos:definition	"Alpha-2 code for Metropolitan France" ;
+	tempo:validFrom	"1993"^^xsd:gYear ;
+	tempo:validTill	"1998"^^xsd:gYear .
+
+lcc-3166-3:FXFR
+	a	lcc-cr:Alpha4Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:FranceMetropolitan ;
+	lcc-lr:hasTag	"FXFR" ;
+	lcc-lr:identifies	lcc-3166-3:FranceMetropolitan ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha4-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"FXFR" ;
+	skos:definition	"Alpha-4 code for Metropolitan France" ;
+	tempo:validFrom	"1998"^^xsd:gYear .
+
+lcc-3166-3:FXX
+	a	lcc-cr:Alpha3Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:FranceMetropolitan ;
+	lcc-lr:hasTag	"FXX" ;
+	lcc-lr:identifies	lcc-3166-3:FranceMetropolitan ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha3-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"FXX" ;
+	skos:definition	"Alpha-3 code for Metropolitan France" ;
+	tempo:validFrom	"1993"^^xsd:gYear ;
+	tempo:validTill	"1998"^^xsd:gYear .
+
+lcc-3166-3:FormerCountry
+	a	lcc-cr:GeographicRegionKind ;
+	a	owl:NamedIndividual ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"Former Country" ;
+	skos:definition	"the kind of region that is a former country" .
+
+lcc-3166-3:FranceMetropolitan
+	a	lcc-cr:Country ;
+	a	owl:NamedIndividual ;
+	lcc-cr:hasEnglishFullName	"Metropolitan France"@en ;
+	lcc-cr:hasEnglishShortName	"Metropolitan France"@en ;
+	lcc-cr:hasEnglishShortNameInCapitals	"METROPOLITAN FRANCE"@en ;
+	lcc-cr:hasNumericRegionCode	"249" ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"Metropolitan France"@en ;
+	skos:definition	"the former country of Metropolitan France" .
+
+lcc-3166-3:FrenchAfarsAndIssas
+	a	lcc-cr:Country ;
+	a	owl:NamedIndividual ;
+	lcc-cr:hasEnglishFullName	"French Afars and Issas"@en ;
+	lcc-cr:hasEnglishShortName	"French Afars and Issas"@en ;
+	lcc-cr:hasEnglishShortNameInCapitals	"FRENCH AFARS AND ISSAS"@en ;
+	lcc-cr:hasNumericRegionCode	"262" ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"French Afars and Issas"@en ;
+	skos:definition	"the former country of French Afars and Issas" .
+
+lcc-3166-3:FrenchSouthernAndAntarcticTerritories
+	a	lcc-cr:Country ;
+	a	owl:NamedIndividual ;
+	lcc-cr:hasEnglishFullName	"French Southern and Antarctic Territories"@en ;
+	lcc-cr:hasEnglishShortName	"French Southern and Antarctic Territories"@en ;
+	lcc-cr:hasEnglishShortNameInCapitals	"FRENCH SOUTHERN AND ANTARCTIC TERRITORIES"@en ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"French Southern and Antarctic Territories"@en ;
+	skos:definition	"the former country of French Southern and Antarctic Territories" .
+
+lcc-3166-3:GE
+	a	lcc-cr:Alpha2Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:GilbertIslands ;
+	lcc-lr:hasTag	"GE" ;
+	lcc-lr:identifies	lcc-3166-3:GilbertIslands ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha2-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"GE" ;
+	skos:definition	"Alpha-2 code for Gilbert Islands" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1980"^^xsd:gYear .
+
+lcc-3166-3:GEHH
+	a	lcc-cr:Alpha4Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:GilbertIslands ;
+	lcc-lr:hasTag	"GEHH" ;
+	lcc-lr:identifies	lcc-3166-3:GilbertIslands ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha4-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"GEHH" ;
+	skos:definition	"Alpha-4 code for Gilbert Islands" ;
+	tempo:validFrom	"1980"^^xsd:gYear .
+
+lcc-3166-3:GEL
+	a	lcc-cr:Alpha3Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:GilbertIslands ;
+	lcc-lr:hasTag	"GEL" ;
+	lcc-lr:identifies	lcc-3166-3:GilbertIslands ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha3-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"GEL" ;
+	skos:definition	"Alpha-3 code for Gilbert Islands" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1980"^^xsd:gYear .
+
+lcc-3166-3:GermanDemocraticRepublic
+	a	lcc-cr:Country ;
+	a	owl:NamedIndividual ;
+	lcc-cr:hasEnglishFullName	"German Democratic Republic"@en ;
+	lcc-cr:hasEnglishShortName	"German Democratic Republic"@en ;
+	lcc-cr:hasEnglishShortNameInCapitals	"GERMAN DEMOCRATIC REPUBLIC"@en ;
+	lcc-cr:hasNumericRegionCode	"278" ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"German Democratic Republic"@en ;
+	skos:definition	"the former country of German Democratic Republic" .
+
+lcc-3166-3:GilbertIslands
+	a	lcc-cr:Country ;
+	a	owl:NamedIndividual ;
+	lcc-cr:hasEnglishFullName	"Gilbert Islands"@en ;
+	lcc-cr:hasEnglishShortName	"Gilbert Islands"@en ;
+	lcc-cr:hasEnglishShortNameInCapitals	"GILBERT ISLANDS"@en ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"Gilbert Islands"@en ;
+	skos:definition	"the former country of Gilbert Islands" .
+
+lcc-3166-3:HV
+	a	lcc-cr:Alpha2Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:UpperVolta ;
+	lcc-lr:hasTag	"HV" ;
+	lcc-lr:identifies	lcc-3166-3:UpperVolta ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha2-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"HV" ;
+	skos:definition	"Alpha-2 code for Upper Volta" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1985"^^xsd:gYear .
+
+lcc-3166-3:HVBF
+	a	lcc-cr:Alpha4Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:UpperVolta ;
+	lcc-lr:hasTag	"HVBF" ;
+	lcc-lr:identifies	lcc-3166-3:UpperVolta ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha4-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"HVBF" ;
+	skos:definition	"Alpha-4 code for Upper Volta" ;
+	tempo:validFrom	"1985"^^xsd:gYear .
+
+lcc-3166-3:HVO
+	a	lcc-cr:Alpha3Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:UpperVolta ;
+	lcc-lr:hasTag	"HVO" ;
+	lcc-lr:identifies	lcc-3166-3:UpperVolta ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha3-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"HVO" ;
+	skos:definition	"Alpha-3 code for Upper Volta" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1985"^^xsd:gYear .
+
+lcc-3166-3:ISO3166-3-Alpha2-CodeSet
+	a	lcc-lr:CodeSet ;
+	a	lcc-lr:IdentificationScheme , owl:NamedIndividual ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"ISO 3166-3 code set" ;
+	skos:definition	"the set of country identifiers that comprise the 2 character codes in the ISO 3166-3 specification" .
+
+lcc-3166-3:ISO3166-3-Alpha3-CodeSet
+	a	lcc-lr:CodeSet ;
+	a	lcc-lr:IdentificationScheme , owl:NamedIndividual ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"ISO 3166-3 code set" ;
+	skos:definition	"the set of country identifiers that comprise the 3 character codes in the ISO 3166-3 specification" .
+
+lcc-3166-3:ISO3166-3-Alpha4-CodeSet
+	a	lcc-lr:CodeSet ;
+	a	lcc-lr:IdentificationScheme , owl:NamedIndividual ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"ISO 3166-3 code set" ;
+	skos:definition	"the set of country identifiers that comprise the 4 character codes in the ISO 3166-3 specification" .
+
+lcc-3166-3:JT
+	a	lcc-cr:Alpha2Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:JohnstonIsland ;
+	lcc-lr:hasTag	"JT" ;
+	lcc-lr:identifies	lcc-3166-3:JohnstonIsland ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha2-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"JT" ;
+	skos:definition	"Alpha-2 code for Johnston Island" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1987"^^xsd:gYear .
+
+lcc-3166-3:JTN
+	a	lcc-cr:Alpha3Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:JohnstonIsland ;
+	lcc-lr:hasTag	"JTN" ;
+	lcc-lr:identifies	lcc-3166-3:JohnstonIsland ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha3-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"JTN" ;
+	skos:definition	"Alpha-3 code for Johnston Island" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1987"^^xsd:gYear .
+
+lcc-3166-3:JTUM
+	a	lcc-cr:Alpha4Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:JohnstonIsland ;
+	lcc-lr:hasTag	"JTUM" ;
+	lcc-lr:identifies	lcc-3166-3:JohnstonIsland ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha4-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"JTUM" ;
+	skos:definition	"Alpha-4 code for Johnston Island" ;
+	tempo:validFrom	"1987"^^xsd:gYear .
+
+lcc-3166-3:JohnstonIsland
+	a	lcc-cr:Country ;
+	a	owl:NamedIndividual ;
+	lcc-cr:hasEnglishFullName	"Johnston Island"@en ;
+	lcc-cr:hasEnglishShortName	"Johnston Island"@en ;
+	lcc-cr:hasEnglishShortNameInCapitals	"JOHNSTON ISLAND"@en ;
+	lcc-cr:hasNumericRegionCode	"396" ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"Johnston Island"@en ;
+	skos:definition	"the former country of Johnston Island" .
+
+lcc-3166-3:MI
+	a	lcc-cr:Alpha2Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:MidwayIslands ;
+	lcc-lr:hasTag	"MI" ;
+	lcc-lr:identifies	lcc-3166-3:MidwayIslands ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha2-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"MI" ;
+	skos:definition	"Alpha-2 code for Midway Islands" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1987"^^xsd:gYear .
+
+lcc-3166-3:MID
+	a	lcc-cr:Alpha3Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:MidwayIslands ;
+	lcc-lr:hasTag	"MID" ;
+	lcc-lr:identifies	lcc-3166-3:MidwayIslands ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha3-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"MID" ;
+	skos:definition	"Alpha-3 code for Midway Islands" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1987"^^xsd:gYear .
+
+lcc-3166-3:MIUM
+	a	lcc-cr:Alpha4Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:MidwayIslands ;
+	lcc-lr:hasTag	"MIUM" ;
+	lcc-lr:identifies	lcc-3166-3:MidwayIslands ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha4-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"MIUM" ;
+	skos:definition	"Alpha-4 code for Midway Islands" ;
+	tempo:validFrom	"1987"^^xsd:gYear .
+
+lcc-3166-3:MidwayIslands
+	a	lcc-cr:Country ;
+	a	owl:NamedIndividual ;
+	lcc-cr:hasEnglishFullName	"Midway Islands"@en ;
+	lcc-cr:hasEnglishShortName	"Midway Islands"@en ;
+	lcc-cr:hasEnglishShortNameInCapitals	"MIDWAY ISLANDS"@en ;
+	lcc-cr:hasNumericRegionCode	"488" ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"Midway Islands"@en ;
+	skos:definition	"the former country of Midway Islands" .
+
+lcc-3166-3:NH
+	a	lcc-cr:Alpha2Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:NewHebrides ;
+	lcc-lr:hasTag	"NH" ;
+	lcc-lr:identifies	lcc-3166-3:NewHebrides ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha2-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"NH" ;
+	skos:definition	"Alpha-2 code for New Hebrides" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1981"^^xsd:gYear .
+
+lcc-3166-3:NHB
+	a	lcc-cr:Alpha3Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:NewHebrides ;
+	lcc-lr:hasTag	"NHB" ;
+	lcc-lr:identifies	lcc-3166-3:NewHebrides ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha3-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"NHB" ;
+	skos:definition	"Alpha-3 code for New Hebrides" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1981"^^xsd:gYear .
+
+lcc-3166-3:NHVU
+	a	lcc-cr:Alpha4Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:NewHebrides ;
+	lcc-lr:hasTag	"NHVU" ;
+	lcc-lr:identifies	lcc-3166-3:NewHebrides ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha4-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"NHVU" ;
+	skos:definition	"Alpha-4 code for New Hebrides" ;
+	tempo:validFrom	"1981"^^xsd:gYear .
+
+lcc-3166-3:NQ
+	a	lcc-cr:Alpha2Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:DronningMaudLand ;
+	lcc-lr:hasTag	"NQ" ;
+	lcc-lr:identifies	lcc-3166-3:DronningMaudLand ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha2-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"NQ" ;
+	skos:definition	"Alpha-2 code for Dronning Maud Land" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1984"^^xsd:gYear .
+
+lcc-3166-3:NQAQ
+	a	lcc-cr:Alpha4Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:DronningMaudLand ;
+	lcc-lr:hasTag	"NQAQ" ;
+	lcc-lr:identifies	lcc-3166-3:DronningMaudLand ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha4-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"NQAQ" ;
+	skos:definition	"Alpha-4 code for Dronning Maud Land" ;
+	tempo:validFrom	"1984"^^xsd:gYear .
+
+lcc-3166-3:NT
+	a	lcc-cr:Alpha2Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:NeutralZone ;
+	lcc-lr:hasTag	"NT" ;
+	lcc-lr:identifies	lcc-3166-3:NeutralZone ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha2-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"NT" ;
+	skos:definition	"Alpha-2 code for Neutral Zone" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1994"^^xsd:gYear .
+
+lcc-3166-3:NTHH
+	a	lcc-cr:Alpha4Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:NeutralZone ;
+	lcc-lr:hasTag	"NTHH" ;
+	lcc-lr:identifies	lcc-3166-3:NeutralZone ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha4-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"NTHH" ;
+	skos:definition	"Alpha-4 code for Neutral Zone" ;
+	tempo:validFrom	"1994"^^xsd:gYear .
+
+lcc-3166-3:NTZ
+	a	lcc-cr:Alpha3Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:NeutralZone ;
+	lcc-lr:hasTag	"NTZ" ;
+	lcc-lr:identifies	lcc-3166-3:NeutralZone ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha3-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"NTZ" ;
+	skos:definition	"Alpha-3 code for Neutral Zone" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1994"^^xsd:gYear .
+
+lcc-3166-3:NetherlandsAntilles
+	a	lcc-cr:Country ;
+	a	owl:NamedIndividual ;
+	lcc-cr:hasEnglishFullName	"Netherlands Antilles"@en ;
+	lcc-cr:hasEnglishShortName	"Netherlands Antilles"@en ;
+	lcc-cr:hasEnglishShortNameInCapitals	"NETHERLANDS ANTILLES"@en ;
+	lcc-cr:hasNumericRegionCode	"530" ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"Netherlands Antilles"@en ;
+	skos:definition	"the former country of Netherlands Antilles" .
+
+lcc-3166-3:NeutralZone
+	a	lcc-cr:Country ;
+	a	owl:NamedIndividual ;
+	lcc-cr:hasEnglishFullName	"Neutral Zone"@en ;
+	lcc-cr:hasEnglishShortName	"Neutral Zone"@en ;
+	lcc-cr:hasEnglishShortNameInCapitals	"NEUTRAL ZONE"@en ;
+	lcc-cr:hasNumericRegionCode	"536" ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"Neutral Zone"@en ;
+	skos:definition	"the former country of Neutral Zone" .
+
+lcc-3166-3:NewHebrides
+	a	lcc-cr:Country ;
+	a	owl:NamedIndividual ;
+	lcc-cr:hasEnglishFullName	"New Hebrides"@en ;
+	lcc-cr:hasEnglishShortName	"New Hebrides"@en ;
+	lcc-cr:hasEnglishShortNameInCapitals	"NEW HEBRIDES"@en ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"New Hebrides"@en ;
+	skos:definition	"the former country of New Hebrides" .
+
+lcc-3166-3:PacificIslands
+	a	lcc-cr:Country ;
+	a	owl:NamedIndividual ;
+	lcc-cr:hasEnglishFullName	"Pacific Islands (Trust Territory)"@en ;
+	lcc-cr:hasEnglishShortName	"Pacific Islands"@en ;
+	lcc-cr:hasEnglishShortNameInCapitals	"PACIFIC ISLANDS"@en ;
+	lcc-cr:hasNumericRegionCode	"582" ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"Pacific Islands (Trust Territory)"@en ;
+	skos:definition	"the former country of Pacific Islands (Trust Territory)" .
+
+lcc-3166-3:PanamaCanalZone
+	a	lcc-cr:Country ;
+	a	owl:NamedIndividual ;
+	lcc-cr:hasEnglishFullName	"Panama Canal Zone"@en ;
+	lcc-cr:hasEnglishShortName	"Panama Canal Zone"@en ;
+	lcc-cr:hasEnglishShortNameInCapitals	"PANAMA CANAL ZONE"@en ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"Panama Canal Zone"@en ;
+	skos:definition	"the former country of Panama Canal Zone" .
+
+lcc-3166-3:PC
+	a	lcc-cr:Alpha2Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:PacificIslands ;
+	lcc-lr:hasTag	"PC" ;
+	lcc-lr:identifies	lcc-3166-3:PacificIslands ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha2-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"PC" ;
+	skos:definition	"Alpha-2 code for Pacific Islands (Trust Territory)" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1987"^^xsd:gYear .
+
+lcc-3166-3:PCHH
+	a	lcc-cr:Alpha4Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:PacificIslands ;
+	lcc-lr:hasTag	"PCHH" ;
+	lcc-lr:identifies	lcc-3166-3:PacificIslands ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha4-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"PCHH" ;
+	skos:definition	"Alpha-4 code for Pacific Islands (Trust Territory)" ;
+	tempo:validFrom	"1987"^^xsd:gYear .
+
+lcc-3166-3:PCI
+	a	lcc-cr:Alpha3Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:PacificIslands ;
+	lcc-lr:hasTag	"PCI" ;
+	lcc-lr:identifies	lcc-3166-3:PacificIslands ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha3-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"PCI" ;
+	skos:definition	"Alpha-3 code for Pacific Islands (Trust Territory)" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1987"^^xsd:gYear .
+
+lcc-3166-3:PCZ
+	a	lcc-cr:Alpha3Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:PanamaCanalZone ;
+	lcc-lr:hasTag	"PCZ" ;
+	lcc-lr:identifies	lcc-3166-3:PanamaCanalZone ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha3-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"PCZ" ;
+	skos:definition	"Alpha-3 code for Panama Canal Zone" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1981"^^xsd:gYear .
+
+lcc-3166-3:PU
+	a	lcc-cr:Alpha2Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:UnitedStatesMiscellaneousPacificIslands ;
+	lcc-lr:hasTag	"PU" ;
+	lcc-lr:identifies	lcc-3166-3:UnitedStatesMiscellaneousPacificIslands ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha2-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"PU" ;
+	skos:definition	"Alpha-2 code for United States Miscellaneous Pacific Islands" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1987"^^xsd:gYear .
+
+lcc-3166-3:PUS
+	a	lcc-cr:Alpha3Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:UnitedStatesMiscellaneousPacificIslands ;
+	lcc-lr:hasTag	"PUS" ;
+	lcc-lr:identifies	lcc-3166-3:UnitedStatesMiscellaneousPacificIslands ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha3-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"PUS" ;
+	skos:definition	"Alpha-3 code for United States Miscellaneous Pacific Islands" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1987"^^xsd:gYear .
+
+lcc-3166-3:PUUM
+	a	lcc-cr:Alpha4Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:UnitedStatesMiscellaneousPacificIslands ;
+	lcc-lr:hasTag	"PUUM" ;
+	lcc-lr:identifies	lcc-3166-3:UnitedStatesMiscellaneousPacificIslands ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha4-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"PUUM" ;
+	skos:definition	"Alpha-4 code for United States Miscellaneous Pacific Islands" ;
+	tempo:validFrom	"1987"^^xsd:gYear .
+
+lcc-3166-3:PZ
+	a	lcc-cr:Alpha2Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:PanamaCanalZone ;
+	lcc-lr:hasTag	"PZ" ;
+	lcc-lr:identifies	lcc-3166-3:PanamaCanalZone ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha2-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"PZ" ;
+	skos:definition	"Alpha-2 code for Panama Canal Zone" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1981"^^xsd:gYear .
+
+lcc-3166-3:PZPA
+	a	lcc-cr:Alpha4Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:PanamaCanalZone ;
+	lcc-lr:hasTag	"PZPA" ;
+	lcc-lr:identifies	lcc-3166-3:PanamaCanalZone ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha4-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"PZPA" ;
+	skos:definition	"Alpha-4 code for Panama Canal Zone" ;
+	tempo:validFrom	"1981"^^xsd:gYear .
+
+lcc-3166-3:RH
+	a	lcc-cr:Alpha2Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:SouthernRhodesia ;
+	lcc-lr:hasTag	"RH" ;
+	lcc-lr:identifies	lcc-3166-3:SouthernRhodesia ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha2-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"RH" ;
+	skos:definition	"Alpha-2 code for Southern Rhodesia" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1981"^^xsd:gYear .
+
+lcc-3166-3:RHO
+	a	lcc-cr:Alpha3Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:SouthernRhodesia ;
+	lcc-lr:hasTag	"RHO" ;
+	lcc-lr:identifies	lcc-3166-3:SouthernRhodesia ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha3-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"RHO" ;
+	skos:definition	"Alpha-3 code for Southern Rhodesia" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1981"^^xsd:gYear .
+
+lcc-3166-3:RHZW
+	a	lcc-cr:Alpha4Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:SouthernRhodesia ;
+	lcc-lr:hasTag	"RHZW" ;
+	lcc-lr:identifies	lcc-3166-3:SouthernRhodesia ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha4-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"RHZW" ;
+	skos:definition	"Alpha-4 code for Southern Rhodesia" ;
+	tempo:validFrom	"1981"^^xsd:gYear .
+
+lcc-3166-3:SCG
+	a	lcc-cr:Alpha3Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:SerbiaAndMontenegro ;
+	lcc-lr:hasTag	"SCG" ;
+	lcc-lr:identifies	lcc-3166-3:SerbiaAndMontenegro ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha3-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"SCG" ;
+	skos:definition	"Alpha-3 code for Serbia and Montenegro" ;
+	tempo:validFrom	"2003"^^xsd:gYear ;
+	tempo:validTill	"2007"^^xsd:gYear .
+
+lcc-3166-3:SK
+	a	lcc-cr:Alpha2Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:Sikkim ;
+	lcc-lr:hasTag	"SK" ;
+	lcc-lr:identifies	lcc-3166-3:Sikkim ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha2-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"SK" ;
+	skos:definition	"Alpha-2 code for Sikkim" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1976"^^xsd:gYear .
+
+lcc-3166-3:SKIN
+	a	lcc-cr:Alpha4Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:Sikkim ;
+	lcc-lr:hasTag	"SKIN" ;
+	lcc-lr:identifies	lcc-3166-3:Sikkim ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha4-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"SKIN" ;
+	skos:definition	"Alpha-4 code for Sikkim" ;
+	tempo:validFrom	"1976"^^xsd:gYear .
+
+lcc-3166-3:SKM
+	a	lcc-cr:Alpha3Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:Sikkim ;
+	lcc-lr:hasTag	"SKM" ;
+	lcc-lr:identifies	lcc-3166-3:Sikkim ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha3-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"SKM" ;
+	skos:definition	"Alpha-3 code for Sikkim" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1976"^^xsd:gYear .
+
+lcc-3166-3:SU
+	a	lcc-cr:Alpha2Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:USSR ;
+	lcc-lr:hasTag	"SU" ;
+	lcc-lr:identifies	lcc-3166-3:USSR ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha2-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"SU" ;
+	skos:definition	"Alpha-2 code for Union of the Socialist Soviet Republics" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1993"^^xsd:gYear .
+
+lcc-3166-3:SUHH
+	a	lcc-cr:Alpha4Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:USSR ;
+	lcc-lr:hasTag	"SUHH" ;
+	lcc-lr:identifies	lcc-3166-3:USSR ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha4-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"SUHH" ;
+	skos:definition	"Alpha-4 code for Union of the Socialist Soviet Republics" ;
+	tempo:validFrom	"1993"^^xsd:gYear .
+
+lcc-3166-3:SUN
+	a	lcc-cr:Alpha3Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:USSR ;
+	lcc-lr:hasTag	"SUN" ;
+	lcc-lr:identifies	lcc-3166-3:USSR ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha3-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"SUN" ;
+	skos:definition	"Alpha-3 code for Union of the Socialist Soviet Republics" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1993"^^xsd:gYear .
+
+lcc-3166-3:SerbiaAndMontenegro
+	a	lcc-cr:Country ;
+	a	owl:NamedIndividual ;
+	lcc-cr:hasEnglishFullName	"Serbia and Montenegro"@en ;
+	lcc-cr:hasEnglishShortName	"Serbia and Montenegro"@en ;
+	lcc-cr:hasEnglishShortNameInCapitals	"SERBIA AND MONTENEGRO"@en ;
+	lcc-cr:hasNumericRegionCode	"891" ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"Serbia and Montenegro"@en ;
+	skos:definition	"the former country of Serbia and Montenegro" .
+
+lcc-3166-3:Sikkim
+	a	lcc-cr:Country ;
+	a	owl:NamedIndividual ;
+	lcc-cr:hasEnglishFullName	"Sikkim"@en ;
+	lcc-cr:hasEnglishShortName	"Sikkim"@en ;
+	lcc-cr:hasEnglishShortNameInCapitals	"SIKKIM"@en ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"Sikkim"@en ;
+	skos:definition	"the former country of Sikkim" .
+
+lcc-3166-3:SouthernRhodesia
+	a	lcc-cr:Country ;
+	a	owl:NamedIndividual ;
+	lcc-cr:hasEnglishFullName	"Southern Rhodesia"@en ;
+	lcc-cr:hasEnglishShortName	"Southern Rhodesia"@en ;
+	lcc-cr:hasEnglishShortNameInCapitals	"SOUTHERN RHODESIA"@en ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"Southern Rhodesia"@en ;
+	skos:definition	"the former country of Southern Rhodesia" .
+
+lcc-3166-3:TMP
+	a	lcc-cr:Alpha3Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:EastTimor ;
+	lcc-lr:hasTag	"TMP" ;
+	lcc-lr:identifies	lcc-3166-3:EastTimor ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha3-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"TMP" ;
+	skos:definition	"Alpha-3 code for East Timor" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"2003"^^xsd:gYear .
+
+lcc-3166-3:TP
+	a	lcc-cr:Alpha2Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:EastTimor ;
+	lcc-lr:hasTag	"TP" ;
+	lcc-lr:identifies	lcc-3166-3:EastTimor ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha2-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"TP" ;
+	skos:definition	"Alpha-2 code for East Timor" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"2003"^^xsd:gYear .
+
+lcc-3166-3:TPTL
+	a	lcc-cr:Alpha4Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:EastTimor ;
+	lcc-lr:hasTag	"TPTL" ;
+	lcc-lr:identifies	lcc-3166-3:EastTimor ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha4-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"TPTL" ;
+	skos:definition	"Alpha-4 code for East Timor" ;
+	tempo:validFrom	"2003"^^xsd:gYear .
+
+lcc-3166-3:USSR
+	a	lcc-cr:Country ;
+	a	owl:NamedIndividual ;
+	lcc-cr:hasEnglishFullName	"Union of the Socialist Soviet Republics"@en ;
+	lcc-cr:hasEnglishShortName	"USSR"@en ;
+	lcc-cr:hasEnglishShortNameInCapitals	"USSR"@en ;
+	lcc-cr:hasNumericRegionCode	"810" ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"Union of the Socialist Soviet Republics"@en ;
+	skos:definition	"the former country of Union of the Socialist Soviet Republics" .
+
+lcc-3166-3:UnitedStatesMiscellaneousPacificIslands
+	a	lcc-cr:Country ;
+	a	owl:NamedIndividual ;
+	lcc-cr:hasEnglishFullName	"United States Miscellaneous Pacific Islands"@en ;
+	lcc-cr:hasEnglishShortName	"US Pacific Islands"@en ;
+	lcc-cr:hasEnglishShortNameInCapitals	"US PACIFIC ISLANDS"@en ;
+	lcc-cr:hasNumericRegionCode	"849" ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"United States Miscellaneous Pacific Islands"@en ;
+	skos:definition	"the former country of United States Miscellaneous Pacific Islands" .
+
+lcc-3166-3:UpperVolta
+	a	lcc-cr:Country ;
+	a	owl:NamedIndividual ;
+	lcc-cr:hasEnglishFullName	"Upper Volta"@en ;
+	lcc-cr:hasEnglishShortName	"Upper Volta"@en ;
+	lcc-cr:hasEnglishShortNameInCapitals	"UPPER VOLTA"@en ;
+	lcc-cr:hasNumericRegionCode	"854" ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"Upper Volta"@en ;
+	skos:definition	"the former country of Upper Volta" .
+
+lcc-3166-3:VD
+	a	lcc-cr:Alpha2Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:VietNamDemocraticRepublicOf ;
+	lcc-lr:hasTag	"VD" ;
+	lcc-lr:identifies	lcc-3166-3:VietNamDemocraticRepublicOf ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha2-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"VD" ;
+	skos:definition	"Alpha-2 code for Democratic Republic of Viet-Nam" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1978"^^xsd:gYear .
+
+lcc-3166-3:VDR
+	a	lcc-cr:Alpha3Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:VietNamDemocraticRepublicOf ;
+	lcc-lr:hasTag	"VDR" ;
+	lcc-lr:identifies	lcc-3166-3:VietNamDemocraticRepublicOf ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha3-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"VDR" ;
+	skos:definition	"Alpha-3 code for Democratic Republic of Viet-Nam" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1978"^^xsd:gYear .
+
+lcc-3166-3:VDVN
+	a	lcc-cr:Alpha4Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:VietNamDemocraticRepublicOf ;
+	lcc-lr:hasTag	"VDVN" ;
+	lcc-lr:identifies	lcc-3166-3:VietNamDemocraticRepublicOf ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha4-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"VDVN" ;
+	skos:definition	"Alpha-4 code for Democratic Republic of Viet-Nam" ;
+	tempo:validFrom	"1978"^^xsd:gYear .
+
+lcc-3166-3:VietNamDemocraticRepublicOf
+	a	lcc-cr:Country ;
+	a	owl:NamedIndividual ;
+	lcc-cr:hasEnglishFullName	"Democratic Republic of Viet-Nam"@en ;
+	lcc-cr:hasEnglishShortName	"DR Viet-Nam"@en ;
+	lcc-cr:hasEnglishShortNameInCapitals	"DR VIET-NAM"@en ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"Democratic Republic of Viet-Nam"@en ;
+	skos:definition	"the former country of Democratic Republic of Viet-Nam" .
+
+lcc-3166-3:WakeIsland
+	a	lcc-cr:Country ;
+	a	owl:NamedIndividual ;
+	lcc-cr:hasEnglishFullName	"Wake Island"@en ;
+	lcc-cr:hasEnglishShortName	"Wake Island"@en ;
+	lcc-cr:hasEnglishShortNameInCapitals	"WAKE ISLAND"@en ;
+	lcc-cr:hasNumericRegionCode	"872" ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"Wake Island"@en ;
+	skos:definition	"the former country of Wake Island" .
+
+lcc-3166-3:WAK
+	a	lcc-cr:Alpha3Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:WakeIsland ;
+	lcc-lr:hasTag	"WAK" ;
+	lcc-lr:identifies	lcc-3166-3:WakeIsland ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha3-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"WAK" ;
+	skos:definition	"Alpha-3 code for Wake Island" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1987"^^xsd:gYear .
+
+lcc-3166-3:WK
+	a	lcc-cr:Alpha2Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:WakeIsland ;
+	lcc-lr:hasTag	"WK" ;
+	lcc-lr:identifies	lcc-3166-3:WakeIsland ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha2-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"WK" ;
+	skos:definition	"Alpha-2 code for Wake Island" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1987"^^xsd:gYear .
+
+lcc-3166-3:WKUM
+	a	lcc-cr:Alpha4Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:WakeIsland ;
+	lcc-lr:hasTag	"WKUM" ;
+	lcc-lr:identifies	lcc-3166-3:WakeIsland ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha4-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"WKUM" ;
+	skos:definition	"Alpha-4 code for Wake Island" ;
+	tempo:validFrom	"1987"^^xsd:gYear .
+
+lcc-3166-3:YD
+	a	lcc-cr:Alpha2Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:YemenDemocratic ;
+	lcc-lr:hasTag	"YD" ;
+	lcc-lr:identifies	lcc-3166-3:YemenDemocratic ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha2-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"YD" ;
+	skos:definition	"Alpha-2 code for Democratic Yemen" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1991"^^xsd:gYear .
+
+lcc-3166-3:YDYE
+	a	lcc-cr:Alpha4Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:YemenDemocratic ;
+	lcc-lr:hasTag	"YDYE" ;
+	lcc-lr:identifies	lcc-3166-3:YemenDemocratic ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha4-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"YDYE" ;
+	skos:definition	"Alpha-4 code for Democratic Yemen" ;
+	tempo:validFrom	"1991"^^xsd:gYear .
+
+lcc-3166-3:YMD
+	a	lcc-cr:Alpha3Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:YemenDemocratic ;
+	lcc-lr:hasTag	"YMD" ;
+	lcc-lr:identifies	lcc-3166-3:YemenDemocratic ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha3-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"YMD" ;
+	skos:definition	"Alpha-3 code for Democratic Yemen" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1991"^^xsd:gYear .
+
+lcc-3166-3:YU
+	a	lcc-cr:Alpha2Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:Yugoslavia ;
+	lcc-lr:hasTag	"YU" ;
+	lcc-lr:identifies	lcc-3166-3:Yugoslavia ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha2-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"YU" ;
+	skos:definition	"Alpha-2 code for Yugoslavia" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"2004"^^xsd:gYear .
+
+lcc-3166-3:YUCS
+	a	lcc-cr:Alpha4Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:Yugoslavia ;
+	lcc-lr:hasTag	"YUCS" ;
+	lcc-lr:identifies	lcc-3166-3:Yugoslavia ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha4-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"YUCS" ;
+	skos:definition	"Alpha-4 code for Yugoslavia" ;
+	tempo:validFrom	"2004"^^xsd:gYear .
+
+lcc-3166-3:YUG
+	a	lcc-cr:Alpha3Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:Yugoslavia ;
+	lcc-lr:hasTag	"YUG" ;
+	lcc-lr:identifies	lcc-3166-3:Yugoslavia ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha3-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"YUG" ;
+	skos:definition	"Alpha-3 code for Yugoslavia" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"2004"^^xsd:gYear .
+
+lcc-3166-3:YemenDemocratic
+	a	lcc-cr:Country ;
+	a	owl:NamedIndividual ;
+	lcc-cr:hasEnglishFullName	"Democratic Yemen"@en ;
+	lcc-cr:hasEnglishShortName	"Democratic Yemen"@en ;
+	lcc-cr:hasEnglishShortNameInCapitals	"DEMOCRATIC YEMEN"@en ;
+	lcc-cr:hasNumericRegionCode	"720" ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"Democratic Yemen"@en ;
+	skos:definition	"the former country of Democratic Yemen" .
+
+lcc-3166-3:Yugoslavia
+	a	lcc-cr:Country ;
+	a	owl:NamedIndividual ;
+	lcc-cr:hasEnglishFullName	"Yugoslavia"@en ;
+	lcc-cr:hasEnglishShortName	"Yugoslavia"@en ;
+	lcc-cr:hasEnglishShortNameInCapitals	"YUGOSLAVIA"@en ;
+	lcc-cr:hasNumericRegionCode	"891" ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"Yugoslavia"@en ;
+	skos:definition	"the former country of Yugoslavia" .
+
+lcc-3166-3:Zaire
+	a	lcc-cr:Country ;
+	a	owl:NamedIndividual ;
+	lcc-cr:hasEnglishFullName	"Zaire"@en ;
+	lcc-cr:hasEnglishShortName	"Zaire"@en ;
+	lcc-cr:hasEnglishShortNameInCapitals	"ZAIRE"@en ;
+	lcc-cr:hasNumericRegionCode	"180" ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"Zaire"@en ;
+	skos:definition	"the former country of Zaire" .
+
+lcc-3166-3:ZAR
+	a	lcc-cr:Alpha3Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:Zaire ;
+	lcc-lr:hasTag	"ZAR" ;
+	lcc-lr:identifies	lcc-3166-3:Zaire ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha3-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"ZAR" ;
+	skos:definition	"Alpha-3 code for Zaire" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1998"^^xsd:gYear .
+
+lcc-3166-3:ZR
+	a	lcc-cr:Alpha2Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:Zaire ;
+	lcc-lr:hasTag	"ZR" ;
+	lcc-lr:identifies	lcc-3166-3:Zaire ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha2-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"ZR" ;
+	skos:definition	"Alpha-2 code for Zaire" ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1998"^^xsd:gYear .
+
+lcc-3166-3:ZRCD
+	a	lcc-cr:Alpha4Code ;
+	a	owl:NamedIndividual ;
+	lcc-lr:denotes	lcc-3166-3:Zaire ;
+	lcc-lr:hasTag	"ZRCD" ;
+	lcc-lr:identifies	lcc-3166-3:Zaire ;
+	lcc-lr:isMemberOf	lcc-3166-3:ISO3166-3-Alpha4-CodeSet ;
+	pav:importedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T15:26:53.350Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	lcc-3166-3: ;
+	rdfs:label	"ZRCD" ;
+	skos:definition	"Alpha-4 code for Zaire" ;
+	tempo:validFrom	"1998"^^xsd:gYear .

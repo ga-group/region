@@ -1,0 +1,90 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX figi: <http://openfigi.com/id/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX lcc-3166-3: <https://www.omg.org/spec/LCC/Countries/ISO3166-3-FormerCountries/>
+PREFIX lcc-639-1: <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/>
+PREFIX lcc-639-2: <https://www.omg.org/spec/LCC/Languages/ISO639-2-LanguageCodes/>
+PREFIX lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/>
+PREFIX lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/>
+PREFIX tempo: <http://purl.org/tempo/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX pav: <http://purl.org/pav/>
+
+CONSTRUCT {
+	?_iso2 a owl:NamedIndividual , lcc-cr:Alpha2Code ;
+		lcc-lr:denotes ?_item ;
+		lcc-lr:hasTag ?iso2 ;
+		lcc-lr:identifies ?_item ;
+		lcc-lr:isMemberOf lcc-3166-3:ISO3166-3-Alpha2-CodeSet ;
+		rdfs:isDefinedBy lcc-3166-3: ;
+		rdfs:label ?iso2 ;
+		skos:definition ?_def2 ;
+		tempo:validFrom ?_from ;
+		tempo:validTill ?_till ;
+		pav:importedOn ?now ;
+		pav:lastRefreshedOn ?now ;
+		.
+
+	?_iso3 a owl:NamedIndividual , lcc-cr:Alpha3Code ;
+		lcc-lr:denotes ?_item ;
+		lcc-lr:hasTag ?iso3 ;
+		lcc-lr:identifies ?_item ;
+		lcc-lr:isMemberOf lcc-3166-3:ISO3166-3-Alpha3-CodeSet ;
+		rdfs:isDefinedBy lcc-3166-3: ;
+		rdfs:label ?iso3 ;
+		skos:definition ?_def3 ;
+		tempo:validFrom ?_from ;
+		tempo:validTill ?_till ;
+		pav:importedOn ?now ;
+		pav:lastRefreshedOn ?now ;
+		.
+
+	?_iso4 a owl:NamedIndividual , lcc-cr:Alpha4Code ;
+		lcc-lr:denotes ?_item ;
+		lcc-lr:hasTag ?iso4 ;
+		lcc-lr:identifies ?_item ;
+		lcc-lr:isMemberOf lcc-3166-3:ISO3166-3-Alpha4-CodeSet ;
+		rdfs:isDefinedBy lcc-3166-3: ;
+		rdfs:label ?iso4 ;
+		skos:definition ?_def4 ;
+		tempo:validFrom ?_till ;
+		pav:importedOn ?now ;
+		pav:lastRefreshedOn ?now ;
+		.
+
+	?_item a owl:NamedIndividual , lcc-cr:Country ;
+		lcc-cr:hasEnglishFullName ?_full ;
+		lcc-cr:hasEnglishShortName ?_short ;
+		lcc-cr:hasEnglishShortNameInCapitals ?_shortcap ;
+		lcc-cr:hasNumericRegionCode ?num ;
+		rdfs:isDefinedBy lcc-3166-3: ;
+		rdfs:label ?_full ;
+		skos:definition ?_def ;		
+		pav:importedOn ?now ;
+		pav:lastRefreshedOn ?now ;
+		.
+}
+WHERE {
+	BIND(NOW() AS ?now)
+	BIND(IRI(CONCAT(STR(lcc-3166-3:),?iso2)) AS ?_iso2)
+	BIND(IRI(CONCAT(STR(lcc-3166-3:),?iso3)) AS ?_iso3)
+	BIND(IRI(CONCAT(STR(lcc-3166-3:),?iso4)) AS ?_iso4)
+	BIND(IRI(CONCAT(STR(lcc-3166-3:),?item)) AS ?_item)
+
+	BIND(STRLANG(?full,"en") AS ?_full)
+	BIND(STRLANG(?short,"en") AS ?_short)
+	BIND(STRLANG(UCASE(?short),"en") AS ?_shortcap)
+	BIND(CONCAT("Alpha-2 code for ",?full) AS ?_def2)
+	BIND(CONCAT("Alpha-3 code for ",?full) AS ?_def3)
+	BIND(CONCAT("Alpha-4 code for ",?full) AS ?_def4)
+	BIND(CONCAT("the former country of ",?full) AS ?_def)
+
+	BIND(xsd:gYear(?from) AS ?_from)
+	BIND(xsd:gYear(?till) AS ?_till)
+}

@@ -1,5 +1,7 @@
 @prefix cc: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix delta: <http://www.w3.org/2004/delta#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geopol: <http://aims.fao.org/aos/geopolitical.owl#> .
 @prefix lcc-3166-1-adj: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/> .
 @prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
@@ -7,6 +9,8 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix part: <http://schema.ga-group.nl/partition#> .
 @prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rgn: <http://data.ga-group.nl/region/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -16,6 +20,9 @@
 
 
 
+
+rgn:
+	a	owl:Ontology .
 
 rgn:EconomicUnion
 	a	lcc-cr:GeographicRegionKind ;
@@ -1198,6 +1205,7 @@ rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_2025_0
 rgn:r01KHG17ZMT9600XSW2BWPM3RJA
 	a	lcc-cr:GeographicRegion ;
 	a	owl:NamedIndividual ;
+	foaf:name	"Association of Southeast Asia"@en ;
 	geopol:isPredecessorOf	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A ;
 	lcc-cr:hasSubregion	lcc-3166-1-adj:PH , lcc-3166-1-adj:TH , wd:Q1479726 ;
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
@@ -1209,3 +1217,40 @@ rgn:r01KHG17ZMT9600XSW2BWPM3RJA
 	skos:definition	"individual representing the Association of Southeast Asia"@en ;
 	tempo:validFrom	"1961-07-31"^^xsd:date ;
 	tempo:validTill	"1967-08-08"^^xsd:date .
+
+rgn:r01KHJD1VTT4N99YJFXR5R973ZA
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+	foaf:name	"Pacific Islands Forum"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:CK , lcc-3166-1-adj:FJ , lcc-3166-1-adj:FM , lcc-3166-1-adj:KI , lcc-3166-1-adj:MH , lcc-3166-1-adj:NR , lcc-3166-1-adj:NU , lcc-3166-1-adj:PG , lcc-3166-1-adj:PW , lcc-3166-1-adj:SB , lcc-3166-1-adj:TO , lcc-3166-1-adj:TV , lcc-3166-1-adj:VU , lcc-3166-1-adj:WS ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-16T04:59:37Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T04:59:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"PIF" ;
+	rgn:hasCurrentVariant	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
+	skos:definition	"individual representing the Pacific Islands Forum"@en ;
+	tempo:validFrom	"1971-08-05"^^xsd:date .
+
+rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1999_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	"South Pacific Forum"@en ;
+		delta:insertion	"Pacific Islands Forum"@en ;
+		rdf:predicate	foaf:name ;
+	] , [
+		a	delta:Hunk ;
+		delta:deletion	"SPF" ;
+		delta:insertion	"PIF" ;
+		rdf:predicate	rdfs:label ;
+	] , [
+		a	delta:Hunk ;
+		delta:deletion	"individual representing the South Pacific Forum" ;
+		delta:insertion	"individual representing the Pacific Islands Forum" ;
+		rdf:predicate	skos:definition ;
+	] ;
+	delta:patch-date	"2026-02-12T09:05:12Z"^^xsd:dateTime ;
+	prov:generatedAtTime	"2026-02-16T05:20:36Z"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHJD1VTT4N99YJFXR5R973ZA .
