@@ -3,6 +3,8 @@ download
 onto
 .imported*
 .inferred*
+.stardogd*
+.check*
 .make.env
 .daily
 .irreg

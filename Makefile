@@ -11,31 +11,14 @@ NOW := $(shell dateconv now)
 .inferred.region-inv: .imported.region
 
 
-check.region: ADDITIONAL = 
+stardogd.region: ADDITIONAL = 
 
-check.%: %.ttl shacl/%.shacl.ttl
-	truncate -s 0 /tmp/$@.ttl
-	$(stardog) data add --remove-all -g "http://data.ga-group.nl/region/" rgn $< $(ADDITIONAL)
-	$(stardog) icv report --output-format PRETTY_TURTLE -g "http://data.ga-group.nl/region/" -r -l -1 rgn shacl/$*.shacl.ttl \
-        >> /tmp/$@.ttl || true
-	$(MAKE) $*.rpt
-
-check.%: %.ttl shacl/%.shacl.sql
-	$(RM) tmp/shacl-*.qry
-	mawk 'BEGIN{f=0}/\f/{f++;next}{print>"tmp/shacl-"f".qry"}' $(filter %.sql, $^)
-	truncate -s 0 /tmp/$@.ttl
-	$(stardog) data add --remove-all -g "http://data.ga-group.nl/region/" rgn $< $(ADDITIONAL)
-	for i in tmp/shacl-*.qry; do \
-		$(stardog) query execute --format PRETTY_TURTLE -g "http://data.ga-group.nl/region/" -r -l -1 rgn $${i}; \
-	done \
-        >> /tmp/$@.ttl || true
-	$(MAKE) $*.rpt
 
 %.rpt: /tmp/check.%.ttl
 	$(sparql) --results text --data $< --query sql/valrpt.sql
 
 .imported.%:: %.ttl.repl sql/repl-%.sql
-	rapper -c -i turtle $<
+	$(ttlck) $<
 	$(csvsql) < sql/repl-$*.sql \
 	&& touch $@ && $(RM) -- $<
 
@@ -71,6 +54,31 @@ export.%: /var/scratch/lakshmi/freundt/%.ttl
 	>> $@
 	mv $@ $*.ttl
 	touch .*.$*
+
+.PRECIOUS: .stardogd.%
+.stardogd.%: %.ttl
+	$(MAKE) $(ADDITIONAL)
+	$(stardog) data add --server-side --remove-all -g http://data.ga-group.nl/$*/ eco $< $(ADDITIONAL) \
+	&& touch $@
+
+.check.dog.%: shacl/%.shacl.ttl .stardogd.%
+	$(stardog) icv report --output-format PRETTY_TURTLE -g http://data.ga-group.nl/$*/ -l -1 eco $< $(ADDISHACL) \
+	> $@.t && mv $@.t $@
+
+.check.sql.%: shacl/%.shacl.sql .imported.%
+	m4 shacl/$*.shacl.sql \
+	| $(ttlsql) -u GRAPH="http://data.ga-group.nl/$*/" \
+	> $@.t && mv $@.t $@
+
+check.%: .check.dog.% .check.sql.%
+	cat $^ > .$@.ttl
+	$(sparql) --results text --data .$@.ttl --query sql/valrpt.sql
+
+%.anno: /tmp/check.%.ttl
+	mawk '!(/sh:violated-/||/sh:warned-/||/sh:infoed-/)||/\.$$/&&$$0="."' $*.ttl \
+	> $@
+	$(sparql) --data $< --query sql/rptanno.sql \
+	>> $@ && mv $@ $*.ttl
 
 tmp/%.out:: sql/%.sql
 	$(csvsql) < $< \

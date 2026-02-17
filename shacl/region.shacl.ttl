@@ -1,0 +1,45 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix delta: <http://www.w3.org/2004/delta#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geopol: <http://aims.fao.org/aos/geopolitical.owl#> .
+@prefix lcc-3166-1-adj: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/> .
+@prefix lcc-3166-3-adj: <https://www.omg.org/spec/LCC/Countries/ISO3166-3-FormerCountries-Adjunct/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-m49: <https://www.omg.org/spec/LCC/Countries/UN-M49-RegionCodes/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix part: <http://schema.ga-group.nl/partition#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rgn: <http://data.ga-group.nl/region/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix tempo: <http://purl.org/tempo/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> sh:entailment <http://www.w3.org/ns/entailment/RDFS> .
+
+rgn:region.shape a sh:NodeShape ;
+	sh:targetClass lcc-cr:GeographicRegion ;
+	## tests
+	sh:property rgn:comp.label ;
+	sh:property rgn:comp.classified ;
+	.
+
+rgn:comp.label a sh:PropertyShape ;
+	sh:path rdfs:label ;
+	sh:minCount 1 ;
+	sh:type xsd:string ;
+	sh:uniqueLang true ;
+	.
+
+rgn:comp.classified a sh:PropertyShape ;
+	sh:path lcc-cr:isClassifiedBy ;
+	sh:minCount 1 ;
+	sh:class lcc-cr:GeographicRegionKind ;
+	.
