@@ -24,7 +24,6 @@ CONSTRUCT {
 		wdt:P1813 ?sname ;
 
 		dct:modified ?accd ;
-		pav:version ?vers ;
 		dct:replacedBy ?rby ;
 		dct:replaces ?rpl ;
 }

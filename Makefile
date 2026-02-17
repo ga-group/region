@@ -101,6 +101,9 @@ wd-region.daily: tmp/wd-region.out tmp/wd-cultrgn.out tmp/wd-histrgn.out tmp/wd-
 	cat $^ >> wd-region.ttl.repl
 	ttl-pav $^ >> wd-region.ttl.repl
 
+wd-milcoal.daily: tmp/wd-milcoal.out
+	cat $^ >> wd-milcoal.ttl.repl
+	ttl-pav $^ >> wd-milcoal.ttl.repl
 
 setup-stardog:
 	$(stardog)-admin db create -o reasoning.sameas=OFF -n rgn
