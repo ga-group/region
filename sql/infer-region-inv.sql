@@ -7,6 +7,7 @@ CHECKPOINT;
 ECHO "determining validity within variant ... ";
 SPARQL
 DEFINE sql:log-enable 3
+DEFINE input:same-as "yes"
 PREFIX lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/>
 PREFIX rgn: <http://data.ga-group.nl/region/>
 

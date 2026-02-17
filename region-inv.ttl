@@ -420,7 +420,7 @@ lcc-3166-1-adj:AT
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
@@ -739,7 +739,7 @@ lcc-3166-1-adj:BE
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
@@ -862,7 +862,7 @@ lcc-3166-1-adj:BG
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"2026-01-01"^^xsd:date ;
 	] , [
@@ -2336,7 +2336,7 @@ lcc-3166-1-adj:CY
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"2008-01-01"^^xsd:date ;
 	] , [
@@ -2429,7 +2429,7 @@ lcc-3166-1-adj:DE
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
@@ -2822,7 +2822,7 @@ lcc-3166-1-adj:EE
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"2011-01-01"^^xsd:date ;
 	] , [
@@ -3019,7 +3019,7 @@ lcc-3166-1-adj:ES
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
@@ -3142,7 +3142,7 @@ lcc-3166-1-adj:FI
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
@@ -3366,7 +3366,7 @@ lcc-3166-1-adj:FR
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
@@ -3944,7 +3944,7 @@ lcc-3166-1-adj:GR
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"2001-01-01"^^xsd:date ;
 	] , [
@@ -4292,7 +4292,7 @@ lcc-3166-1-adj:HR
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"2023-01-01"^^xsd:date ;
 	] , [
@@ -4529,7 +4529,7 @@ lcc-3166-1-adj:IE
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
@@ -4827,7 +4827,7 @@ lcc-3166-1-adj:IT
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
@@ -6028,7 +6028,7 @@ lcc-3166-1-adj:LT
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"2015-01-01"^^xsd:date ;
 	] , [
@@ -6082,7 +6082,7 @@ lcc-3166-1-adj:LU
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
@@ -6131,7 +6131,7 @@ lcc-3166-1-adj:LV
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"2014-01-01"^^xsd:date ;
 	] , [
@@ -6992,7 +6992,7 @@ lcc-3166-1-adj:MT
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"2008-01-01"^^xsd:date ;
 	] , [
@@ -7732,7 +7732,7 @@ lcc-3166-1-adj:NL
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
@@ -8187,7 +8187,7 @@ lcc-3166-1-adj:PH
 		tempo:validFrom	"1967-08-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KHG17ZMT9600XSW2BWPM3RJA ;
+		pav:derivedFrom	rgn:r01KHG17ZMT9600XSW2BWPM3RJA_1961_0 ;
 		rdfs:label	"ASA" ;
 		tempo:validFrom	"1961-07-31"^^xsd:date ;
 		tempo:validTill	"1967-08-08"^^xsd:date ;
@@ -8423,7 +8423,7 @@ lcc-3166-1-adj:PT
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
@@ -9127,7 +9127,7 @@ lcc-3166-1-adj:SI
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"2007-01-01"^^xsd:date ;
 	] , [
@@ -9181,7 +9181,7 @@ lcc-3166-1-adj:SK
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"2009-01-01"^^xsd:date ;
 	] , [
@@ -10092,7 +10092,7 @@ lcc-3166-1-adj:TH
 		tempo:validFrom	"1967-08-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KHG17ZMT9600XSW2BWPM3RJA ;
+		pav:derivedFrom	rgn:r01KHG17ZMT9600XSW2BWPM3RJA_1961_0 ;
 		rdfs:label	"ASA" ;
 		tempo:validFrom	"1961-07-31"^^xsd:date ;
 		tempo:validTill	"1967-08-08"^^xsd:date ;
@@ -11721,7 +11721,7 @@ wd:Q1479726
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KHG17ZMT9600XSW2BWPM3RJA ;
+		pav:derivedFrom	rgn:r01KHG17ZMT9600XSW2BWPM3RJA_1961_0 ;
 		rdfs:label	"ASA" ;
 		tempo:validFrom	"1961-07-31"^^xsd:date ;
 		tempo:validTill	"1967-08-08"^^xsd:date ;

@@ -10,7 +10,7 @@ DELETE {
 	?x rgn:hasCurrentVariant ?w
 }
 INSERT {
-	?x rgn:hasCurrentVariant ?z
+	?x rgn:hasCurrentVariant ?zzz
 }
 WHERE {
 	?x a lcc-cr:GeographicRegion ;
@@ -18,9 +18,13 @@ WHERE {
 	FILTER NOT EXISTS {
 	?z dct:isReplacedBy ?some
 	}
+	OPTIONAL {
+	?zz owl:sameAs ?z
+	}
+	BIND(COALESCE(?zz,?z) AS ?zzz)
 
 	FILTER NOT EXISTS {
-	?x rgn:hasCurrentVariant ?z
+	?x rgn:hasCurrentVariant ?zzz
 	}
 
 	OPTIONAL {
