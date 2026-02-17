@@ -27,3 +27,9 @@ rgn:r01KHG17ZMT9600XSW2BWPM3RJA_align
 	pav:createdOn	"2026-02-15T08:11:33Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-15T08:11:33Z"^^xsd:dateTime ;
 	skal:constituent	rgn:r01KHG17ZMT9600XSW2BWPM3RJA , wd:Q743994 .
+
+rgn:r01KHJD1VTT4N99YJFXR5R973ZA_align
+	a	skal:ExactMatch ;
+	pav:createdOn	"2026-02-17T09:09:42Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:09:42Z"^^xsd:dateTime ;
+	skal:constituent	rgn:r01KHJD1VTT4N99YJFXR5R973ZA , wd:Q757276 .

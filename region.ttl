@@ -1297,10 +1297,10 @@ rgn:r01KHG17ZMT9600XSW2BWPM3RJA
 rgn:r01KHJD1VTT4N99YJFXR5R973ZA
 	a	lcc-cr:GeographicRegion ;
 	a	owl:NamedIndividual ;
-	dct:replaces	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2000_0 ;
+	dct:replaces	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2023_0 ;
 	dct:source	"https://forumsec.org/"^^xsd:anyURI ;
 	foaf:name	"Pacific Islands Forum"@en ;
-	lcc-cr:hasSubregion	lcc-3166-1-adj:AU , lcc-3166-1-adj:CK , lcc-3166-1-adj:FJ , lcc-3166-1-adj:FM , lcc-3166-1-adj:KI , lcc-3166-1-adj:MH , lcc-3166-1-adj:NR , lcc-3166-1-adj:NU , lcc-3166-1-adj:NZ , lcc-3166-1-adj:PG , lcc-3166-1-adj:PW , lcc-3166-1-adj:SB , lcc-3166-1-adj:TO , lcc-3166-1-adj:TV , lcc-3166-1-adj:VU , lcc-3166-1-adj:WS ;
+	lcc-cr:hasSubregion	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2022_0 ;
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-16T04:59:37Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-16T04:59:37Z"^^xsd:dateTime ;
@@ -1308,7 +1308,7 @@ rgn:r01KHJD1VTT4N99YJFXR5R973ZA
 	rdfs:label	"PIF" ;
 	rgn:hasCurrentVariant	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
 	skos:definition	"individual representing the Pacific Islands Forum"@en ;
-	tempo:validFrom	"2000-08-28"^^xsd:date .
+	tempo:validFrom	"2023-01-30"^^xsd:date .
 
 rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1976_0
 	a	lcc-cr:GeographicRegion ;
@@ -1438,7 +1438,7 @@ rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1997_0
 rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2000_0
 	a	lcc-cr:GeographicRegion ;
 	a	owl:NamedIndividual ;
-	dct:isReplacedBy	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
+	dct:isReplacedBy	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2009_0 ;
 	dct:replaces	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1997_0 ;
 	dct:source	"https://forumsec.org.fj/"^^xsd:anyURI ;
 	foaf:name	"South Pacific Forum"@en ;
@@ -1474,3 +1474,93 @@ rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2000_0_delta
 	delta:patch-date	"2026-02-12T09:05:12Z"^^xsd:dateTime ;
 	prov:generatedAtTime	"2026-02-16T05:20:36Z"^^xsd:dateTime ;
 	rdf:subject	rgn:r01KHJD1VTT4N99YJFXR5R973ZA .
+
+rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2009_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2014_0 ;
+	dct:replaces	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2000_0 ;
+	dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+	foaf:name	"Pacific Islands Forum"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AU , lcc-3166-1-adj:CK , lcc-3166-1-adj:FJ , lcc-3166-1-adj:FM , lcc-3166-1-adj:KI , lcc-3166-1-adj:MH , lcc-3166-1-adj:NR , lcc-3166-1-adj:NU , lcc-3166-1-adj:NZ , lcc-3166-1-adj:PG , lcc-3166-1-adj:PW , lcc-3166-1-adj:SB , lcc-3166-1-adj:TO , lcc-3166-1-adj:TV , lcc-3166-1-adj:VU , lcc-3166-1-adj:WS ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-16T04:59:37Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T04:59:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"PIF" ;
+	rgn:hasCurrentVariant	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
+	skos:definition	"individual representing the Pacific Islands Forum"@en ;
+	tempo:validFrom	"2000-08-28"^^xsd:date ;
+	tempo:validTill	"2009-05-02"^^xsd:date .
+
+rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2014_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2016_0 ;
+	dct:replaces	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2009_0 ;
+	dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+	foaf:name	"Pacific Islands Forum"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AU , lcc-3166-1-adj:CK , lcc-3166-1-adj:FM , lcc-3166-1-adj:KI , lcc-3166-1-adj:MH , lcc-3166-1-adj:NR , lcc-3166-1-adj:NU , lcc-3166-1-adj:NZ , lcc-3166-1-adj:PG , lcc-3166-1-adj:PW , lcc-3166-1-adj:SB , lcc-3166-1-adj:TO , lcc-3166-1-adj:TV , lcc-3166-1-adj:VU , lcc-3166-1-adj:WS ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-16T04:59:37Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T04:59:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"PIF" ;
+	rgn:hasCurrentVariant	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
+	skos:definition	"individual representing the Pacific Islands Forum"@en ;
+	tempo:validFrom	"2009-05-02"^^xsd:date ;
+	tempo:validTill	"2014-10-24"^^xsd:date .
+
+rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2016_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2022_0 ;
+	dct:replaces	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2014_0 ;
+	dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+	foaf:name	"Pacific Islands Forum"@en ;
+	lcc-cr:hasSubregion	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2009_0 ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-16T04:59:37Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T04:59:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"PIF" ;
+	rgn:hasCurrentVariant	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
+	skos:definition	"individual representing the Pacific Islands Forum"@en ;
+	tempo:validFrom	"2014-10-24"^^xsd:date ;
+	tempo:validTill	"2016-09-08"^^xsd:date .
+
+rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2022_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2023_0 ;
+	dct:replaces	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2016_0 ;
+	dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+	foaf:name	"Pacific Islands Forum"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:NC , lcc-3166-1-adj:PF , rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2016_0 ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-16T04:59:37Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T04:59:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"PIF" ;
+	rgn:hasCurrentVariant	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
+	skos:definition	"individual representing the Pacific Islands Forum"@en ;
+	tempo:validFrom	"2016-09-08"^^xsd:date ;
+	tempo:validTill	"2022-07-09"^^xsd:date .
+
+rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2023_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
+	dct:replaces	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2022_0 ;
+	dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+	foaf:name	"Pacific Islands Forum"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AU , lcc-3166-1-adj:CK , lcc-3166-1-adj:FJ , lcc-3166-1-adj:FM , lcc-3166-1-adj:MH , lcc-3166-1-adj:NC , lcc-3166-1-adj:NR , lcc-3166-1-adj:NU , lcc-3166-1-adj:NZ , lcc-3166-1-adj:PF , lcc-3166-1-adj:PG , lcc-3166-1-adj:PW , lcc-3166-1-adj:SB , lcc-3166-1-adj:TO , lcc-3166-1-adj:TV , lcc-3166-1-adj:VU , lcc-3166-1-adj:WS ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-16T04:59:37Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-16T04:59:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"PIF" ;
+	rgn:hasCurrentVariant	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
+	skos:definition	"individual representing the Pacific Islands Forum"@en ;
+	tempo:validFrom	"2022-07-09"^^xsd:date ;
+	tempo:validTill	"2023-01-30"^^xsd:date .
