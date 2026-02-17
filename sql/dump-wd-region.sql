@@ -17,8 +17,6 @@ DB.DBA.XML_SET_NS_DECL('wdt', 'http://www.wikidata.org/prop/direct/', 3);
 DB.DBA.XML_SET_NS_DECL('wikibase', 'http://wikiba.se/ontology#', 3);
 DB.DBA.XML_SET_NS_DECL('pav', 'http://purl.org/pav/', 3);
 DB.DBA.XML_SET_NS_DECL('prov', 'http://www.w3.org/ns/prov#', 3);
-DB.DBA.XML_SET_NS_DECL('rgn', 'http://ga.local/rgn#', 1);
-DB.DBA.XML_SET_NS_DECL('sov', 'http://ga.local/sov#', 1);
 
 include(/home/freundt/author/region/sql/dump-generic.sql)
 CREATE DUMP_PROCEDURE(dump_region,

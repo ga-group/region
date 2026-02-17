@@ -1,0 +1,1436 @@
+@prefix bd: <http://www.bigdata.com/rdf#> .
+@prefix bds: <http://www.bigdata.com/rdf/search#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix delta: <http://www.w3.org/2004/delta#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix geof: <http://www.opengis.net/def/geosparql/function/> .
+@prefix hint: <http://www.bigdata.com/queryHints#> .
+@prefix mediawiki: <https://www.mediawiki.org/ontology#> .
+@prefix mwapi: <https://www.mediawiki.org/ontology#API/> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix tempo: <http://purl.org/tempo/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdata: <http://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+@prefix wdref: <http://www.wikidata.org/reference/> .
+@prefix wds: <http://www.wikidata.org/entity/statement/> .
+@prefix wdsubgraph: <https://query.wikidata.org/subgraph/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix wdv: <http://www.wikidata.org/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix wikibaseqs: <http://wikiba.se/queryService#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+
+
+wd:Q1005306
+	a	wd:Q1127126 ;
+	dct:modified	"2021-09-22T11:39:28Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Bund ob dem See"@de .
+
+wd:Q103839852
+	a	wd:Q1127126 ;
+	dct:modified	"2023-04-03T18:15:43Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Treaty of The Hague"@en ;
+	wdt:P1448	"Treaty Between His Britannick Majesty, the King of Prussia, and the States General of the United Provinces"@en-gb .
+
+wd:Q10467640
+	a	wd:Q1127126 ;
+	dct:modified	"2024-11-04T02:28:10Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Ottoman–Swedish Defensive Alliance"@en .
+
+wd:Q104862276
+	a	wd:Q1127126 ;
+	dct:modified	"2025-10-18T18:10:05Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"U.S.–Japan Alliance"@en .
+
+wd:Q10601978
+	a	wd:Q1127126 ;
+	dct:modified	"2026-01-01T09:33:47Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"NORDEFCO"@en ;
+	wdt:P856	"http://www.nordefco.org"^^xsd:anyURI .
+
+wd:Q10862364
+	a	wd:Q1127126 ;
+	dct:modified	"2025-10-06T01:31:18Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Mutual Defense Treaty between the United States and the Republic of Korea"@en .
+
+wd:Q109595643
+	a	wd:Q1127126 ;
+	dct:modified	"2025-06-23T05:11:57Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Q109595643" .
+
+wd:Q111074973
+	a	wd:Q1127126 ;
+	dct:modified	"2024-11-04T02:34:13Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Anti-Putin Coalition"@en .
+
+wd:Q1129893
+	a	wd:Q1127126 ;
+	a	wd:Q19869179 ;
+	dct:modified	"2025-12-19T07:29:25Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Anglo-Russian Entente"@en .
+
+wd:Q113638192
+	a	wd:Q1127126 ;
+	dct:modified	"2022-08-28T16:24:19Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Q113638192" .
+
+wd:Q11412418
+	a	wd:Q100906234 ;
+	dct:modified	"2025-11-02T12:18:55Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	rdfs:label	"Combined Maritime Forces"@en ;
+	wdt:P1813	"CMF"@en ;
+	wdt:P856	"https://combinedmaritimeforces.com"^^xsd:anyURI .
+
+wd:Q116170270
+	a	wd:Q1127126 ;
+	dct:modified	"2025-07-28T14:10:20Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Starobilsk agreement"@en ;
+	wdt:P527	wd:Q133356 , wd:Q1436243 .
+
+wd:Q11622269
+	a	wd:Q1127126 ;
+	dct:modified	"2025-06-30T06:00:11Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Satsuma–Tosa Secret Alliance"@en .
+
+wd:Q117196221
+	a	wd:Q1127126 ;
+	a	wd:Q7863173 ;
+	dct:modified	"2025-12-02T08:48:20Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Vermont–Austria National Guard Partnership"@en .
+
+wd:Q117210106
+	a	wd:Q1127126 ;
+	a	wd:Q7863173 ;
+	dct:modified	"2025-03-15T17:35:18Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"New Jersey–Cyprus National Guard Partnership"@en .
+
+wd:Q117541787
+	a	wd:Q1127126 ;
+	dct:modified	"2024-08-05T11:01:30Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Iga–Kōka alliance"@en .
+
+wd:Q11883853
+	a	wd:Q1127126 ;
+	dct:modified	"2025-06-23T15:04:46Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"NORDCAPS"@en .
+
+wd:Q118874734
+	a	wd:Q1127126 ;
+	a	wd:Q7863173 ;
+	dct:modified	"2025-03-15T17:31:13Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Minnesota–Norway National Guard Partnership"@en .
+
+wd:Q120450833
+	a	wd:Q1127126 ;
+	dct:modified	"2025-11-07T07:24:23Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Tulkarm Brigade"@en ;
+	wdt:P1448	"Tulkarm Brigade"@en , "كتيبة طولكرم"@ar .
+
+wd:Q121921323
+	a	wd:Q1127126 ;
+	dct:modified	"2025-10-14T07:45:08Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"American–Japanese–Korean trilateral pact"@en ;
+	wdt:P527	wd:Q17 , wd:Q30 , wd:Q884 .
+
+wd:Q122624387
+	a	wd:Q100906234 ;
+	a	wd:Q1127126 ;
+	dct:modified	"2026-01-11T20:29:58Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	rdfs:label	"Alliance of Sahel States"@en ;
+	wdt:P1448	"Alliance des États du Sahel"@fr , "Hadin gwiwar jihohin Sahel"@ha , "Sahel La’abai Ku’nda"@dje , "Sahel jamanaw ka jɛɲɔgɔnya"@bm ;
+	wdt:P527	wd:Q1032 , wd:Q912 , wd:Q965 .
+
+wd:Q123369041
+	a	wd:Q1127126 ;
+	dct:modified	"2025-07-26T01:36:13Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Three Brotherhood Alliance"@en ;
+	wdt:P527	wd:Q21405640 , wd:Q4783799 , wd:Q6946760 .
+
+wd:Q125958331
+	a	wd:Q1127126 ;
+	dct:modified	"2024-05-17T09:25:31Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Q125958331" .
+
+wd:Q13053466
+	a	wd:Q1127126 ;
+	dct:modified	"2024-11-04T02:11:00Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Armenian–Hunnic alliance"@en ;
+	wdt:P527	wd:Q10295972 , wd:Q2571688 .
+
+wd:Q1342140
+	a	wd:Q100906234 ;
+	dct:modified	"2025-08-25T19:13:48Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	rdfs:label	"coalition of the willing"@en .
+
+wd:Q137361808
+	a	wd:Q1127126 ;
+	dct:modified	"2025-12-20T20:42:16Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Campanian League"@en .
+
+wd:Q15051546
+	a	wd:Q1127126 ;
+	dct:modified	"2024-10-21T13:05:56Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Triple Alliance"@en ;
+	wdt:P527	wd:Q217230 , wd:Q414 , wd:Q8842946 .
+
+wd:Q15100878
+	a	wd:Q1127126 ;
+	dct:modified	"2024-09-02T01:06:30Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Holy League of 1511"@en .
+
+wd:Q152283
+	a	wd:Q1127126 ;
+	dct:modified	"2026-02-14T19:23:43Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Central Powers"@en ;
+	wdt:P527	wd:Q12560 , wd:Q147909 , wd:Q28513 , wd:Q43287 .
+
+wd:Q153867
+	a	wd:Q1127126 ;
+	dct:modified	"2026-02-05T19:50:41Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Triple Alliance"@en ;
+	wdt:P527	wd:Q172579 , wd:Q28513 , wd:Q43287 .
+
+wd:Q154640
+	a	wd:Q1127126 ;
+	dct:modified	"2026-01-24T16:20:52Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Holy Alliance"@en ;
+	wdt:P527	wd:Q131964 , wd:Q27306 , wd:Q34266 .
+
+wd:Q155024
+	a	wd:Q1127126 ;
+	dct:modified	"2025-11-03T14:05:24Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Schmalkaldic League"@en .
+
+wd:Q159470
+	a	wd:Q100906234 ;
+	dct:modified	"2026-01-11T08:18:30Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	rdfs:label	"Kosovo Force"@en ;
+	wdt:P856	"https://jfcnaples.nato.int/kfor"^^xsd:anyURI .
+
+wd:Q161859
+	a	wd:Q1127126 ;
+	dct:modified	"2026-02-14T17:20:24Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Pact of Steel"@en .
+
+wd:Q16844397
+	a	wd:Q1127126 ;
+	dct:modified	"2023-02-18T00:33:05Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Holy League of 1717"@en .
+
+wd:Q16933570
+	a	wd:Q1127126 ;
+	a	wd:Q7863173 ;
+	dct:modified	"2025-03-15T17:29:15Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Michigan–Latvia National Guard Partnership"@en .
+
+wd:Q16974846
+	a	wd:Q1127126 ;
+	dct:modified	"2024-12-30T00:32:02Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Enhanced Defense Cooperation Agreement"@en .
+
+wd:Q16985678
+	a	wd:Q1127126 ;
+	a	wd:Q7863173 ;
+	dct:modified	"2025-03-15T16:41:45Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Illinois–Poland National Guard Partnership"@en .
+
+wd:Q16986048
+	a	wd:Q1127126 ;
+	a	wd:Q7863173 ;
+	dct:modified	"2025-03-15T16:44:28Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Indiana–Slovakia National Guard Partnership"@en .
+
+wd:Q17018915
+	a	wd:Q1127126 ;
+	dct:modified	"2025-10-17T01:12:18Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Sham Legion"@en .
+
+wd:Q1777909
+	a	wd:Q1127126 ;
+	dct:modified	"2025-12-15T06:51:06Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"League of the Public Weal"@en .
+
+wd:Q177859
+	a	wd:Q100906234 ;
+	dct:modified	"2026-02-15T21:47:08Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	rdfs:label	"Triple Entente"@en ;
+	wdt:P527	wd:Q174193 , wd:Q34266 , wd:Q70802 .
+
+wd:Q18397066
+	a	wd:Q1127126 ;
+	dct:modified	"2024-11-04T02:04:38Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"BeNeSam"@en .
+
+wd:Q18639732
+	a	wd:Q1127126 ;
+	dct:modified	"2023-04-26T10:30:10Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Holy League of Pope Clement VIII"@en .
+
+wd:Q189946
+	a	wd:Q100906234 ;
+	a	wd:Q1127126 ;
+	dct:modified	"2026-02-08T19:32:38Z"^^xsd:dateTime ;
+	dct:replacedBy	wd:Q458 ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	rdfs:label	"Western European Union"@en ;
+	wdt:P856	"http://www.weu.int/"^^xsd:anyURI .
+
+wd:Q19429054
+	a	wd:Q100906234 ;
+	dct:modified	"2025-04-13T13:52:14Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	rdfs:label	"Multinational Joint Task Force"@en ;
+	wdt:P1448	"Multinational Joint Task Force"@en ;
+	wdt:P856	"https://mnjtffmm.org/"^^xsd:anyURI .
+
+wd:Q21532078
+	a	wd:Q1127126 ;
+	dct:modified	"2025-06-29T07:01:47Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Russia–Syria–Iran–Iraq coalition"@en .
+
+wd:Q215669
+	a	wd:Q1127126 ;
+	dct:modified	"2026-01-14T09:57:36Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Allies of the First World War"@en ;
+	wdt:P527	wd:Q13426199 , wd:Q167360 , wd:Q172579 , wd:Q177859 , wd:Q203493 , wd:Q209065 , wd:Q30 , wd:Q31 , wd:Q386496 .
+
+wd:Q21723343
+	a	wd:Q1127126 ;
+	dct:modified	"2025-04-07T08:00:57Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Islamic Military Counter Terrorism Coalition"@en ;
+	wdt:P1448	"الْتَّحَالُفُ الْإِسْلَامِيُّ الْعَسْكَرِيّ لِمُحَارَبَةِ الْإِرْهَاب"@ar ;
+	wdt:P1813	"AMICT"@fr , "IMCTC"@en ;
+	wdt:P856	"https://imctc.org/en/Pages/default.aspx"^^xsd:anyURI , "https://www.imctc.org/"^^xsd:anyURI , "https://www.imctc.org/fr/Pages/default.aspx"^^xsd:anyURI .
+
+wd:Q2251708
+	a	wd:Q1127126 ;
+	dct:modified	"2024-12-19T20:42:41Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Q2251708" .
+
+wd:Q232388
+	a	wd:Q1127126 ;
+	dct:modified	"2025-10-15T18:19:00Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Dual Alliance"@en .
+
+wd:Q239225
+	a	wd:Q1127126 ;
+	dct:modified	"2026-02-05T19:51:03Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Balkan League"@en ;
+	wdt:P527	wd:Q147909 , wd:Q209065 , wd:Q241748 , wd:Q386496 .
+
+wd:Q25226659
+	a	wd:Q1127126 ;
+	dct:modified	"2026-01-13T07:25:44Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Joint Expeditionary Force"@en ;
+	wdt:P856	"https://jefnations.org"^^xsd:anyURI .
+
+wd:Q2619045
+	a	wd:Q100906234 ;
+	dct:modified	"2024-09-01T22:19:13Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	rdfs:label	"Eurofor"@en .
+
+wd:Q261982
+	a	wd:Q1127126 ;
+	dct:modified	"2026-02-03T09:31:07Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Ottoman-German Alliance"@en .
+
+wd:Q2625543
+	a	wd:Q1127126 ;
+	dct:modified	"2025-01-04T16:01:28Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"ANZUK"@en .
+
+wd:Q2643656
+	a	wd:Q1127126 ;
+	dct:modified	"2024-11-04T02:33:05Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Allies"@en .
+
+wd:Q2655595
+	a	wd:Q100906234 ;
+	dct:modified	"2025-03-22T16:51:24Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	rdfs:label	"Multinational Force in Lebanon"@en .
+
+wd:Q2665335
+	a	wd:Q1127126 ;
+	dct:modified	"2025-03-31T16:35:50Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Italic League"@en .
+
+wd:Q2669705
+	a	wd:Q100906234 ;
+	dct:modified	"2025-09-30T17:11:10Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	rdfs:label	"Combined Task Force 151"@en ;
+	wdt:P1813	"CTF-151"@en ;
+	wdt:P856	"https://combinedmaritimeforces.com/ctf-151-counter-piracy/"^^xsd:anyURI .
+
+wd:Q2670905
+	a	wd:Q1127126 ;
+	dct:modified	"2026-01-31T10:49:52Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Union of Aragon"@en .
+
+wd:Q276538
+	a	wd:Q100906234 ;
+	dct:modified	"2025-12-14T14:15:09Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	rdfs:label	"Eurocorps"@en ;
+	wdt:P856	"https://www.eurocorps.org/"^^xsd:anyURI .
+
+wd:Q277252
+	a	wd:Q1127126 ;
+	dct:modified	"2026-02-17T06:34:30Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Southeast Asia Treaty Organization"@en ;
+	wdt:P1813	"OTASE"@fr ;
+	wdt:P527	wd:Q142 , wd:Q145 , wd:Q30 , wd:Q408 , wd:Q664 , wd:Q842931 , wd:Q843 , wd:Q869 , wd:Q928 .
+
+wd:Q2838032
+	a	wd:Q1127126 ;
+	dct:modified	"2024-11-04T02:02:50Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Anglo-Portuguese Alliance"@en .
+
+wd:Q287209
+	a	wd:Q100906234 ;
+	dct:modified	"2025-08-30T19:27:22Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	rdfs:label	"ABDA-Fleet"@en .
+
+wd:Q2916505
+	a	wd:Q1127126 ;
+	dct:modified	"2025-02-05T08:08:12Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Polish–Romanian alliance"@en .
+
+wd:Q295875
+	a	wd:Q1127126 ;
+	dct:modified	"2025-12-17T15:19:23Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"ANZUS"@en ;
+	wdt:P527	wd:Q30 , wd:Q408 , wd:Q664 .
+
+wd:Q3056641
+	a	wd:Q1127126 ;
+	dct:modified	"2025-12-10T01:35:51Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"1834 Quadruple Alliance"@en .
+
+wd:Q30739852
+	a	wd:Q1127126 ;
+	dct:modified	"2022-08-16T01:46:13Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Quadruplice"@fr .
+
+wd:Q30888316
+	a	wd:Q1127126 ;
+	dct:modified	"2023-04-12T14:01:17Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Alliance between Agathocles and Ophellas"@en .
+
+wd:Q313440
+	a	wd:Q100906234 ;
+	dct:modified	"2025-07-12T08:18:57Z"^^xsd:dateTime ;
+	dct:replacedBy	wd:Q691042 ;
+	dct:replaces	wd:Q313577 ;
+	pav:importedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	rdfs:label	"SFOR"@en ;
+	wdt:P856	"http://www.nato.int/sfor/"^^xsd:anyURI .
+
+wd:Q318693
+	a	wd:Q1127126 ;
+	dct:modified	"2026-01-23T07:14:47Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Collective Security Treaty Organization"@en ;
+	wdt:P1448	"Организация Договора о коллективной безопасности"@ru ;
+	wdt:P1813	"CSTO"@en , "KGAÖ"@tr , "KTMT"@az , "KXShT"@uz , "ODKB"@cs , "OTSC"@es , "OTSC"@fr , "OTSC"@pt , "OVKS"@de , "PPKK"@ms , "ΟΣΣΑ"@el , "ОДКБ"@ru , "ОДКБ"@uk , "ҰҚШҰ"@kk ;
+	wdt:P527	wd:Q159 , wd:Q184 , wd:Q232 , wd:Q399 , wd:Q423 , wd:Q813 , wd:Q863 ;
+	wdt:P856	"https://odkb-csto.org/"^^xsd:anyURI .
+
+wd:Q320404
+	a	wd:Q100906234 ;
+	dct:modified	"2026-01-12T06:04:49Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	rdfs:label	"Eight-Nation Alliance"@en .
+
+wd:Q321062
+	a	wd:Q1127126 ;
+	dct:modified	"2025-07-16T12:33:33Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Swabian League of Cities"@en .
+
+wd:Q322292
+	a	wd:Q1127126 ;
+	dct:modified	"2025-12-30T17:47:49Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Rejectionist Front"@en .
+
+wd:Q326676
+	a	wd:Q1127126 ;
+	dct:modified	"2025-12-24T18:34:11Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Polish–Prussian alliance"@en .
+
+wd:Q326816
+	a	wd:Q1127126 ;
+	dct:modified	"2025-08-27T00:02:47Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"GUAM Organization for Democracy and Economic Development"@en ;
+	wdt:P856	"https://guam-organization.org/"^^xsd:anyURI , "https://guam-organization.org/en/"^^xsd:anyURI .
+
+wd:Q329888
+	a	wd:Q100906234 ;
+	a	wd:Q1127126 ;
+	dct:modified	"2026-01-06T15:44:46Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	rdfs:label	"Allies of World War II"@en ;
+	wdt:P527	wd:Q13426199 , wd:Q142 , wd:Q145 , wd:Q146328 , wd:Q15180 , wd:Q16 , wd:Q191077 , wd:Q193619 , wd:Q20 , wd:Q207521 , wd:Q209065 , wd:Q2394474 , wd:Q30 , wd:Q31 , wd:Q32 , wd:Q36 , wd:Q408 , wd:Q430161 , wd:Q55 , wd:Q664 .
+
+wd:Q3360285
+	a	wd:Q1127126 ;
+	dct:modified	"2024-07-24T20:27:36Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Pact of Genoa"@en .
+
+wd:Q379850
+	a	wd:Q1127126 ;
+	dct:modified	"2026-01-03T22:27:21Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Central Treaty Organization"@en ;
+	wdt:P1813	"CENTO"@en , "SENTO"@az , "СЕНТО"@ru ;
+	wdt:P527	wd:Q145 , wd:Q43 , wd:Q794 , wd:Q796 , wd:Q843 .
+
+wd:Q3829532
+	a	wd:Q1127126 ;
+	dct:modified	"2025-07-03T15:16:32Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Chianti League"@en .
+
+wd:Q386893
+	a	wd:Q1127126 ;
+	a	wd:Q773711 ;
+	dct:modified	"2025-06-14T10:56:34Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Hellenic League"@en ;
+	wdt:P527	wd:Q1855083 , wd:Q191082 , wd:Q208742 , wd:Q742538 , wd:Q844930 .
+
+wd:Q3998983
+	a	wd:Q1127126 ;
+	dct:modified	"2025-03-17T21:48:53Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Triple Alliance"@en .
+
+wd:Q4115894
+	a	wd:Q100906234 ;
+	dct:modified	"2025-09-01T01:43:52Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	rdfs:label	"Coalition of the Gulf War"@en .
+
+wd:Q41644
+	a	wd:Q1127126 ;
+	dct:modified	"2026-01-06T14:27:03Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Warsaw Pact"@en ;
+	wdt:P1813	"OTV"@pt , "VMT"@az , "WTO"@en , "АВД"@be , "ОВД"@ru , "ОВД"@uk , "ՎՊԿ"@hy , "华约"@zh-hans , "華約"@zh-hant ;
+	wdt:P527	wd:Q121932 , wd:Q15180 , wd:Q16410 , wd:Q16957 , wd:Q211274 , wd:Q467864 , wd:Q842794 , wd:Q853348 .
+
+wd:Q43056
+	a	wd:Q1127126 ;
+	dct:modified	"2026-02-16T11:47:22Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Axis Powers"@en ;
+	wdt:P527	wd:Q147909 , wd:Q153128 , wd:Q154401 , wd:Q171150 , wd:Q172579 , wd:Q188712 , wd:Q191077 , wd:Q203493 , wd:Q7318 .
+
+wd:Q4371262
+	a	wd:Q1127126 ;
+	dct:modified	"2025-01-23T19:35:50Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Polish–Georgian alliance"@en ;
+	wdt:P527	wd:Q207272 , wd:Q245160 .
+
+wd:Q47014250
+	a	wd:Q1127126 ;
+	dct:modified	"2023-11-16T04:24:24Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"League of Cognac"@en ;
+	wdt:P527	wd:Q148540 , wd:Q153529 , wd:Q179876 , wd:Q4948 , wd:Q70972 , wd:Q83159 .
+
+wd:Q4705398
+	a	wd:Q1127126 ;
+	a	wd:Q7863173 ;
+	dct:modified	"2025-03-15T09:32:27Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Alabama–Romania National Guard Partnership"@en .
+
+wd:Q4763646
+	a	wd:Q1127126 ;
+	dct:modified	"2024-11-04T02:19:40Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Anglo-Moroccan alliance"@en .
+
+wd:Q47770872
+	a	wd:Q1127126 ;
+	dct:modified	"2023-12-01T16:43:56Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"League of La Rambla"@en .
+
+wd:Q4830622
+	a	wd:Q1127126 ;
+	dct:modified	"2025-12-22T06:06:46Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Axis of Resistance"@en ;
+	wdt:P527	wd:Q3042087 , wd:Q38799 , wd:Q41053 , wd:Q767681 , wd:Q794 .
+
+wd:Q4958991
+	a	wd:Q1127126 ;
+	dct:modified	"2024-11-04T02:11:17Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Brazil–United States Treaty"@en .
+
+wd:Q5021320
+	a	wd:Q1127126 ;
+	a	wd:Q7863173 ;
+	dct:modified	"2025-03-15T09:34:08Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"California–Ukraine National Guard Partnership"@en .
+
+wd:Q5146014
+	a	wd:Q1127126 ;
+	dct:modified	"2025-07-30T01:42:28Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"First League of Armed Neutrality"@en .
+
+wd:Q5149022
+	a	wd:Q1127126 ;
+	a	wd:Q7863173 ;
+	dct:modified	"2025-03-15T10:18:37Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Colorado–Slovenia National Guard Partnership"@en .
+
+wd:Q523454
+	a	wd:Q1127126 ;
+	dct:modified	"2025-07-23T18:01:09Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Heilbronn League"@en .
+
+wd:Q541195
+	a	wd:Q1127126 ;
+	dct:modified	"2025-12-19T07:27:48Z"^^xsd:dateTime ;
+	dct:replacedBy	wd:Q5474897 ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Anglo-Japanese Alliance"@en ;
+	wdt:P527	wd:Q188712 , wd:Q8680 .
+
+wd:Q5548151
+	a	wd:Q1127126 ;
+	a	wd:Q7863173 ;
+	dct:modified	"2025-03-15T10:19:52Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Georgia–Georgia National Guard Partnership"@en .
+
+wd:Q55704736
+	a	wd:Q1127126 ;
+	dct:modified	"2024-11-04T02:10:28Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Agreement between Azerbaijan and Georgia on military alliance (1919)"@en .
+
+wd:Q5594228
+	a	wd:Q1127126 ;
+	dct:modified	"2025-11-22T00:43:31Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Grand Alliance"@en .
+
+wd:Q5636976
+	a	wd:Q1127126 ;
+	dct:modified	"2025-08-22T18:51:48Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Habsburg–Persian alliance"@en .
+
+wd:Q581261
+	a	wd:Q100906234 ;
+	dct:modified	"2025-07-10T04:03:25Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	rdfs:label	"South West Pacific Area"@en .
+
+wd:Q5976043
+	a	wd:Q1127126 ;
+	dct:modified	"2025-01-22T14:53:01Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"League of Huesca"@en .
+
+wd:Q6064807
+	a	wd:Q1127126 ;
+	a	wd:Q7863173 ;
+	dct:modified	"2025-03-15T16:42:59Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Iowa–Kosovo National Guard Partnership"@en .
+
+wd:Q61747001
+	a	wd:Q1127126 ;
+	dct:modified	"2025-10-14T09:30:12Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Arab–Israeli alliance"@en .
+
+wd:Q6269176
+	a	wd:Q1127126 ;
+	a	wd:Q2237584 ;
+	dct:modified	"2021-11-12T10:04:58Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Joint Defence and Economic Co-operation Treaty"@en .
+
+wd:Q6365187
+	a	wd:Q1127126 ;
+	a	wd:Q7863173 ;
+	dct:modified	"2025-03-15T16:45:41Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Kansas–Armenia National Guard Partnership"@en .
+
+wd:Q667123
+	a	wd:Q1127126 ;
+	dct:modified	"2024-06-17T11:26:25Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Pact of Brunnen"@en .
+
+wd:Q67180995
+	a	wd:Q1127126 ;
+	dct:modified	"2023-03-02T21:25:44Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Allies"@en .
+
+wd:Q672595
+	a	wd:Q1127126 ;
+	dct:modified	"2024-02-06T18:12:20Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Sonderbund"@en .
+
+wd:Q6736606
+	a	wd:Q1127126 ;
+	a	wd:Q7863173 ;
+	dct:modified	"2025-03-15T17:12:37Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Maine – Montenegro National Guard Partnership"@en .
+
+wd:Q6781576
+	a	wd:Q1127126 ;
+	a	wd:Q7863173 ;
+	dct:modified	"2025-03-15T17:15:18Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Maryland–Bosnia National Guard Partnership"@en .
+
+wd:Q6781577
+	a	wd:Q1127126 ;
+	a	wd:Q7863173 ;
+	dct:modified	"2025-03-15T17:16:46Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Maryland–Estonia National Guard Partnership"@en .
+
+wd:Q67918859
+	a	wd:Q1127126 ;
+	dct:modified	"2026-01-10T19:20:32Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"International Maritime Security Construct"@en ;
+	wdt:P1813	"IMSC"@en ;
+	wdt:P856	"https://www.imscsentinel.com/"^^xsd:anyURI .
+
+wd:Q682631
+	a	wd:Q1127126 ;
+	dct:modified	"2025-10-29T20:12:04Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Holy League"@en ;
+	wdt:P527	wd:Q170174 , wd:Q174306 , wd:Q187549 , wd:Q4948 , wd:Q766543 .
+
+wd:Q6868752
+	a	wd:Q1127126 ;
+	a	wd:Q7863173 ;
+	dct:modified	"2025-03-15T17:31:28Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Minnesota–Croatia National Guard Partnership"@en .
+
+wd:Q687124
+	a	wd:Q1127126 ;
+	dct:modified	"2026-01-20T13:46:10Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Swabian League"@en .
+
+wd:Q694604
+	a	wd:Q1127126 ;
+	a	wd:Q2237584 ;
+	dct:modified	"2025-12-08T11:16:40Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Treaty of Mutual Cooperation and Security Between the United States and Japan"@en .
+
+wd:Q698215
+	a	wd:Q100906234 ;
+	a	wd:Q1127126 ;
+	dct:modified	"2025-10-22T07:32:48Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	rdfs:label	"Holy League"@en ;
+	wdt:P527	wd:Q154849 , wd:Q165040 , wd:Q170174 , wd:Q174306 , wd:Q187549 , wd:Q426025 , wd:Q4948 , wd:Q649202 , wd:Q766543 .
+
+wd:Q700896
+	a	wd:Q1127126 ;
+	dct:modified	"2025-12-25T00:31:40Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Satchō Alliance"@en ;
+	wdt:P527	wd:Q676187 , wd:Q876267 .
+
+wd:Q7009589
+	a	wd:Q1127126 ;
+	a	wd:Q7863173 ;
+	dct:modified	"2025-09-21T21:03:56Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"New Jersey–Albania National Guard Partnership"@en .
+
+wd:Q702911
+	a	wd:Q1127126 ;
+	dct:modified	"2026-02-11T04:33:48Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Treaty on Friendship, Cooperation and Mutual Assistance between China and the DPRK"@en .
+
+wd:Q7054696
+	a	wd:Q1127126 ;
+	a	wd:Q7863173 ;
+	dct:modified	"2025-03-15T17:37:19Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"North Carolina–Moldova National Guard Partnership"@en .
+
+wd:Q7081066
+	a	wd:Q1127126 ;
+	a	wd:Q7863173 ;
+	dct:modified	"2025-03-15T17:41:43Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Ohio–Hungary National Guard Partnership"@en .
+
+wd:Q7081067
+	a	wd:Q1127126 ;
+	a	wd:Q7863173 ;
+	dct:modified	"2025-03-15T17:42:00Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Ohio–Serbia National Guard Partnership"@en .
+
+wd:Q7082440
+	a	wd:Q1127126 ;
+	a	wd:Q7863173 ;
+	dct:modified	"2025-03-15T17:48:50Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Oklahoma–Azerbaijan National Guard Partnership"@en .
+
+wd:Q7164310
+	a	wd:Q1127126 ;
+	a	wd:Q7863173 ;
+	dct:modified	"2025-03-15T17:49:00Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Pennsylvania–Lithuania National Guard Partnership"@en .
+
+wd:Q7184
+	a	wd:Q100906234 ;
+	a	wd:Q1127126 ;
+	dct:modified	"2026-02-07T11:53:46Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	rdfs:label	"NATO"@en ;
+	wdt:P1448	"North Atlantic Treaty Organization"@en , "Organisation du traité de l'Atlantique nord"@fr ;
+	wdt:P1813	"NATO"@de , "NATO"@en , "NATO"@it , "NATO"@nb , "NATO"@nn , "NAVO"@af , "NAVO"@nl , "NBNL"@vo , "OTAN"@ca , "OTAN"@es , "OTAN"@fr , "OTAN"@pt , "КАСО"@mdf , "НАТА"@be , "НАТО"@ru , "נאַט\"אָ"@yi , "נאט\"ו"@he , "اَلْنَاتُو"@ar , "نیٹو"@ur , "北約"@zh-hant , "北约"@zh-hans , "나토"@ko ;
+	wdt:P527	wd:Q118315166 , wd:Q1213599 , wd:Q123168752 , wd:Q126127186 , wd:Q126693977 , wd:Q127390771 , wd:Q129167177 , wd:Q129168155 , wd:Q142 , wd:Q145 , wd:Q16 , wd:Q183 , wd:Q189 , wd:Q191 , wd:Q20 , wd:Q211 , wd:Q213 , wd:Q215 , wd:Q218 , wd:Q219 , wd:Q221 , wd:Q222 , wd:Q224 , wd:Q236 , wd:Q28 , wd:Q29 , wd:Q30 , wd:Q31 , wd:Q32 , wd:Q33 , wd:Q34 , wd:Q35 , wd:Q36 , wd:Q37 , wd:Q38 , wd:Q41 , wd:Q43 , wd:Q45 , wd:Q55 , wd:Q573044 , wd:Q6953132 , wd:Q713750 , wd:Q941157 ;
+	wdt:P856	"https://www.nato.int"^^xsd:anyURI .
+
+wd:Q731814
+	a	wd:Q1127126 ;
+	dct:modified	"2026-01-16T23:16:55Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Catholic League"@en ;
+	wdt:P527	wd:Q13427044 , wd:Q173863 , wd:Q1794352 , wd:Q284667 , wd:Q314994 , wd:Q318987 , wd:Q47261 , wd:Q543840 , wd:Q561334 , wd:Q566315 , wd:Q574644 , wd:Q771332 , wd:Q7904317 , wd:Q876826 .
+
+wd:Q7700264
+	a	wd:Q1127126 ;
+	a	wd:Q7863173 ;
+	dct:modified	"2025-03-15T17:49:12Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Tennessee–Bulgaria National Guard Partnership"@en .
+
+wd:Q7707399
+	a	wd:Q1127126 ;
+	a	wd:Q7863173 ;
+	dct:modified	"2025-03-15T10:29:42Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Texas, Nebraska – Czech Republic National Guard Partnership"@en .
+
+wd:Q771662
+	a	wd:Q1127126 ;
+	dct:modified	"2025-07-02T09:18:50Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Auld Alliance"@en .
+
+wd:Q7886740
+	a	wd:Q1127126 ;
+	dct:modified	"2025-10-22T08:23:51Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Union of Valencia"@en .
+
+wd:Q7887623
+	a	wd:Q1127126 ;
+	dct:modified	"2026-01-13T03:43:24Z"^^xsd:dateTime ;
+	dct:replacedBy	wd:Q30 ;
+	dct:replaces	wd:Q179997 ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"United Colonies"@en ;
+	wdt:P1813	"UC"@en .
+
+wd:Q7921821
+	a	wd:Q1127126 ;
+	a	wd:Q7863173 ;
+	dct:modified	"2025-03-15T17:43:36Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Vermont–North Macedonia National Guard Partnership"@en .
+
+wd:Q79468170
+	a	wd:Q1127126 ;
+	dct:modified	"2026-01-07T20:22:32Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Palestinian Joint Operations Room"@en .
+
+wd:Q7988404
+	a	wd:Q1127126 ;
+	dct:modified	"2025-12-26T21:25:07Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Western Union"@en .
+
+wd:Q852125
+	a	wd:Q1127126 ;
+	dct:modified	"2025-07-29T01:57:34Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Second League of Armed Neutrality"@en .
+
+wd:Q85880666
+	a	wd:Q1127126 ;
+	dct:modified	"2025-09-02T08:29:25Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Q85880666" .
+
+wd:Q95229872
+	a	wd:Q1127126 ;
+	dct:modified	"2024-04-30T18:20:27Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Maximator"@en ;
+	wdt:P527	wd:Q142 , wd:Q183 , wd:Q34 , wd:Q35 , wd:Q55 .
+
+wd:Q97516098
+	a	wd:Q1127126 ;
+	dct:modified	"2024-04-01T22:48:27Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Holy League of 1332"@en ;
+	wdt:P527	wd:Q170174 , wd:Q187549 , wd:Q213638 , wd:Q4948 .
+
+wd:Q978057
+	a	wd:Q1127126 ;
+	dct:modified	"2026-02-09T19:44:44Z"^^xsd:dateTime ;
+	pav:importedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-17T09:59:09Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2026-02-17T09:47:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2026-02-17T09:59:07Z"^^xsd:dateTime ;
+	rdfs:label	"Abbasid–Carolingian alliance"@en .

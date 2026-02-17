@@ -2,6 +2,7 @@
 @prefix bds: <http://www.bigdata.com/rdf/search#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix delta: <http://www.w3.org/2004/delta#> .
 @prefix fn: <http://www.w3.org/2005/xpath-functions#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
@@ -41,8 +42,6 @@
 @prefix wikibase: <http://wikiba.se/ontology#> .
 @prefix wikibaseqs: <http://wikiba.se/queryService#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rgn: <http://ga.local/rgn#> .
-@prefix sov: <http://ga.local/sov#> .
 
 
 

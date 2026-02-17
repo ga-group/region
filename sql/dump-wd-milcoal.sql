@@ -19,16 +19,16 @@ DB.DBA.XML_SET_NS_DECL('pav', 'http://purl.org/pav/', 3);
 DB.DBA.XML_SET_NS_DECL('prov', 'http://www.w3.org/ns/prov#', 3);
 
 include(/home/freundt/author/region/sql/dump-generic.sql)
-CREATE DUMP_PROCEDURE(dump_bloc,
+CREATE DUMP_PROCEDURE(dump_milcoal,
 SPARQL
 DEFINE input:storage ""
 PREFIX delta: <http://www.w3.org/2004/delta#>
 SELECT ?s ?p ?o
-FROM <http://data.ga-group.nl/wd-bloc/>
+FROM <http://data.ga-group.nl/wd-milcoal/>
 WHERE {
 	?s ?p ?o .
 }
 );
 
-dump_bloc('/var/scratch/lakshmi/freundt/wd-bloc.ttl');
+dump_milcoal('/var/scratch/lakshmi/freundt/wd-milcoal.ttl');
 CHECKPOINT;

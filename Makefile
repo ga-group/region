@@ -2,7 +2,7 @@ SHELL := /bin/zsh
 
 include .make.env
 
-all: .imported.wd-bloc .imported.wd-region .imported.region .imported.region-align .imported.ISO3166-3-FormerCountries .imported.ISO3166-3-FormerCountries-Adjunct
+all: .imported.wd-bloc .imported.wd-region .imported.wd-milcoal .imported.region .imported.region-align .imported.ISO3166-3-FormerCountries .imported.ISO3166-3-FormerCountries-Adjunct
 check: check.region
 
 TODAY := $(shell dateconv today)
@@ -101,7 +101,7 @@ wd-region.daily: tmp/wd-region.out tmp/wd-cultrgn.out tmp/wd-histrgn.out tmp/wd-
 	cat $^ >> wd-region.ttl.repl
 	ttl-pav $^ >> wd-region.ttl.repl
 
-wd-milcoal.daily: tmp/wd-milcoal.out
+wd-milcoal.daily: tmp/wd-milcoal.out tmp/wd-milcoal2.out
 	cat $^ >> wd-milcoal.ttl.repl
 	ttl-pav $^ >> wd-milcoal.ttl.repl
 
