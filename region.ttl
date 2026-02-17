@@ -15,7 +15,9 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rgn: <http://data.ga-group.nl/region/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
 @prefix tempo: <http://purl.org/tempo/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 @prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -23,7 +25,22 @@
 
 
 rgn:
-	a	owl:Ontology .
+	a	owl:Ontology ;
+	dct:creator	<https://orcid.org/0000-0002-7352-2825> ;
+	dct:format	"text/turtle"^^xsd:string ;
+	dct:issued	"2026-02-16T11:35:11Z"^^xsd:dateTime ;
+	dct:license	"https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+	owl:imports	lcc-cr: ;
+	owl:versionIRI	<https://data.ga-group.nl/region/20260301/region/> ;
+	rdfs:label	"region ontology" ;
+	sm:contentLanguage	"https://www.w3.org/TR/owl2-quick-reference/"^^xsd:anyURI ;
+	sm:copyright	"Copyright (c) 2026 PAMIYA Strategic Advisors GmbH" ;
+	sm:dependsOn	"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ;
+	sm:fileAbbreviation	"rgn" ;
+	sm:fileAbstract	"This ontology defines regional groupings of places, economies, and polities." ;
+	sm:filename	"region.ttl" ;
+	vann:preferredNamespacePrefix	"rgn" ;
+	vann:preferredNamespaceUri	"http://data.ga-group.nl/region/"^^xsd:anyURI .
 
 rgn:EconomicUnion
 	a	lcc-cr:GeographicRegionKind ;
@@ -1197,6 +1214,7 @@ rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1967_0
 	dct:isReplacedBy	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1984_0 ;
 	dct:source	"https://asean.org/"^^xsd:anyURI ;
 	foaf:name	"Association of Southeast Asian Nations" ;
+	geopol:isSuccessorOf	rgn:r01KHG17ZMT9600XSW2BWPM3RJA_1961_0 ;
 	lcc-cr:hasSubregion	lcc-3166-1-adj:ID , lcc-3166-1-adj:MY , lcc-3166-1-adj:PH , lcc-3166-1-adj:SG , lcc-3166-1-adj:TH ;
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-15T06:12:12Z"^^xsd:dateTime ;
@@ -1286,7 +1304,6 @@ rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_2025_0
 	dct:replaces	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1999_0 ;
 	dct:source	"https://asean.org/"^^xsd:anyURI ;
 	foaf:name	"Association of Southeast Asian Nations" ;
-	geopol:isSuccessorOf	rgn:r01KHG17ZMT9600XSW2BWPM3RJA_1961_0 ;
 	lcc-cr:hasSubregion	lcc-3166-1-adj:TL , rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1999_0 ;
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-15T06:12:12Z"^^xsd:dateTime ;
@@ -1301,7 +1318,7 @@ rgn:r01KHG17ZMT9600XSW2BWPM3RJA_1961_0
 	a	lcc-cr:GeographicRegion ;
 	a	owl:NamedIndividual ;
 	foaf:name	"Association of Southeast Asia"@en ;
-	geopol:isPredecessorOf	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_2025_0 ;
+	geopol:isPredecessorOf	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1967_0 ;
 	lcc-cr:hasSubregion	lcc-3166-1-adj:PH , lcc-3166-1-adj:TH , wd:Q1479726 ;
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-15T06:12:12Z"^^xsd:dateTime ;

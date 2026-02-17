@@ -25,6 +25,7 @@ DB.DBA.XML_SET_NS_DECL('rgn', 'http://data.ga-group.nl/region/', 3);
 DB.DBA.XML_SET_NS_DECL('cdr', 'http://ga.local/cdr#', 3);
 DB.DBA.XML_SET_NS_DECL('delta', 'http://www.w3.org/2004/delta#', 3);
 DB.DBA.XML_SET_NS_DECL('isin', 'http://www.annaservice.com/anna/annaisin/', 3);
+DB.DBA.XML_SET_NS_DECL('vann', 'http://purl.org/vocab/vann/', 3);
 DB.DBA.XML_SET_NS_DECL('c', 'http://ga.local/comdty#', 1);
 DB.DBA.XML_SET_NS_DECL('e', 'http://ga.local/eco#', 1);
 
