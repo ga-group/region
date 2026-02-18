@@ -1,7 +1,7 @@
-SET u{GRAPH} http://data.ga-group.nl/region.inv/;
-SPARQL CREATE SILENT GRAPH <$u{GRAPH}>;
-SPARQL CLEAR GRAPH <$u{GRAPH}>;
-ECHO $ROWCNT"\n";
+SET u{TGTGR} http://data.ga-group.nl/region.inv/;
+SET u{SRCGR} http://data.ga-group.nl/region/;
+SPARQL CREATE SILENT GRAPH <$u{TGTGR}>;
+SPARQL CLEAR GRAPH <$u{TGTGR}>;
 CHECKPOINT;
 
 ECHO "determining validity within variant ... ";
@@ -11,7 +11,7 @@ DEFINE input:same-as "yes"
 PREFIX lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/>
 PREFIX rgn: <http://data.ga-group.nl/region/>
 
-WITH <$u{GRAPH}>
+WITH <$u{TGTGR}>
 INSERT {
 	?y a lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf [
@@ -23,7 +23,7 @@ INSERT {
 		pav:derivedFrom ?z
 	]
 }
-USING <http://data.ga-group.nl/region/>
+USING <$u{SRCGR}>
 WHERE {
 	?x a lcc-cr:GeographicRegion ;
 		rgn:hasCurrentVariant ?z ;
@@ -57,7 +57,7 @@ DEFINE sql:log-enable 3
 PREFIX lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/>
 PREFIX rgn: <http://data.ga-group.nl/region/>
 
-WITH <$u{GRAPH}>
+WITH <$u{TGTGR}>
 INSERT {
 	?sub a rgn:keep ;
 		tempo:validFrom ?from ;
@@ -95,7 +95,7 @@ DEFINE sql:log-enable 3
 PREFIX lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/>
 PREFIX rgn: <http://data.ga-group.nl/region/>
 
-WITH <$u{GRAPH}>
+WITH <$u{TGTGR}>
 DELETE {
 	?z ?p ?o .
 	?x lcc-cr:isSubregionOf ?z .
@@ -117,7 +117,7 @@ DEFINE sql:log-enable 3
 PREFIX lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/>
 PREFIX rgn: <http://data.ga-group.nl/region/>
 
-WITH <$u{GRAPH}>
+WITH <$u{TGTGR}>
 DELETE {
 	?x
 		tempo:validFrom ?z ;
@@ -137,7 +137,7 @@ DEFINE sql:log-enable 3
 PREFIX lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/>
 PREFIX rgn: <http://data.ga-group.nl/region/>
 
-WITH <$u{GRAPH}>
+WITH <$u{TGTGR}>
 DELETE {
 	?x a rgn:keep 
 }
