@@ -11,6 +11,12 @@ SET u{PREDy} geopol:isPredecessorOf;
 LOAD '/home/freundt/author/region/sql/infer-props.sql';
 
 LOAD '/home/freundt/author/region/sql/infer-variant.sql';
+-- needs variant stuff
+LOAD '/home/freundt/author/region/sql/canon-region.sql';
+-- and again for circular shit
+LOAD '/home/freundt/author/region/sql/canon-region.sql';
+-- generate deltas between replacements
+LOAD '/home/freundt/author/region/sql/mkdelta-region.sql';
 
 LOAD '/home/freundt/author/region/sql/prov-massage.sql';
 CHECKPOINT;

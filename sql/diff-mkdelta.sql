@@ -1,7 +1,8 @@
 log_enable(3,1);
 
-SPARQL CREATE SILENT GRAPH <$u{DIFFG}-tmp>;
-SPARQL CLEAR GRAPH <$u{DIFFG}-tmp>;
+-- old stuff in u{ORIGG}
+-- new stuff in u{PATCH}
+-- deltas go to u{DIFFG}
 
 ECHO "changes ... ";
 ## -s p A B
@@ -9,7 +10,7 @@ ECHO "changes ... ";
 SPARQL
 PREFIX delta: <http://www.w3.org/2004/delta#>
 
-WITH <$u{DIFFG}-tmp>
+WITH <$u{DIFFG}>
 INSERT {
 	?d	a delta:Delta ;
 		delta:hunk [
@@ -22,25 +23,25 @@ INSERT {
 		rdf:subject ?s ;
 		prov:generatedAtTime ?now
 }
-USING <$u{STAGE}>
-USING <$u{GRAPH}>
+USING <$u{ORIGG}>
+USING <$u{PATCH}>
 WHERE {
 	BIND(NOW() AS ?now)
 
-	GRAPH <$u{STAGE}> {
+	GRAPH <$u{PATCH}> {
 	?s ?p ?oin
 	}
-	GRAPH <$u{GRAPH}> {
+	GRAPH <$u{ORIGG}> {
 	?s ?p ?oou
 	}
 	FILTER(?oin != ?oou)
 	FILTER NOT EXISTS {
-		GRAPH <$u{STAGE}> {
+		GRAPH <$u{PATCH}> {
 		?s ?p ?oou
 		}
 	}
 	FILTER NOT EXISTS {
-		GRAPH <$u{GRAPH}> {
+		GRAPH <$u{ORIGG}> {
 		?s ?p ?oin
 		}
 	}
@@ -62,7 +63,7 @@ SPARQL
 PREFIX delta: <http://www.w3.org/2004/delta#>
 PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
 
-WITH <$u{DIFFG}-tmp>
+WITH <$u{DIFFG}>
 INSERT {
        ?d	a delta:Delta ;
 		delta:hunk [
@@ -74,19 +75,19 @@ INSERT {
 		delta:patch-date ?dd ;
 		prov:generatedAtTime ?now
 }
-USING <$u{STAGE}>
-USING <$u{GRAPH}>
+USING <$u{ORIGG}>
+USING <$u{PATCH}>
 WHERE {
 	BIND(NOW() AS ?now)
 
-	GRAPH <$u{STAGE}> {
+	GRAPH <$u{PATCH}> {
 	?s ?p ?oin
 	}
-	GRAPH <$u{GRAPH}> {
+	GRAPH <$u{ORIGG}> {
 	?s ?p ?oou
 	}
 	FILTER NOT EXISTS {
-		GRAPH <$u{STAGE}> {
+		GRAPH <$u{PATCH}> {
 		?s ?p ?oou
 		}
 	}
@@ -97,7 +98,7 @@ WHERE {
 
 	BIND(IRI(CONCAT(STR(?s),'_delta')) AS ?d)
 }
-LIMIT 200000
+LIMIT 2000000
 ;
 ECHO $ROWCNT "\n";
  
@@ -107,7 +108,7 @@ ECHO "insertions ... ";
 SPARQL
 PREFIX delta: <http://www.w3.org/2004/delta#>
 
-WITH <$u{DIFFG}-tmp>
+WITH <$u{DIFFG}>
 INSERT {
 	?d	a delta:Delta ;
 		delta:hunk [
@@ -119,16 +120,16 @@ INSERT {
 		delta:patch-date ?dd ;
 		prov:generatedAtTime ?now
 }
-USING <$u{STAGE}>
-USING <$u{GRAPH}>
+USING <$u{ORIGG}>
+USING <$u{PATCH}>
 WHERE {
 	BIND(NOW() AS ?now)
 
-	GRAPH <$u{STAGE}> {
+	GRAPH <$u{PATCH}> {
 	?s ?p ?oin
 	}
 	FILTER NOT EXISTS {
-		GRAPH <$u{GRAPH}> {
+		GRAPH <$u{ORIGG}> {
 		?s ?p ?oin
 		}
 	}

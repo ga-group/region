@@ -121,7 +121,7 @@ rgn:r01KH9049WY3VRF1RS69KHZS47P_2001_0
 	dct:isReplacedBy	rgn:r01KH9049WY3VRF1RS69KHZS47P_2007_0 ;
 	dct:replaces	rgn:r01KH9049WY3VRF1RS69KHZS47P_1999_0 ;
 	foaf:name	"Eurozone" ;
-	lcc-cr:hasSubregion	lcc-3166-1-adj:GR , rgn:r01KH9049WY3VRF1RS69KHZS47P_1999_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AT , lcc-3166-1-adj:BE , lcc-3166-1-adj:DE , lcc-3166-1-adj:ES , lcc-3166-1-adj:FI , lcc-3166-1-adj:FR , lcc-3166-1-adj:GR , lcc-3166-1-adj:IE , lcc-3166-1-adj:IT , lcc-3166-1-adj:LU , lcc-3166-1-adj:NL , lcc-3166-1-adj:PT ;
 	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
@@ -133,13 +133,25 @@ rgn:r01KH9049WY3VRF1RS69KHZS47P_2001_0
 	tempo:validFrom	"2001-01-01"^^xsd:date ;
 	tempo:validTill	"2007-01-01"^^xsd:date .
 
+rgn:r01KH9049WY3VRF1RS69KHZS47P_2001_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:GR ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KH9049WY3VRF1RS69KHZS47P_2001_0 ;
+	delta:subject-old	rgn:r01KH9049WY3VRF1RS69KHZS47P_1999_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KH9049WY3VRF1RS69KHZS47P_2001_0 .
+
 rgn:r01KH9049WY3VRF1RS69KHZS47P_2007_0
 	a	lcc-cr:GeographicRegion ;
 	a	owl:NamedIndividual ;
 	dct:isReplacedBy	rgn:r01KH9049WY3VRF1RS69KHZS47P_2008_0 ;
 	dct:replaces	rgn:r01KH9049WY3VRF1RS69KHZS47P_2001_0 ;
 	foaf:name	"Eurozone" ;
-	lcc-cr:hasSubregion	lcc-3166-1-adj:SI , rgn:r01KH9049WY3VRF1RS69KHZS47P_2001_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AT , lcc-3166-1-adj:BE , lcc-3166-1-adj:DE , lcc-3166-1-adj:ES , lcc-3166-1-adj:FI , lcc-3166-1-adj:FR , lcc-3166-1-adj:GR , lcc-3166-1-adj:IE , lcc-3166-1-adj:IT , lcc-3166-1-adj:LU , lcc-3166-1-adj:NL , lcc-3166-1-adj:PT , lcc-3166-1-adj:SI ;
 	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
@@ -151,13 +163,25 @@ rgn:r01KH9049WY3VRF1RS69KHZS47P_2007_0
 	tempo:validFrom	"2007-01-01"^^xsd:date ;
 	tempo:validTill	"2008-01-01"^^xsd:date .
 
+rgn:r01KH9049WY3VRF1RS69KHZS47P_2007_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:SI ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KH9049WY3VRF1RS69KHZS47P_2007_0 ;
+	delta:subject-old	rgn:r01KH9049WY3VRF1RS69KHZS47P_2001_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KH9049WY3VRF1RS69KHZS47P_2007_0 .
+
 rgn:r01KH9049WY3VRF1RS69KHZS47P_2008_0
 	a	lcc-cr:GeographicRegion ;
 	a	owl:NamedIndividual ;
 	dct:isReplacedBy	rgn:r01KH9049WY3VRF1RS69KHZS47P_2009_0 ;
 	dct:replaces	rgn:r01KH9049WY3VRF1RS69KHZS47P_2007_0 ;
 	foaf:name	"Eurozone" ;
-	lcc-cr:hasSubregion	lcc-3166-1-adj:CY , lcc-3166-1-adj:MT , rgn:r01KH9049WY3VRF1RS69KHZS47P_2007_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AT , lcc-3166-1-adj:BE , lcc-3166-1-adj:CY , lcc-3166-1-adj:DE , lcc-3166-1-adj:ES , lcc-3166-1-adj:FI , lcc-3166-1-adj:FR , lcc-3166-1-adj:GR , lcc-3166-1-adj:IE , lcc-3166-1-adj:IT , lcc-3166-1-adj:LU , lcc-3166-1-adj:MT , lcc-3166-1-adj:NL , lcc-3166-1-adj:PT , lcc-3166-1-adj:SI ;
 	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
@@ -169,13 +193,25 @@ rgn:r01KH9049WY3VRF1RS69KHZS47P_2008_0
 	tempo:validFrom	"2008-01-01"^^xsd:date ;
 	tempo:validTill	"2009-01-01"^^xsd:date .
 
+rgn:r01KH9049WY3VRF1RS69KHZS47P_2008_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:CY , lcc-3166-1-adj:MT ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KH9049WY3VRF1RS69KHZS47P_2008_0 ;
+	delta:subject-old	rgn:r01KH9049WY3VRF1RS69KHZS47P_2007_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KH9049WY3VRF1RS69KHZS47P_2008_0 .
+
 rgn:r01KH9049WY3VRF1RS69KHZS47P_2009_0
 	a	lcc-cr:GeographicRegion ;
 	a	owl:NamedIndividual ;
 	dct:isReplacedBy	rgn:r01KH9049WY3VRF1RS69KHZS47P_2011_0 ;
 	dct:replaces	rgn:r01KH9049WY3VRF1RS69KHZS47P_2008_0 ;
 	foaf:name	"Eurozone" ;
-	lcc-cr:hasSubregion	lcc-3166-1-adj:SK , rgn:r01KH9049WY3VRF1RS69KHZS47P_2008_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AT , lcc-3166-1-adj:BE , lcc-3166-1-adj:CY , lcc-3166-1-adj:DE , lcc-3166-1-adj:ES , lcc-3166-1-adj:FI , lcc-3166-1-adj:FR , lcc-3166-1-adj:GR , lcc-3166-1-adj:IE , lcc-3166-1-adj:IT , lcc-3166-1-adj:LU , lcc-3166-1-adj:MT , lcc-3166-1-adj:NL , lcc-3166-1-adj:PT , lcc-3166-1-adj:SI , lcc-3166-1-adj:SK ;
 	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
@@ -187,13 +223,25 @@ rgn:r01KH9049WY3VRF1RS69KHZS47P_2009_0
 	tempo:validFrom	"2009-01-01"^^xsd:date ;
 	tempo:validTill	"2011-01-01"^^xsd:date .
 
+rgn:r01KH9049WY3VRF1RS69KHZS47P_2009_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:SK ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KH9049WY3VRF1RS69KHZS47P_2009_0 ;
+	delta:subject-old	rgn:r01KH9049WY3VRF1RS69KHZS47P_2008_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KH9049WY3VRF1RS69KHZS47P_2009_0 .
+
 rgn:r01KH9049WY3VRF1RS69KHZS47P_2011_0
 	a	lcc-cr:GeographicRegion ;
 	a	owl:NamedIndividual ;
 	dct:isReplacedBy	rgn:r01KH9049WY3VRF1RS69KHZS47P_2014_0 ;
 	dct:replaces	rgn:r01KH9049WY3VRF1RS69KHZS47P_2009_0 ;
 	foaf:name	"Eurozone" ;
-	lcc-cr:hasSubregion	lcc-3166-1-adj:EE , rgn:r01KH9049WY3VRF1RS69KHZS47P_2009_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AT , lcc-3166-1-adj:BE , lcc-3166-1-adj:CY , lcc-3166-1-adj:DE , lcc-3166-1-adj:EE , lcc-3166-1-adj:ES , lcc-3166-1-adj:FI , lcc-3166-1-adj:FR , lcc-3166-1-adj:GR , lcc-3166-1-adj:IE , lcc-3166-1-adj:IT , lcc-3166-1-adj:LU , lcc-3166-1-adj:MT , lcc-3166-1-adj:NL , lcc-3166-1-adj:PT , lcc-3166-1-adj:SI , lcc-3166-1-adj:SK ;
 	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
@@ -205,13 +253,25 @@ rgn:r01KH9049WY3VRF1RS69KHZS47P_2011_0
 	tempo:validFrom	"2011-01-01"^^xsd:date ;
 	tempo:validTill	"2014-01-01"^^xsd:date .
 
+rgn:r01KH9049WY3VRF1RS69KHZS47P_2011_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:EE ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KH9049WY3VRF1RS69KHZS47P_2011_0 ;
+	delta:subject-old	rgn:r01KH9049WY3VRF1RS69KHZS47P_2009_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KH9049WY3VRF1RS69KHZS47P_2011_0 .
+
 rgn:r01KH9049WY3VRF1RS69KHZS47P_2014_0
 	a	lcc-cr:GeographicRegion ;
 	a	owl:NamedIndividual ;
 	dct:isReplacedBy	rgn:r01KH9049WY3VRF1RS69KHZS47P_2015_0 ;
 	dct:replaces	rgn:r01KH9049WY3VRF1RS69KHZS47P_2011_0 ;
 	foaf:name	"Eurozone" ;
-	lcc-cr:hasSubregion	lcc-3166-1-adj:LV , rgn:r01KH9049WY3VRF1RS69KHZS47P_2011_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AT , lcc-3166-1-adj:BE , lcc-3166-1-adj:CY , lcc-3166-1-adj:DE , lcc-3166-1-adj:EE , lcc-3166-1-adj:ES , lcc-3166-1-adj:FI , lcc-3166-1-adj:FR , lcc-3166-1-adj:GR , lcc-3166-1-adj:IE , lcc-3166-1-adj:IT , lcc-3166-1-adj:LU , lcc-3166-1-adj:LV , lcc-3166-1-adj:MT , lcc-3166-1-adj:NL , lcc-3166-1-adj:PT , lcc-3166-1-adj:SI , lcc-3166-1-adj:SK ;
 	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
@@ -223,13 +283,25 @@ rgn:r01KH9049WY3VRF1RS69KHZS47P_2014_0
 	tempo:validFrom	"2014-01-01"^^xsd:date ;
 	tempo:validTill	"2015-01-01"^^xsd:date .
 
+rgn:r01KH9049WY3VRF1RS69KHZS47P_2014_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:LV ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KH9049WY3VRF1RS69KHZS47P_2014_0 ;
+	delta:subject-old	rgn:r01KH9049WY3VRF1RS69KHZS47P_2011_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KH9049WY3VRF1RS69KHZS47P_2014_0 .
+
 rgn:r01KH9049WY3VRF1RS69KHZS47P_2015_0
 	a	lcc-cr:GeographicRegion ;
 	a	owl:NamedIndividual ;
 	dct:isReplacedBy	rgn:r01KH9049WY3VRF1RS69KHZS47P_2023_0 ;
 	dct:replaces	rgn:r01KH9049WY3VRF1RS69KHZS47P_2014_0 ;
 	foaf:name	"Eurozone" ;
-	lcc-cr:hasSubregion	lcc-3166-1-adj:LT , rgn:r01KH9049WY3VRF1RS69KHZS47P_2014_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AT , lcc-3166-1-adj:BE , lcc-3166-1-adj:CY , lcc-3166-1-adj:DE , lcc-3166-1-adj:EE , lcc-3166-1-adj:ES , lcc-3166-1-adj:FI , lcc-3166-1-adj:FR , lcc-3166-1-adj:GR , lcc-3166-1-adj:IE , lcc-3166-1-adj:IT , lcc-3166-1-adj:LT , lcc-3166-1-adj:LU , lcc-3166-1-adj:LV , lcc-3166-1-adj:MT , lcc-3166-1-adj:NL , lcc-3166-1-adj:PT , lcc-3166-1-adj:SI , lcc-3166-1-adj:SK ;
 	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
@@ -241,13 +313,25 @@ rgn:r01KH9049WY3VRF1RS69KHZS47P_2015_0
 	tempo:validFrom	"2015-01-01"^^xsd:date ;
 	tempo:validTill	"2023-01-01"^^xsd:date .
 
+rgn:r01KH9049WY3VRF1RS69KHZS47P_2015_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:LT ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KH9049WY3VRF1RS69KHZS47P_2015_0 ;
+	delta:subject-old	rgn:r01KH9049WY3VRF1RS69KHZS47P_2014_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KH9049WY3VRF1RS69KHZS47P_2015_0 .
+
 rgn:r01KH9049WY3VRF1RS69KHZS47P_2023_0
 	a	lcc-cr:GeographicRegion ;
 	a	owl:NamedIndividual ;
 	dct:isReplacedBy	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
 	dct:replaces	rgn:r01KH9049WY3VRF1RS69KHZS47P_2015_0 ;
 	foaf:name	"Eurozone" ;
-	lcc-cr:hasSubregion	lcc-3166-1-adj:HR , rgn:r01KH9049WY3VRF1RS69KHZS47P_2015_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AT , lcc-3166-1-adj:BE , lcc-3166-1-adj:CY , lcc-3166-1-adj:DE , lcc-3166-1-adj:EE , lcc-3166-1-adj:ES , lcc-3166-1-adj:FI , lcc-3166-1-adj:FR , lcc-3166-1-adj:GR , lcc-3166-1-adj:HR , lcc-3166-1-adj:IE , lcc-3166-1-adj:IT , lcc-3166-1-adj:LT , lcc-3166-1-adj:LU , lcc-3166-1-adj:LV , lcc-3166-1-adj:MT , lcc-3166-1-adj:NL , lcc-3166-1-adj:PT , lcc-3166-1-adj:SI , lcc-3166-1-adj:SK ;
 	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
@@ -259,12 +343,24 @@ rgn:r01KH9049WY3VRF1RS69KHZS47P_2023_0
 	tempo:validFrom	"2023-01-01"^^xsd:date ;
 	tempo:validTill	"2026-01-01"^^xsd:date .
 
+rgn:r01KH9049WY3VRF1RS69KHZS47P_2023_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:HR ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KH9049WY3VRF1RS69KHZS47P_2023_0 ;
+	delta:subject-old	rgn:r01KH9049WY3VRF1RS69KHZS47P_2015_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KH9049WY3VRF1RS69KHZS47P_2023_0 .
+
 rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0
 	a	lcc-cr:GeographicRegion ;
 	a	owl:NamedIndividual ;
 	dct:replaces	rgn:r01KH9049WY3VRF1RS69KHZS47P_2023_0 ;
 	foaf:name	"Eurozone" ;
-	lcc-cr:hasSubregion	lcc-3166-1-adj:BG , rgn:r01KH9049WY3VRF1RS69KHZS47P_2023_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AT , lcc-3166-1-adj:BE , lcc-3166-1-adj:BG , lcc-3166-1-adj:CY , lcc-3166-1-adj:DE , lcc-3166-1-adj:EE , lcc-3166-1-adj:ES , lcc-3166-1-adj:FI , lcc-3166-1-adj:FR , lcc-3166-1-adj:GR , lcc-3166-1-adj:HR , lcc-3166-1-adj:IE , lcc-3166-1-adj:IT , lcc-3166-1-adj:LT , lcc-3166-1-adj:LU , lcc-3166-1-adj:LV , lcc-3166-1-adj:MT , lcc-3166-1-adj:NL , lcc-3166-1-adj:PT , lcc-3166-1-adj:SI , lcc-3166-1-adj:SK ;
 	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
@@ -274,6 +370,18 @@ rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0
 	rgn:hasCurrentVariant	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
 	skos:definition	"individual representing the Eurozone"@en ;
 	tempo:validFrom	"2026-01-01"^^xsd:date .
+
+rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:BG ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+	delta:subject-old	rgn:r01KH9049WY3VRF1RS69KHZS47P_2023_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 .
 
 rgn:r01KH92MDSJWQH15QR3QJ8GMNF6
 	owl:sameAs	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2026_0 .
@@ -315,6 +423,19 @@ rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2001_0
 	tempo:validFrom	"2001-01-01"^^xsd:date ;
 	tempo:validTill	"2007-01-01"^^xsd:date .
 
+rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2001_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	rgn:r01KH9049WY3VRF1RS69KHZS47P_1999_0 ;
+		delta:insertion	rgn:r01KH9049WY3VRF1RS69KHZS47P_2001_0 ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2001_0 ;
+	delta:subject-old	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_1999_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2001_0 .
+
 rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2007_0
 	a	lcc-cr:GeographicRegion ;
 	a	owl:NamedIndividual ;
@@ -333,6 +454,19 @@ rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2007_0
 	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 	tempo:validFrom	"2007-01-01"^^xsd:date ;
 	tempo:validTill	"2008-01-01"^^xsd:date .
+
+rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2007_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	rgn:r01KH9049WY3VRF1RS69KHZS47P_2001_0 ;
+		delta:insertion	rgn:r01KH9049WY3VRF1RS69KHZS47P_2007_0 ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2007_0 ;
+	delta:subject-old	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2001_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2007_0 .
 
 rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2008_0
 	a	lcc-cr:GeographicRegion ;
@@ -353,6 +487,19 @@ rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2008_0
 	tempo:validFrom	"2008-01-01"^^xsd:date ;
 	tempo:validTill	"2009-01-01"^^xsd:date .
 
+rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2008_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	rgn:r01KH9049WY3VRF1RS69KHZS47P_2007_0 ;
+		delta:insertion	rgn:r01KH9049WY3VRF1RS69KHZS47P_2008_0 ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2008_0 ;
+	delta:subject-old	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2007_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2008_0 .
+
 rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2009_0
 	a	lcc-cr:GeographicRegion ;
 	a	owl:NamedIndividual ;
@@ -371,6 +518,19 @@ rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2009_0
 	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 	tempo:validFrom	"2009-01-01"^^xsd:date ;
 	tempo:validTill	"2011-01-01"^^xsd:date .
+
+rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2009_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	rgn:r01KH9049WY3VRF1RS69KHZS47P_2008_0 ;
+		delta:insertion	rgn:r01KH9049WY3VRF1RS69KHZS47P_2009_0 ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2009_0 ;
+	delta:subject-old	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2008_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2009_0 .
 
 rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2011_0
 	a	lcc-cr:GeographicRegion ;
@@ -391,6 +551,19 @@ rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2011_0
 	tempo:validFrom	"2011-01-01"^^xsd:date ;
 	tempo:validTill	"2012-04-01"^^xsd:date .
 
+rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2011_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	rgn:r01KH9049WY3VRF1RS69KHZS47P_2009_0 ;
+		delta:insertion	rgn:r01KH9049WY3VRF1RS69KHZS47P_2011_0 ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2011_0 ;
+	delta:subject-old	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2009_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2011_0 .
+
 rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2012_0
 	a	lcc-cr:GeographicRegion ;
 	a	owl:NamedIndividual ;
@@ -409,6 +582,18 @@ rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2012_0
 	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 	tempo:validFrom	"2012-04-01"^^xsd:date ;
 	tempo:validTill	"2014-01-01"^^xsd:date .
+
+rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2012_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:AD ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2012_0 ;
+	delta:subject-old	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2011_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2012_0 .
 
 rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2014_0
 	a	lcc-cr:GeographicRegion ;
@@ -429,6 +614,19 @@ rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2014_0
 	tempo:validFrom	"2014-01-01"^^xsd:date ;
 	tempo:validTill	"2015-01-01"^^xsd:date .
 
+rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2014_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	rgn:r01KH9049WY3VRF1RS69KHZS47P_2011_0 ;
+		delta:insertion	rgn:r01KH9049WY3VRF1RS69KHZS47P_2014_0 ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2014_0 ;
+	delta:subject-old	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2012_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2014_0 .
+
 rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2015_0
 	a	lcc-cr:GeographicRegion ;
 	a	owl:NamedIndividual ;
@@ -447,6 +645,19 @@ rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2015_0
 	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 	tempo:validFrom	"2015-01-01"^^xsd:date ;
 	tempo:validTill	"2023-01-01"^^xsd:date .
+
+rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2015_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	rgn:r01KH9049WY3VRF1RS69KHZS47P_2014_0 ;
+		delta:insertion	rgn:r01KH9049WY3VRF1RS69KHZS47P_2015_0 ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2015_0 ;
+	delta:subject-old	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2014_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2015_0 .
 
 rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2023_0
 	a	lcc-cr:GeographicRegion ;
@@ -467,6 +678,19 @@ rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2023_0
 	tempo:validFrom	"2023-01-01"^^xsd:date ;
 	tempo:validTill	"2026-01-01"^^xsd:date .
 
+rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2023_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	rgn:r01KH9049WY3VRF1RS69KHZS47P_2015_0 ;
+		delta:insertion	rgn:r01KH9049WY3VRF1RS69KHZS47P_2023_0 ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2023_0 ;
+	delta:subject-old	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2015_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2023_0 .
+
 rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2026_0
 	a	lcc-cr:GeographicRegion ;
 	a	owl:NamedIndividual , rgn:CosumRegion ;
@@ -484,6 +708,19 @@ rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2026_0
 	rgn:hasCurrentVariant	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
 	skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 	tempo:validFrom	"2026-01-01"^^xsd:date .
+
+rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2026_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	rgn:r01KH9049WY3VRF1RS69KHZS47P_2023_0 ;
+		delta:insertion	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2026_0 ;
+	delta:subject-old	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2023_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6_2026_0 .
 
 rgn:r01KHDGXBHWYBBNPN9ZMDP3DMYT
 	a	lcc-cr:GeographicRegion ;
@@ -1233,7 +1470,7 @@ rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1984_0
 	dct:replaces	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1967_0 ;
 	dct:source	"https://asean.org/"^^xsd:anyURI ;
 	foaf:name	"Association of Southeast Asian Nations" ;
-	lcc-cr:hasSubregion	lcc-3166-1-adj:BN , rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1967_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BN , lcc-3166-1-adj:ID , lcc-3166-1-adj:MY , lcc-3166-1-adj:PH , lcc-3166-1-adj:SG , lcc-3166-1-adj:TH ;
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-15T06:12:12Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-15T06:12:12Z"^^xsd:dateTime ;
@@ -1244,6 +1481,18 @@ rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1984_0
 	tempo:validFrom	"1984-01-07"^^xsd:date ;
 	tempo:validTill	"1995-07-28"^^xsd:date .
 
+rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1984_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:BN ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1984_0 ;
+	delta:subject-old	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1967_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1984_0 .
+
 rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1995_0
 	a	lcc-cr:GeographicRegion ;
 	a	owl:NamedIndividual ;
@@ -1251,7 +1500,7 @@ rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1995_0
 	dct:replaces	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1984_0 ;
 	dct:source	"https://asean.org/"^^xsd:anyURI ;
 	foaf:name	"Association of Southeast Asian Nations" ;
-	lcc-cr:hasSubregion	lcc-3166-1-adj:VN , rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1984_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BN , lcc-3166-1-adj:ID , lcc-3166-1-adj:MY , lcc-3166-1-adj:PH , lcc-3166-1-adj:SG , lcc-3166-1-adj:TH , lcc-3166-1-adj:VN ;
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-15T06:12:12Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-15T06:12:12Z"^^xsd:dateTime ;
@@ -1262,6 +1511,18 @@ rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1995_0
 	tempo:validFrom	"1995-07-28"^^xsd:date ;
 	tempo:validTill	"1997-07-23"^^xsd:date .
 
+rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1995_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:VN ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1995_0 ;
+	delta:subject-old	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1984_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1995_0 .
+
 rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1997_0
 	a	lcc-cr:GeographicRegion ;
 	a	owl:NamedIndividual ;
@@ -1269,7 +1530,7 @@ rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1997_0
 	dct:replaces	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1995_0 ;
 	dct:source	"https://asean.org/"^^xsd:anyURI ;
 	foaf:name	"Association of Southeast Asian Nations" ;
-	lcc-cr:hasSubregion	lcc-3166-1-adj:LA , lcc-3166-1-adj:MM , rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1995_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BN , lcc-3166-1-adj:ID , lcc-3166-1-adj:LA , lcc-3166-1-adj:MM , lcc-3166-1-adj:MY , lcc-3166-1-adj:PH , lcc-3166-1-adj:SG , lcc-3166-1-adj:TH , lcc-3166-1-adj:VN ;
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-15T06:12:12Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-15T06:12:12Z"^^xsd:dateTime ;
@@ -1280,6 +1541,18 @@ rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1997_0
 	tempo:validFrom	"1997-07-23"^^xsd:date ;
 	tempo:validTill	"1999-04-30"^^xsd:date .
 
+rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1997_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:LA , lcc-3166-1-adj:MM ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1997_0 ;
+	delta:subject-old	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1995_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1997_0 .
+
 rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1999_0
 	a	lcc-cr:GeographicRegion ;
 	a	owl:NamedIndividual ;
@@ -1287,7 +1560,7 @@ rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1999_0
 	dct:replaces	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1997_0 ;
 	dct:source	"https://asean.org/"^^xsd:anyURI ;
 	foaf:name	"Association of Southeast Asian Nations" ;
-	lcc-cr:hasSubregion	lcc-3166-1-adj:KH , rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1997_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BN , lcc-3166-1-adj:ID , lcc-3166-1-adj:KH , lcc-3166-1-adj:LA , lcc-3166-1-adj:MM , lcc-3166-1-adj:MY , lcc-3166-1-adj:PH , lcc-3166-1-adj:SG , lcc-3166-1-adj:TH , lcc-3166-1-adj:VN ;
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-15T06:12:12Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-15T06:12:12Z"^^xsd:dateTime ;
@@ -1298,13 +1571,25 @@ rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1999_0
 	tempo:validFrom	"1999-04-30"^^xsd:date ;
 	tempo:validTill	"2025-10-26"^^xsd:date .
 
+rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1999_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:KH ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1999_0 ;
+	delta:subject-old	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1997_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1999_0 .
+
 rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_2025_0
 	a	lcc-cr:GeographicRegion ;
 	a	owl:NamedIndividual ;
 	dct:replaces	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1999_0 ;
 	dct:source	"https://asean.org/"^^xsd:anyURI ;
 	foaf:name	"Association of Southeast Asian Nations" ;
-	lcc-cr:hasSubregion	lcc-3166-1-adj:TL , rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1999_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BN , lcc-3166-1-adj:ID , lcc-3166-1-adj:KH , lcc-3166-1-adj:LA , lcc-3166-1-adj:MM , lcc-3166-1-adj:MY , lcc-3166-1-adj:PH , lcc-3166-1-adj:SG , lcc-3166-1-adj:TH , lcc-3166-1-adj:TL , lcc-3166-1-adj:VN ;
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-15T06:12:12Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-15T06:12:12Z"^^xsd:dateTime ;
@@ -1313,6 +1598,18 @@ rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_2025_0
 	rgn:hasCurrentVariant	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A ;
 	skos:definition	"individual representing the ASEAN bloc"@en ;
 	tempo:validFrom	"2025-10-26"^^xsd:date .
+
+rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_2025_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:TL ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_2025_0 ;
+	delta:subject-old	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_1999_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_2025_0 .
 
 rgn:r01KHG17ZMT9600XSW2BWPM3RJA_1961_0
 	a	lcc-cr:GeographicRegion ;
@@ -1357,7 +1654,7 @@ rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1976_0
 	dct:replaces	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1971_0 ;
 	dct:source	"https://forumsec.org.fj/"^^xsd:anyURI ;
 	foaf:name	"South Pacific Forum"@en ;
-	lcc-cr:hasSubregion	<https://www.omg.org/spec/LCC/Countries/ISO3166-3-FormerCountries-Adjunct/GEHH> , lcc-3166-1-adj:NU , lcc-3166-1-adj:PG , rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1971_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AU , lcc-3166-1-adj:CK , lcc-3166-1-adj:FJ , lcc-3166-1-adj:NR , lcc-3166-1-adj:NU , lcc-3166-1-adj:NZ , lcc-3166-1-adj:PG , lcc-3166-1-adj:TO , lcc-3166-1-adj:WS , lcc-3166-3-adj:GEHH ;
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-16T04:59:37Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-16T04:59:37Z"^^xsd:dateTime ;
@@ -1368,6 +1665,18 @@ rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1976_0
 	tempo:validFrom	"1976-07-26"^^xsd:date ;
 	tempo:validTill	"1978-09-16"^^xsd:date .
 
+rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1976_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:NU , lcc-3166-1-adj:PG , lcc-3166-3-adj:GEHH ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1976_0 ;
+	delta:subject-old	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1971_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1976_0 .
+
 rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1978_0
 	a	lcc-cr:GeographicRegion ;
 	a	owl:NamedIndividual ;
@@ -1375,7 +1684,7 @@ rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1978_0
 	dct:replaces	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1976_0 ;
 	dct:source	"https://forumsec.org.fj/"^^xsd:anyURI ;
 	foaf:name	"South Pacific Forum"@en ;
-	lcc-cr:hasSubregion	lcc-3166-1-adj:SB , lcc-3166-1-adj:TV , rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1976_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AU , lcc-3166-1-adj:CK , lcc-3166-1-adj:FJ , lcc-3166-1-adj:NR , lcc-3166-1-adj:NU , lcc-3166-1-adj:NZ , lcc-3166-1-adj:PG , lcc-3166-1-adj:SB , lcc-3166-1-adj:TO , lcc-3166-1-adj:TV , lcc-3166-1-adj:WS , lcc-3166-3-adj:GEHH ;
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-16T04:59:37Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-16T04:59:37Z"^^xsd:dateTime ;
@@ -1386,6 +1695,18 @@ rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1978_0
 	tempo:validFrom	"1978-09-16"^^xsd:date ;
 	tempo:validTill	"1979-07-09"^^xsd:date .
 
+rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1978_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:SB , lcc-3166-1-adj:TV ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1978_0 ;
+	delta:subject-old	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1976_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1978_0 .
+
 rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1979_0
 	a	lcc-cr:GeographicRegion ;
 	a	owl:NamedIndividual ;
@@ -1393,7 +1714,7 @@ rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1979_0
 	dct:replaces	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1978_0 ;
 	dct:source	"https://forumsec.org.fj/"^^xsd:anyURI ;
 	foaf:name	"South Pacific Forum"@en ;
-	lcc-cr:hasSubregion	lcc-3166-1-adj:KI , lcc-3166-1-adj:NU , lcc-3166-1-adj:PG , lcc-3166-1-adj:SB , lcc-3166-1-adj:TV , rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1971_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AU , lcc-3166-1-adj:CK , lcc-3166-1-adj:FJ , lcc-3166-1-adj:KI , lcc-3166-1-adj:NR , lcc-3166-1-adj:NU , lcc-3166-1-adj:NZ , lcc-3166-1-adj:PG , lcc-3166-1-adj:SB , lcc-3166-1-adj:TO , lcc-3166-1-adj:TV , lcc-3166-1-adj:WS ;
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-16T04:59:37Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-16T04:59:37Z"^^xsd:dateTime ;
@@ -1404,6 +1725,19 @@ rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1979_0
 	tempo:validFrom	"1979-07-09"^^xsd:date ;
 	tempo:validTill	"1980-07-14"^^xsd:date .
 
+rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1979_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	lcc-3166-3-adj:GEHH ;
+		delta:insertion	lcc-3166-1-adj:KI ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1979_0 ;
+	delta:subject-old	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1978_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1979_0 .
+
 rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1980_0
 	a	lcc-cr:GeographicRegion ;
 	a	owl:NamedIndividual ;
@@ -1411,7 +1745,7 @@ rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1980_0
 	dct:replaces	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1979_0 ;
 	dct:source	"https://forumsec.org.fj/"^^xsd:anyURI ;
 	foaf:name	"South Pacific Forum"@en ;
-	lcc-cr:hasSubregion	lcc-3166-1-adj:VU , rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1979_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AU , lcc-3166-1-adj:CK , lcc-3166-1-adj:FJ , lcc-3166-1-adj:KI , lcc-3166-1-adj:NR , lcc-3166-1-adj:NU , lcc-3166-1-adj:NZ , lcc-3166-1-adj:PG , lcc-3166-1-adj:SB , lcc-3166-1-adj:TO , lcc-3166-1-adj:TV , lcc-3166-1-adj:VU , lcc-3166-1-adj:WS ;
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-16T04:59:37Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-16T04:59:37Z"^^xsd:dateTime ;
@@ -1422,6 +1756,18 @@ rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1980_0
 	tempo:validFrom	"1980-07-14"^^xsd:date ;
 	tempo:validTill	"1987-05-29"^^xsd:date .
 
+rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1980_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:VU ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1980_0 ;
+	delta:subject-old	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1979_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1980_0 .
+
 rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1987_0
 	a	lcc-cr:GeographicRegion ;
 	a	owl:NamedIndividual ;
@@ -1429,7 +1775,7 @@ rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1987_0
 	dct:replaces	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1980_0 ;
 	dct:source	"https://forumsec.org.fj/"^^xsd:anyURI ;
 	foaf:name	"South Pacific Forum"@en ;
-	lcc-cr:hasSubregion	lcc-3166-1-adj:FM , rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1980_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AU , lcc-3166-1-adj:CK , lcc-3166-1-adj:FJ , lcc-3166-1-adj:FM , lcc-3166-1-adj:KI , lcc-3166-1-adj:NR , lcc-3166-1-adj:NU , lcc-3166-1-adj:NZ , lcc-3166-1-adj:PG , lcc-3166-1-adj:SB , lcc-3166-1-adj:TO , lcc-3166-1-adj:TV , lcc-3166-1-adj:VU , lcc-3166-1-adj:WS ;
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-16T04:59:37Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-16T04:59:37Z"^^xsd:dateTime ;
@@ -1440,6 +1786,18 @@ rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1987_0
 	tempo:validFrom	"1987-05-29"^^xsd:date ;
 	tempo:validTill	"1988-09-20"^^xsd:date .
 
+rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1987_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:FM ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1987_0 ;
+	delta:subject-old	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1980_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1987_0 .
+
 rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1988_0
 	a	lcc-cr:GeographicRegion ;
 	a	owl:NamedIndividual ;
@@ -1447,7 +1805,7 @@ rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1988_0
 	dct:replaces	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1987_0 ;
 	dct:source	"https://forumsec.org.fj/"^^xsd:anyURI ;
 	foaf:name	"South Pacific Forum"@en ;
-	lcc-cr:hasSubregion	lcc-3166-1-adj:MH , rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1987_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AU , lcc-3166-1-adj:CK , lcc-3166-1-adj:FJ , lcc-3166-1-adj:FM , lcc-3166-1-adj:KI , lcc-3166-1-adj:MH , lcc-3166-1-adj:NR , lcc-3166-1-adj:NU , lcc-3166-1-adj:NZ , lcc-3166-1-adj:PG , lcc-3166-1-adj:SB , lcc-3166-1-adj:TO , lcc-3166-1-adj:TV , lcc-3166-1-adj:VU , lcc-3166-1-adj:WS ;
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-16T04:59:37Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-16T04:59:37Z"^^xsd:dateTime ;
@@ -1458,6 +1816,18 @@ rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1988_0
 	tempo:validFrom	"1988-09-20"^^xsd:date ;
 	tempo:validTill	"1997-10-13"^^xsd:date .
 
+rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1988_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:MH ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1988_0 ;
+	delta:subject-old	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1987_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1988_0 .
+
 rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1997_0
 	a	lcc-cr:GeographicRegion ;
 	a	owl:NamedIndividual ;
@@ -1465,7 +1835,7 @@ rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1997_0
 	dct:replaces	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1988_0 ;
 	dct:source	"https://forumsec.org.fj/"^^xsd:anyURI ;
 	foaf:name	"South Pacific Forum"@en ;
-	lcc-cr:hasSubregion	lcc-3166-1-adj:PW , rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1988_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AU , lcc-3166-1-adj:CK , lcc-3166-1-adj:FJ , lcc-3166-1-adj:FM , lcc-3166-1-adj:KI , lcc-3166-1-adj:MH , lcc-3166-1-adj:NR , lcc-3166-1-adj:NU , lcc-3166-1-adj:NZ , lcc-3166-1-adj:PG , lcc-3166-1-adj:PW , lcc-3166-1-adj:SB , lcc-3166-1-adj:TO , lcc-3166-1-adj:TV , lcc-3166-1-adj:VU , lcc-3166-1-adj:WS ;
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-16T04:59:37Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-16T04:59:37Z"^^xsd:dateTime ;
@@ -1475,6 +1845,18 @@ rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1997_0
 	skos:definition	"individual representing the South Pacific Forum"@en ;
 	tempo:validFrom	"1997-10-13"^^xsd:date ;
 	tempo:validTill	"2000-08-28"^^xsd:date .
+
+rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1997_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:PW ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1997_0 ;
+	delta:subject-old	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1988_0 ;
+	prov:generatedAtTime	"2026-02-18T13:48:41.117703"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1997_0 .
 
 rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2000_0
 	a	lcc-cr:GeographicRegion ;
@@ -1508,13 +1890,15 @@ rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2000_0_delta
 		rdf:predicate	rdfs:label ;
 	] , [
 		a	delta:Hunk ;
-		delta:deletion	"individual representing the South Pacific Forum" ;
-		delta:insertion	"individual representing the Pacific Islands Forum" ;
+		delta:deletion	"individual representing the South Pacific Forum"@en ;
+		delta:insertion	"individual representing the Pacific Islands Forum"@en ;
 		rdf:predicate	skos:definition ;
 	] ;
 	delta:patch-date	"2026-02-12T09:05:12Z"^^xsd:dateTime ;
+	delta:subject-new	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2000_0 ;
+	delta:subject-old	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_1997_0 ;
 	prov:generatedAtTime	"2026-02-16T05:20:36Z"^^xsd:dateTime ;
-	rdf:subject	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2023_0 .
+	rdf:subject	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2000_0 .
 
 rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2009_0
 	a	lcc-cr:GeographicRegion ;
@@ -1534,6 +1918,18 @@ rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2009_0
 	tempo:validFrom	"2009-05-02"^^xsd:date ;
 	tempo:validTill	"2014-10-24"^^xsd:date .
 
+rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2009_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	lcc-3166-1-adj:FJ ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2009_0 ;
+	delta:subject-old	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2000_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2009_0 .
+
 rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2014_0
 	a	lcc-cr:GeographicRegion ;
 	a	owl:NamedIndividual ;
@@ -1541,7 +1937,7 @@ rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2014_0
 	dct:replaces	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2009_0 ;
 	dct:source	"https://forumsec.org/"^^xsd:anyURI ;
 	foaf:name	"Pacific Islands Forum"@en ;
-	lcc-cr:hasSubregion	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2000_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AU , lcc-3166-1-adj:CK , lcc-3166-1-adj:FJ , lcc-3166-1-adj:FM , lcc-3166-1-adj:KI , lcc-3166-1-adj:MH , lcc-3166-1-adj:NR , lcc-3166-1-adj:NU , lcc-3166-1-adj:NZ , lcc-3166-1-adj:PG , lcc-3166-1-adj:PW , lcc-3166-1-adj:SB , lcc-3166-1-adj:TO , lcc-3166-1-adj:TV , lcc-3166-1-adj:VU , lcc-3166-1-adj:WS ;
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-16T04:59:37Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-16T04:59:37Z"^^xsd:dateTime ;
@@ -1552,6 +1948,18 @@ rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2014_0
 	tempo:validFrom	"2014-10-24"^^xsd:date ;
 	tempo:validTill	"2016-09-08"^^xsd:date .
 
+rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2014_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:FJ ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2014_0 ;
+	delta:subject-old	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2009_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2014_0 .
+
 rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2016_0
 	a	lcc-cr:GeographicRegion ;
 	a	owl:NamedIndividual ;
@@ -1559,7 +1967,7 @@ rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2016_0
 	dct:replaces	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2014_0 ;
 	dct:source	"https://forumsec.org/"^^xsd:anyURI ;
 	foaf:name	"Pacific Islands Forum"@en ;
-	lcc-cr:hasSubregion	lcc-3166-1-adj:NC , lcc-3166-1-adj:PF , rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2014_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AU , lcc-3166-1-adj:CK , lcc-3166-1-adj:FJ , lcc-3166-1-adj:FM , lcc-3166-1-adj:KI , lcc-3166-1-adj:MH , lcc-3166-1-adj:NC , lcc-3166-1-adj:NR , lcc-3166-1-adj:NU , lcc-3166-1-adj:NZ , lcc-3166-1-adj:PF , lcc-3166-1-adj:PG , lcc-3166-1-adj:PW , lcc-3166-1-adj:SB , lcc-3166-1-adj:TO , lcc-3166-1-adj:TV , lcc-3166-1-adj:VU , lcc-3166-1-adj:WS ;
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-16T04:59:37Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-16T04:59:37Z"^^xsd:dateTime ;
@@ -1569,6 +1977,18 @@ rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2016_0
 	skos:definition	"individual representing the Pacific Islands Forum"@en ;
 	tempo:validFrom	"2016-09-08"^^xsd:date ;
 	tempo:validTill	"2022-07-09"^^xsd:date .
+
+rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2016_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:NC , lcc-3166-1-adj:PF ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2016_0 ;
+	delta:subject-old	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2014_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2016_0 .
 
 rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2022_0
 	a	lcc-cr:GeographicRegion ;
@@ -1588,13 +2008,25 @@ rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2022_0
 	tempo:validFrom	"2022-07-09"^^xsd:date ;
 	tempo:validTill	"2023-01-30"^^xsd:date .
 
+rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2022_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	lcc-3166-1-adj:KI ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2022_0 ;
+	delta:subject-old	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2016_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2022_0 .
+
 rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2023_0
 	a	lcc-cr:GeographicRegion ;
 	a	owl:NamedIndividual ;
 	dct:replaces	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2022_0 ;
 	dct:source	"https://forumsec.org/"^^xsd:anyURI ;
 	foaf:name	"Pacific Islands Forum"@en ;
-	lcc-cr:hasSubregion	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2016_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AU , lcc-3166-1-adj:CK , lcc-3166-1-adj:FJ , lcc-3166-1-adj:FM , lcc-3166-1-adj:KI , lcc-3166-1-adj:MH , lcc-3166-1-adj:NC , lcc-3166-1-adj:NR , lcc-3166-1-adj:NU , lcc-3166-1-adj:NZ , lcc-3166-1-adj:PF , lcc-3166-1-adj:PG , lcc-3166-1-adj:PW , lcc-3166-1-adj:SB , lcc-3166-1-adj:TO , lcc-3166-1-adj:TV , lcc-3166-1-adj:VU , lcc-3166-1-adj:WS ;
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-16T04:59:37Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-16T04:59:37Z"^^xsd:dateTime ;
@@ -1603,3 +2035,15 @@ rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2023_0
 	rgn:hasCurrentVariant	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
 	skos:definition	"individual representing the Pacific Islands Forum"@en ;
 	tempo:validFrom	"2023-01-30"^^xsd:date .
+
+rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2023_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:KI ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2023_0 ;
+	delta:subject-old	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2022_0 ;
+	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2023_0 .

@@ -1,51 +1,61 @@
 log_enable(3,1);
 
-SET u{ACTUAL} http://data.ga-group.nl/region/;
-SET u{GRAPH} region-pretend;
-SET u{STAGE} region-staging;
-SET u{DIFFG} region-diff;
+SET u{ORIGG} region-origg;
+SET u{PATCH} region-patch;
 
-SPARQL CREATE SILENT GRAPH <$u{GRAPH}>;
-SPARQL CLEAR GRAPH <$u{GRAPH}>;
+SPARQL CREATE SILENT GRAPH <$u{ORIGG}>;
+SPARQL CLEAR GRAPH <$u{ORIGG}>;
+SPARQL CREATE SILENT GRAPH <$u{PATCH}>;
+SPARQL CLEAR GRAPH <$u{PATCH}>;
 
-SPARQL CREATE SILENT GRAPH <$u{STAGE}>;
-SPARQL CLEAR GRAPH <$u{STAGE}>;
-
+ECHO "preparing pretend orig graph ... ";
 SPARQL
-WITH <$u{GRAPH}>
+WITH <$u{ORIGG}>
 INSERT {
-	?x ?p ?o
+	?x ?p ?o ;
+		rdf:subject ?y
 }
-USING <$u{ACTUAL}>
+USING <$u{GRAPH}>
 WHERE {
 	?x dct:replaces ?y .
+	## go with a whitelist
+	VALUES ?p {
+	lcc-cr:hasSubregion
+	lcc-cr:isClassifiedBy
+	foaf:name
+	rdfs:label
+	skos:definition
+	}
 	?y ?p ?o .
-	FILTER(?p != dct:isReplacedBy)
 }
 ;
 ECHO $ROWCNT"\n";
 
+ECHO "preparing pretend patch graph ... ";
 SPARQL
-WITH <$u{STAGE}>
+WITH <$u{PATCH}>
 INSERT {
-	?x ?p ?o
+	?x ?p ?o ;
+		rdf:subject ?x
 }
-USING <$u{ACTUAL}>
+USING <$u{GRAPH}>
 WHERE {
-	?x dct:replaces ?y ;
-		?p ?o .
-	FILTER(?p != dct:isReplacedBy)
+	?x dct:replaces ?y .
+	## go with a whitelist
+	VALUES ?p {
+	lcc-cr:hasSubregion
+	lcc-cr:isClassifiedBy
+	foaf:name
+	rdfs:label
+	skos:definition
+	}
+	?x ?p ?o .
 }
 ;
 ECHO $ROWCNT"\n";
 
+SET u{DIFFG} $u{GRAPH};
 LOAD '/home/freundt/author/region/sql/diff-mkdelta.sql';
-LOAD '/home/freundt/author/region/sql/unify-delta.sql';
+LOAD '/home/freundt/author/region/sql/sweep-delta.sql';
 LOAD '/home/freundt/author/region/sql/fixup-delta.sql';
-
-SPARQL ADD <$u{DIFFG}> TO <$u{ACTUAL}>;
-
-SPARQL CREATE SILENT GRAPH <$u{GRAPH}>;
-SPARQL CLEAR GRAPH <$u{GRAPH}>;
-
-LOAD '/home/freundt/author/region/sql/prov-massage.sql';
+LOAD '/home/freundt/author/region/sql/decor-delta.sql';

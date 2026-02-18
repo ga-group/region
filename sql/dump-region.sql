@@ -2,6 +2,8 @@ changequote()changequote([,])
 DB.DBA.XML_SET_NS_DECL('rdfs', 'http://www.w3.org/2000/01/rdf-schema#', 3);
 DB.DBA.XML_SET_NS_DECL('tempo', 'http://purl.org/tempo/', 3);
 DB.DBA.XML_SET_NS_DECL('lcc-3166-1-adj', 'https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/', 1);
+DB.DBA.XML_SET_NS_DECL('lcc-3166-3', 'https://www.omg.org/spec/LCC/Countries/ISO3166-3-FormerCountries/', 1);
+DB.DBA.XML_SET_NS_DECL('lcc-3166-3-adj', 'https://www.omg.org/spec/LCC/Countries/ISO3166-3-FormerCountries-Adjunct/', 1);
 DB.DBA.XML_SET_NS_DECL('lcc-m49', 'https://www.omg.org/spec/LCC/Countries/UN-M49-RegionCodes/', 3);
 DB.DBA.XML_SET_NS_DECL('lcc-cr', 'https://www.omg.org/spec/LCC/Countries/CountryRepresentation/', 3);
 DB.DBA.XML_SET_NS_DECL('dct', 'http://purl.org/dc/terms/', 3);
