@@ -19,11 +19,22 @@ lcc-3166-1-adj:AD
 		tempo:validFrom	"2012-04-01"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:AO
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+		rdfs:label	"COMESA"@en ;
+		tempo:validFrom	"1994-12-08"^^xsd:date ;
+		tempo:validTill	"2007-11-14"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:AT
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
@@ -47,7 +58,7 @@ lcc-3166-1-adj:BE
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
@@ -61,7 +72,7 @@ lcc-3166-1-adj:BG
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"2026-01-01"^^xsd:date ;
 	] , [
@@ -69,6 +80,23 @@ lcc-3166-1-adj:BG
 		pav:derivedFrom	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
 		rdfs:label	"Eurozone with monetary agreement" ;
 		tempo:validFrom	"2026-01-01"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:BI
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+		rdfs:label	"COMESA"@en ;
+		tempo:validFrom	"1994-12-08"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
+		rdfs:label	"PTA" ;
+		tempo:validFrom	"1982-09-30"^^xsd:date ;
+		tempo:validTill	"1994-12-08"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:BN
@@ -79,6 +107,23 @@ lcc-3166-1-adj:BN
 		pav:derivedFrom	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A ;
 		rdfs:label	"ASEAN" ;
 		tempo:validFrom	"1984-01-07"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:CD
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+		rdfs:label	"COMESA"@en ;
+		tempo:validFrom	"1994-12-08"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
+		rdfs:label	"PTA" ;
+		tempo:validFrom	"1982-09-30"^^xsd:date ;
+		tempo:validTill	"1994-12-08"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:CK
@@ -95,7 +140,7 @@ lcc-3166-1-adj:CY
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"2008-01-01"^^xsd:date ;
 	] , [
@@ -109,7 +154,7 @@ lcc-3166-1-adj:DE
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
@@ -117,13 +162,30 @@ lcc-3166-1-adj:DE
 		pav:derivedFrom	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
 		rdfs:label	"Eurozone with monetary agreement" ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:DJ
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+		rdfs:label	"COMESA"@en ;
+		tempo:validFrom	"1994-12-08"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
+		rdfs:label	"PTA" ;
+		tempo:validFrom	"1982-09-30"^^xsd:date ;
+		tempo:validTill	"1994-12-08"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:EE
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"2011-01-01"^^xsd:date ;
 	] , [
@@ -131,13 +193,33 @@ lcc-3166-1-adj:EE
 		pav:derivedFrom	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
 		rdfs:label	"Eurozone with monetary agreement" ;
 		tempo:validFrom	"2011-01-01"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:EG
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+		rdfs:label	"COMESA"@en ;
+		tempo:validFrom	"1999-01-06"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:ER
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+		rdfs:label	"COMESA"@en ;
+		tempo:validFrom	"1994-12-08"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:ES
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
@@ -147,11 +229,28 @@ lcc-3166-1-adj:ES
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:ET
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+		rdfs:label	"COMESA"@en ;
+		tempo:validFrom	"1994-12-08"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
+		rdfs:label	"PTA" ;
+		tempo:validFrom	"1982-09-30"^^xsd:date ;
+		tempo:validTill	"1994-12-08"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:FI
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
@@ -186,7 +285,7 @@ lcc-3166-1-adj:FR
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
@@ -200,7 +299,7 @@ lcc-3166-1-adj:GR
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"2001-01-01"^^xsd:date ;
 	] , [
@@ -214,7 +313,7 @@ lcc-3166-1-adj:HR
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"2023-01-01"^^xsd:date ;
 	] , [
@@ -238,7 +337,7 @@ lcc-3166-1-adj:IE
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
@@ -252,7 +351,7 @@ lcc-3166-1-adj:IT
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
@@ -260,6 +359,23 @@ lcc-3166-1-adj:IT
 		pav:derivedFrom	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
 		rdfs:label	"Eurozone with monetary agreement" ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:KE
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+		rdfs:label	"COMESA"@en ;
+		tempo:validFrom	"1994-12-08"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
+		rdfs:label	"PTA" ;
+		tempo:validFrom	"1982-09-30"^^xsd:date ;
+		tempo:validTill	"1994-12-08"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:KH
@@ -283,6 +399,23 @@ lcc-3166-1-adj:KI
 		tempo:validTill	"2022-07-09"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:KM
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+		rdfs:label	"COMESA"@en ;
+		tempo:validFrom	"1994-12-08"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
+		rdfs:label	"PTA" ;
+		tempo:validFrom	"1982-09-30"^^xsd:date ;
+		tempo:validTill	"1994-12-08"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:LA
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -293,11 +426,22 @@ lcc-3166-1-adj:LA
 		tempo:validFrom	"1997-07-23"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:LS
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+		rdfs:label	"COMESA"@en ;
+		tempo:validFrom	"1994-12-08"^^xsd:date ;
+		tempo:validTill	"1997-11-12"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:LT
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"2015-01-01"^^xsd:date ;
 	] , [
@@ -311,7 +455,7 @@ lcc-3166-1-adj:LU
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
@@ -325,7 +469,7 @@ lcc-3166-1-adj:LV
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"2014-01-01"^^xsd:date ;
 	] , [
@@ -335,6 +479,16 @@ lcc-3166-1-adj:LV
 		tempo:validFrom	"2014-01-01"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:LY
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+		rdfs:label	"COMESA"@en ;
+		tempo:validFrom	"2005-11-09"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:MC
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -342,6 +496,23 @@ lcc-3166-1-adj:MC
 		pav:derivedFrom	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
 		rdfs:label	"Eurozone with monetary agreement" ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:MG
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+		rdfs:label	"COMESA"@en ;
+		tempo:validFrom	"1994-12-08"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
+		rdfs:label	"PTA" ;
+		tempo:validFrom	"1982-09-30"^^xsd:date ;
+		tempo:validTill	"1994-12-08"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:MH
@@ -368,7 +539,7 @@ lcc-3166-1-adj:MT
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"2008-01-01"^^xsd:date ;
 	] , [
@@ -376,6 +547,40 @@ lcc-3166-1-adj:MT
 		pav:derivedFrom	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
 		rdfs:label	"Eurozone with monetary agreement" ;
 		tempo:validFrom	"2008-01-01"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:MU
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+		rdfs:label	"COMESA"@en ;
+		tempo:validFrom	"1994-12-08"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
+		rdfs:label	"PTA" ;
+		tempo:validFrom	"1982-09-30"^^xsd:date ;
+		tempo:validTill	"1994-12-08"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:MW
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+		rdfs:label	"COMESA"@en ;
+		tempo:validFrom	"1994-12-08"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
+		rdfs:label	"PTA" ;
+		tempo:validFrom	"1982-09-30"^^xsd:date ;
+		tempo:validTill	"1994-12-08"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:MY
@@ -386,6 +591,28 @@ lcc-3166-1-adj:MY
 		pav:derivedFrom	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A ;
 		rdfs:label	"ASEAN" ;
 		tempo:validFrom	"1967-08-08"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:MZ
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+		rdfs:label	"COMESA"@en ;
+		tempo:validFrom	"1994-12-08"^^xsd:date ;
+		tempo:validTill	"1997-11-12"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:NA
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+		rdfs:label	"COMESA"@en ;
+		tempo:validFrom	"1994-12-08"^^xsd:date ;
+		tempo:validTill	"2004-11-09"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:NC
@@ -402,7 +629,7 @@ lcc-3166-1-adj:NL
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
@@ -482,7 +709,7 @@ lcc-3166-1-adj:PT
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
@@ -502,6 +729,23 @@ lcc-3166-1-adj:PW
 		tempo:validFrom	"1997-10-13"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:RW
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+		rdfs:label	"COMESA"@en ;
+		tempo:validFrom	"1994-12-08"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
+		rdfs:label	"PTA" ;
+		tempo:validFrom	"1982-09-30"^^xsd:date ;
+		tempo:validTill	"1994-12-08"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:SB
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -510,6 +754,33 @@ lcc-3166-1-adj:SB
 		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
 		rdfs:label	"PIF" ;
 		tempo:validFrom	"1978-09-16"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:SC
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+		rdfs:label	"COMESA"@en ;
+		tempo:validFrom	"2001-11-07"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:SD
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+		rdfs:label	"COMESA"@en ;
+		tempo:validFrom	"1994-12-08"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
+		rdfs:label	"PTA" ;
+		tempo:validFrom	"1982-09-30"^^xsd:date ;
+		tempo:validTill	"1994-12-08"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:SG
@@ -526,7 +797,7 @@ lcc-3166-1-adj:SI
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"2007-01-01"^^xsd:date ;
 	] , [
@@ -540,7 +811,7 @@ lcc-3166-1-adj:SK
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
 		tempo:validFrom	"2009-01-01"^^xsd:date ;
 	] , [
@@ -557,6 +828,40 @@ lcc-3166-1-adj:SM
 		pav:derivedFrom	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
 		rdfs:label	"Eurozone with monetary agreement" ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:SO
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
+		rdfs:label	"PTA" ;
+		tempo:validFrom	"1982-09-30"^^xsd:date ;
+		tempo:validTill	"1994-12-08"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+		rdfs:label	"COMESA"@en ;
+		tempo:validFrom	"2018-07-19"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:SZ
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+		rdfs:label	"COMESA"@en ;
+		tempo:validFrom	"1994-12-08"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
+		rdfs:label	"PTA" ;
+		tempo:validFrom	"1982-09-30"^^xsd:date ;
+		tempo:validTill	"1994-12-08"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:TH
@@ -585,6 +890,16 @@ lcc-3166-1-adj:TL
 		tempo:validFrom	"2025-10-26"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:TN
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+		rdfs:label	"COMESA"@en ;
+		tempo:validFrom	"2018-07-19"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:TO
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -603,6 +918,34 @@ lcc-3166-1-adj:TV
 		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
 		rdfs:label	"PIF" ;
 		tempo:validFrom	"1978-09-16"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:TZ
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+		rdfs:label	"COMESA"@en ;
+		tempo:validFrom	"1994-12-08"^^xsd:date ;
+		tempo:validTill	"2001-09-02"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:UG
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+		rdfs:label	"COMESA"@en ;
+		tempo:validFrom	"1994-12-08"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
+		rdfs:label	"PTA" ;
+		tempo:validFrom	"1982-09-30"^^xsd:date ;
+		tempo:validTill	"1994-12-08"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:VA
@@ -642,6 +985,40 @@ lcc-3166-1-adj:WS
 		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
 		rdfs:label	"PIF" ;
 		tempo:validFrom	"1971-08-05"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:ZM
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+		rdfs:label	"COMESA"@en ;
+		tempo:validFrom	"1994-12-08"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
+		rdfs:label	"PTA" ;
+		tempo:validFrom	"1982-09-30"^^xsd:date ;
+		tempo:validTill	"1994-12-08"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:ZW
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+		rdfs:label	"COMESA"@en ;
+		tempo:validFrom	"1994-12-08"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
+		rdfs:label	"PTA" ;
+		tempo:validFrom	"1982-09-30"^^xsd:date ;
+		tempo:validTill	"1994-12-08"^^xsd:date ;
 	] .
 
 lcc-3166-3-adj:GEHH

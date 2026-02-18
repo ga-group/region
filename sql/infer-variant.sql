@@ -33,4 +33,25 @@ WHERE {
 }
 ;
 ECHO $ROWCNT"\n";
+
+ECHO "aliasing latest variant ... ";
+SPARQL
+DEFINE sql:log-enable 3
+PREFIX lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/>
+PREFIX rgn: <http://data.ga-group.nl/region/>
+
+WITH <$u{GRAPH}>
+DELETE {
+	?z owl:sameAs ?x
+}
+INSERT {
+	?z owl:sameAs ?y
+}
+WHERE {
+	?z owl:sameAs ?x .
+	?x rgn:hasCurrentVariant ?z .
+	?x dct:isReplacedBy ?y .
+}
+;
+ECHO $ROWCNT"\n";
 CHECKPOINT;

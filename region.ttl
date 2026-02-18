@@ -96,7 +96,7 @@ rgn:r01KH8R0PYDTV2B66AGWN37WS55
 	skos:definition	"the top individual that every region is a subregion of"@en .
 
 rgn:r01KH9049WY3VRF1RS69KHZS47P
-	owl:sameAs	rgn:r01KH9049WY3VRF1RS69KHZS47P .
+	owl:sameAs	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 .
 
 rgn:r01KH9049WY3VRF1RS69KHZS47P_1999_0
 	a	lcc-cr:GeographicRegion ;
@@ -110,7 +110,7 @@ rgn:r01KH9049WY3VRF1RS69KHZS47P_1999_0
 	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"Eurozone" ;
-	rgn:hasCurrentVariant	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+	rgn:hasCurrentVariant	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 	skos:definition	"individual representing the Eurozone"@en ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
 	tempo:validTill	"2001-01-01"^^xsd:date .
@@ -128,7 +128,7 @@ rgn:r01KH9049WY3VRF1RS69KHZS47P_2001_0
 	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"Eurozone" ;
-	rgn:hasCurrentVariant	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+	rgn:hasCurrentVariant	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 	skos:definition	"individual representing the Eurozone"@en ;
 	tempo:validFrom	"2001-01-01"^^xsd:date ;
 	tempo:validTill	"2007-01-01"^^xsd:date .
@@ -158,7 +158,7 @@ rgn:r01KH9049WY3VRF1RS69KHZS47P_2007_0
 	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"Eurozone" ;
-	rgn:hasCurrentVariant	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+	rgn:hasCurrentVariant	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 	skos:definition	"individual representing the Eurozone"@en ;
 	tempo:validFrom	"2007-01-01"^^xsd:date ;
 	tempo:validTill	"2008-01-01"^^xsd:date .
@@ -188,7 +188,7 @@ rgn:r01KH9049WY3VRF1RS69KHZS47P_2008_0
 	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"Eurozone" ;
-	rgn:hasCurrentVariant	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+	rgn:hasCurrentVariant	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 	skos:definition	"individual representing the Eurozone"@en ;
 	tempo:validFrom	"2008-01-01"^^xsd:date ;
 	tempo:validTill	"2009-01-01"^^xsd:date .
@@ -218,7 +218,7 @@ rgn:r01KH9049WY3VRF1RS69KHZS47P_2009_0
 	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"Eurozone" ;
-	rgn:hasCurrentVariant	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+	rgn:hasCurrentVariant	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 	skos:definition	"individual representing the Eurozone"@en ;
 	tempo:validFrom	"2009-01-01"^^xsd:date ;
 	tempo:validTill	"2011-01-01"^^xsd:date .
@@ -248,7 +248,7 @@ rgn:r01KH9049WY3VRF1RS69KHZS47P_2011_0
 	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"Eurozone" ;
-	rgn:hasCurrentVariant	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+	rgn:hasCurrentVariant	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 	skos:definition	"individual representing the Eurozone"@en ;
 	tempo:validFrom	"2011-01-01"^^xsd:date ;
 	tempo:validTill	"2014-01-01"^^xsd:date .
@@ -278,7 +278,7 @@ rgn:r01KH9049WY3VRF1RS69KHZS47P_2014_0
 	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"Eurozone" ;
-	rgn:hasCurrentVariant	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+	rgn:hasCurrentVariant	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 	skos:definition	"individual representing the Eurozone"@en ;
 	tempo:validFrom	"2014-01-01"^^xsd:date ;
 	tempo:validTill	"2015-01-01"^^xsd:date .
@@ -308,7 +308,7 @@ rgn:r01KH9049WY3VRF1RS69KHZS47P_2015_0
 	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"Eurozone" ;
-	rgn:hasCurrentVariant	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+	rgn:hasCurrentVariant	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 	skos:definition	"individual representing the Eurozone"@en ;
 	tempo:validFrom	"2015-01-01"^^xsd:date ;
 	tempo:validTill	"2023-01-01"^^xsd:date .
@@ -338,7 +338,7 @@ rgn:r01KH9049WY3VRF1RS69KHZS47P_2023_0
 	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"Eurozone" ;
-	rgn:hasCurrentVariant	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+	rgn:hasCurrentVariant	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 	skos:definition	"individual representing the Eurozone"@en ;
 	tempo:validFrom	"2023-01-01"^^xsd:date ;
 	tempo:validTill	"2026-01-01"^^xsd:date .
@@ -367,7 +367,7 @@ rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0
 	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"Eurozone" ;
-	rgn:hasCurrentVariant	rgn:r01KH9049WY3VRF1RS69KHZS47P_2026_0 ;
+	rgn:hasCurrentVariant	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 	skos:definition	"individual representing the Eurozone"@en ;
 	tempo:validFrom	"2026-01-01"^^xsd:date .
 
@@ -1327,3 +1327,273 @@ rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2023_0_delta
 	delta:subject-old	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2022_0 ;
 	prov:generatedAtTime	"2026-02-18T09:23:04.865721"^^xsd:dateTime ;
 	rdf:subject	rgn:r01KHJD1VTT4N99YJFXR5R973ZA_2023_0 .
+
+rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB
+	owl:sameAs	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB_1982_0 .
+
+rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB_1982_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
+	foaf:name	"Preferential Trade Area"@en ;
+	geopol:isPredecessorOf	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_1994_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BI , lcc-3166-1-adj:CD , lcc-3166-1-adj:DJ , lcc-3166-1-adj:ET , lcc-3166-1-adj:KE , lcc-3166-1-adj:KM , lcc-3166-1-adj:MG , lcc-3166-1-adj:MU , lcc-3166-1-adj:MW , lcc-3166-1-adj:RW , lcc-3166-1-adj:SD , lcc-3166-1-adj:SO , lcc-3166-1-adj:SZ , lcc-3166-1-adj:UG , lcc-3166-1-adj:ZM , lcc-3166-1-adj:ZW ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	pav:createdOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"PTA" ;
+	rgn:hasCurrentVariant	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
+	skos:definition	"individual representing the precursor to COMESA, established in 1981"@en ;
+	tempo:validFrom	"1982-09-30"^^xsd:date ;
+	tempo:validTill	"1994-12-08"^^xsd:date .
+
+rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ
+	owl:sameAs	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2018_0 .
+
+rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_1994_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_1997_0 ;
+	dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
+	foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+	geopol:isSuccessorOf	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB_1982_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AO , lcc-3166-1-adj:BI , lcc-3166-1-adj:CD , lcc-3166-1-adj:DJ , lcc-3166-1-adj:ER , lcc-3166-1-adj:ET , lcc-3166-1-adj:KE , lcc-3166-1-adj:KM , lcc-3166-1-adj:LS , lcc-3166-1-adj:MG , lcc-3166-1-adj:MU , lcc-3166-1-adj:MW , lcc-3166-1-adj:MZ , lcc-3166-1-adj:NA , lcc-3166-1-adj:RW , lcc-3166-1-adj:SD , lcc-3166-1-adj:SZ , lcc-3166-1-adj:TZ , lcc-3166-1-adj:UG , lcc-3166-1-adj:ZM , lcc-3166-1-adj:ZW ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	pav:createdOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
+	rdfs:label	"COMESA"@en ;
+	rgn:hasCurrentVariant	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+	skos:definition	"individual representing COMESA"@en ;
+	tempo:validFrom	"1994-12-08"^^xsd:date ;
+	tempo:validTill	"1997-11-12"^^xsd:date .
+
+rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_1997_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_1999_0 ;
+	dct:replaces	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_1994_0 ;
+	dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
+	foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AO , lcc-3166-1-adj:BI , lcc-3166-1-adj:CD , lcc-3166-1-adj:DJ , lcc-3166-1-adj:ER , lcc-3166-1-adj:ET , lcc-3166-1-adj:KE , lcc-3166-1-adj:KM , lcc-3166-1-adj:MG , lcc-3166-1-adj:MU , lcc-3166-1-adj:MW , lcc-3166-1-adj:NA , lcc-3166-1-adj:RW , lcc-3166-1-adj:SD , lcc-3166-1-adj:SZ , lcc-3166-1-adj:TZ , lcc-3166-1-adj:UG , lcc-3166-1-adj:ZM , lcc-3166-1-adj:ZW ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	pav:createdOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
+	rdfs:label	"COMESA"@en ;
+	rgn:hasCurrentVariant	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+	skos:definition	"individual representing COMESA"@en ;
+	tempo:validFrom	"1997-11-12"^^xsd:date ;
+	tempo:validTill	"1999-01-06"^^xsd:date .
+
+rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_1997_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	lcc-3166-1-adj:LS , lcc-3166-1-adj:MZ ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_1997_0 ;
+	delta:subject-old	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_1994_0 ;
+	prov:generatedAtTime	"2026-02-18T15:58:48.922673"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_1997_0 .
+
+rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_1999_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2001_0 ;
+	dct:replaces	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_1997_0 ;
+	dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
+	foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AO , lcc-3166-1-adj:BI , lcc-3166-1-adj:CD , lcc-3166-1-adj:DJ , lcc-3166-1-adj:EG , lcc-3166-1-adj:ER , lcc-3166-1-adj:ET , lcc-3166-1-adj:KE , lcc-3166-1-adj:KM , lcc-3166-1-adj:MG , lcc-3166-1-adj:MU , lcc-3166-1-adj:MW , lcc-3166-1-adj:NA , lcc-3166-1-adj:RW , lcc-3166-1-adj:SD , lcc-3166-1-adj:SZ , lcc-3166-1-adj:TZ , lcc-3166-1-adj:UG , lcc-3166-1-adj:ZM , lcc-3166-1-adj:ZW ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	pav:createdOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
+	rdfs:label	"COMESA"@en ;
+	rgn:hasCurrentVariant	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+	skos:definition	"individual representing COMESA"@en ;
+	tempo:validFrom	"1999-01-06"^^xsd:date ;
+	tempo:validTill	"2001-09-02"^^xsd:date .
+
+rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_1999_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:EG ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_1999_0 ;
+	delta:subject-old	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_1997_0 ;
+	prov:generatedAtTime	"2026-02-18T15:58:48.922673"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_1999_0 .
+
+rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2001_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2001_1 ;
+	dct:replaces	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_1999_0 ;
+	dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
+	foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AO , lcc-3166-1-adj:BI , lcc-3166-1-adj:CD , lcc-3166-1-adj:DJ , lcc-3166-1-adj:EG , lcc-3166-1-adj:ER , lcc-3166-1-adj:ET , lcc-3166-1-adj:KE , lcc-3166-1-adj:KM , lcc-3166-1-adj:MG , lcc-3166-1-adj:MU , lcc-3166-1-adj:MW , lcc-3166-1-adj:NA , lcc-3166-1-adj:RW , lcc-3166-1-adj:SD , lcc-3166-1-adj:SZ , lcc-3166-1-adj:UG , lcc-3166-1-adj:ZM , lcc-3166-1-adj:ZW ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	pav:createdOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
+	rdfs:label	"COMESA"@en ;
+	rgn:hasCurrentVariant	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+	skos:definition	"individual representing COMESA"@en ;
+	tempo:validFrom	"2001-09-02"^^xsd:date ;
+	tempo:validTill	"2001-11-07"^^xsd:date .
+
+rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2001_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	lcc-3166-1-adj:TZ ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2001_0 ;
+	delta:subject-old	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_1999_0 ;
+	prov:generatedAtTime	"2026-02-18T15:58:48.922673"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2001_0 .
+
+rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2001_1
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2004_0 ;
+	dct:replaces	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2001_0 ;
+	dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
+	foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AO , lcc-3166-1-adj:BI , lcc-3166-1-adj:CD , lcc-3166-1-adj:DJ , lcc-3166-1-adj:EG , lcc-3166-1-adj:ER , lcc-3166-1-adj:ET , lcc-3166-1-adj:KE , lcc-3166-1-adj:KM , lcc-3166-1-adj:MG , lcc-3166-1-adj:MU , lcc-3166-1-adj:MW , lcc-3166-1-adj:NA , lcc-3166-1-adj:RW , lcc-3166-1-adj:SC , lcc-3166-1-adj:SD , lcc-3166-1-adj:SZ , lcc-3166-1-adj:UG , lcc-3166-1-adj:ZM , lcc-3166-1-adj:ZW ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	pav:createdOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
+	rdfs:label	"COMESA"@en ;
+	rgn:hasCurrentVariant	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+	skos:definition	"individual representing COMESA"@en ;
+	tempo:validFrom	"2001-11-07"^^xsd:date ;
+	tempo:validTill	"2004-11-09"^^xsd:date .
+
+rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2001_1_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:SC ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2001_1 ;
+	delta:subject-old	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2001_0 ;
+	prov:generatedAtTime	"2026-02-18T15:58:48.922673"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2001_1 .
+
+rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2004_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2005_0 ;
+	dct:replaces	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2001_1 ;
+	dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
+	foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AO , lcc-3166-1-adj:BI , lcc-3166-1-adj:CD , lcc-3166-1-adj:DJ , lcc-3166-1-adj:EG , lcc-3166-1-adj:ER , lcc-3166-1-adj:ET , lcc-3166-1-adj:KE , lcc-3166-1-adj:KM , lcc-3166-1-adj:MG , lcc-3166-1-adj:MU , lcc-3166-1-adj:MW , lcc-3166-1-adj:RW , lcc-3166-1-adj:SC , lcc-3166-1-adj:SD , lcc-3166-1-adj:SZ , lcc-3166-1-adj:UG , lcc-3166-1-adj:ZM , lcc-3166-1-adj:ZW ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	pav:createdOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
+	rdfs:label	"COMESA"@en ;
+	rgn:hasCurrentVariant	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+	skos:definition	"individual representing COMESA"@en ;
+	tempo:validFrom	"2004-11-09"^^xsd:date ;
+	tempo:validTill	"2005-11-09"^^xsd:date .
+
+rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2004_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	lcc-3166-1-adj:NA ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2004_0 ;
+	delta:subject-old	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2001_1 ;
+	prov:generatedAtTime	"2026-02-18T15:58:48.922673"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2004_0 .
+
+rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2005_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2007_0 ;
+	dct:replaces	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2004_0 ;
+	dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
+	foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AO , lcc-3166-1-adj:BI , lcc-3166-1-adj:CD , lcc-3166-1-adj:DJ , lcc-3166-1-adj:EG , lcc-3166-1-adj:ER , lcc-3166-1-adj:ET , lcc-3166-1-adj:KE , lcc-3166-1-adj:KM , lcc-3166-1-adj:LY , lcc-3166-1-adj:MG , lcc-3166-1-adj:MU , lcc-3166-1-adj:MW , lcc-3166-1-adj:RW , lcc-3166-1-adj:SC , lcc-3166-1-adj:SD , lcc-3166-1-adj:SZ , lcc-3166-1-adj:UG , lcc-3166-1-adj:ZM , lcc-3166-1-adj:ZW ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	pav:createdOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
+	rdfs:label	"COMESA"@en ;
+	rgn:hasCurrentVariant	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+	skos:definition	"individual representing COMESA"@en ;
+	tempo:validFrom	"2005-11-09"^^xsd:date ;
+	tempo:validTill	"2007-11-14"^^xsd:date .
+
+rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2005_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:LY ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2005_0 ;
+	delta:subject-old	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2004_0 ;
+	prov:generatedAtTime	"2026-02-18T16:02:58.018264"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2005_0 .
+
+rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2007_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2018_0 ;
+	dct:replaces	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2005_0 ;
+	dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
+	foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BI , lcc-3166-1-adj:CD , lcc-3166-1-adj:DJ , lcc-3166-1-adj:EG , lcc-3166-1-adj:ER , lcc-3166-1-adj:ET , lcc-3166-1-adj:KE , lcc-3166-1-adj:KM , lcc-3166-1-adj:LY , lcc-3166-1-adj:MG , lcc-3166-1-adj:MU , lcc-3166-1-adj:MW , lcc-3166-1-adj:RW , lcc-3166-1-adj:SC , lcc-3166-1-adj:SD , lcc-3166-1-adj:SZ , lcc-3166-1-adj:UG , lcc-3166-1-adj:ZM , lcc-3166-1-adj:ZW ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	pav:createdOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
+	rdfs:label	"COMESA"@en ;
+	rgn:hasCurrentVariant	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+	skos:definition	"individual representing COMESA"@en ;
+	tempo:validFrom	"2007-11-14"^^xsd:date ;
+	tempo:validTill	"2018-07-19"^^xsd:date .
+
+rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2007_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	lcc-3166-1-adj:AO ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2007_0 ;
+	delta:subject-old	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2005_0 ;
+	prov:generatedAtTime	"2026-02-18T16:02:58.018264"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2007_0 .
+
+rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2018_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:replaces	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2007_0 ;
+	dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
+	foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BI , lcc-3166-1-adj:CD , lcc-3166-1-adj:DJ , lcc-3166-1-adj:EG , lcc-3166-1-adj:ER , lcc-3166-1-adj:ET , lcc-3166-1-adj:KE , lcc-3166-1-adj:KM , lcc-3166-1-adj:LY , lcc-3166-1-adj:MG , lcc-3166-1-adj:MU , lcc-3166-1-adj:MW , lcc-3166-1-adj:RW , lcc-3166-1-adj:SC , lcc-3166-1-adj:SD , lcc-3166-1-adj:SO , lcc-3166-1-adj:SZ , lcc-3166-1-adj:TN , lcc-3166-1-adj:UG , lcc-3166-1-adj:ZM , lcc-3166-1-adj:ZW ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	pav:createdOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
+	rdfs:label	"COMESA"@en ;
+	rgn:hasCurrentVariant	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
+	skos:definition	"individual representing COMESA"@en ;
+	tempo:validFrom	"2018-07-19"^^xsd:date .
+
+rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2018_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:SO , lcc-3166-1-adj:TN ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2018_0 ;
+	delta:subject-old	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2007_0 ;
+	prov:generatedAtTime	"2026-02-18T16:17:04.838579"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2018_0 .
