@@ -15,18 +15,11 @@ DB.DBA.XML_SET_NS_DECL('dbr', 'http://dbpedia.org/resource/', 1);
 DB.DBA.XML_SET_NS_DECL('wd', 'http://www.wikidata.org/entity/', 3);
 DB.DBA.XML_SET_NS_DECL('stw', 'http://zbw.eu/stw/descriptor/', 3);
 DB.DBA.XML_SET_NS_DECL('skos', 'http://www.w3.org/2004/02/skos/core#', 3);
-DB.DBA.XML_SET_NS_DECL('bps', 'http://bsym.bloomberg.com/pricing_source/', 3);
-DB.DBA.XML_SET_NS_DECL('intr', 'http://ga.local/intr#', 3);
-DB.DBA.XML_SET_NS_DECL('ccy', 'http://ga.local/ccy#', 3);
 DB.DBA.XML_SET_NS_DECL('cfi', 'http://schema.ga-group.nl/meta/classification/CFI/', 3);
 DB.DBA.XML_SET_NS_DECL('cic', 'http://schema.ga-group.nl/meta/classification/CIC/', 3);
 DB.DBA.XML_SET_NS_DECL('ccat', 'http://data.ga-group.nl/comcat/', 3);
 DB.DBA.XML_SET_NS_DECL('rgn', 'http://data.ga-group.nl/region/', 3);
-DB.DBA.XML_SET_NS_DECL('cdr', 'http://ga.local/cdr#', 3);
 DB.DBA.XML_SET_NS_DECL('delta', 'http://www.w3.org/2004/delta#', 3);
-DB.DBA.XML_SET_NS_DECL('isin', 'http://www.annaservice.com/anna/annaisin/', 3);
-DB.DBA.XML_SET_NS_DECL('c', 'http://ga.local/comdty#', 1);
-DB.DBA.XML_SET_NS_DECL('e', 'http://ga.local/eco#', 1);
 
 include(/home/freundt/author/region/sql/dump-generic.sql)
 CREATE DUMP_PROCEDURE(dump_rgn_inv,

@@ -14,8 +14,11 @@ lcc-3166-1-adj:AD
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone with monetary agreement" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
 		rdfs:label	"Eurozone with monetary agreement" ;
+		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"2012-04-01"^^xsd:date ;
 	] .
 
@@ -24,8 +27,11 @@ lcc-3166-1-adj:AO
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 		rdfs:label	"COMESA"@en ;
+		skos:definition	"individual representing COMESA"@en ;
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 		tempo:validTill	"2007-11-14"^^xsd:date ;
 	] .
@@ -34,13 +40,19 @@ lcc-3166-1-adj:AT
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
+		skos:definition	"individual representing the Eurozone"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone with monetary agreement" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
 		rdfs:label	"Eurozone with monetary agreement" ;
+		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] .
 
@@ -49,8 +61,10 @@ lcc-3166-1-adj:AU
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		foaf:name	"Pacific Islands Forum"@en ;
 		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
 		rdfs:label	"PIF" ;
+		skos:definition	"individual representing the Pacific Islands Forum"@en ;
 		tempo:validFrom	"1971-08-05"^^xsd:date ;
 	] .
 
@@ -58,13 +72,19 @@ lcc-3166-1-adj:BE
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
+		skos:definition	"individual representing the Eurozone"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone with monetary agreement" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
 		rdfs:label	"Eurozone with monetary agreement" ;
+		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] .
 
@@ -72,13 +92,19 @@ lcc-3166-1-adj:BG
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
+		skos:definition	"individual representing the Eurozone"@en ;
 		tempo:validFrom	"2026-01-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone with monetary agreement" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
 		rdfs:label	"Eurozone with monetary agreement" ;
+		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"2026-01-01"^^xsd:date ;
 	] .
 
@@ -87,14 +113,20 @@ lcc-3166-1-adj:BI
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 		rdfs:label	"COMESA"@en ;
+		skos:definition	"individual representing COMESA"@en ;
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Preferential Trade Area"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
 		rdfs:label	"PTA" ;
+		skos:definition	"individual representing the precursor to COMESA, established in 1981"@en ;
 		tempo:validFrom	"1982-09-30"^^xsd:date ;
 		tempo:validTill	"1994-12-08"^^xsd:date ;
 	] .
@@ -104,8 +136,10 @@ lcc-3166-1-adj:BN
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://asean.org/"^^xsd:anyURI ;
+		foaf:name	"Association of Southeast Asian Nations" ;
 		pav:derivedFrom	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A ;
 		rdfs:label	"ASEAN" ;
+		skos:definition	"individual representing the ASEAN bloc"@en ;
 		tempo:validFrom	"1984-01-07"^^xsd:date ;
 	] .
 
@@ -114,14 +148,20 @@ lcc-3166-1-adj:CD
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 		rdfs:label	"COMESA"@en ;
+		skos:definition	"individual representing COMESA"@en ;
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Preferential Trade Area"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
 		rdfs:label	"PTA" ;
+		skos:definition	"individual representing the precursor to COMESA, established in 1981"@en ;
 		tempo:validFrom	"1982-09-30"^^xsd:date ;
 		tempo:validTill	"1994-12-08"^^xsd:date ;
 	] .
@@ -131,8 +171,10 @@ lcc-3166-1-adj:CK
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		foaf:name	"Pacific Islands Forum"@en ;
 		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
 		rdfs:label	"PIF" ;
+		skos:definition	"individual representing the Pacific Islands Forum"@en ;
 		tempo:validFrom	"1971-08-05"^^xsd:date ;
 	] .
 
@@ -140,13 +182,19 @@ lcc-3166-1-adj:CY
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
+		skos:definition	"individual representing the Eurozone"@en ;
 		tempo:validFrom	"2008-01-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone with monetary agreement" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
 		rdfs:label	"Eurozone with monetary agreement" ;
+		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"2008-01-01"^^xsd:date ;
 	] .
 
@@ -154,13 +202,19 @@ lcc-3166-1-adj:DE
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
+		skos:definition	"individual representing the Eurozone"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone with monetary agreement" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
 		rdfs:label	"Eurozone with monetary agreement" ;
+		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] .
 
@@ -169,14 +223,20 @@ lcc-3166-1-adj:DJ
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 		rdfs:label	"COMESA"@en ;
+		skos:definition	"individual representing COMESA"@en ;
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Preferential Trade Area"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
 		rdfs:label	"PTA" ;
+		skos:definition	"individual representing the precursor to COMESA, established in 1981"@en ;
 		tempo:validFrom	"1982-09-30"^^xsd:date ;
 		tempo:validTill	"1994-12-08"^^xsd:date ;
 	] .
@@ -185,13 +245,19 @@ lcc-3166-1-adj:EE
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
+		skos:definition	"individual representing the Eurozone"@en ;
 		tempo:validFrom	"2011-01-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone with monetary agreement" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
 		rdfs:label	"Eurozone with monetary agreement" ;
+		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"2011-01-01"^^xsd:date ;
 	] .
 
@@ -200,8 +266,11 @@ lcc-3166-1-adj:EG
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 		rdfs:label	"COMESA"@en ;
+		skos:definition	"individual representing COMESA"@en ;
 		tempo:validFrom	"1999-01-06"^^xsd:date ;
 	] .
 
@@ -210,8 +279,11 @@ lcc-3166-1-adj:ER
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 		rdfs:label	"COMESA"@en ;
+		skos:definition	"individual representing COMESA"@en ;
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 	] .
 
@@ -219,13 +291,19 @@ lcc-3166-1-adj:ES
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
+		skos:definition	"individual representing the Eurozone"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone with monetary agreement" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
 		rdfs:label	"Eurozone with monetary agreement" ;
+		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] .
 
@@ -234,14 +312,20 @@ lcc-3166-1-adj:ET
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 		rdfs:label	"COMESA"@en ;
+		skos:definition	"individual representing COMESA"@en ;
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Preferential Trade Area"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
 		rdfs:label	"PTA" ;
+		skos:definition	"individual representing the precursor to COMESA, established in 1981"@en ;
 		tempo:validFrom	"1982-09-30"^^xsd:date ;
 		tempo:validTill	"1994-12-08"^^xsd:date ;
 	] .
@@ -250,13 +334,19 @@ lcc-3166-1-adj:FI
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
+		skos:definition	"individual representing the Eurozone"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone with monetary agreement" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
 		rdfs:label	"Eurozone with monetary agreement" ;
+		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] .
 
@@ -265,8 +355,10 @@ lcc-3166-1-adj:FJ
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		foaf:name	"Pacific Islands Forum"@en ;
 		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
 		rdfs:label	"PIF" ;
+		skos:definition	"individual representing the Pacific Islands Forum"@en ;
 		tempo:validFrom	"1971-08-05"^^xsd:date , "2014-10-24"^^xsd:date ;
 		tempo:validTill	"2009-05-02"^^xsd:date ;
 	] .
@@ -276,8 +368,10 @@ lcc-3166-1-adj:FM
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		foaf:name	"Pacific Islands Forum"@en ;
 		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
 		rdfs:label	"PIF" ;
+		skos:definition	"individual representing the Pacific Islands Forum"@en ;
 		tempo:validFrom	"1987-05-29"^^xsd:date ;
 	] .
 
@@ -285,13 +379,19 @@ lcc-3166-1-adj:FR
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
+		skos:definition	"individual representing the Eurozone"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone with monetary agreement" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
 		rdfs:label	"Eurozone with monetary agreement" ;
+		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] .
 
@@ -299,13 +399,19 @@ lcc-3166-1-adj:GR
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
+		skos:definition	"individual representing the Eurozone"@en ;
 		tempo:validFrom	"2001-01-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone with monetary agreement" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
 		rdfs:label	"Eurozone with monetary agreement" ;
+		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"2001-01-01"^^xsd:date ;
 	] .
 
@@ -313,13 +419,19 @@ lcc-3166-1-adj:HR
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
+		skos:definition	"individual representing the Eurozone"@en ;
 		tempo:validFrom	"2023-01-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone with monetary agreement" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
 		rdfs:label	"Eurozone with monetary agreement" ;
+		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"2023-01-01"^^xsd:date ;
 	] .
 
@@ -328,8 +440,10 @@ lcc-3166-1-adj:ID
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://asean.org/"^^xsd:anyURI ;
+		foaf:name	"Association of Southeast Asian Nations" ;
 		pav:derivedFrom	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A ;
 		rdfs:label	"ASEAN" ;
+		skos:definition	"individual representing the ASEAN bloc"@en ;
 		tempo:validFrom	"1967-08-08"^^xsd:date ;
 	] .
 
@@ -337,13 +451,19 @@ lcc-3166-1-adj:IE
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
+		skos:definition	"individual representing the Eurozone"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone with monetary agreement" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
 		rdfs:label	"Eurozone with monetary agreement" ;
+		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] .
 
@@ -351,13 +471,19 @@ lcc-3166-1-adj:IT
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
+		skos:definition	"individual representing the Eurozone"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone with monetary agreement" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
 		rdfs:label	"Eurozone with monetary agreement" ;
+		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] .
 
@@ -366,14 +492,20 @@ lcc-3166-1-adj:KE
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 		rdfs:label	"COMESA"@en ;
+		skos:definition	"individual representing COMESA"@en ;
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Preferential Trade Area"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
 		rdfs:label	"PTA" ;
+		skos:definition	"individual representing the precursor to COMESA, established in 1981"@en ;
 		tempo:validFrom	"1982-09-30"^^xsd:date ;
 		tempo:validTill	"1994-12-08"^^xsd:date ;
 	] .
@@ -383,8 +515,10 @@ lcc-3166-1-adj:KH
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://asean.org/"^^xsd:anyURI ;
+		foaf:name	"Association of Southeast Asian Nations" ;
 		pav:derivedFrom	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A ;
 		rdfs:label	"ASEAN" ;
+		skos:definition	"individual representing the ASEAN bloc"@en ;
 		tempo:validFrom	"1999-04-30"^^xsd:date ;
 	] .
 
@@ -393,8 +527,10 @@ lcc-3166-1-adj:KI
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		foaf:name	"Pacific Islands Forum"@en ;
 		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
 		rdfs:label	"PIF" ;
+		skos:definition	"individual representing the Pacific Islands Forum"@en ;
 		tempo:validFrom	"1979-07-09"^^xsd:date , "2023-01-30"^^xsd:date ;
 		tempo:validTill	"2022-07-09"^^xsd:date ;
 	] .
@@ -404,14 +540,20 @@ lcc-3166-1-adj:KM
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 		rdfs:label	"COMESA"@en ;
+		skos:definition	"individual representing COMESA"@en ;
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Preferential Trade Area"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
 		rdfs:label	"PTA" ;
+		skos:definition	"individual representing the precursor to COMESA, established in 1981"@en ;
 		tempo:validFrom	"1982-09-30"^^xsd:date ;
 		tempo:validTill	"1994-12-08"^^xsd:date ;
 	] .
@@ -421,8 +563,10 @@ lcc-3166-1-adj:LA
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://asean.org/"^^xsd:anyURI ;
+		foaf:name	"Association of Southeast Asian Nations" ;
 		pav:derivedFrom	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A ;
 		rdfs:label	"ASEAN" ;
+		skos:definition	"individual representing the ASEAN bloc"@en ;
 		tempo:validFrom	"1997-07-23"^^xsd:date ;
 	] .
 
@@ -431,8 +575,11 @@ lcc-3166-1-adj:LS
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 		rdfs:label	"COMESA"@en ;
+		skos:definition	"individual representing COMESA"@en ;
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 		tempo:validTill	"1997-11-12"^^xsd:date ;
 	] .
@@ -441,13 +588,19 @@ lcc-3166-1-adj:LT
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
+		skos:definition	"individual representing the Eurozone"@en ;
 		tempo:validFrom	"2015-01-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone with monetary agreement" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
 		rdfs:label	"Eurozone with monetary agreement" ;
+		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"2015-01-01"^^xsd:date ;
 	] .
 
@@ -455,13 +608,19 @@ lcc-3166-1-adj:LU
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
+		skos:definition	"individual representing the Eurozone"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone with monetary agreement" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
 		rdfs:label	"Eurozone with monetary agreement" ;
+		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] .
 
@@ -469,13 +628,19 @@ lcc-3166-1-adj:LV
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
+		skos:definition	"individual representing the Eurozone"@en ;
 		tempo:validFrom	"2014-01-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone with monetary agreement" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
 		rdfs:label	"Eurozone with monetary agreement" ;
+		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"2014-01-01"^^xsd:date ;
 	] .
 
@@ -484,8 +649,11 @@ lcc-3166-1-adj:LY
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 		rdfs:label	"COMESA"@en ;
+		skos:definition	"individual representing COMESA"@en ;
 		tempo:validFrom	"2005-11-09"^^xsd:date ;
 	] .
 
@@ -493,8 +661,11 @@ lcc-3166-1-adj:MC
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone with monetary agreement" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
 		rdfs:label	"Eurozone with monetary agreement" ;
+		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] .
 
@@ -503,14 +674,20 @@ lcc-3166-1-adj:MG
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 		rdfs:label	"COMESA"@en ;
+		skos:definition	"individual representing COMESA"@en ;
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Preferential Trade Area"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
 		rdfs:label	"PTA" ;
+		skos:definition	"individual representing the precursor to COMESA, established in 1981"@en ;
 		tempo:validFrom	"1982-09-30"^^xsd:date ;
 		tempo:validTill	"1994-12-08"^^xsd:date ;
 	] .
@@ -520,8 +697,10 @@ lcc-3166-1-adj:MH
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		foaf:name	"Pacific Islands Forum"@en ;
 		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
 		rdfs:label	"PIF" ;
+		skos:definition	"individual representing the Pacific Islands Forum"@en ;
 		tempo:validFrom	"1988-09-20"^^xsd:date ;
 	] .
 
@@ -530,8 +709,10 @@ lcc-3166-1-adj:MM
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://asean.org/"^^xsd:anyURI ;
+		foaf:name	"Association of Southeast Asian Nations" ;
 		pav:derivedFrom	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A ;
 		rdfs:label	"ASEAN" ;
+		skos:definition	"individual representing the ASEAN bloc"@en ;
 		tempo:validFrom	"1997-07-23"^^xsd:date ;
 	] .
 
@@ -539,13 +720,19 @@ lcc-3166-1-adj:MT
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
+		skos:definition	"individual representing the Eurozone"@en ;
 		tempo:validFrom	"2008-01-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone with monetary agreement" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
 		rdfs:label	"Eurozone with monetary agreement" ;
+		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"2008-01-01"^^xsd:date ;
 	] .
 
@@ -554,14 +741,20 @@ lcc-3166-1-adj:MU
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 		rdfs:label	"COMESA"@en ;
+		skos:definition	"individual representing COMESA"@en ;
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Preferential Trade Area"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
 		rdfs:label	"PTA" ;
+		skos:definition	"individual representing the precursor to COMESA, established in 1981"@en ;
 		tempo:validFrom	"1982-09-30"^^xsd:date ;
 		tempo:validTill	"1994-12-08"^^xsd:date ;
 	] .
@@ -571,14 +764,20 @@ lcc-3166-1-adj:MW
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 		rdfs:label	"COMESA"@en ;
+		skos:definition	"individual representing COMESA"@en ;
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Preferential Trade Area"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
 		rdfs:label	"PTA" ;
+		skos:definition	"individual representing the precursor to COMESA, established in 1981"@en ;
 		tempo:validFrom	"1982-09-30"^^xsd:date ;
 		tempo:validTill	"1994-12-08"^^xsd:date ;
 	] .
@@ -588,8 +787,10 @@ lcc-3166-1-adj:MY
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://asean.org/"^^xsd:anyURI ;
+		foaf:name	"Association of Southeast Asian Nations" ;
 		pav:derivedFrom	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A ;
 		rdfs:label	"ASEAN" ;
+		skos:definition	"individual representing the ASEAN bloc"@en ;
 		tempo:validFrom	"1967-08-08"^^xsd:date ;
 	] .
 
@@ -598,8 +799,11 @@ lcc-3166-1-adj:MZ
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 		rdfs:label	"COMESA"@en ;
+		skos:definition	"individual representing COMESA"@en ;
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 		tempo:validTill	"1997-11-12"^^xsd:date ;
 	] .
@@ -609,8 +813,11 @@ lcc-3166-1-adj:NA
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 		rdfs:label	"COMESA"@en ;
+		skos:definition	"individual representing COMESA"@en ;
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 		tempo:validTill	"2004-11-09"^^xsd:date ;
 	] .
@@ -620,8 +827,10 @@ lcc-3166-1-adj:NC
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		foaf:name	"Pacific Islands Forum"@en ;
 		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
 		rdfs:label	"PIF" ;
+		skos:definition	"individual representing the Pacific Islands Forum"@en ;
 		tempo:validFrom	"2016-09-08"^^xsd:date ;
 	] .
 
@@ -629,13 +838,19 @@ lcc-3166-1-adj:NL
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
+		skos:definition	"individual representing the Eurozone"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone with monetary agreement" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
 		rdfs:label	"Eurozone with monetary agreement" ;
+		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] .
 
@@ -644,8 +859,10 @@ lcc-3166-1-adj:NR
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		foaf:name	"Pacific Islands Forum"@en ;
 		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
 		rdfs:label	"PIF" ;
+		skos:definition	"individual representing the Pacific Islands Forum"@en ;
 		tempo:validFrom	"1971-08-05"^^xsd:date ;
 	] .
 
@@ -654,8 +871,10 @@ lcc-3166-1-adj:NU
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		foaf:name	"Pacific Islands Forum"@en ;
 		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
 		rdfs:label	"PIF" ;
+		skos:definition	"individual representing the Pacific Islands Forum"@en ;
 		tempo:validFrom	"1976-07-26"^^xsd:date ;
 	] .
 
@@ -664,8 +883,10 @@ lcc-3166-1-adj:NZ
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		foaf:name	"Pacific Islands Forum"@en ;
 		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
 		rdfs:label	"PIF" ;
+		skos:definition	"individual representing the Pacific Islands Forum"@en ;
 		tempo:validFrom	"1971-08-05"^^xsd:date ;
 	] .
 
@@ -674,8 +895,10 @@ lcc-3166-1-adj:PF
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		foaf:name	"Pacific Islands Forum"@en ;
 		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
 		rdfs:label	"PIF" ;
+		skos:definition	"individual representing the Pacific Islands Forum"@en ;
 		tempo:validFrom	"2016-09-08"^^xsd:date ;
 	] .
 
@@ -684,8 +907,10 @@ lcc-3166-1-adj:PG
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		foaf:name	"Pacific Islands Forum"@en ;
 		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
 		rdfs:label	"PIF" ;
+		skos:definition	"individual representing the Pacific Islands Forum"@en ;
 		tempo:validFrom	"1976-07-26"^^xsd:date ;
 	] .
 
@@ -694,13 +919,17 @@ lcc-3166-1-adj:PH
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://asean.org/"^^xsd:anyURI ;
+		foaf:name	"Association of Southeast Asian Nations" ;
 		pav:derivedFrom	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A ;
 		rdfs:label	"ASEAN" ;
+		skos:definition	"individual representing the ASEAN bloc"@en ;
 		tempo:validFrom	"1967-08-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Association of Southeast Asia"@en ;
 		pav:derivedFrom	rgn:r01KHG17ZMT9600XSW2BWPM3RJA_1961_0 ;
 		rdfs:label	"ASA" ;
+		skos:definition	"individual representing the Association of Southeast Asia"@en ;
 		tempo:validFrom	"1961-07-31"^^xsd:date ;
 		tempo:validTill	"1967-08-08"^^xsd:date ;
 	] .
@@ -709,13 +938,19 @@ lcc-3166-1-adj:PT
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
+		skos:definition	"individual representing the Eurozone"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone with monetary agreement" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
 		rdfs:label	"Eurozone with monetary agreement" ;
+		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] .
 
@@ -724,8 +959,10 @@ lcc-3166-1-adj:PW
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		foaf:name	"Pacific Islands Forum"@en ;
 		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
 		rdfs:label	"PIF" ;
+		skos:definition	"individual representing the Pacific Islands Forum"@en ;
 		tempo:validFrom	"1997-10-13"^^xsd:date ;
 	] .
 
@@ -734,14 +971,20 @@ lcc-3166-1-adj:RW
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 		rdfs:label	"COMESA"@en ;
+		skos:definition	"individual representing COMESA"@en ;
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Preferential Trade Area"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
 		rdfs:label	"PTA" ;
+		skos:definition	"individual representing the precursor to COMESA, established in 1981"@en ;
 		tempo:validFrom	"1982-09-30"^^xsd:date ;
 		tempo:validTill	"1994-12-08"^^xsd:date ;
 	] .
@@ -751,8 +994,10 @@ lcc-3166-1-adj:SB
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		foaf:name	"Pacific Islands Forum"@en ;
 		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
 		rdfs:label	"PIF" ;
+		skos:definition	"individual representing the Pacific Islands Forum"@en ;
 		tempo:validFrom	"1978-09-16"^^xsd:date ;
 	] .
 
@@ -761,8 +1006,11 @@ lcc-3166-1-adj:SC
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 		rdfs:label	"COMESA"@en ;
+		skos:definition	"individual representing COMESA"@en ;
 		tempo:validFrom	"2001-11-07"^^xsd:date ;
 	] .
 
@@ -771,14 +1019,20 @@ lcc-3166-1-adj:SD
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 		rdfs:label	"COMESA"@en ;
+		skos:definition	"individual representing COMESA"@en ;
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Preferential Trade Area"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
 		rdfs:label	"PTA" ;
+		skos:definition	"individual representing the precursor to COMESA, established in 1981"@en ;
 		tempo:validFrom	"1982-09-30"^^xsd:date ;
 		tempo:validTill	"1994-12-08"^^xsd:date ;
 	] .
@@ -788,8 +1042,10 @@ lcc-3166-1-adj:SG
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://asean.org/"^^xsd:anyURI ;
+		foaf:name	"Association of Southeast Asian Nations" ;
 		pav:derivedFrom	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A ;
 		rdfs:label	"ASEAN" ;
+		skos:definition	"individual representing the ASEAN bloc"@en ;
 		tempo:validFrom	"1967-08-08"^^xsd:date ;
 	] .
 
@@ -797,13 +1053,19 @@ lcc-3166-1-adj:SI
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
+		skos:definition	"individual representing the Eurozone"@en ;
 		tempo:validFrom	"2007-01-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone with monetary agreement" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
 		rdfs:label	"Eurozone with monetary agreement" ;
+		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"2007-01-01"^^xsd:date ;
 	] .
 
@@ -811,13 +1073,19 @@ lcc-3166-1-adj:SK
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
 		rdfs:label	"Eurozone" ;
+		skos:definition	"individual representing the Eurozone"@en ;
 		tempo:validFrom	"2009-01-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone with monetary agreement" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
 		rdfs:label	"Eurozone with monetary agreement" ;
+		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"2009-01-01"^^xsd:date ;
 	] .
 
@@ -825,8 +1093,11 @@ lcc-3166-1-adj:SM
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone with monetary agreement" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
 		rdfs:label	"Eurozone with monetary agreement" ;
+		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] .
 
@@ -835,15 +1106,21 @@ lcc-3166-1-adj:SO
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Preferential Trade Area"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
 		rdfs:label	"PTA" ;
+		skos:definition	"individual representing the precursor to COMESA, established in 1981"@en ;
 		tempo:validFrom	"1982-09-30"^^xsd:date ;
 		tempo:validTill	"1994-12-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 		rdfs:label	"COMESA"@en ;
+		skos:definition	"individual representing COMESA"@en ;
 		tempo:validFrom	"2018-07-19"^^xsd:date ;
 	] .
 
@@ -852,14 +1129,20 @@ lcc-3166-1-adj:SZ
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 		rdfs:label	"COMESA"@en ;
+		skos:definition	"individual representing COMESA"@en ;
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Preferential Trade Area"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
 		rdfs:label	"PTA" ;
+		skos:definition	"individual representing the precursor to COMESA, established in 1981"@en ;
 		tempo:validFrom	"1982-09-30"^^xsd:date ;
 		tempo:validTill	"1994-12-08"^^xsd:date ;
 	] .
@@ -869,13 +1152,17 @@ lcc-3166-1-adj:TH
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://asean.org/"^^xsd:anyURI ;
+		foaf:name	"Association of Southeast Asian Nations" ;
 		pav:derivedFrom	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A ;
 		rdfs:label	"ASEAN" ;
+		skos:definition	"individual representing the ASEAN bloc"@en ;
 		tempo:validFrom	"1967-08-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Association of Southeast Asia"@en ;
 		pav:derivedFrom	rgn:r01KHG17ZMT9600XSW2BWPM3RJA_1961_0 ;
 		rdfs:label	"ASA" ;
+		skos:definition	"individual representing the Association of Southeast Asia"@en ;
 		tempo:validFrom	"1961-07-31"^^xsd:date ;
 		tempo:validTill	"1967-08-08"^^xsd:date ;
 	] .
@@ -885,8 +1172,10 @@ lcc-3166-1-adj:TL
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://asean.org/"^^xsd:anyURI ;
+		foaf:name	"Association of Southeast Asian Nations" ;
 		pav:derivedFrom	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A ;
 		rdfs:label	"ASEAN" ;
+		skos:definition	"individual representing the ASEAN bloc"@en ;
 		tempo:validFrom	"2025-10-26"^^xsd:date ;
 	] .
 
@@ -895,8 +1184,11 @@ lcc-3166-1-adj:TN
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 		rdfs:label	"COMESA"@en ;
+		skos:definition	"individual representing COMESA"@en ;
 		tempo:validFrom	"2018-07-19"^^xsd:date ;
 	] .
 
@@ -905,8 +1197,10 @@ lcc-3166-1-adj:TO
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		foaf:name	"Pacific Islands Forum"@en ;
 		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
 		rdfs:label	"PIF" ;
+		skos:definition	"individual representing the Pacific Islands Forum"@en ;
 		tempo:validFrom	"1971-08-05"^^xsd:date ;
 	] .
 
@@ -915,8 +1209,10 @@ lcc-3166-1-adj:TV
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		foaf:name	"Pacific Islands Forum"@en ;
 		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
 		rdfs:label	"PIF" ;
+		skos:definition	"individual representing the Pacific Islands Forum"@en ;
 		tempo:validFrom	"1978-09-16"^^xsd:date ;
 	] .
 
@@ -925,8 +1221,11 @@ lcc-3166-1-adj:TZ
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 		rdfs:label	"COMESA"@en ;
+		skos:definition	"individual representing COMESA"@en ;
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 		tempo:validTill	"2001-09-02"^^xsd:date ;
 	] .
@@ -936,14 +1235,20 @@ lcc-3166-1-adj:UG
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 		rdfs:label	"COMESA"@en ;
+		skos:definition	"individual representing COMESA"@en ;
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Preferential Trade Area"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
 		rdfs:label	"PTA" ;
+		skos:definition	"individual representing the precursor to COMESA, established in 1981"@en ;
 		tempo:validFrom	"1982-09-30"^^xsd:date ;
 		tempo:validTill	"1994-12-08"^^xsd:date ;
 	] .
@@ -952,8 +1257,11 @@ lcc-3166-1-adj:VA
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Eurozone with monetary agreement" ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH92MDSJWQH15QR3QJ8GMNF6 ;
 		rdfs:label	"Eurozone with monetary agreement" ;
+		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] .
 
@@ -962,8 +1270,10 @@ lcc-3166-1-adj:VN
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://asean.org/"^^xsd:anyURI ;
+		foaf:name	"Association of Southeast Asian Nations" ;
 		pav:derivedFrom	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A ;
 		rdfs:label	"ASEAN" ;
+		skos:definition	"individual representing the ASEAN bloc"@en ;
 		tempo:validFrom	"1995-07-28"^^xsd:date ;
 	] .
 
@@ -972,8 +1282,10 @@ lcc-3166-1-adj:VU
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		foaf:name	"Pacific Islands Forum"@en ;
 		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
 		rdfs:label	"PIF" ;
+		skos:definition	"individual representing the Pacific Islands Forum"@en ;
 		tempo:validFrom	"1980-07-14"^^xsd:date ;
 	] .
 
@@ -982,8 +1294,10 @@ lcc-3166-1-adj:WS
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		foaf:name	"Pacific Islands Forum"@en ;
 		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
 		rdfs:label	"PIF" ;
+		skos:definition	"individual representing the Pacific Islands Forum"@en ;
 		tempo:validFrom	"1971-08-05"^^xsd:date ;
 	] .
 
@@ -992,14 +1306,20 @@ lcc-3166-1-adj:ZM
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 		rdfs:label	"COMESA"@en ;
+		skos:definition	"individual representing COMESA"@en ;
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Preferential Trade Area"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
 		rdfs:label	"PTA" ;
+		skos:definition	"individual representing the precursor to COMESA, established in 1981"@en ;
 		tempo:validFrom	"1982-09-30"^^xsd:date ;
 		tempo:validTill	"1994-12-08"^^xsd:date ;
 	] .
@@ -1009,14 +1329,20 @@ lcc-3166-1-adj:ZW
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 		rdfs:label	"COMESA"@en ;
+		skos:definition	"individual representing COMESA"@en ;
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		foaf:name	"Preferential Trade Area"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
 		rdfs:label	"PTA" ;
+		skos:definition	"individual representing the precursor to COMESA, established in 1981"@en ;
 		tempo:validFrom	"1982-09-30"^^xsd:date ;
 		tempo:validTill	"1994-12-08"^^xsd:date ;
 	] .
@@ -1026,8 +1352,10 @@ lcc-3166-3-adj:GEHH
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://forumsec.org/"^^xsd:anyURI ;
+		foaf:name	"Pacific Islands Forum"@en ;
 		pav:derivedFrom	rgn:r01KHJD1VTT4N99YJFXR5R973ZA ;
 		rdfs:label	"PIF" ;
+		skos:definition	"individual representing the Pacific Islands Forum"@en ;
 		tempo:validFrom	"1976-07-26"^^xsd:date ;
 		tempo:validTill	"1979-07-09"^^xsd:date ;
 	] .
@@ -1036,8 +1364,10 @@ wd:Q1479726
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Association of Southeast Asia"@en ;
 		pav:derivedFrom	rgn:r01KHG17ZMT9600XSW2BWPM3RJA_1961_0 ;
 		rdfs:label	"ASA" ;
+		skos:definition	"individual representing the Association of Southeast Asia"@en ;
 		tempo:validFrom	"1961-07-31"^^xsd:date ;
 		tempo:validTill	"1967-08-08"^^xsd:date ;
 	] .

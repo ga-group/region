@@ -20,7 +20,10 @@ INSERT {
 		tempo:validFrom ?from ;
 		tempo:validTill ?till ;
 		rdfs:label ?lbl ;
-		pav:derivedFrom ?z
+		foaf:name ?nam ;
+		lcc-cr:isClassifiedBy ?cls ;
+		pav:derivedFrom ?z ;
+		skos:definition ?def
 	]
 }
 USING <$u{SRCGR}>
@@ -45,6 +48,15 @@ WHERE {
 	}
 	OPTIONAL {
 	?z dct:source ?src
+	}
+	OPTIONAL {
+	?z foaf:name ?nam
+	}
+	OPTIONAL {
+	?z skos:definition ?def
+	}
+	OPTIONAL {
+	?z lcc-cr:isClassifiedBy ?cls
 	}
 }
 ;
