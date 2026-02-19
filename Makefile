@@ -9,6 +9,7 @@ TODAY := $(shell dateconv today)
 NOW := $(shell dateconv now)
 
 .inferred.region-inv: .imported.region
+.inferred.region-inv2: .inferred.region-inv
 .inferred.region-delta: .imported.region
 
 
