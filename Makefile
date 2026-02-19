@@ -9,6 +9,7 @@ TODAY := $(shell dateconv today)
 NOW := $(shell dateconv now)
 
 .inferred.region-inv: .imported.region
+.inferred.region-delta: .imported.region
 
 
 stardogd.region: ADDITIONAL = 

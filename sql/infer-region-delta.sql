@@ -1,5 +1,6 @@
 log_enable(3,1);
 
+SET u{GRAPH} http://data.ga-group.nl/region/;
 SET u{ORIGG} region-origg;
 SET u{PATCH} region-patch;
 
@@ -54,8 +55,12 @@ WHERE {
 ;
 ECHO $ROWCNT"\n";
 
-SET u{DIFFG} $u{GRAPH};
+SET u{DIFFG} http://data.ga-group.nl/region.delta/;
 LOAD '/home/freundt/author/region/sql/diff-mkdelta.sql';
 LOAD '/home/freundt/author/region/sql/sweep-delta.sql';
 LOAD '/home/freundt/author/region/sql/fixup-delta.sql';
 LOAD '/home/freundt/author/region/sql/decor-delta.sql';
+
+SET u{GRAPH} $u{DIFFG};
+LOAD '/home/freundt/author/region/sql/prov-massage.sql';
+CHECKPOINT;

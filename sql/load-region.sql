@@ -16,8 +16,6 @@ LOAD '/home/freundt/author/region/sql/canon-region.sql';
 -- and again for circular shit
 LOAD '/home/freundt/author/region/sql/canon-region.sql';
 LOAD '/home/freundt/author/region/sql/infer-validity.sql';
--- generate deltas between replacements
-LOAD '/home/freundt/author/region/sql/mkdelta-region.sql';
 
 LOAD '/home/freundt/author/region/sql/prov-massage.sql';
 CHECKPOINT;
