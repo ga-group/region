@@ -594,6 +594,9 @@ rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_2025_0
 	skos:definition	"individual representing the ASEAN bloc"@en ;
 	tempo:validFrom	"2025-10-26"^^xsd:date .
 
+rgn:r01KHG17ZMT9600XSW2BWPM3RJA
+	owl:sameAs	rgn:r01KHG17ZMT9600XSW2BWPM3RJA_1961_0 .
+
 rgn:r01KHG17ZMT9600XSW2BWPM3RJA_1961_0
 	a	lcc-cr:GeographicRegion ;
 	a	owl:NamedIndividual ;
@@ -605,7 +608,7 @@ rgn:r01KHG17ZMT9600XSW2BWPM3RJA_1961_0
 	pav:lastRefreshedOn	"2026-02-15T06:12:12Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"ASA" ;
-	rgn:hasCurrentVariant	rgn:r01KHG17ZMT9600XSW2BWPM3RJA_1961_0 ;
+	rgn:hasCurrentVariant	rgn:r01KHG17ZMT9600XSW2BWPM3RJA ;
 	skos:definition	"individual representing the Association of Southeast Asia"@en ;
 	tempo:validFrom	"1961-07-31"^^xsd:date ;
 	tempo:validTill	"1967-08-08"^^xsd:date .
@@ -873,6 +876,7 @@ rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB_1982_0
 	geopol:isPredecessorOf	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_1994_0 ;
 	lcc-cr:hasSubregion	lcc-3166-1-adj:BI , lcc-3166-1-adj:CD , lcc-3166-1-adj:DJ , lcc-3166-1-adj:ET , lcc-3166-1-adj:KE , lcc-3166-1-adj:KM , lcc-3166-1-adj:MG , lcc-3166-1-adj:MU , lcc-3166-1-adj:MW , lcc-3166-1-adj:RW , lcc-3166-1-adj:SD , lcc-3166-1-adj:SO , lcc-3166-1-adj:SZ , lcc-3166-1-adj:UG , lcc-3166-1-adj:ZM , lcc-3166-1-adj:ZW ;
 	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	rgn: ;
@@ -894,6 +898,7 @@ rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_1994_0
 	geopol:isSuccessorOf	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB_1982_0 ;
 	lcc-cr:hasSubregion	lcc-3166-1-adj:AO , lcc-3166-1-adj:BI , lcc-3166-1-adj:CD , lcc-3166-1-adj:DJ , lcc-3166-1-adj:ER , lcc-3166-1-adj:ET , lcc-3166-1-adj:KE , lcc-3166-1-adj:KM , lcc-3166-1-adj:LS , lcc-3166-1-adj:MG , lcc-3166-1-adj:MU , lcc-3166-1-adj:MW , lcc-3166-1-adj:MZ , lcc-3166-1-adj:NA , lcc-3166-1-adj:RW , lcc-3166-1-adj:SD , lcc-3166-1-adj:SZ , lcc-3166-1-adj:TZ , lcc-3166-1-adj:UG , lcc-3166-1-adj:ZM , lcc-3166-1-adj:ZW ;
 	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
 	rdfs:label	"COMESA"@en ;
@@ -911,6 +916,7 @@ rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_1997_0
 	foaf:name	"Common Market for Eastern and Southern Africa"@en ;
 	lcc-cr:hasSubregion	lcc-3166-1-adj:AO , lcc-3166-1-adj:BI , lcc-3166-1-adj:CD , lcc-3166-1-adj:DJ , lcc-3166-1-adj:ER , lcc-3166-1-adj:ET , lcc-3166-1-adj:KE , lcc-3166-1-adj:KM , lcc-3166-1-adj:MG , lcc-3166-1-adj:MU , lcc-3166-1-adj:MW , lcc-3166-1-adj:NA , lcc-3166-1-adj:RW , lcc-3166-1-adj:SD , lcc-3166-1-adj:SZ , lcc-3166-1-adj:TZ , lcc-3166-1-adj:UG , lcc-3166-1-adj:ZM , lcc-3166-1-adj:ZW ;
 	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
 	rdfs:label	"COMESA"@en ;
@@ -928,6 +934,7 @@ rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_1999_0
 	foaf:name	"Common Market for Eastern and Southern Africa"@en ;
 	lcc-cr:hasSubregion	lcc-3166-1-adj:AO , lcc-3166-1-adj:BI , lcc-3166-1-adj:CD , lcc-3166-1-adj:DJ , lcc-3166-1-adj:EG , lcc-3166-1-adj:ER , lcc-3166-1-adj:ET , lcc-3166-1-adj:KE , lcc-3166-1-adj:KM , lcc-3166-1-adj:MG , lcc-3166-1-adj:MU , lcc-3166-1-adj:MW , lcc-3166-1-adj:NA , lcc-3166-1-adj:RW , lcc-3166-1-adj:SD , lcc-3166-1-adj:SZ , lcc-3166-1-adj:TZ , lcc-3166-1-adj:UG , lcc-3166-1-adj:ZM , lcc-3166-1-adj:ZW ;
 	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
 	rdfs:label	"COMESA"@en ;
@@ -945,6 +952,7 @@ rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2001_0
 	foaf:name	"Common Market for Eastern and Southern Africa"@en ;
 	lcc-cr:hasSubregion	lcc-3166-1-adj:AO , lcc-3166-1-adj:BI , lcc-3166-1-adj:CD , lcc-3166-1-adj:DJ , lcc-3166-1-adj:EG , lcc-3166-1-adj:ER , lcc-3166-1-adj:ET , lcc-3166-1-adj:KE , lcc-3166-1-adj:KM , lcc-3166-1-adj:MG , lcc-3166-1-adj:MU , lcc-3166-1-adj:MW , lcc-3166-1-adj:NA , lcc-3166-1-adj:RW , lcc-3166-1-adj:SD , lcc-3166-1-adj:SZ , lcc-3166-1-adj:UG , lcc-3166-1-adj:ZM , lcc-3166-1-adj:ZW ;
 	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
 	rdfs:label	"COMESA"@en ;
@@ -962,6 +970,7 @@ rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2001_1
 	foaf:name	"Common Market for Eastern and Southern Africa"@en ;
 	lcc-cr:hasSubregion	lcc-3166-1-adj:AO , lcc-3166-1-adj:BI , lcc-3166-1-adj:CD , lcc-3166-1-adj:DJ , lcc-3166-1-adj:EG , lcc-3166-1-adj:ER , lcc-3166-1-adj:ET , lcc-3166-1-adj:KE , lcc-3166-1-adj:KM , lcc-3166-1-adj:MG , lcc-3166-1-adj:MU , lcc-3166-1-adj:MW , lcc-3166-1-adj:NA , lcc-3166-1-adj:RW , lcc-3166-1-adj:SC , lcc-3166-1-adj:SD , lcc-3166-1-adj:SZ , lcc-3166-1-adj:UG , lcc-3166-1-adj:ZM , lcc-3166-1-adj:ZW ;
 	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
 	rdfs:label	"COMESA"@en ;
@@ -979,6 +988,7 @@ rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2004_0
 	foaf:name	"Common Market for Eastern and Southern Africa"@en ;
 	lcc-cr:hasSubregion	lcc-3166-1-adj:AO , lcc-3166-1-adj:BI , lcc-3166-1-adj:CD , lcc-3166-1-adj:DJ , lcc-3166-1-adj:EG , lcc-3166-1-adj:ER , lcc-3166-1-adj:ET , lcc-3166-1-adj:KE , lcc-3166-1-adj:KM , lcc-3166-1-adj:MG , lcc-3166-1-adj:MU , lcc-3166-1-adj:MW , lcc-3166-1-adj:RW , lcc-3166-1-adj:SC , lcc-3166-1-adj:SD , lcc-3166-1-adj:SZ , lcc-3166-1-adj:UG , lcc-3166-1-adj:ZM , lcc-3166-1-adj:ZW ;
 	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
 	rdfs:label	"COMESA"@en ;
@@ -996,6 +1006,7 @@ rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2005_0
 	foaf:name	"Common Market for Eastern and Southern Africa"@en ;
 	lcc-cr:hasSubregion	lcc-3166-1-adj:AO , lcc-3166-1-adj:BI , lcc-3166-1-adj:CD , lcc-3166-1-adj:DJ , lcc-3166-1-adj:EG , lcc-3166-1-adj:ER , lcc-3166-1-adj:ET , lcc-3166-1-adj:KE , lcc-3166-1-adj:KM , lcc-3166-1-adj:LY , lcc-3166-1-adj:MG , lcc-3166-1-adj:MU , lcc-3166-1-adj:MW , lcc-3166-1-adj:RW , lcc-3166-1-adj:SC , lcc-3166-1-adj:SD , lcc-3166-1-adj:SZ , lcc-3166-1-adj:UG , lcc-3166-1-adj:ZM , lcc-3166-1-adj:ZW ;
 	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
 	rdfs:label	"COMESA"@en ;
@@ -1013,6 +1024,7 @@ rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2007_0
 	foaf:name	"Common Market for Eastern and Southern Africa"@en ;
 	lcc-cr:hasSubregion	lcc-3166-1-adj:BI , lcc-3166-1-adj:CD , lcc-3166-1-adj:DJ , lcc-3166-1-adj:EG , lcc-3166-1-adj:ER , lcc-3166-1-adj:ET , lcc-3166-1-adj:KE , lcc-3166-1-adj:KM , lcc-3166-1-adj:LY , lcc-3166-1-adj:MG , lcc-3166-1-adj:MU , lcc-3166-1-adj:MW , lcc-3166-1-adj:RW , lcc-3166-1-adj:SC , lcc-3166-1-adj:SD , lcc-3166-1-adj:SZ , lcc-3166-1-adj:UG , lcc-3166-1-adj:ZM , lcc-3166-1-adj:ZW ;
 	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
 	rdfs:label	"COMESA"@en ;
@@ -1029,9 +1041,136 @@ rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2018_0
 	foaf:name	"Common Market for Eastern and Southern Africa"@en ;
 	lcc-cr:hasSubregion	lcc-3166-1-adj:BI , lcc-3166-1-adj:CD , lcc-3166-1-adj:DJ , lcc-3166-1-adj:EG , lcc-3166-1-adj:ER , lcc-3166-1-adj:ET , lcc-3166-1-adj:KE , lcc-3166-1-adj:KM , lcc-3166-1-adj:LY , lcc-3166-1-adj:MG , lcc-3166-1-adj:MU , lcc-3166-1-adj:MW , lcc-3166-1-adj:RW , lcc-3166-1-adj:SC , lcc-3166-1-adj:SD , lcc-3166-1-adj:SO , lcc-3166-1-adj:SZ , lcc-3166-1-adj:TN , lcc-3166-1-adj:UG , lcc-3166-1-adj:ZM , lcc-3166-1-adj:ZW ;
 	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
 	rdfs:label	"COMESA"@en ;
 	rgn:hasCurrentVariant	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 	skos:definition	"individual representing COMESA"@en ;
 	tempo:validFrom	"2018-07-19"^^xsd:date .
+
+rgn:r01KHTSXNXE30ZGFCGGJTP77EBS
+	owl:sameAs	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_2002_0 .
+
+rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1973_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1974_0 ;
+	dct:source	"https://caricom.org/"^^xsd:anyURI , "https://caricom.org/wp-content/uploads/Final-Act-Declaration-and-Resolution-ALONG-with-The-Treaty-Establishing-The-Caribbean-Community-with-signature.pdf"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/caricom"^^xsd:anyURI ;
+	foaf:name	"Caribbean Community"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BB , lcc-3166-1-adj:GY , lcc-3166-1-adj:JM , lcc-3166-1-adj:TT ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	rdfs:label	"CARICOM" ;
+	rgn:hasCurrentVariant	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
+	skos:definition	"individual representing CARICOM"@en ;
+	tempo:validFrom	"1973-08-01"^^xsd:date ;
+	tempo:validTill	"1974-05-01"^^xsd:date .
+
+rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1974_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1974_1 ;
+	dct:replaces	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1973_0 ;
+	dct:source	"https://caricom.org/"^^xsd:anyURI , "https://caricom.org/wp-content/uploads/Final-Act-Declaration-and-Resolution-ALONG-with-The-Treaty-Establishing-The-Caribbean-Community-with-signature.pdf"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/caricom"^^xsd:anyURI ;
+	foaf:name	"Caribbean Community"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BB , lcc-3166-1-adj:BZ , lcc-3166-1-adj:DM , lcc-3166-1-adj:GD , lcc-3166-1-adj:GY , lcc-3166-1-adj:JM , lcc-3166-1-adj:LC , lcc-3166-1-adj:MS , lcc-3166-1-adj:TT , lcc-3166-1-adj:VC ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	rdfs:label	"CARICOM" ;
+	rgn:hasCurrentVariant	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
+	skos:definition	"individual representing CARICOM"@en ;
+	tempo:validFrom	"1974-05-01"^^xsd:date ;
+	tempo:validTill	"1974-07-04"^^xsd:date .
+
+rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1974_1
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1974_2 ;
+	dct:replaces	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1974_0 ;
+	dct:source	"https://caricom.org/"^^xsd:anyURI , "https://caricom.org/wp-content/uploads/Final-Act-Declaration-and-Resolution-ALONG-with-The-Treaty-Establishing-The-Caribbean-Community-with-signature.pdf"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/caricom"^^xsd:anyURI ;
+	foaf:name	"Caribbean Community"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AG , lcc-3166-1-adj:BB , lcc-3166-1-adj:BZ , lcc-3166-1-adj:DM , lcc-3166-1-adj:GD , lcc-3166-1-adj:GY , lcc-3166-1-adj:JM , lcc-3166-1-adj:LC , lcc-3166-1-adj:MS , lcc-3166-1-adj:TT , lcc-3166-1-adj:VC ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	rdfs:label	"CARICOM" ;
+	rgn:hasCurrentVariant	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
+	skos:definition	"individual representing CARICOM"@en ;
+	tempo:validFrom	"1974-07-04"^^xsd:date ;
+	tempo:validTill	"1974-07-26"^^xsd:date .
+
+rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1974_2
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1983_0 ;
+	dct:replaces	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1974_1 ;
+	dct:source	"https://caricom.org/"^^xsd:anyURI , "https://caricom.org/wp-content/uploads/Final-Act-Declaration-and-Resolution-ALONG-with-The-Treaty-Establishing-The-Caribbean-Community-with-signature.pdf"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/caricom"^^xsd:anyURI ;
+	foaf:name	"Caribbean Community"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AG , lcc-3166-1-adj:BB , lcc-3166-1-adj:BZ , lcc-3166-1-adj:DM , lcc-3166-1-adj:GD , lcc-3166-1-adj:GY , lcc-3166-1-adj:JM , lcc-3166-1-adj:KN , lcc-3166-1-adj:LC , lcc-3166-1-adj:MS , lcc-3166-1-adj:TT , lcc-3166-1-adj:VC ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	rdfs:label	"CARICOM" ;
+	rgn:hasCurrentVariant	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
+	skos:definition	"individual representing CARICOM"@en ;
+	tempo:validFrom	"1974-07-26"^^xsd:date ;
+	tempo:validTill	"1983-07-04"^^xsd:date .
+
+rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1983_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1995_0 ;
+	dct:replaces	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1974_2 ;
+	dct:source	"https://caricom.org/"^^xsd:anyURI , "https://caricom.org/wp-content/uploads/Final-Act-Declaration-and-Resolution-ALONG-with-The-Treaty-Establishing-The-Caribbean-Community-with-signature.pdf"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/caricom"^^xsd:anyURI ;
+	foaf:name	"Caribbean Community"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AG , lcc-3166-1-adj:BB , lcc-3166-1-adj:BS , lcc-3166-1-adj:BZ , lcc-3166-1-adj:DM , lcc-3166-1-adj:GD , lcc-3166-1-adj:GY , lcc-3166-1-adj:JM , lcc-3166-1-adj:KN , lcc-3166-1-adj:LC , lcc-3166-1-adj:MS , lcc-3166-1-adj:TT , lcc-3166-1-adj:VC ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	rdfs:label	"CARICOM" ;
+	rgn:hasCurrentVariant	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
+	skos:definition	"individual representing CARICOM"@en ;
+	tempo:validFrom	"1983-07-04"^^xsd:date ;
+	tempo:validTill	"1995-07-04"^^xsd:date .
+
+rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1995_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_2002_0 ;
+	dct:replaces	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1983_0 ;
+	dct:source	"https://caricom.org/"^^xsd:anyURI , "https://caricom.org/wp-content/uploads/Final-Act-Declaration-and-Resolution-ALONG-with-The-Treaty-Establishing-The-Caribbean-Community-with-signature.pdf"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/caricom"^^xsd:anyURI ;
+	foaf:name	"Caribbean Community"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AG , lcc-3166-1-adj:BB , lcc-3166-1-adj:BS , lcc-3166-1-adj:BZ , lcc-3166-1-adj:DM , lcc-3166-1-adj:GD , lcc-3166-1-adj:GY , lcc-3166-1-adj:JM , lcc-3166-1-adj:KN , lcc-3166-1-adj:LC , lcc-3166-1-adj:MS , lcc-3166-1-adj:SR , lcc-3166-1-adj:TT , lcc-3166-1-adj:VC ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	rdfs:label	"CARICOM" ;
+	rgn:hasCurrentVariant	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
+	skos:definition	"individual representing CARICOM"@en ;
+	tempo:validFrom	"1995-07-04"^^xsd:date ;
+	tempo:validTill	"2002-07-02"^^xsd:date .
+
+rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_2002_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:replaces	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1995_0 ;
+	dct:source	"https://caricom.org/"^^xsd:anyURI , "https://caricom.org/wp-content/uploads/Final-Act-Declaration-and-Resolution-ALONG-with-The-Treaty-Establishing-The-Caribbean-Community-with-signature.pdf"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/caricom"^^xsd:anyURI ;
+	foaf:name	"Caribbean Community"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AG , lcc-3166-1-adj:BB , lcc-3166-1-adj:BS , lcc-3166-1-adj:BZ , lcc-3166-1-adj:DM , lcc-3166-1-adj:GD , lcc-3166-1-adj:GY , lcc-3166-1-adj:HT , lcc-3166-1-adj:JM , lcc-3166-1-adj:KN , lcc-3166-1-adj:LC , lcc-3166-1-adj:MS , lcc-3166-1-adj:SR , lcc-3166-1-adj:TT , lcc-3166-1-adj:VC ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	rdfs:label	"CARICOM" ;
+	rgn:hasCurrentVariant	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
+	skos:definition	"individual representing CARICOM"@en ;
+	tempo:validFrom	"2002-07-02"^^xsd:date .

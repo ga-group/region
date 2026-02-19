@@ -573,3 +573,75 @@ rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2018_0_delta
 	delta:subject-old	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2007_0 ;
 	prov:generatedAtTime	"2026-02-19T06:17:03.090332"^^xsd:dateTime ;
 	rdf:subject	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2018_0 .
+
+rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1974_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:BZ , lcc-3166-1-adj:DM , lcc-3166-1-adj:GD , lcc-3166-1-adj:LC , lcc-3166-1-adj:MS , lcc-3166-1-adj:VC ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1974_0 ;
+	delta:subject-old	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1973_0 ;
+	prov:generatedAtTime	"2026-02-19T13:14:22.462041"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1974_0 .
+
+rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1974_1_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:AG ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1974_1 ;
+	delta:subject-old	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1974_0 ;
+	prov:generatedAtTime	"2026-02-19T13:14:22.462041"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1974_1 .
+
+rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1974_2_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:KN ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1974_2 ;
+	delta:subject-old	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1974_1 ;
+	prov:generatedAtTime	"2026-02-19T13:14:22.462041"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1974_2 .
+
+rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1983_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:BS ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1983_0 ;
+	delta:subject-old	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1974_2 ;
+	prov:generatedAtTime	"2026-02-19T13:54:46.391557"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1983_0 .
+
+rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1995_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:SR ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1995_0 ;
+	delta:subject-old	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1983_0 ;
+	prov:generatedAtTime	"2026-02-19T13:54:46.391557"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1995_0 .
+
+rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_2002_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:HT ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_2002_0 ;
+	delta:subject-old	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1995_0 ;
+	prov:generatedAtTime	"2026-02-19T13:54:46.391557"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_2002_0 .

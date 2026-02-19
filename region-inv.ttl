@@ -22,6 +22,19 @@ lcc-3166-1-adj:AD
 		tempo:validFrom	"2012-04-01"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:AG
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://caricom.org/"^^xsd:anyURI ;
+		foaf:name	"Caribbean Community"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
+		rdfs:label	"CARICOM" ;
+		skos:definition	"individual representing CARICOM"@en ;
+		tempo:validFrom	"1974-07-04"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:AO
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -66,6 +79,19 @@ lcc-3166-1-adj:AU
 		rdfs:label	"PIF" ;
 		skos:definition	"individual representing the Pacific Islands Forum"@en ;
 		tempo:validFrom	"1971-08-05"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:BB
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://caricom.org/"^^xsd:anyURI ;
+		foaf:name	"Caribbean Community"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
+		rdfs:label	"CARICOM" ;
+		skos:definition	"individual representing CARICOM"@en ;
+		tempo:validFrom	"1973-08-01"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:BE
@@ -141,6 +167,32 @@ lcc-3166-1-adj:BN
 		rdfs:label	"ASEAN" ;
 		skos:definition	"individual representing the ASEAN bloc"@en ;
 		tempo:validFrom	"1984-01-07"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:BS
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://caricom.org/"^^xsd:anyURI ;
+		foaf:name	"Caribbean Community"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
+		rdfs:label	"CARICOM" ;
+		skos:definition	"individual representing CARICOM"@en ;
+		tempo:validFrom	"1983-07-04"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:BZ
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://caricom.org/"^^xsd:anyURI ;
+		foaf:name	"Caribbean Community"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
+		rdfs:label	"CARICOM" ;
+		skos:definition	"individual representing CARICOM"@en ;
+		tempo:validFrom	"1974-05-01"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:CD
@@ -239,6 +291,19 @@ lcc-3166-1-adj:DJ
 		skos:definition	"individual representing the precursor to COMESA, established in 1981"@en ;
 		tempo:validFrom	"1982-09-30"^^xsd:date ;
 		tempo:validTill	"1994-12-08"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:DM
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://caricom.org/"^^xsd:anyURI ;
+		foaf:name	"Caribbean Community"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
+		rdfs:label	"CARICOM" ;
+		skos:definition	"individual representing CARICOM"@en ;
+		tempo:validFrom	"1974-05-01"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:EE
@@ -395,6 +460,19 @@ lcc-3166-1-adj:FR
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:GD
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://caricom.org/"^^xsd:anyURI ;
+		foaf:name	"Caribbean Community"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
+		rdfs:label	"CARICOM" ;
+		skos:definition	"individual representing CARICOM"@en ;
+		tempo:validFrom	"1974-05-01"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:GR
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -415,6 +493,19 @@ lcc-3166-1-adj:GR
 		tempo:validFrom	"2001-01-01"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:GY
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://caricom.org/"^^xsd:anyURI ;
+		foaf:name	"Caribbean Community"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
+		rdfs:label	"CARICOM" ;
+		skos:definition	"individual representing CARICOM"@en ;
+		tempo:validFrom	"1973-08-01"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:HR
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -433,6 +524,19 @@ lcc-3166-1-adj:HR
 		rdfs:label	"Eurozone with monetary agreement" ;
 		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"2023-01-01"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:HT
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://caricom.org/"^^xsd:anyURI ;
+		foaf:name	"Caribbean Community"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
+		rdfs:label	"CARICOM" ;
+		skos:definition	"individual representing CARICOM"@en ;
+		tempo:validFrom	"2002-07-02"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:ID
@@ -485,6 +589,19 @@ lcc-3166-1-adj:IT
 		rdfs:label	"Eurozone with monetary agreement" ;
 		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:JM
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://caricom.org/"^^xsd:anyURI ;
+		foaf:name	"Caribbean Community"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
+		rdfs:label	"CARICOM" ;
+		skos:definition	"individual representing CARICOM"@en ;
+		tempo:validFrom	"1973-08-01"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:KE
@@ -558,6 +675,19 @@ lcc-3166-1-adj:KM
 		tempo:validTill	"1994-12-08"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:KN
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://caricom.org/"^^xsd:anyURI ;
+		foaf:name	"Caribbean Community"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
+		rdfs:label	"CARICOM" ;
+		skos:definition	"individual representing CARICOM"@en ;
+		tempo:validFrom	"1974-07-26"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:LA
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -568,6 +698,19 @@ lcc-3166-1-adj:LA
 		rdfs:label	"ASEAN" ;
 		skos:definition	"individual representing the ASEAN bloc"@en ;
 		tempo:validFrom	"1997-07-23"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:LC
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://caricom.org/"^^xsd:anyURI ;
+		foaf:name	"Caribbean Community"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
+		rdfs:label	"CARICOM" ;
+		skos:definition	"individual representing CARICOM"@en ;
+		tempo:validFrom	"1974-05-01"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:LS
@@ -714,6 +857,19 @@ lcc-3166-1-adj:MM
 		rdfs:label	"ASEAN" ;
 		skos:definition	"individual representing the ASEAN bloc"@en ;
 		tempo:validFrom	"1997-07-23"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:MS
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://caricom.org/"^^xsd:anyURI ;
+		foaf:name	"Caribbean Community"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
+		rdfs:label	"CARICOM" ;
+		skos:definition	"individual representing CARICOM"@en ;
+		tempo:validFrom	"1974-05-01"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:MT
@@ -927,7 +1083,7 @@ lcc-3166-1-adj:PH
 	] , [
 		a	lcc-cr:GeographicRegion ;
 		foaf:name	"Association of Southeast Asia"@en ;
-		pav:derivedFrom	rgn:r01KHG17ZMT9600XSW2BWPM3RJA_1961_0 ;
+		pav:derivedFrom	rgn:r01KHG17ZMT9600XSW2BWPM3RJA ;
 		rdfs:label	"ASA" ;
 		skos:definition	"individual representing the Association of Southeast Asia"@en ;
 		tempo:validFrom	"1961-07-31"^^xsd:date ;
@@ -1124,6 +1280,19 @@ lcc-3166-1-adj:SO
 		tempo:validFrom	"2018-07-19"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:SR
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://caricom.org/"^^xsd:anyURI ;
+		foaf:name	"Caribbean Community"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
+		rdfs:label	"CARICOM" ;
+		skos:definition	"individual representing CARICOM"@en ;
+		tempo:validFrom	"1995-07-04"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:SZ
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -1160,7 +1329,7 @@ lcc-3166-1-adj:TH
 	] , [
 		a	lcc-cr:GeographicRegion ;
 		foaf:name	"Association of Southeast Asia"@en ;
-		pav:derivedFrom	rgn:r01KHG17ZMT9600XSW2BWPM3RJA_1961_0 ;
+		pav:derivedFrom	rgn:r01KHG17ZMT9600XSW2BWPM3RJA ;
 		rdfs:label	"ASA" ;
 		skos:definition	"individual representing the Association of Southeast Asia"@en ;
 		tempo:validFrom	"1961-07-31"^^xsd:date ;
@@ -1202,6 +1371,19 @@ lcc-3166-1-adj:TO
 		rdfs:label	"PIF" ;
 		skos:definition	"individual representing the Pacific Islands Forum"@en ;
 		tempo:validFrom	"1971-08-05"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:TT
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://caricom.org/"^^xsd:anyURI ;
+		foaf:name	"Caribbean Community"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
+		rdfs:label	"CARICOM" ;
+		skos:definition	"individual representing CARICOM"@en ;
+		tempo:validFrom	"1973-08-01"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:TV
@@ -1263,6 +1445,19 @@ lcc-3166-1-adj:VA
 		rdfs:label	"Eurozone with monetary agreement" ;
 		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:VC
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://caricom.org/"^^xsd:anyURI ;
+		foaf:name	"Caribbean Community"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
+		rdfs:label	"CARICOM" ;
+		skos:definition	"individual representing CARICOM"@en ;
+		tempo:validFrom	"1974-05-01"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:VN
@@ -1365,7 +1560,7 @@ wd:Q1479726
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		foaf:name	"Association of Southeast Asia"@en ;
-		pav:derivedFrom	rgn:r01KHG17ZMT9600XSW2BWPM3RJA_1961_0 ;
+		pav:derivedFrom	rgn:r01KHG17ZMT9600XSW2BWPM3RJA ;
 		rdfs:label	"ASA" ;
 		skos:definition	"individual representing the Association of Southeast Asia"@en ;
 		tempo:validFrom	"1961-07-31"^^xsd:date ;
