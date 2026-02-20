@@ -1408,3 +1408,129 @@ rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2024_0
 	rgn:hasCurrentVariant	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A ;
 	skos:definition	"individual representing the Common Market of the South (Mercosur)"@en ;
 	tempo:validFrom	"2024-07-08"^^xsd:date .
+
+rgn:r01KHX2E9WSRBXJR976SJB9VVY5
+	owl:sameAs	rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1983_0 .
+
+rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1965_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1967_0 ;
+	dct:source	"https://www.eccb-centralbank.org/"^^xsd:anyURI ;
+	foaf:name	"Eastern Caribbean Currency Authority"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BB , wd:Q183416 , wd:Q29971 ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-20T08:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-20T08:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"ECCA" ;
+	rgn:hasCurrentVariant	rgn:r01KHX2E9WSRBXJR976SJB9VVY5 ;
+	skos:definition	"individual representing the Eastern Caribbean Currency Authority (ECCA)"@en ;
+	tempo:validFrom	"1965-10-06"^^xsd:date ;
+	tempo:validTill	"1967-03-01"^^xsd:date .
+
+rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1967_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1968_0 ;
+	dct:replaces	rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1965_0 ;
+	dct:source	"https://www.eccb-centralbank.org/"^^xsd:anyURI ;
+	foaf:name	"Eastern Caribbean Currency Authority"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AG , lcc-3166-1-adj:AI , lcc-3166-1-adj:BB , lcc-3166-1-adj:DM , lcc-3166-1-adj:KN , lcc-3166-1-adj:LC , lcc-3166-1-adj:MS , lcc-3166-1-adj:VC ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-20T08:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-20T08:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"ECCA" ;
+	rgn:hasCurrentVariant	rgn:r01KHX2E9WSRBXJR976SJB9VVY5 ;
+	skos:definition	"individual representing the Eastern Caribbean Currency Authority (ECCA)"@en ;
+	tempo:validFrom	"1967-03-01"^^xsd:date ;
+	tempo:validTill	"1968"^^xsd:gYear .
+
+rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1968_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1974_0 ;
+	dct:replaces	rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1967_0 ;
+	dct:source	"https://www.eccb-centralbank.org/"^^xsd:anyURI ;
+	foaf:name	"Eastern Caribbean Currency Authority"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AG , lcc-3166-1-adj:AI , lcc-3166-1-adj:BB , lcc-3166-1-adj:DM , lcc-3166-1-adj:GD , lcc-3166-1-adj:KN , lcc-3166-1-adj:LC , lcc-3166-1-adj:MS , lcc-3166-1-adj:VC ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-20T08:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-20T08:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"ECCA" ;
+	rgn:hasCurrentVariant	rgn:r01KHX2E9WSRBXJR976SJB9VVY5 ;
+	skos:definition	"individual representing the Eastern Caribbean Currency Authority (ECCA)"@en ;
+	tempo:validFrom	"1968"^^xsd:gYear ;
+	tempo:validTill	"1974"^^xsd:gYear .
+
+rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1974_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1983_0 ;
+	dct:replaces	rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1968_0 ;
+	dct:source	"https://www.eccb-centralbank.org/"^^xsd:anyURI ;
+	foaf:name	"Eastern Caribbean Currency Authority"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AG , lcc-3166-1-adj:AI , lcc-3166-1-adj:DM , lcc-3166-1-adj:GD , lcc-3166-1-adj:KN , lcc-3166-1-adj:LC , lcc-3166-1-adj:MS , lcc-3166-1-adj:VC ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-20T08:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-20T08:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"ECCA" ;
+	rgn:hasCurrentVariant	rgn:r01KHX2E9WSRBXJR976SJB9VVY5 ;
+	skos:definition	"individual representing the Eastern Caribbean Currency Authority (ECCA)"@en ;
+	tempo:validFrom	"1974"^^xsd:gYear ;
+	tempo:validTill	"1983-10-01"^^xsd:date .
+
+rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1983_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:replaces	rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1974_0 ;
+	dct:source	"https://www.eccb-centralbank.org/"^^xsd:anyURI ;
+	foaf:name	"Eastern Caribbean Currency Union"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AG , lcc-3166-1-adj:AI , lcc-3166-1-adj:DM , lcc-3166-1-adj:GD , lcc-3166-1-adj:KN , lcc-3166-1-adj:LC , lcc-3166-1-adj:MS , lcc-3166-1-adj:VC ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-20T08:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-20T08:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"ECCU" ;
+	rgn:hasCurrentVariant	rgn:r01KHX2E9WSRBXJR976SJB9VVY5 ;
+	skos:definition	"individual representing the Eastern Caribbean Currency Union (ECCU)"@en ;
+	tempo:validFrom	"1983-10-01"^^xsd:date .
+
+rgn:r01KHXEQT6CC7PE5J0H643QZ0Q9
+	owl:sameAs	rgn:r01KHXEQT6CC7PE5J0H643QZ0Q9_1967_0 .
+
+rgn:r01KHXEQT6CC7PE5J0H643QZ0Q9_1965_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHXEQT6CC7PE5J0H643QZ0Q9_1967_0 ;
+	dct:source	"https://www.eccb-centralbank.org/"^^xsd:anyURI ;
+	foaf:name	"Eastern Caribbean Dollar adopters"@en ;
+	lcc-cr:hasSubregion	wd:Q183416 , wd:Q29971 ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-20T08:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-20T08:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"XCD-zone" ;
+	rgn:hasCurrentVariant	rgn:r01KHXEQT6CC7PE5J0H643QZ0Q9 ;
+	skos:definition	"individual representing the Eastern Caribbean Currency Authority (ECCA)"@en ;
+	tempo:validFrom	"1965-10-06"^^xsd:date ;
+	tempo:validTill	"1967-03-01"^^xsd:date .
+
+rgn:r01KHXEQT6CC7PE5J0H643QZ0Q9_1967_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:replaces	rgn:r01KHXEQT6CC7PE5J0H643QZ0Q9_1965_0 ;
+	dct:source	"https://www.eccb-centralbank.org/"^^xsd:anyURI ;
+	foaf:name	"Eastern Caribbean Dollar adopters"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AG , lcc-3166-1-adj:AI , lcc-3166-1-adj:DM , lcc-3166-1-adj:GD , lcc-3166-1-adj:KN , lcc-3166-1-adj:LC , lcc-3166-1-adj:MS , lcc-3166-1-adj:VC ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-20T08:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-20T08:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"XCD-zone" ;
+	rgn:hasCurrentVariant	rgn:r01KHXEQT6CC7PE5J0H643QZ0Q9 ;
+	skos:definition	"individual representing the Eastern Caribbean Currency Authority (ECCA)"@en ;
+	tempo:validFrom	"1967-03-01"^^xsd:date .

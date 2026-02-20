@@ -793,3 +793,76 @@ rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2024_0_delta
 	delta:subject-old	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2016_0 ;
 	prov:generatedAtTime	"2026-02-20T05:49:02.196239"^^xsd:dateTime ;
 	rdf:subject	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2024_0 .
+
+rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1967_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	wd:Q183416 , wd:Q29971 ;
+		delta:insertion	lcc-3166-1-adj:AG , lcc-3166-1-adj:AI , lcc-3166-1-adj:DM , lcc-3166-1-adj:KN , lcc-3166-1-adj:LC , lcc-3166-1-adj:MS , lcc-3166-1-adj:VC ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1967_0 ;
+	delta:subject-old	rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1965_0 ;
+	prov:generatedAtTime	"2026-02-20T11:49:27.573232"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1967_0 .
+
+rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1968_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:GD ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1968_0 ;
+	delta:subject-old	rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1967_0 ;
+	prov:generatedAtTime	"2026-02-20T11:49:27.573232"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1968_0 .
+
+rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1974_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	lcc-3166-1-adj:BB ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1974_0 ;
+	delta:subject-old	rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1968_0 ;
+	prov:generatedAtTime	"2026-02-20T11:49:27.573232"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1974_0 .
+
+rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1983_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	"ECCA" ;
+		delta:insertion	"ECCU" ;
+		rdf:predicate	rdfs:label ;
+	] , [
+		a	delta:Hunk ;
+		delta:deletion	"individual representing the Eastern Caribbean Currency Authority (ECCA)"@en ;
+		delta:insertion	"individual representing the Eastern Caribbean Currency Union (ECCU)"@en ;
+		rdf:predicate	skos:definition ;
+	] , [
+		a	delta:Hunk ;
+		delta:deletion	"Eastern Caribbean Currency Authority"@en ;
+		delta:insertion	"Eastern Caribbean Currency Union"@en ;
+		rdf:predicate	foaf:name ;
+	] ;
+	delta:subject-new	rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1983_0 ;
+	delta:subject-old	rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1974_0 ;
+	prov:generatedAtTime	"2026-02-20T11:49:27.573232"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1983_0 .
+
+rgn:r01KHXEQT6CC7PE5J0H643QZ0Q9_1967_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	wd:Q183416 , wd:Q29971 ;
+		delta:insertion	lcc-3166-1-adj:AG , lcc-3166-1-adj:AI , lcc-3166-1-adj:DM , lcc-3166-1-adj:GD , lcc-3166-1-adj:KN , lcc-3166-1-adj:LC , lcc-3166-1-adj:MS , lcc-3166-1-adj:VC ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHXEQT6CC7PE5J0H643QZ0Q9_1967_0 ;
+	delta:subject-old	rgn:r01KHXEQT6CC7PE5J0H643QZ0Q9_1965_0 ;
+	prov:generatedAtTime	"2026-02-20T12:14:59.062671"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHXEQT6CC7PE5J0H643QZ0Q9_1967_0 .
