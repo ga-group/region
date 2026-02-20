@@ -1,3 +1,4 @@
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix lcc-m49: <https://www.omg.org/spec/LCC/Countries/UN-M49-RegionCodes/> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix rgn: <http://data.ga-group.nl/region/> .
@@ -20,7 +21,7 @@ rgn:r01KHFTGAKKTWHJGE0JWFEARS2A_align
 	a	skal:ExactMatch ;
 	pav:createdOn	"2026-02-15T06:28:30Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-15T06:28:30Z"^^xsd:dateTime ;
-	skal:constituent	rgn:r01KHFTGAKKTWHJGE0JWFEARS2A , wd:Q7768 .
+	skal:constituent	<http://eurovoc.europa.eu/1838> , <http://publications.europa.eu/resource/authority/corporate-body/ASEAN> , rgn:r01KHFTGAKKTWHJGE0JWFEARS2A , wd:Q7768 .
 
 rgn:r01KHG17ZMT9600XSW2BWPM3RJA_align
 	a	skal:ExactMatch ;
@@ -32,4 +33,50 @@ rgn:r01KHJD1VTT4N99YJFXR5R973ZA_align
 	a	skal:ExactMatch ;
 	pav:createdOn	"2026-02-17T09:09:42Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-17T09:09:42Z"^^xsd:dateTime ;
-	skal:constituent	rgn:r01KHJD1VTT4N99YJFXR5R973ZA , wd:Q757276 .
+	skal:constituent	<http://eurovoc.europa.eu/8402> , <http://publications.europa.eu/resource/authority/corporate-body/PIF> , rgn:r01KHJD1VTT4N99YJFXR5R973ZA , wd:Q757276 .
+
+rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_align
+	a	skal:ExactMatch ;
+	pav:createdOn	"2026-02-20T15:46:58Z"^^xsd:date ;
+	pav:lastRefreshedOn	"2026-02-20T15:46:58Z"^^xsd:date ;
+	skal:constituent	<http://eurovoc.europa.eu/8400> , <http://publications.europa.eu/resource/authority/corporate-body/CMESA> , rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ , wd:Q1165797 .
+
+rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_align
+	a	skal:ExactMatch ;
+	pav:createdOn	"2026-02-20T15:46:58Z"^^xsd:date ;
+	pav:lastRefreshedOn	"2026-02-20T15:46:58Z"^^xsd:date ;
+	skal:constituent	<http://eurovoc.europa.eu/5264> , <http://publications.europa.eu/resource/authority/corporate-body/CARICOM> , rgn:r01KHTSXNXE30ZGFCGGJTP77EBS , wd:Q205995 .
+
+rgn:r01KHV4VB0HT5E1MNHHF861K9E2_align
+	a	skal:ExactMatch ;
+	dct:replaces	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_align_1996_0 ;
+	pav:createdOn	"2026-02-20T15:46:58Z"^^xsd:date ;
+	pav:lastRefreshedOn	"2026-02-20T15:46:58Z"^^xsd:date ;
+	skal:constituent	<http://eurovoc.europa.eu/1190> , <http://publications.europa.eu/resource/authority/corporate-body/ANDEAN> , rgn:r01KHV4VB0HT5E1MNHHF861K9E2 , wd:Q471690 ;
+	tempo:validFrom	"1996-01-01"^^xsd:date .
+
+rgn:r01KHV4VB0HT5E1MNHHF861K9E2_align_1996_0
+	a	skal:ExactMatch ;
+	dct:isReplacedBy	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_align ;
+	pav:createdOn	"2026-02-20T15:46:58Z"^^xsd:date ;
+	pav:lastRefreshedOn	"2026-02-20T15:46:58Z"^^xsd:date ;
+	skal:constituent	<http://publications.europa.eu/resource/authority/corporate-body/ANDEAN_P> , rgn:r01KHV4VB0HT5E1MNHHF861K9E2 , wd:Q471690 ;
+	tempo:validTill	"1996-01-01"^^xsd:date .
+
+rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_align
+	a	skal:ExactMatch ;
+	pav:createdOn	"2026-02-20T15:46:58Z"^^xsd:date ;
+	pav:lastRefreshedOn	"2026-02-20T15:46:58Z"^^xsd:date ;
+	skal:constituent	<http://eurovoc.europa.eu/5738> , <http://publications.europa.eu/resource/authority/corporate-body/MERCOSUR> , rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A , wd:Q4264 .
+
+rgn:r01KHX2E9WSRBXJR976SJB9VVY5_align
+	a	skal:ExactMatch ;
+	pav:createdOn	"2026-02-20T15:46:58Z"^^xsd:date ;
+	pav:lastRefreshedOn	"2026-02-20T15:46:58Z"^^xsd:date ;
+	skal:constituent	rgn:r01KHX2E9WSRBXJR976SJB9VVY5 , wd:Q5330041 .
+
+rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_align
+	a	skal:ExactMatch ;
+	pav:createdOn	"2026-02-20T15:46:58Z"^^xsd:date ;
+	pav:lastRefreshedOn	"2026-02-20T15:46:58Z"^^xsd:date ;
+	skal:constituent	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 , wd:Q392770 .
