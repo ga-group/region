@@ -645,3 +645,91 @@ rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_2002_0_delta
 	delta:subject-old	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1995_0 ;
 	prov:generatedAtTime	"2026-02-19T13:54:46.391557"^^xsd:dateTime ;
 	rdf:subject	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_2002_0 .
+
+rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1973_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:VE ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1973_0 ;
+	delta:subject-old	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1969_0 ;
+	prov:generatedAtTime	"2026-02-19T15:37:48.436910"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1973_0 .
+
+rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1976_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	lcc-3166-1-adj:CL ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1976_0 ;
+	delta:subject-old	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1973_0 ;
+	prov:generatedAtTime	"2026-02-19T15:37:48.436910"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1976_0 .
+
+rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1992_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	lcc-3166-1-adj:PE ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1992_0 ;
+	delta:subject-old	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1976_0 ;
+	prov:generatedAtTime	"2026-02-19T15:37:48.436910"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1992_0 .
+
+rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1996_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	"PA" ;
+		delta:insertion	"CAN" ;
+		rdf:predicate	rdfs:label ;
+	] , [
+		a	delta:Hunk ;
+		delta:deletion	"Andean Pact"@en , "Pacto Andino"@es ;
+		delta:insertion	"Andean Community"@en , "Comunidad Andina de Naciones"@es ;
+		rdf:predicate	foaf:name ;
+	] , [
+		a	delta:Hunk ;
+		delta:deletion	"individual representing the Andean Pact"@en ;
+		delta:insertion	"individual representing the Andean Community (CAN)"@en ;
+		rdf:predicate	skos:definition ;
+	] , [
+		a	delta:Hunk ;
+		delta:deletion	rgn:TradeBloc ;
+		delta:insertion	rgn:EconomicUnion ;
+		rdf:predicate	lcc-cr:isClassifiedBy ;
+	] ;
+	delta:subject-new	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1996_0 ;
+	delta:subject-old	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1992_0 ;
+	prov:generatedAtTime	"2026-02-20T03:24:23.057532"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1996_0 .
+
+rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1997_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:PE ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1997_0 ;
+	delta:subject-old	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1996_0 ;
+	prov:generatedAtTime	"2026-02-20T03:46:42.338906"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1997_0 .
+
+rgn:r01KHV4VB0HT5E1MNHHF861K9E2_2006_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	lcc-3166-1-adj:VE ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_2006_0 ;
+	delta:subject-old	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1997_0 ;
+	prov:generatedAtTime	"2026-02-20T03:46:42.338906"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_2006_0 .

@@ -169,6 +169,19 @@ lcc-3166-1-adj:BN
 		tempo:validFrom	"1984-01-07"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:BO
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comunidadandina.org/"^^xsd:anyURI ;
+		foaf:name	"Andean Community"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KHV4VB0HT5E1MNHHF861K9E2 ;
+		rdfs:label	"CAN" ;
+		skos:definition	"individual representing the Andean Community (CAN)"@en ;
+		tempo:validFrom	"1969-05-26"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:BS
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -228,6 +241,33 @@ lcc-3166-1-adj:CK
 		rdfs:label	"PIF" ;
 		skos:definition	"individual representing the Pacific Islands Forum"@en ;
 		tempo:validFrom	"1971-08-05"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:CL
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comunidadandina.org/"^^xsd:anyURI ;
+		foaf:name	"Andean Community"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KHV4VB0HT5E1MNHHF861K9E2 ;
+		rdfs:label	"CAN" ;
+		skos:definition	"individual representing the Andean Community (CAN)"@en ;
+		tempo:validFrom	"1969-05-26"^^xsd:date ;
+		tempo:validTill	"1976-10-07"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:CO
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comunidadandina.org/"^^xsd:anyURI ;
+		foaf:name	"Andean Community"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KHV4VB0HT5E1MNHHF861K9E2 ;
+		rdfs:label	"CAN" ;
+		skos:definition	"individual representing the Andean Community (CAN)"@en ;
+		tempo:validFrom	"1969-05-26"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:CY
@@ -304,6 +344,19 @@ lcc-3166-1-adj:DM
 		rdfs:label	"CARICOM" ;
 		skos:definition	"individual representing CARICOM"@en ;
 		tempo:validFrom	"1974-05-01"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:EC
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comunidadandina.org/"^^xsd:anyURI ;
+		foaf:name	"Andean Community"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KHV4VB0HT5E1MNHHF861K9E2 ;
+		rdfs:label	"CAN" ;
+		skos:definition	"individual representing the Andean Community (CAN)"@en ;
+		tempo:validFrom	"1969-05-26"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:EE
@@ -1046,6 +1099,20 @@ lcc-3166-1-adj:NZ
 		tempo:validFrom	"1971-08-05"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:PE
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comunidadandina.org/"^^xsd:anyURI ;
+		foaf:name	"Andean Community"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KHV4VB0HT5E1MNHHF861K9E2 ;
+		rdfs:label	"CAN" ;
+		skos:definition	"individual representing the Andean Community (CAN)"@en ;
+		tempo:validFrom	"1969-05-26"^^xsd:date , "1997"^^xsd:gYear ;
+		tempo:validTill	"1992"^^xsd:gYear ;
+	] .
+
 lcc-3166-1-adj:PF
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -1458,6 +1525,20 @@ lcc-3166-1-adj:VC
 		rdfs:label	"CARICOM" ;
 		skos:definition	"individual representing CARICOM"@en ;
 		tempo:validFrom	"1974-05-01"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:VE
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.comunidadandina.org/"^^xsd:anyURI ;
+		foaf:name	"Andean Community"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KHV4VB0HT5E1MNHHF861K9E2 ;
+		rdfs:label	"CAN" ;
+		skos:definition	"individual representing the Andean Community (CAN)"@en ;
+		tempo:validFrom	"1973"^^xsd:gYear ;
+		tempo:validTill	"2006-04-20"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:VN

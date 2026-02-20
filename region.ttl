@@ -1174,3 +1174,129 @@ rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_2002_0
 	rgn:hasCurrentVariant	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
 	skos:definition	"individual representing CARICOM"@en ;
 	tempo:validFrom	"2002-07-02"^^xsd:date .
+
+rgn:r01KHV4VB0HT5E1MNHHF861K9E2
+	owl:sameAs	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_2006_0 .
+
+rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1969_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1973_0 ;
+	dct:source	"http://www.comunidadandina.org/"^^xsd:anyURI ;
+	foaf:name	"Andean Pact"@en , "Pacto Andino"@es ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BO , lcc-3166-1-adj:CL , lcc-3166-1-adj:CO , lcc-3166-1-adj:EC , lcc-3166-1-adj:PE ;
+	lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	rdfs:label	"PA" ;
+	rgn:hasCurrentVariant	rgn:r01KHV4VB0HT5E1MNHHF861K9E2 ;
+	skos:definition	"individual representing the Andean Pact"@en ;
+	tempo:validFrom	"1969-05-26"^^xsd:date ;
+	tempo:validTill	"1973"^^xsd:gYear .
+
+rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1973_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1976_0 ;
+	dct:replaces	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1969_0 ;
+	dct:source	"http://www.comunidadandina.org/"^^xsd:anyURI ;
+	foaf:name	"Andean Pact"@en , "Pacto Andino"@es ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BO , lcc-3166-1-adj:CL , lcc-3166-1-adj:CO , lcc-3166-1-adj:EC , lcc-3166-1-adj:PE , lcc-3166-1-adj:VE ;
+	lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	rdfs:label	"PA" ;
+	rgn:hasCurrentVariant	rgn:r01KHV4VB0HT5E1MNHHF861K9E2 ;
+	skos:definition	"individual representing the Andean Pact"@en ;
+	tempo:validFrom	"1973"^^xsd:gYear ;
+	tempo:validTill	"1976-10-07"^^xsd:date .
+
+rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1976_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1992_0 ;
+	dct:replaces	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1973_0 ;
+	dct:source	"http://www.comunidadandina.org/"^^xsd:anyURI ;
+	foaf:name	"Andean Pact"@en , "Pacto Andino"@es ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BO , lcc-3166-1-adj:CO , lcc-3166-1-adj:EC , lcc-3166-1-adj:PE , lcc-3166-1-adj:VE ;
+	lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	rdfs:label	"PA" ;
+	rgn:hasCurrentVariant	rgn:r01KHV4VB0HT5E1MNHHF861K9E2 ;
+	skos:definition	"individual representing the Andean Pact"@en ;
+	tempo:validFrom	"1976-10-07"^^xsd:date ;
+	tempo:validTill	"1992"^^xsd:gYear .
+
+rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1992_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1996_0 ;
+	dct:replaces	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1976_0 ;
+	dct:source	"http://www.comunidadandina.org/"^^xsd:anyURI ;
+	foaf:name	"Andean Pact"@en , "Pacto Andino"@es ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BO , lcc-3166-1-adj:CO , lcc-3166-1-adj:EC , lcc-3166-1-adj:VE ;
+	lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	rdfs:label	"PA" ;
+	rgn:hasCurrentVariant	rgn:r01KHV4VB0HT5E1MNHHF861K9E2 ;
+	skos:definition	"individual representing the Andean Pact"@en ;
+	tempo:validFrom	"1992"^^xsd:gYear ;
+	tempo:validTill	"1996-12-26"^^xsd:date .
+
+rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1996_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1997_0 ;
+	dct:replaces	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1992_0 ;
+	dct:source	"http://www.comunidadandina.org/"^^xsd:anyURI ;
+	foaf:name	"Andean Community"@en , "Comunidad Andina de Naciones"@es ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BO , lcc-3166-1-adj:CO , lcc-3166-1-adj:EC , lcc-3166-1-adj:VE ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	rdfs:label	"CAN" ;
+	rgn:hasCurrentVariant	rgn:r01KHV4VB0HT5E1MNHHF861K9E2 ;
+	skos:definition	"individual representing the Andean Community (CAN)"@en ;
+	tempo:validFrom	"1996-12-26"^^xsd:date ;
+	tempo:validTill	"1997"^^xsd:gYear .
+
+rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1997_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_2006_0 ;
+	dct:replaces	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1996_0 ;
+	dct:source	"http://www.comunidadandina.org/"^^xsd:anyURI ;
+	foaf:name	"Andean Community"@en , "Comunidad Andina de Naciones"@es ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BO , lcc-3166-1-adj:CO , lcc-3166-1-adj:EC , lcc-3166-1-adj:PE , lcc-3166-1-adj:VE ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	rdfs:label	"CAN" ;
+	rgn:hasCurrentVariant	rgn:r01KHV4VB0HT5E1MNHHF861K9E2 ;
+	skos:definition	"individual representing the Andean Community (CAN)"@en ;
+	tempo:validFrom	"1997"^^xsd:gYear ;
+	tempo:validTill	"2006-04-20"^^xsd:date .
+
+rgn:r01KHV4VB0HT5E1MNHHF861K9E2_2006_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:replaces	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1997_0 ;
+	dct:source	"http://www.comunidadandina.org/"^^xsd:anyURI ;
+	foaf:name	"Andean Community"@en , "Comunidad Andina de Naciones"@es ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BO , lcc-3166-1-adj:CO , lcc-3166-1-adj:EC , lcc-3166-1-adj:PE ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	rdfs:label	"CAN" ;
+	rgn:hasCurrentVariant	rgn:r01KHV4VB0HT5E1MNHHF861K9E2 ;
+	skos:definition	"individual representing the Andean Community (CAN)"@en ;
+	tempo:validFrom	"2006-04-20"^^xsd:date .
