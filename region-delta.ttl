@@ -733,3 +733,63 @@ rgn:r01KHV4VB0HT5E1MNHHF861K9E2_2006_0_delta
 	delta:subject-old	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1997_0 ;
 	prov:generatedAtTime	"2026-02-20T03:46:42.338906"^^xsd:dateTime ;
 	rdf:subject	rgn:r01KHV4VB0HT5E1MNHHF861K9E2_2006_0 .
+
+rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2012_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	lcc-3166-1-adj:PY ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2012_0 ;
+	delta:subject-old	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_1993_0 ;
+	prov:generatedAtTime	"2026-02-20T05:49:02.196239"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2012_0 .
+
+rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2012_1_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:VE ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2012_1 ;
+	delta:subject-old	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2012_0 ;
+	prov:generatedAtTime	"2026-02-20T05:49:02.196239"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2012_1 .
+
+rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2013_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:PY ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2013_0 ;
+	delta:subject-old	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2012_1 ;
+	prov:generatedAtTime	"2026-02-20T05:49:02.196239"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2013_0 .
+
+rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2016_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	lcc-3166-1-adj:VE ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2016_0 ;
+	delta:subject-old	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2013_0 ;
+	prov:generatedAtTime	"2026-02-20T05:49:02.196239"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2016_0 .
+
+rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2024_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:BO ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2024_0 ;
+	delta:subject-old	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2016_0 ;
+	prov:generatedAtTime	"2026-02-20T05:49:02.196239"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2024_0 .

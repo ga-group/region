@@ -49,6 +49,19 @@ lcc-3166-1-adj:AO
 		tempo:validTill	"2007-11-14"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:AR
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.mercosur.int/"^^xsd:anyURI ;
+		foaf:name	"Mercado Comum do Sul"@pt ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A ;
+		rdfs:label	"Mercosul"@pt ;
+		skos:definition	"individual representing the Common Market of the South (Mercosur)"@en ;
+		tempo:validFrom	"1991-03-26"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:AT
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -180,6 +193,28 @@ lcc-3166-1-adj:BO
 		rdfs:label	"CAN" ;
 		skos:definition	"individual representing the Andean Community (CAN)"@en ;
 		tempo:validFrom	"1969-05-26"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.mercosur.int/"^^xsd:anyURI ;
+		foaf:name	"Mercado Comum do Sul"@pt ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A ;
+		rdfs:label	"Mercosul"@pt ;
+		skos:definition	"individual representing the Common Market of the South (Mercosur)"@en ;
+		tempo:validFrom	"2024-07-08"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:BR
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.mercosur.int/"^^xsd:anyURI ;
+		foaf:name	"Mercado Comum do Sul"@pt ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A ;
+		rdfs:label	"Mercosul"@pt ;
+		skos:definition	"individual representing the Common Market of the South (Mercosur)"@en ;
+		tempo:validFrom	"1991-03-26"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:BS
@@ -1189,6 +1224,20 @@ lcc-3166-1-adj:PW
 		tempo:validFrom	"1997-10-13"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:PY
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.mercosur.int/"^^xsd:anyURI ;
+		foaf:name	"Mercado Comum do Sul"@pt ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A ;
+		rdfs:label	"Mercosul"@pt ;
+		skos:definition	"individual representing the Common Market of the South (Mercosur)"@en ;
+		tempo:validFrom	"1991-03-26"^^xsd:date , "2013-08-01"^^xsd:date ;
+		tempo:validTill	"2012-06-29"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:RW
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -1502,6 +1551,19 @@ lcc-3166-1-adj:UG
 		tempo:validTill	"1994-12-08"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:UY
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.mercosur.int/"^^xsd:anyURI ;
+		foaf:name	"Mercado Comum do Sul"@pt ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A ;
+		rdfs:label	"Mercosul"@pt ;
+		skos:definition	"individual representing the Common Market of the South (Mercosur)"@en ;
+		tempo:validFrom	"1991-03-26"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:VA
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -1530,6 +1592,16 @@ lcc-3166-1-adj:VC
 lcc-3166-1-adj:VE
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.mercosur.int/"^^xsd:anyURI ;
+		foaf:name	"Mercado Comum do Sul"@pt ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A ;
+		rdfs:label	"Mercosul"@pt ;
+		skos:definition	"individual representing the Common Market of the South (Mercosur)"@en ;
+		tempo:validFrom	"2012-07-31"^^xsd:date ;
+		tempo:validTill	"2016-12-01"^^xsd:date ;
+	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comunidadandina.org/"^^xsd:anyURI ;
 		foaf:name	"Andean Community"@en ;

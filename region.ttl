@@ -1300,3 +1300,111 @@ rgn:r01KHV4VB0HT5E1MNHHF861K9E2_2006_0
 	rgn:hasCurrentVariant	rgn:r01KHV4VB0HT5E1MNHHF861K9E2 ;
 	skos:definition	"individual representing the Andean Community (CAN)"@en ;
 	tempo:validFrom	"2006-04-20"^^xsd:date .
+
+rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A
+	owl:sameAs	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2024_0 .
+
+rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_1993_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2012_0 ;
+	dct:source	"http://www.merosur.int/"^^xsd:anyURI ;
+	foaf:name	"Common Market of the South"@en , "Mercado Común del Sur"@es , "Mercado Comum do Sul"@pt ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AR , lcc-3166-1-adj:BR , lcc-3166-1-adj:PY , lcc-3166-1-adj:UY ;
+	lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-20T11:19:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-20T11:19:16Z"^^xsd:dateTime ;
+	rdfs:label	"Mercosul"@pt , "Mercosur" , "Mercosur"@es ;
+	rgn:hasCurrentVariant	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A ;
+	skos:definition	"individual representing the Common Market of the South (Mercosur)"@en ;
+	tempo:validFrom	"1991-03-26"^^xsd:date ;
+	tempo:validTill	"2012-06-29"^^xsd:date .
+
+rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2012_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2012_1 ;
+	dct:replaces	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_1993_0 ;
+	dct:source	"http://www.mercosur.int/"^^xsd:anyURI ;
+	foaf:name	"Common Market of the South"@en , "Mercado Común del Sur"@es , "Mercado Comum do Sul"@pt ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AR , lcc-3166-1-adj:BR , lcc-3166-1-adj:UY ;
+	lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-20T11:19:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-20T11:19:16Z"^^xsd:dateTime ;
+	rdfs:label	"Mercosul"@pt , "Mercosur" , "Mercosur"@es ;
+	rgn:hasCurrentVariant	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A ;
+	skos:definition	"individual representing the Common Market of the South (Mercosur)"@en ;
+	tempo:validFrom	"2012-06-29"^^xsd:date ;
+	tempo:validTill	"2012-07-31"^^xsd:date .
+
+rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2012_1
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2013_0 ;
+	dct:replaces	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2012_0 ;
+	dct:source	"http://www.mercosur.int/"^^xsd:anyURI ;
+	foaf:name	"Common Market of the South"@en , "Mercado Común del Sur"@es , "Mercado Comum do Sul"@pt ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AR , lcc-3166-1-adj:BR , lcc-3166-1-adj:UY , lcc-3166-1-adj:VE ;
+	lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-20T11:19:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-20T11:19:16Z"^^xsd:dateTime ;
+	rdfs:label	"Mercosul"@pt , "Mercosur" , "Mercosur"@es ;
+	rgn:hasCurrentVariant	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A ;
+	skos:definition	"individual representing the Common Market of the South (Mercosur)"@en ;
+	tempo:validFrom	"2012-07-31"^^xsd:date ;
+	tempo:validTill	"2013-08-01"^^xsd:date .
+
+rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2013_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2016_0 ;
+	dct:replaces	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2012_1 ;
+	dct:source	"http://www.mercosur.int/"^^xsd:anyURI ;
+	foaf:name	"Common Market of the South"@en , "Mercado Común del Sur"@es , "Mercado Comum do Sul"@pt ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AR , lcc-3166-1-adj:BR , lcc-3166-1-adj:PY , lcc-3166-1-adj:UY , lcc-3166-1-adj:VE ;
+	lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-20T11:19:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-20T11:19:16Z"^^xsd:dateTime ;
+	rdfs:label	"Mercosul"@pt , "Mercosur" , "Mercosur"@es ;
+	rgn:hasCurrentVariant	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A ;
+	skos:definition	"individual representing the Common Market of the South (Mercosur)"@en ;
+	tempo:validFrom	"2013-08-01"^^xsd:date ;
+	tempo:validTill	"2016-12-01"^^xsd:date .
+
+rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2016_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2024_0 ;
+	dct:replaces	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2013_0 ;
+	dct:source	"http://www.mercosur.int/"^^xsd:anyURI ;
+	foaf:name	"Common Market of the South"@en , "Mercado Común del Sur"@es , "Mercado Comum do Sul"@pt ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AR , lcc-3166-1-adj:BR , lcc-3166-1-adj:PY , lcc-3166-1-adj:UY ;
+	lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-20T11:19:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-20T11:19:16Z"^^xsd:dateTime ;
+	rdfs:label	"Mercosul"@pt , "Mercosur" , "Mercosur"@es ;
+	rgn:hasCurrentVariant	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A ;
+	skos:definition	"individual representing the Common Market of the South (Mercosur)"@en ;
+	tempo:validFrom	"2016-12-01"^^xsd:date ;
+	tempo:validTill	"2024-07-08"^^xsd:date .
+
+rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2024_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:replaces	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2016_0 ;
+	dct:source	"http://www.mercosur.int/"^^xsd:anyURI ;
+	foaf:name	"Common Market of the South"@en , "Mercado Común del Sur"@es , "Mercado Comum do Sul"@pt ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AR , lcc-3166-1-adj:BO , lcc-3166-1-adj:BR , lcc-3166-1-adj:PY , lcc-3166-1-adj:UY ;
+	lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-20T11:19:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-20T11:19:16Z"^^xsd:dateTime ;
+	rdfs:label	"Mercosul"@pt , "Mercosur" , "Mercosur"@es ;
+	rgn:hasCurrentVariant	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A ;
+	skos:definition	"individual representing the Common Market of the South (Mercosur)"@en ;
+	tempo:validFrom	"2024-07-08"^^xsd:date .
