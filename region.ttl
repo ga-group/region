@@ -1534,3 +1534,93 @@ rgn:r01KHXEQT6CC7PE5J0H643QZ0Q9_1967_0
 	rgn:hasCurrentVariant	rgn:r01KHXEQT6CC7PE5J0H643QZ0Q9 ;
 	skos:definition	"individual representing the Eastern Caribbean Currency Authority (ECCA)"@en ;
 	tempo:validFrom	"1967-03-01"^^xsd:date .
+
+rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2
+	owl:sameAs	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_2019_0 .
+
+rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_1981_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_1984_0 ;
+	dct:source	"http://oecs.int/"^^xsd:anyURI , "http://www.oecs.org/"^^xsd:anyURI ;
+	foaf:name	"Organisation des États de la Caraïbe orientale"@fr , "Organisation of Eastern Caribbean States"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AG , lcc-3166-1-adj:DM , lcc-3166-1-adj:GD , lcc-3166-1-adj:KN , lcc-3166-1-adj:LC , lcc-3166-1-adj:MS , lcc-3166-1-adj:VC ;
+	lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-20T13:27:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-20T13:27:16Z"^^xsd:dateTime ;
+	rdfs:label	"OECO"@fr , "OECS" ;
+	rgn:hasCurrentVariant	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 ;
+	skos:definition	"individual representing the Organisation of Eastern Caribbean States (OECS)"@en ;
+	tempo:validFrom	"1981-06-18"^^xsd:date ;
+	tempo:validTill	"1984-11-22"^^xsd:date .
+
+rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_1984_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_1995_0 ;
+	dct:replaces	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_1981_0 ;
+	dct:source	"http://oecs.int/"^^xsd:anyURI , "http://www.oecs.org/"^^xsd:anyURI ;
+	foaf:name	"Organisation des États de la Caraïbe orientale"@fr , "Organisation of Eastern Caribbean States"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AG , lcc-3166-1-adj:DM , lcc-3166-1-adj:GD , lcc-3166-1-adj:KN , lcc-3166-1-adj:LC , lcc-3166-1-adj:MS , lcc-3166-1-adj:VC , lcc-3166-1-adj:VG ;
+	lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-20T13:27:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-20T13:27:16Z"^^xsd:dateTime ;
+	rdfs:label	"OECO"@fr , "OECS" ;
+	rgn:hasCurrentVariant	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 ;
+	skos:definition	"individual representing the Organisation of Eastern Caribbean States (OECS)"@en ;
+	tempo:validFrom	"1984-11-22"^^xsd:date ;
+	tempo:validTill	"1995-12-19"^^xsd:date .
+
+rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_1995_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_2016_0 ;
+	dct:replaces	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_1984_0 ;
+	dct:source	"http://oecs.int/"^^xsd:anyURI , "http://www.oecs.org/"^^xsd:anyURI ;
+	foaf:name	"Organisation des États de la Caraïbe orientale"@fr , "Organisation of Eastern Caribbean States"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AG , lcc-3166-1-adj:AI , lcc-3166-1-adj:DM , lcc-3166-1-adj:GD , lcc-3166-1-adj:KN , lcc-3166-1-adj:LC , lcc-3166-1-adj:MS , lcc-3166-1-adj:VC , lcc-3166-1-adj:VG ;
+	lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-20T13:27:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-20T13:27:16Z"^^xsd:dateTime ;
+	rdfs:label	"OECO"@fr , "OECS" ;
+	rgn:hasCurrentVariant	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 ;
+	skos:definition	"individual representing the Organisation of Eastern Caribbean States (OECS)"@en ;
+	tempo:validFrom	"1995-12-19"^^xsd:date ;
+	tempo:validTill	"2016-04-12"^^xsd:date .
+
+rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_2016_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_2019_0 ;
+	dct:replaces	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_1995_0 ;
+	dct:source	"http://oecs.int/"^^xsd:anyURI , "http://www.oecs.org/"^^xsd:anyURI ;
+	foaf:name	"Organisation des États de la Caraïbe orientale"@fr , "Organisation of Eastern Caribbean States"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AG , lcc-3166-1-adj:AI , lcc-3166-1-adj:DM , lcc-3166-1-adj:GD , lcc-3166-1-adj:KN , lcc-3166-1-adj:LC , lcc-3166-1-adj:MQ , lcc-3166-1-adj:MS , lcc-3166-1-adj:VC , lcc-3166-1-adj:VG ;
+	lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-20T13:27:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-20T13:27:16Z"^^xsd:dateTime ;
+	rdfs:label	"OECO"@fr , "OECS" ;
+	rgn:hasCurrentVariant	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 ;
+	skos:definition	"individual representing the Organisation of Eastern Caribbean States (OECS)"@en ;
+	tempo:validFrom	"2016-04-12"^^xsd:date ;
+	tempo:validTill	"2019-03-14"^^xsd:date .
+
+rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_2019_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:replaces	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_2016_0 ;
+	dct:source	"http://oecs.int/"^^xsd:anyURI , "http://www.oecs.org/"^^xsd:anyURI ;
+	foaf:name	"Organisation des États de la Caraïbe orientale"@fr , "Organisation of Eastern Caribbean States"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AG , lcc-3166-1-adj:AI , lcc-3166-1-adj:DM , lcc-3166-1-adj:GD , lcc-3166-1-adj:GP , lcc-3166-1-adj:KN , lcc-3166-1-adj:LC , lcc-3166-1-adj:MQ , lcc-3166-1-adj:MS , lcc-3166-1-adj:VC , lcc-3166-1-adj:VG ;
+	lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-20T13:27:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-20T13:27:16Z"^^xsd:dateTime ;
+	rdfs:label	"OECO"@fr , "OECS" ;
+	rgn:hasCurrentVariant	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 ;
+	skos:definition	"individual representing the Organisation of Eastern Caribbean States (OECS)"@en ;
+	tempo:validFrom	"2019-03-14"^^xsd:date .

@@ -866,3 +866,51 @@ rgn:r01KHXEQT6CC7PE5J0H643QZ0Q9_1967_0_delta
 	delta:subject-old	rgn:r01KHXEQT6CC7PE5J0H643QZ0Q9_1965_0 ;
 	prov:generatedAtTime	"2026-02-20T12:14:59.062671"^^xsd:dateTime ;
 	rdf:subject	rgn:r01KHXEQT6CC7PE5J0H643QZ0Q9_1967_0 .
+
+rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_1984_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:VG ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_1984_0 ;
+	delta:subject-old	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_1981_0 ;
+	prov:generatedAtTime	"2026-02-20T15:41:27.758992"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_1984_0 .
+
+rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_1995_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:AI ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_1995_0 ;
+	delta:subject-old	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_1984_0 ;
+	prov:generatedAtTime	"2026-02-20T15:41:27.758992"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_1995_0 .
+
+rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_2016_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:MQ ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_2016_0 ;
+	delta:subject-old	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_1995_0 ;
+	prov:generatedAtTime	"2026-02-20T15:41:27.758992"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_2016_0 .
+
+rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_2019_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:GP ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_2019_0 ;
+	delta:subject-old	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_2016_0 ;
+	prov:generatedAtTime	"2026-02-20T15:41:27.758992"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_2019_0 .

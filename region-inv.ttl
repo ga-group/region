@@ -26,6 +26,15 @@ lcc-3166-1-adj:AG
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://oecs.int/"^^xsd:anyURI ;
+		foaf:name	"Organisation des États de la Caraïbe orientale"@fr ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 ;
+		rdfs:label	"OECS" ;
+		skos:definition	"individual representing the Organisation of Eastern Caribbean States (OECS)"@en ;
+		tempo:validFrom	"1981-06-18"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://caricom.org/"^^xsd:anyURI ;
 		foaf:name	"Caribbean Community"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
@@ -56,6 +65,15 @@ lcc-3166-1-adj:AG
 lcc-3166-1-adj:AI
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://oecs.int/"^^xsd:anyURI ;
+		foaf:name	"Organisation des États de la Caraïbe orientale"@fr ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 ;
+		rdfs:label	"OECS" ;
+		skos:definition	"individual representing the Organisation of Eastern Caribbean States (OECS)"@en ;
+		tempo:validFrom	"1995-12-19"^^xsd:date ;
+	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://www.eccb-centralbank.org/"^^xsd:anyURI ;
 		foaf:name	"Eastern Caribbean Currency Union"@en ;
@@ -422,6 +440,15 @@ lcc-3166-1-adj:DM
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://oecs.int/"^^xsd:anyURI ;
+		foaf:name	"Organisation des États de la Caraïbe orientale"@fr ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 ;
+		rdfs:label	"OECS" ;
+		skos:definition	"individual representing the Organisation of Eastern Caribbean States (OECS)"@en ;
+		tempo:validFrom	"1981-06-18"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://caricom.org/"^^xsd:anyURI ;
 		foaf:name	"Caribbean Community"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
@@ -620,6 +647,15 @@ lcc-3166-1-adj:GD
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://oecs.int/"^^xsd:anyURI ;
+		foaf:name	"Organisation des États de la Caraïbe orientale"@fr ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 ;
+		rdfs:label	"OECS" ;
+		skos:definition	"individual representing the Organisation of Eastern Caribbean States (OECS)"@en ;
+		tempo:validFrom	"1981-06-18"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://caricom.org/"^^xsd:anyURI ;
 		foaf:name	"Caribbean Community"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
@@ -645,6 +681,19 @@ lcc-3166-1-adj:GD
 		rdfs:label	"XCD-zone" ;
 		skos:definition	"individual representing the Eastern Caribbean Currency Authority (ECCA)"@en ;
 		tempo:validFrom	"1967-03-01"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:GP
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://oecs.int/"^^xsd:anyURI ;
+		foaf:name	"Organisation des États de la Caraïbe orientale"@fr ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 ;
+		rdfs:label	"OECS" ;
+		skos:definition	"individual representing the Organisation of Eastern Caribbean States (OECS)"@en ;
+		tempo:validFrom	"2019-03-14"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:GR
@@ -853,6 +902,15 @@ lcc-3166-1-adj:KN
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://oecs.int/"^^xsd:anyURI ;
+		foaf:name	"Organisation des États de la Caraïbe orientale"@fr ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 ;
+		rdfs:label	"OECS" ;
+		skos:definition	"individual representing the Organisation of Eastern Caribbean States (OECS)"@en ;
+		tempo:validFrom	"1981-06-18"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://caricom.org/"^^xsd:anyURI ;
 		foaf:name	"Caribbean Community"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
@@ -895,6 +953,15 @@ lcc-3166-1-adj:LA
 lcc-3166-1-adj:LC
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://oecs.int/"^^xsd:anyURI ;
+		foaf:name	"Organisation des États de la Caraïbe orientale"@fr ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 ;
+		rdfs:label	"OECS" ;
+		skos:definition	"individual representing the Organisation of Eastern Caribbean States (OECS)"@en ;
+		tempo:validFrom	"1981-06-18"^^xsd:date ;
+	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://caricom.org/"^^xsd:anyURI ;
 		foaf:name	"Caribbean Community"@en ;
@@ -1069,9 +1136,31 @@ lcc-3166-1-adj:MM
 		tempo:validFrom	"1997-07-23"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:MQ
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://oecs.int/"^^xsd:anyURI ;
+		foaf:name	"Organisation des États de la Caraïbe orientale"@fr ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 ;
+		rdfs:label	"OECS" ;
+		skos:definition	"individual representing the Organisation of Eastern Caribbean States (OECS)"@en ;
+		tempo:validFrom	"2016-04-12"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:MS
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://oecs.int/"^^xsd:anyURI ;
+		foaf:name	"Organisation des États de la Caraïbe orientale"@fr ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 ;
+		rdfs:label	"OECS" ;
+		skos:definition	"individual representing the Organisation of Eastern Caribbean States (OECS)"@en ;
+		tempo:validFrom	"1981-06-18"^^xsd:date ;
+	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://caricom.org/"^^xsd:anyURI ;
 		foaf:name	"Caribbean Community"@en ;
@@ -1720,6 +1809,15 @@ lcc-3166-1-adj:VC
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://oecs.int/"^^xsd:anyURI ;
+		foaf:name	"Organisation des États de la Caraïbe orientale"@fr ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 ;
+		rdfs:label	"OECS" ;
+		skos:definition	"individual representing the Organisation of Eastern Caribbean States (OECS)"@en ;
+		tempo:validFrom	"1981-06-18"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://caricom.org/"^^xsd:anyURI ;
 		foaf:name	"Caribbean Community"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
@@ -1769,6 +1867,19 @@ lcc-3166-1-adj:VE
 		skos:definition	"individual representing the Andean Community (CAN)"@en ;
 		tempo:validFrom	"1973"^^xsd:gYear ;
 		tempo:validTill	"2006-04-20"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:VG
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://oecs.int/"^^xsd:anyURI ;
+		foaf:name	"Organisation des États de la Caraïbe orientale"@fr ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 ;
+		rdfs:label	"OECS" ;
+		skos:definition	"individual representing the Organisation of Eastern Caribbean States (OECS)"@en ;
+		tempo:validFrom	"1984-11-22"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:VN
