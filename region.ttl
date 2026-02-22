@@ -1624,3 +1624,78 @@ rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_2019_0
 	rgn:hasCurrentVariant	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 ;
 	skos:definition	"individual representing the Organisation of Eastern Caribbean States (OECS)"@en ;
 	tempo:validFrom	"2019-03-14"^^xsd:date .
+
+rgn:r01KHZFZG2DZC1QSNBPMWW9AB7V
+	owl:sameAs	rgn:r01KHZFZG2DZC1QSNBPMWW9AB7V_1981_0 .
+
+rgn:r01KHZFZG2DZC1QSNBPMWW9AB7V_1981_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"http://www.gcc-sg.org/"^^xsd:anyURI ;
+	foaf:name	"Gulf Cooperation Council"@en , "مجلس التعاون الخليجي"@ar ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AE , lcc-3166-1-adj:BH , lcc-3166-1-adj:KW , lcc-3166-1-adj:OM , lcc-3166-1-adj:QA , lcc-3166-1-adj:SA ;
+	lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-21T13:27:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-21T13:27:16Z"^^xsd:dateTime ;
+	rdfs:label	"GCC" ;
+	rgn:hasCurrentVariant	rgn:r01KHZFZG2DZC1QSNBPMWW9AB7V ;
+	skos:definition	"individual representing the Cooperation Council for the Arab States of the Gulf (GCC)"@en ;
+	tempo:validFrom	"1981-05-25"^^xsd:date .
+
+rgn:r01KHZN214KFVTC3DRGVNXK87EN
+	owl:sameAs	rgn:r01KHZN214KFVTC3DRGVNXK87EN_1994_0 .
+
+rgn:r01KHZN214KFVTC3DRGVNXK87EN_1994_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	foaf:name	"Accord de libre-échange nord-américain"@fr , "North American Free Trade Agreement"@en , "Tratado de Libre Comercio de América del Norte"@es ;
+	geopol:isPredecessorOf	rgn:r01KJ1VPTGM2JZW8QGF05NZ39QB_2020_0 ;
+	geopol:isSuccessorOf	rgn:r01KJ1WFQ2KZ8A5230B6SMSP8Y0_1989_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:CA , lcc-3166-1-adj:MX , lcc-3166-1-adj:US ;
+	lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-21T13:27:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-21T13:27:16Z"^^xsd:dateTime ;
+	rdfs:label	"ALÉNA"@fr , "NAFTA" , "TLCAN"@es ;
+	rgn:hasCurrentVariant	rgn:r01KHZN214KFVTC3DRGVNXK87EN ;
+	skos:definition	"individual representing the North American Free Trade Agreement (NAFTA)"@en ;
+	tempo:validFrom	"1994-01-01"^^xsd:date ;
+	tempo:validTill	"2020-07-01"^^xsd:date .
+
+rgn:r01KJ1VPTGM2JZW8QGF05NZ39QB
+	owl:sameAs	rgn:r01KJ1VPTGM2JZW8QGF05NZ39QB_2020_0 .
+
+rgn:r01KJ1VPTGM2JZW8QGF05NZ39QB_2020_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	foaf:name	"Accord Canada–États-Unis–Mexique"@fr , "Tratado entre México, Estados Unidos y Canadá"@es , "United States-Mexico-Canada Agreement"@en ;
+	geopol:isSuccessorOf	rgn:r01KHZN214KFVTC3DRGVNXK87EN_1994_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:CA , lcc-3166-1-adj:MX , lcc-3166-1-adj:US ;
+	lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-21T13:27:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-21T13:27:16Z"^^xsd:dateTime ;
+	rdfs:label	"ACEUM"@fr , "T-MEC"@es , "USMCA" ;
+	rgn:hasCurrentVariant	rgn:r01KJ1VPTGM2JZW8QGF05NZ39QB ;
+	skos:definition	"individual representing the United States-Mexico-Canada Agreement (USMCA)"@en ;
+	tempo:validFrom	"2020-07-01"^^xsd:date .
+
+rgn:r01KJ1WFQ2KZ8A5230B6SMSP8Y0
+	owl:sameAs	rgn:r01KJ1WFQ2KZ8A5230B6SMSP8Y0_1989_0 .
+
+rgn:r01KJ1WFQ2KZ8A5230B6SMSP8Y0_1989_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	foaf:name	"Accord de libre-échange entre le Canada et les États-Unis d'Amérique"@fr , "Canada–United States Free Trade Agreement"@en ;
+	geopol:isPredecessorOf	rgn:r01KHZN214KFVTC3DRGVNXK87EN_1994_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:CA , lcc-3166-1-adj:US ;
+	lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-20T13:27:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-20T13:27:16Z"^^xsd:dateTime ;
+	rdfs:label	"CUSFTA" ;
+	rgn:hasCurrentVariant	rgn:r01KJ1WFQ2KZ8A5230B6SMSP8Y0 ;
+	skos:definition	"individual representing the Free Trade Agreement between Canada and the United States of America"@en ;
+	tempo:validFrom	"1989-01-01"^^xsd:date ;
+	tempo:validTill	"1994-01-01"^^xsd:date .

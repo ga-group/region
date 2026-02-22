@@ -80,3 +80,27 @@ rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_align
 	pav:createdOn	"2026-02-20T15:46:58Z"^^xsd:date ;
 	pav:lastRefreshedOn	"2026-02-20T15:46:58Z"^^xsd:date ;
 	skal:constituent	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 , wd:Q392770 .
+
+rgn:r01KHZFZG2DZC1QSNBPMWW9AB7V_align
+	a	skal:ExactMatch ;
+	pav:createdOn	"2026-02-20T15:46:58Z"^^xsd:date ;
+	pav:lastRefreshedOn	"2026-02-20T15:46:58Z"^^xsd:date ;
+	skal:constituent	<http://eurovoc.europa.eu/5530> , <http://publications.europa.eu/resource/authority/corporate-body/GULF_COOP_COUN> , rgn:r01KHZFZG2DZC1QSNBPMWW9AB7V , wd:Q217172 .
+
+rgn:r01KHZN214KFVTC3DRGVNXK87EN_align
+	a	skal:ExactMatch ;
+	pav:createdOn	"2026-02-21T15:46:58Z"^^xsd:date ;
+	pav:lastRefreshedOn	"2026-02-21T15:46:58Z"^^xsd:date ;
+	skal:constituent	rgn:r01KHZN214KFVTC3DRGVNXK87EN , wd:Q181574 , <http://publications.europa.eu/resource/authority/corporate-body/NAFTA> , <http://eurovoc.europa.eu/5430> .
+
+rgn:r01KJ1VPTGM2JZW8QGF05NZ39QB_align
+	a	skal:ExactMatch ;
+	pav:createdOn	"2026-02-21T15:46:58Z"^^xsd:date ;
+	pav:lastRefreshedOn	"2026-02-21T15:46:58Z"^^xsd:date ;
+	skal:constituent	rgn:r01KJ1VPTGM2JZW8QGF05NZ39QB , wd:Q56839716 , <http://publications.europa.eu/resource/authority/corporate-body/USMCA> .
+
+rgn:r01KJ1WFQ2KZ8A5230B6SMSP8Y0_align
+	a	skal:ExactMatch ;
+	pav:createdOn	"2026-02-21T15:46:58Z"^^xsd:date ;
+	pav:lastRefreshedOn	"2026-02-21T15:46:58Z"^^xsd:date ;
+	skal:constituent	rgn:r01KJ1WFQ2KZ8A5230B6SMSP8Y0 , wd:Q2665587 .

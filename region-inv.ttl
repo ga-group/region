@@ -22,6 +22,19 @@ lcc-3166-1-adj:AD
 		tempo:validFrom	"2012-04-01"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:AE
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.gcc-sg.org/"^^xsd:anyURI ;
+		foaf:name	"Gulf Cooperation Council"@en ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KHZFZG2DZC1QSNBPMWW9AB7V ;
+		rdfs:label	"GCC" ;
+		skos:definition	"individual representing the Cooperation Council for the Arab States of the Gulf (GCC)"@en ;
+		tempo:validFrom	"1981-05-25"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:AG
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -215,6 +228,19 @@ lcc-3166-1-adj:BG
 		tempo:validFrom	"2026-01-01"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:BH
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.gcc-sg.org/"^^xsd:anyURI ;
+		foaf:name	"Gulf Cooperation Council"@en ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KHZFZG2DZC1QSNBPMWW9AB7V ;
+		rdfs:label	"GCC" ;
+		skos:definition	"individual representing the Cooperation Council for the Arab States of the Gulf (GCC)"@en ;
+		tempo:validFrom	"1981-05-25"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:BI
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -309,6 +335,36 @@ lcc-3166-1-adj:BZ
 		rdfs:label	"CARICOM" ;
 		skos:definition	"individual representing CARICOM"@en ;
 		tempo:validFrom	"1974-05-01"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:CA
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		foaf:name	"North American Free Trade Agreement"@en ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KHZN214KFVTC3DRGVNXK87EN ;
+		rdfs:label	"TLCAN"@es ;
+		skos:definition	"individual representing the North American Free Trade Agreement (NAFTA)"@en ;
+		tempo:validFrom	"1994-01-01"^^xsd:date ;
+		tempo:validTill	"2020-07-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Canada–United States Free Trade Agreement"@en ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KJ1WFQ2KZ8A5230B6SMSP8Y0 ;
+		rdfs:label	"CUSFTA" ;
+		skos:definition	"individual representing the Free Trade Agreement between Canada and the United States of America"@en ;
+		tempo:validFrom	"1989-01-01"^^xsd:date ;
+		tempo:validTill	"1994-01-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Accord Canada–États-Unis–Mexique"@fr ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KJ1VPTGM2JZW8QGF05NZ39QB ;
+		rdfs:label	"USMCA" ;
+		skos:definition	"individual representing the United States-Mexico-Canada Agreement (USMCA)"@en ;
+		tempo:validFrom	"2020-07-01"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:CD
@@ -938,6 +994,19 @@ lcc-3166-1-adj:KN
 		tempo:validFrom	"1967-03-01"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:KW
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.gcc-sg.org/"^^xsd:anyURI ;
+		foaf:name	"Gulf Cooperation Council"@en ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KHZFZG2DZC1QSNBPMWW9AB7V ;
+		rdfs:label	"GCC" ;
+		skos:definition	"individual representing the Cooperation Council for the Arab States of the Gulf (GCC)"@en ;
+		tempo:validFrom	"1981-05-25"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:LA
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -1255,6 +1324,27 @@ lcc-3166-1-adj:MW
 		tempo:validTill	"1994-12-08"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:MX
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		foaf:name	"North American Free Trade Agreement"@en ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KHZN214KFVTC3DRGVNXK87EN ;
+		rdfs:label	"TLCAN"@es ;
+		skos:definition	"individual representing the North American Free Trade Agreement (NAFTA)"@en ;
+		tempo:validFrom	"1994-01-01"^^xsd:date ;
+		tempo:validTill	"2020-07-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Accord Canada–États-Unis–Mexique"@fr ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KJ1VPTGM2JZW8QGF05NZ39QB ;
+		rdfs:label	"USMCA" ;
+		skos:definition	"individual representing the United States-Mexico-Canada Agreement (USMCA)"@en ;
+		tempo:validFrom	"2020-07-01"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:MY
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -1363,6 +1453,19 @@ lcc-3166-1-adj:NZ
 		tempo:validFrom	"1971-08-05"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:OM
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.gcc-sg.org/"^^xsd:anyURI ;
+		foaf:name	"Gulf Cooperation Council"@en ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KHZFZG2DZC1QSNBPMWW9AB7V ;
+		rdfs:label	"GCC" ;
+		skos:definition	"individual representing the Cooperation Council for the Arab States of the Gulf (GCC)"@en ;
+		tempo:validFrom	"1981-05-25"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:PE
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -1467,6 +1570,19 @@ lcc-3166-1-adj:PY
 		tempo:validTill	"2012-06-29"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:QA
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.gcc-sg.org/"^^xsd:anyURI ;
+		foaf:name	"Gulf Cooperation Council"@en ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KHZFZG2DZC1QSNBPMWW9AB7V ;
+		rdfs:label	"GCC" ;
+		skos:definition	"individual representing the Cooperation Council for the Arab States of the Gulf (GCC)"@en ;
+		tempo:validFrom	"1981-05-25"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:RW
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -1488,6 +1604,19 @@ lcc-3166-1-adj:RW
 		skos:definition	"individual representing the precursor to COMESA, established in 1981"@en ;
 		tempo:validFrom	"1982-09-30"^^xsd:date ;
 		tempo:validTill	"1994-12-08"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:SA
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.gcc-sg.org/"^^xsd:anyURI ;
+		foaf:name	"Gulf Cooperation Council"@en ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KHZFZG2DZC1QSNBPMWW9AB7V ;
+		rdfs:label	"GCC" ;
+		skos:definition	"individual representing the Cooperation Council for the Arab States of the Gulf (GCC)"@en ;
+		tempo:validFrom	"1981-05-25"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:SB
@@ -1778,6 +1907,36 @@ lcc-3166-1-adj:UG
 		skos:definition	"individual representing the precursor to COMESA, established in 1981"@en ;
 		tempo:validFrom	"1982-09-30"^^xsd:date ;
 		tempo:validTill	"1994-12-08"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:US
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		foaf:name	"North American Free Trade Agreement"@en ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KHZN214KFVTC3DRGVNXK87EN ;
+		rdfs:label	"TLCAN"@es ;
+		skos:definition	"individual representing the North American Free Trade Agreement (NAFTA)"@en ;
+		tempo:validFrom	"1994-01-01"^^xsd:date ;
+		tempo:validTill	"2020-07-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Canada–United States Free Trade Agreement"@en ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KJ1WFQ2KZ8A5230B6SMSP8Y0 ;
+		rdfs:label	"CUSFTA" ;
+		skos:definition	"individual representing the Free Trade Agreement between Canada and the United States of America"@en ;
+		tempo:validFrom	"1989-01-01"^^xsd:date ;
+		tempo:validTill	"1994-01-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Accord Canada–États-Unis–Mexique"@fr ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KJ1VPTGM2JZW8QGF05NZ39QB ;
+		rdfs:label	"USMCA" ;
+		skos:definition	"individual representing the United States-Mexico-Canada Agreement (USMCA)"@en ;
+		tempo:validFrom	"2020-07-01"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:UY
