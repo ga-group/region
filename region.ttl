@@ -1699,3 +1699,163 @@ rgn:r01KJ1WFQ2KZ8A5230B6SMSP8Y0_1989_0
 	skos:definition	"individual representing the Free Trade Agreement between Canada and the United States of America"@en ;
 	tempo:validFrom	"1989-01-01"^^xsd:date ;
 	tempo:validTill	"1994-01-01"^^xsd:date .
+
+rgn:r01KJ4S7380KH3G4RA7EM7XJBFA
+	owl:sameAs	rgn:r01KJ4S7380KH3G4RA7EM7XJBFA_1999_0 .
+
+rgn:r01KJ4S7380KH3G4RA7EM7XJBFA_1966_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJ4S7380KH3G4RA7EM7XJBFA_1983_0 ;
+	dct:source	"http://www.cemac.cf/"^^xsd:anyURI ;
+	foaf:name	"Customs and Economic Union of Central Africa"@en , "Union douanière et économique de l'Afrique centrale"@fr ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:CF , lcc-3166-1-adj:CG , lcc-3166-1-adj:CM , lcc-3166-1-adj:GA , lcc-3166-1-adj:TD ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-23T08:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-23T08:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"UDEAC" ;
+	rgn:hasCurrentVariant	rgn:r01KJ4S7380KH3G4RA7EM7XJBFA ;
+	skos:definition	"individual representing the Customs and Economic Union of Central Africa"@en ;
+	tempo:validFrom	"1966-01-01"^^xsd:date ;
+	tempo:validTill	"1983-12-19"^^xsd:date .
+
+rgn:r01KJ4S7380KH3G4RA7EM7XJBFA_1983_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJ4S7380KH3G4RA7EM7XJBFA_1999_0 ;
+	dct:replaces	rgn:r01KJ4S7380KH3G4RA7EM7XJBFA_1966_0 ;
+	dct:source	"http://www.cemac.cf/"^^xsd:anyURI ;
+	foaf:name	"Customs and Economic Union of Central Africa"@en , "Union douanière et économique de l'Afrique centrale"@fr ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:CF , lcc-3166-1-adj:CG , lcc-3166-1-adj:CM , lcc-3166-1-adj:GA , lcc-3166-1-adj:GQ , lcc-3166-1-adj:TD ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-23T08:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-23T08:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"UDEAC" ;
+	rgn:hasCurrentVariant	rgn:r01KJ4S7380KH3G4RA7EM7XJBFA ;
+	skos:definition	"individual representing the Customs and Economic Union of Central Africa"@en ;
+	tempo:validFrom	"1983-12-19"^^xsd:date ;
+	tempo:validTill	"1999-06-25"^^xsd:date .
+
+rgn:r01KJ4S7380KH3G4RA7EM7XJBFA_1999_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:replaces	rgn:r01KJ4S7380KH3G4RA7EM7XJBFA_1983_0 ;
+	dct:source	"http://www.cemac.cf/"^^xsd:anyURI , "https://www.cemac.int/"^^xsd:anyURI ;
+	foaf:name	"Communauté économique et monétaire de l'Afrique centrale"@fr , "Economic and Monetary Community of Central Africa"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:CF , lcc-3166-1-adj:CG , lcc-3166-1-adj:CM , lcc-3166-1-adj:GA , lcc-3166-1-adj:GQ , lcc-3166-1-adj:TD ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-23T08:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-23T08:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"CEMAC" ;
+	rgn:hasCurrentVariant	rgn:r01KJ4S7380KH3G4RA7EM7XJBFA ;
+	skos:definition	"individual representing the Economic and Monetary Community of Central Africa (CEMAC), adopters of XAF"@en ;
+	tempo:validFrom	"1999-06-25"^^xsd:date .
+
+rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P
+	owl:sameAs	rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P_1997_0 .
+
+rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P_1962_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P_1963_0 ;
+	dct:source	"https://www.uemoa.int/"^^xsd:anyURI ;
+	foaf:name	"Union monétaire ouest-africaine"@fr , "West African Monetary Union"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BF , lcc-3166-1-adj:BJ , lcc-3166-1-adj:CI , lcc-3166-1-adj:ML , lcc-3166-1-adj:NE , lcc-3166-1-adj:SN ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-23T11:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-23T11:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"UMOA" ;
+	rgn:hasCurrentVariant	rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P ;
+	skos:definition	"individual representing the West African Monetary Union (UMOA), adopters of XOF"@en ;
+	tempo:validFrom	"1962-01-10"^^xsd:date ;
+	tempo:validTill	"1963-12-17"^^xsd:date .
+
+rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P_1963_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P_1994_0 ;
+	dct:replaces	rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P_1962_0 ;
+	dct:source	"https://www.uemoa.int/"^^xsd:anyURI ;
+	foaf:name	"Union monétaire ouest-africaine"@fr , "West African Monetary Union"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BF , lcc-3166-1-adj:BJ , lcc-3166-1-adj:CI , lcc-3166-1-adj:ML , lcc-3166-1-adj:NE , lcc-3166-1-adj:SN , lcc-3166-1-adj:TG ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-23T11:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-23T11:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"UMOA" ;
+	rgn:hasCurrentVariant	rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P ;
+	skos:definition	"individual representing the West African Monetary Union (UMOA), adopters of XOF"@en ;
+	tempo:validFrom	"1963-12-17"^^xsd:date ;
+	tempo:validTill	"1994-01-10"^^xsd:date .
+
+rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P_1994_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P_1997_0 ;
+	dct:replaces	rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P_1963_0 ;
+	dct:source	"https://www.uemoa.int/"^^xsd:anyURI ;
+	foaf:name	"Union économique et monétaire ouest-africaine"@fr , "West African Economic and Monetary Union"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BF , lcc-3166-1-adj:BJ , lcc-3166-1-adj:CI , lcc-3166-1-adj:ML , lcc-3166-1-adj:NE , lcc-3166-1-adj:SN , lcc-3166-1-adj:TG ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-23T11:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-23T11:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"UEMOA" ;
+	rgn:hasCurrentVariant	rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P ;
+	skos:definition	"individual representing the West African Economic and Monetary Union (UEMOA), adopters of XOF"@en ;
+	tempo:validFrom	"1994-01-10"^^xsd:date ;
+	tempo:validTill	"1997-05-02"^^xsd:date .
+
+rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P_1997_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:replaces	rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P_1994_0 ;
+	dct:source	"https://www.uemoa.int/"^^xsd:anyURI ;
+	foaf:name	"Union économique et monétaire ouest-africaine"@fr , "West African Economic and Monetary Union"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BF , lcc-3166-1-adj:BJ , lcc-3166-1-adj:CI , lcc-3166-1-adj:GW , lcc-3166-1-adj:ML , lcc-3166-1-adj:NE , lcc-3166-1-adj:SN , lcc-3166-1-adj:TG ;
+	lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-23T11:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-23T11:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"UEMOA" ;
+	rgn:hasCurrentVariant	rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P ;
+	skos:definition	"individual representing the West African Economic and Monetary Union (UEMOA), adopters of XOF"@en ;
+	tempo:validFrom	"1997-05-02"^^xsd:date .
+
+rgn:r01KJ5E5GH4N3CNCVF0EHXH3SW3
+	owl:sameAs	rgn:r01KJ5E5GH4N3CNCVF0EHXH3SW3_2024_0 .
+
+rgn:r01KJ5E5GH4N3CNCVF0EHXH3SW3_2023_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJ5E5GH4N3CNCVF0EHXH3SW3_2024_0 ;
+	foaf:name	"Alliance des États du Sahel"@fr , "Alliance of Sahel States"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BF , lcc-3166-1-adj:ML , lcc-3166-1-adj:NE ;
+	lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-23T14:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-23T14:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"AES" ;
+	rgn:hasCurrentVariant	rgn:r01KJ5E5GH4N3CNCVF0EHXH3SW3 ;
+	skos:definition	"individual representing the Alliance of Sahel States"@en ;
+	tempo:validFrom	"2023-09-16"^^xsd:date ;
+	tempo:validTill	"2024-07-06"^^xsd:date .
+
+rgn:r01KJ5E5GH4N3CNCVF0EHXH3SW3_2024_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:replaces	rgn:r01KJ5E5GH4N3CNCVF0EHXH3SW3_2023_0 ;
+	foaf:name	"Confédération des États du Sahel"@fr , "Confederation of Sahel States"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BF , lcc-3166-1-adj:ML , lcc-3166-1-adj:NE ;
+	lcc-cr:isClassifiedBy	rgn:MilitaryCoalition , rgn:TradeBloc ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-23T14:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-23T14:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"AES" ;
+	rgn:hasCurrentVariant	rgn:r01KJ5E5GH4N3CNCVF0EHXH3SW3 ;
+	skos:definition	"individual representing the Confederation of Sahel States"@en ;
+	tempo:validFrom	"2024-07-06"^^xsd:date .

@@ -208,6 +208,27 @@ lcc-3166-1-adj:BE
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:BF
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.uemoa.int/"^^xsd:anyURI ;
+		foaf:name	"Union économique et monétaire ouest-africaine"@fr ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+		pav:derivedFrom	rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P ;
+		rdfs:label	"UEMOA" ;
+		skos:definition	"individual representing the West African Economic and Monetary Union (UEMOA), adopters of XOF"@en ;
+		tempo:validFrom	"1962-01-10"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Confederation of Sahel States"@en ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KJ5E5GH4N3CNCVF0EHXH3SW3 ;
+		rdfs:label	"AES" ;
+		skos:definition	"individual representing the Confederation of Sahel States"@en ;
+		tempo:validFrom	"2023-09-16"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:BG
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -262,6 +283,19 @@ lcc-3166-1-adj:BI
 		skos:definition	"individual representing the precursor to COMESA, established in 1981"@en ;
 		tempo:validFrom	"1982-09-30"^^xsd:date ;
 		tempo:validTill	"1994-12-08"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:BJ
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.uemoa.int/"^^xsd:anyURI ;
+		foaf:name	"Union économique et monétaire ouest-africaine"@fr ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+		pav:derivedFrom	rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P ;
+		rdfs:label	"UEMOA" ;
+		skos:definition	"individual representing the West African Economic and Monetary Union (UEMOA), adopters of XOF"@en ;
+		tempo:validFrom	"1962-01-10"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:BN
@@ -390,6 +424,45 @@ lcc-3166-1-adj:CD
 		tempo:validTill	"1994-12-08"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:CF
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.cemac.cf/"^^xsd:anyURI ;
+		foaf:name	"Economic and Monetary Community of Central Africa"@en ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+		pav:derivedFrom	rgn:r01KJ4S7380KH3G4RA7EM7XJBFA ;
+		rdfs:label	"CEMAC" ;
+		skos:definition	"individual representing the Economic and Monetary Community of Central Africa (CEMAC), adopters of XAF"@en ;
+		tempo:validFrom	"1966-01-01"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:CG
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.cemac.cf/"^^xsd:anyURI ;
+		foaf:name	"Economic and Monetary Community of Central Africa"@en ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+		pav:derivedFrom	rgn:r01KJ4S7380KH3G4RA7EM7XJBFA ;
+		rdfs:label	"CEMAC" ;
+		skos:definition	"individual representing the Economic and Monetary Community of Central Africa (CEMAC), adopters of XAF"@en ;
+		tempo:validFrom	"1966-01-01"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:CI
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.uemoa.int/"^^xsd:anyURI ;
+		foaf:name	"Union économique et monétaire ouest-africaine"@fr ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+		pav:derivedFrom	rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P ;
+		rdfs:label	"UEMOA" ;
+		skos:definition	"individual representing the West African Economic and Monetary Union (UEMOA), adopters of XOF"@en ;
+		tempo:validFrom	"1962-01-10"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:CK
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -414,6 +487,19 @@ lcc-3166-1-adj:CL
 		skos:definition	"individual representing the Andean Community (CAN)"@en ;
 		tempo:validFrom	"1969-05-26"^^xsd:date ;
 		tempo:validTill	"1976-10-07"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:CM
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.cemac.cf/"^^xsd:anyURI ;
+		foaf:name	"Economic and Monetary Community of Central Africa"@en ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+		pav:derivedFrom	rgn:r01KJ4S7380KH3G4RA7EM7XJBFA ;
+		rdfs:label	"CEMAC" ;
+		skos:definition	"individual representing the Economic and Monetary Community of Central Africa (CEMAC), adopters of XAF"@en ;
+		tempo:validFrom	"1966-01-01"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:CO
@@ -699,6 +785,19 @@ lcc-3166-1-adj:FR
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:GA
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.cemac.cf/"^^xsd:anyURI ;
+		foaf:name	"Economic and Monetary Community of Central Africa"@en ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+		pav:derivedFrom	rgn:r01KJ4S7380KH3G4RA7EM7XJBFA ;
+		rdfs:label	"CEMAC" ;
+		skos:definition	"individual representing the Economic and Monetary Community of Central Africa (CEMAC), adopters of XAF"@en ;
+		tempo:validFrom	"1966-01-01"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:GD
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -752,6 +851,19 @@ lcc-3166-1-adj:GP
 		tempo:validFrom	"2019-03-14"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:GQ
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.cemac.cf/"^^xsd:anyURI ;
+		foaf:name	"Economic and Monetary Community of Central Africa"@en ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+		pav:derivedFrom	rgn:r01KJ4S7380KH3G4RA7EM7XJBFA ;
+		rdfs:label	"CEMAC" ;
+		skos:definition	"individual representing the Economic and Monetary Community of Central Africa (CEMAC), adopters of XAF"@en ;
+		tempo:validFrom	"1983-12-19"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:GR
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -770,6 +882,19 @@ lcc-3166-1-adj:GR
 		rdfs:label	"Eurozone with monetary agreement" ;
 		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"2001-01-01"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:GW
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.uemoa.int/"^^xsd:anyURI ;
+		foaf:name	"Union économique et monétaire ouest-africaine"@fr ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+		pav:derivedFrom	rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P ;
+		rdfs:label	"UEMOA" ;
+		skos:definition	"individual representing the West African Economic and Monetary Union (UEMOA), adopters of XOF"@en ;
+		tempo:validFrom	"1997-05-02"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:GY
@@ -1193,6 +1318,27 @@ lcc-3166-1-adj:MH
 		tempo:validFrom	"1988-09-20"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:ML
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.uemoa.int/"^^xsd:anyURI ;
+		foaf:name	"Union économique et monétaire ouest-africaine"@fr ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+		pav:derivedFrom	rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P ;
+		rdfs:label	"UEMOA" ;
+		skos:definition	"individual representing the West African Economic and Monetary Union (UEMOA), adopters of XOF"@en ;
+		tempo:validFrom	"1962-01-10"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Confederation of Sahel States"@en ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KJ5E5GH4N3CNCVF0EHXH3SW3 ;
+		rdfs:label	"AES" ;
+		skos:definition	"individual representing the Confederation of Sahel States"@en ;
+		tempo:validFrom	"2023-09-16"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:MM
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -1395,6 +1541,27 @@ lcc-3166-1-adj:NC
 		rdfs:label	"PIF" ;
 		skos:definition	"individual representing the Pacific Islands Forum"@en ;
 		tempo:validFrom	"2016-09-08"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:NE
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.uemoa.int/"^^xsd:anyURI ;
+		foaf:name	"Union économique et monétaire ouest-africaine"@fr ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+		pav:derivedFrom	rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P ;
+		rdfs:label	"UEMOA" ;
+		skos:definition	"individual representing the West African Economic and Monetary Union (UEMOA), adopters of XOF"@en ;
+		tempo:validFrom	"1962-01-10"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Confederation of Sahel States"@en ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KJ5E5GH4N3CNCVF0EHXH3SW3 ;
+		rdfs:label	"AES" ;
+		skos:definition	"individual representing the Confederation of Sahel States"@en ;
+		tempo:validFrom	"2023-09-16"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:NL
@@ -1731,6 +1898,19 @@ lcc-3166-1-adj:SM
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:SN
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.uemoa.int/"^^xsd:anyURI ;
+		foaf:name	"Union économique et monétaire ouest-africaine"@fr ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+		pav:derivedFrom	rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P ;
+		rdfs:label	"UEMOA" ;
+		skos:definition	"individual representing the West African Economic and Monetary Union (UEMOA), adopters of XOF"@en ;
+		tempo:validFrom	"1962-01-10"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:SO
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -1788,6 +1968,32 @@ lcc-3166-1-adj:SZ
 		skos:definition	"individual representing the precursor to COMESA, established in 1981"@en ;
 		tempo:validFrom	"1982-09-30"^^xsd:date ;
 		tempo:validTill	"1994-12-08"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:TD
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.cemac.cf/"^^xsd:anyURI ;
+		foaf:name	"Economic and Monetary Community of Central Africa"@en ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+		pav:derivedFrom	rgn:r01KJ4S7380KH3G4RA7EM7XJBFA ;
+		rdfs:label	"CEMAC" ;
+		skos:definition	"individual representing the Economic and Monetary Community of Central Africa (CEMAC), adopters of XAF"@en ;
+		tempo:validFrom	"1966-01-01"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:TG
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.uemoa.int/"^^xsd:anyURI ;
+		foaf:name	"Union économique et monétaire ouest-africaine"@fr ;
+		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
+		pav:derivedFrom	rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P ;
+		rdfs:label	"UEMOA" ;
+		skos:definition	"individual representing the West African Economic and Monetary Union (UEMOA), adopters of XOF"@en ;
+		tempo:validFrom	"1963-12-17"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:TH

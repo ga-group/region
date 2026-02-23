@@ -91,16 +91,54 @@ rgn:r01KHZN214KFVTC3DRGVNXK87EN_align
 	a	skal:ExactMatch ;
 	pav:createdOn	"2026-02-21T15:46:58Z"^^xsd:date ;
 	pav:lastRefreshedOn	"2026-02-21T15:46:58Z"^^xsd:date ;
-	skal:constituent	rgn:r01KHZN214KFVTC3DRGVNXK87EN , wd:Q181574 , <http://publications.europa.eu/resource/authority/corporate-body/NAFTA> , <http://eurovoc.europa.eu/5430> .
+	skal:constituent	<http://eurovoc.europa.eu/5430> , <http://publications.europa.eu/resource/authority/corporate-body/NAFTA> , rgn:r01KHZN214KFVTC3DRGVNXK87EN , wd:Q181574 .
 
 rgn:r01KJ1VPTGM2JZW8QGF05NZ39QB_align
 	a	skal:ExactMatch ;
 	pav:createdOn	"2026-02-21T15:46:58Z"^^xsd:date ;
 	pav:lastRefreshedOn	"2026-02-21T15:46:58Z"^^xsd:date ;
-	skal:constituent	rgn:r01KJ1VPTGM2JZW8QGF05NZ39QB , wd:Q56839716 , <http://publications.europa.eu/resource/authority/corporate-body/USMCA> .
+	skal:constituent	<http://publications.europa.eu/resource/authority/corporate-body/USMCA> , rgn:r01KJ1VPTGM2JZW8QGF05NZ39QB , wd:Q56839716 .
 
 rgn:r01KJ1WFQ2KZ8A5230B6SMSP8Y0_align
 	a	skal:ExactMatch ;
 	pav:createdOn	"2026-02-21T15:46:58Z"^^xsd:date ;
 	pav:lastRefreshedOn	"2026-02-21T15:46:58Z"^^xsd:date ;
 	skal:constituent	rgn:r01KJ1WFQ2KZ8A5230B6SMSP8Y0 , wd:Q2665587 .
+
+rgn:r01KJ4S7380KH3G4RA7EM7XJBFA_align
+	a	skal:ExactMatch ;
+	pav:createdOn	"2026-02-23T15:46:58Z"^^xsd:date ;
+	pav:lastRefreshedOn	"2026-02-23T15:46:58Z"^^xsd:date ;
+	skal:constituent	<http://eurovoc.europa.eu/4586> , <http://publications.europa.eu/resource/authority/corporate-body/CAEMC> , rgn:r01KJ4S7380KH3G4RA7EM7XJBFA , wd:Q1940250 .
+
+rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P_align
+	a	skal:ExactMatch ;
+	dct:replaces	rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P_align_1994_0 ;
+	pav:createdOn	"2026-02-23T15:46:58Z"^^xsd:date ;
+	pav:lastRefreshedOn	"2026-02-23T15:46:58Z"^^xsd:date ;
+	skal:constituent	<http://eurovoc.europa.eu/3722> , <http://publications.europa.eu/resource/authority/corporate-body/WAEMU> , rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P , wd:Q1929699 ;
+	tempo:validFrom	"1994-01-10"^^xsd:date .
+
+rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P_align_1994_0
+	a	skal:ExactMatch ;
+	dct:isReplacedBy	rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P_align ;
+	pav:createdOn	"2026-02-23T15:46:58Z"^^xsd:date ;
+	pav:lastRefreshedOn	"2026-02-23T15:46:58Z"^^xsd:date ;
+	skal:constituent	rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P , wd:Q1929699 ;
+	tempo:validTill	"1994-01-10"^^xsd:date .
+
+rgn:r01KJ5E5GH4N3CNCVF0EHXH3SW3_align
+	a	skal:ExactMatch ;
+	dct:replaces	rgn:r01KJ5E5GH4N3CNCVF0EHXH3SW3_align_2024_0 ;
+	pav:createdOn	"2026-02-23T15:46:58Z"^^xsd:date ;
+	pav:lastRefreshedOn	"2026-02-23T15:46:58Z"^^xsd:date ;
+	skal:constituent	rgn:r01KJ5E5GH4N3CNCVF0EHXH3SW3 , wd:Q127260462 ;
+	tempo:validFrom	"2024-07-06"^^xsd:date .
+
+rgn:r01KJ5E5GH4N3CNCVF0EHXH3SW3_align_2024_0
+	a	skal:ExactMatch ;
+	dct:isReplacedBy	rgn:r01KJ5E5GH4N3CNCVF0EHXH3SW3_align ;
+	pav:createdOn	"2026-02-23T15:46:58Z"^^xsd:date ;
+	pav:lastRefreshedOn	"2026-02-23T15:46:58Z"^^xsd:date ;
+	skal:constituent	rgn:r01KJ5E5GH4N3CNCVF0EHXH3SW3 , wd:Q122624387 ;
+	tempo:validTill	"2024-07-06"^^xsd:date .
