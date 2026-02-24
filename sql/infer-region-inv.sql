@@ -7,7 +7,6 @@ CHECKPOINT;
 ECHO "determining validity within variant ... ";
 SPARQL
 DEFINE sql:log-enable 3
-DEFINE input:same-as "yes"
 PREFIX lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/>
 PREFIX rgn: <http://data.ga-group.nl/region/>
 
@@ -16,14 +15,9 @@ INSERT {
 	?y a lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf [
 		a	lcc-cr:GeographicRegion ;
-		dct:source ?src ;
 		tempo:validFrom ?from ;
 		tempo:validTill ?till ;
-		rdfs:label ?lbl ;
-		foaf:name ?nam ;
-		lcc-cr:isClassifiedBy ?cls ;
 		pav:derivedFrom ?z ;
-		skos:definition ?def
 	]
 }
 USING <$u{SRCGR}>
@@ -42,21 +36,6 @@ WHERE {
 	}
 	OPTIONAL {
 	?x tempo:validTill ?till
-	}
-	OPTIONAL {
-	?z rdfs:label ?lbl
-	}
-	OPTIONAL {
-	?z dct:source ?src
-	}
-	OPTIONAL {
-	?z foaf:name ?nam
-	}
-	OPTIONAL {
-	?z skos:definition ?def
-	}
-	OPTIONAL {
-	?z lcc-cr:isClassifiedBy ?cls
 	}
 }
 ;
@@ -142,6 +121,47 @@ WHERE {
 }
 ;
 ECHO $ROWCNT"\n";
+
+ECHO "adding beef ... ";
+SPARQL
+DEFINE sql:log-enable 3
+DEFINE input:same-as "yes"
+PREFIX lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/>
+PREFIX rgn: <http://data.ga-group.nl/region/>
+
+WITH <$u{TGTGR}>
+INSERT {
+	?z
+		rdfs:label ?lbl ;
+		foaf:name ?nam ;
+		lcc-cr:isClassifiedBy ?cls ;
+		dct:source ?src ;
+		skos:definition ?def
+}
+USING <$u{SRCGR}>
+WHERE {
+	?z a rgn:keep ;
+		pav:derivedFrom ?x .
+
+	OPTIONAL {
+	?x rdfs:label ?lbl
+	}
+	OPTIONAL {
+	?x dct:source ?src
+	}
+	OPTIONAL {
+	?x foaf:name ?nam
+	}
+	OPTIONAL {
+	?x skos:definition ?def
+	}
+	OPTIONAL {
+	?x lcc-cr:isClassifiedBy ?cls
+	}
+}
+;
+ECHO $ROWCNT"\n";
+CHECKPOINT;
 
 ECHO "cleaning up ... ";
 SPARQL

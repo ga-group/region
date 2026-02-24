@@ -1859,3 +1859,236 @@ rgn:r01KJ5E5GH4N3CNCVF0EHXH3SW3_2024_0
 	rgn:hasCurrentVariant	rgn:r01KJ5E5GH4N3CNCVF0EHXH3SW3 ;
 	skos:definition	"individual representing the Confederation of Sahel States"@en ;
 	tempo:validFrom	"2024-07-06"^^xsd:date .
+
+rgn:r01KJ6W4F5VW3GH00A6SV8RC6FG
+	owl:sameAs	rgn:r01KJ6W4F5VW3GH00A6SV8RC6FG_1922_0 .
+
+rgn:r01KJ6W4F5VW3GH00A6SV8RC6FG_1922_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	foaf:name	"Belgium–Luxembourg Economic Union"@en , "Union économique belgo-luxembourgeoise"@fr ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BE , lcc-3166-1-adj:LU ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"BLEU" , "BLEU"@en , "UEBL"@fr ;
+	rgn:hasCurrentVariant	rgn:r01KJ6W4F5VW3GH00A6SV8RC6FG ;
+	skos:definition	"individual representing the Belgium-Luxembourg Economic Union"@en ;
+	tempo:validFrom	"1922-12-22"^^xsd:date .
+
+rgn:r01KJ6WZ7XT77T82ZAW2TQW6RB4
+	owl:sameAs	rgn:r01KJ6WZ7XT77T82ZAW2TQW6RB4_2012_0 .
+
+rgn:r01KJ6WZ7XT77T82ZAW2TQW6RB4_1948_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJ6WZ7XT77T82ZAW2TQW6RB4_2012_0 ;
+	dct:source	"http://benelux.int/"^^xsd:anyURI ;
+	foaf:name	"Benelux Economic Union"@en , "Benelux Economische Unie"@nl , "Union économique Benelux"@fr ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BE , lcc-3166-1-adj:LU , lcc-3166-1-adj:NL ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"Benelux" ;
+	rgn:hasCurrentVariant	rgn:r01KJ6WZ7XT77T82ZAW2TQW6RB4 ;
+	skos:definition	"individual representing the Belgium-Netherlands-Luxembourg Union"@en ;
+	tempo:validFrom	"1948-01-01"^^xsd:date ;
+	tempo:validTill	"2012-01-01"^^xsd:date .
+
+rgn:r01KJ6WZ7XT77T82ZAW2TQW6RB4_2012_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:replaces	rgn:r01KJ6WZ7XT77T82ZAW2TQW6RB4_1948_0 ;
+	dct:source	"http://benelux.int/"^^xsd:anyURI ;
+	foaf:name	"Benelux Union"@en , "Benelux-unie"@nl , "Union Benelux"@fr ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BE , lcc-3166-1-adj:LU , lcc-3166-1-adj:NL ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"Benelux" ;
+	rgn:hasCurrentVariant	rgn:r01KJ6WZ7XT77T82ZAW2TQW6RB4 ;
+	skos:definition	"individual representing the Belgium-Netherlands-Luxembourg Union"@en ;
+	tempo:validFrom	"2012-01-01"^^xsd:date .
+
+rgn:r01KJ72TWJBTJZZD9F9BM7BC211
+	owl:sameAs	rgn:r01KJ72TWJBTJZZD9F9BM7BC211_2013_0 .
+
+rgn:r01KJ72TWJBTJZZD9F9BM7BC211_1993_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJ72TWJBTJZZD9F9BM7BC211_1996_0 ;
+	dct:source	"https://cefta.int/"^^xsd:anyURI ;
+	foaf:name	"Accord de libre-échange centre-européen"@fr , "Accordo centroeuropeo di libero scambio"@it , "Acordo de comércio livre da Europa Central"@pt , "Acordul central european de comerț liber"@ro , "Acuerdo Centroeuropeo de Libre Comercio"@es , "Central European Free Trade Agreement"@en , "Centraleuropeiska frihandelsavtalet"@sv , "Centrāleiropas Brīvās tirdzniecības nolīgums"@lv , "Comhaontú Saorthrádála Lár na hEorpa"@ga , "Den centraleuropæiske frihandelsaftale"@da , "Ftehim dwar il-Kummerċ Ħieles tal-Ewropa Ċentrali"@mt , "Közép-európai Szabadkereskedelmi Megállapodás"@hu , "Kesk-Euroopa vabakaubandusleping"@et , "Keski-Euroopan vapaakauppasopimus"@fi , "Midden-Europese Vrijhandelsovereenkomst"@nl , "Mitteleuropäisches Freihandelsabkommen"@de , "Orta Avrupa Serbest Ticaret Anlaşması"@tr , "Srednjeevropski sporazum o prosti trgovini"@sl , "Srednjoeuropski ugovor o slobodnoj trgovini"@hr , "Středoevropská dohoda o volném obchodu"@cs , "Stredoeurópska dohoda o voľnom obchode"@sk , "Vidurio Europos laisvosios prekybos susitarimas"@lt , "Środkowoeuropejska umowa o wolnym handlu"@pl , "Συμφωνία Ελεύθερων Συναλλαγών της Κεντρικής Ευρώπης"@el , "Централноевропейско споразумение за свободна търговия"@bg , "Централноевропски уговор о слободној трговини"@sr ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:CZ , lcc-3166-1-adj:HU , lcc-3166-1-adj:PL , lcc-3166-1-adj:SK ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
+	rgn:hasCurrentVariant	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
+	skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
+	tempo:validFrom	"1993-03-01"^^xsd:date ;
+	tempo:validTill	"1996-01-01"^^xsd:date .
+
+rgn:r01KJ72TWJBTJZZD9F9BM7BC211_1996_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJ72TWJBTJZZD9F9BM7BC211_1997_0 ;
+	dct:replaces	rgn:r01KJ72TWJBTJZZD9F9BM7BC211_1993_0 ;
+	dct:source	"https://cefta.int/"^^xsd:anyURI ;
+	foaf:name	"Accord de libre-échange centre-européen"@fr , "Accordo centroeuropeo di libero scambio"@it , "Acordo de comércio livre da Europa Central"@pt , "Acordul central european de comerț liber"@ro , "Acuerdo Centroeuropeo de Libre Comercio"@es , "Central European Free Trade Agreement"@en , "Centraleuropeiska frihandelsavtalet"@sv , "Centrāleiropas Brīvās tirdzniecības nolīgums"@lv , "Comhaontú Saorthrádála Lár na hEorpa"@ga , "Den centraleuropæiske frihandelsaftale"@da , "Ftehim dwar il-Kummerċ Ħieles tal-Ewropa Ċentrali"@mt , "Közép-európai Szabadkereskedelmi Megállapodás"@hu , "Kesk-Euroopa vabakaubandusleping"@et , "Keski-Euroopan vapaakauppasopimus"@fi , "Midden-Europese Vrijhandelsovereenkomst"@nl , "Mitteleuropäisches Freihandelsabkommen"@de , "Orta Avrupa Serbest Ticaret Anlaşması"@tr , "Srednjeevropski sporazum o prosti trgovini"@sl , "Srednjoeuropski ugovor o slobodnoj trgovini"@hr , "Středoevropská dohoda o volném obchodu"@cs , "Stredoeurópska dohoda o voľnom obchode"@sk , "Vidurio Europos laisvosios prekybos susitarimas"@lt , "Środkowoeuropejska umowa o wolnym handlu"@pl , "Συμφωνία Ελεύθερων Συναλλαγών της Κεντρικής Ευρώπης"@el , "Централноевропейско споразумение за свободна търговия"@bg , "Централноевропски уговор о слободној трговини"@sr ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:CZ , lcc-3166-1-adj:HU , lcc-3166-1-adj:PL , lcc-3166-1-adj:SI , lcc-3166-1-adj:SK ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
+	rgn:hasCurrentVariant	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
+	skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
+	tempo:validFrom	"1996-01-01"^^xsd:date ;
+	tempo:validTill	"1997-07-01"^^xsd:date .
+
+rgn:r01KJ72TWJBTJZZD9F9BM7BC211_1997_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJ72TWJBTJZZD9F9BM7BC211_1999_0 ;
+	dct:replaces	rgn:r01KJ72TWJBTJZZD9F9BM7BC211_1996_0 ;
+	dct:source	"https://cefta.int/"^^xsd:anyURI ;
+	foaf:name	"Accord de libre-échange centre-européen"@fr , "Accordo centroeuropeo di libero scambio"@it , "Acordo de comércio livre da Europa Central"@pt , "Acordul central european de comerț liber"@ro , "Acuerdo Centroeuropeo de Libre Comercio"@es , "Central European Free Trade Agreement"@en , "Centraleuropeiska frihandelsavtalet"@sv , "Centrāleiropas Brīvās tirdzniecības nolīgums"@lv , "Comhaontú Saorthrádála Lár na hEorpa"@ga , "Den centraleuropæiske frihandelsaftale"@da , "Ftehim dwar il-Kummerċ Ħieles tal-Ewropa Ċentrali"@mt , "Közép-európai Szabadkereskedelmi Megállapodás"@hu , "Kesk-Euroopa vabakaubandusleping"@et , "Keski-Euroopan vapaakauppasopimus"@fi , "Midden-Europese Vrijhandelsovereenkomst"@nl , "Mitteleuropäisches Freihandelsabkommen"@de , "Orta Avrupa Serbest Ticaret Anlaşması"@tr , "Srednjeevropski sporazum o prosti trgovini"@sl , "Srednjoeuropski ugovor o slobodnoj trgovini"@hr , "Středoevropská dohoda o volném obchodu"@cs , "Stredoeurópska dohoda o voľnom obchode"@sk , "Vidurio Europos laisvosios prekybos susitarimas"@lt , "Środkowoeuropejska umowa o wolnym handlu"@pl , "Συμφωνία Ελεύθερων Συναλλαγών της Κεντρικής Ευρώπης"@el , "Централноевропейско споразумение за свободна търговия"@bg , "Централноевропски уговор о слободној трговини"@sr ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:CZ , lcc-3166-1-adj:HU , lcc-3166-1-adj:PL , lcc-3166-1-adj:RO , lcc-3166-1-adj:SI , lcc-3166-1-adj:SK ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
+	rgn:hasCurrentVariant	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
+	skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
+	tempo:validFrom	"1997-07-01"^^xsd:date ;
+	tempo:validTill	"1999-01-01"^^xsd:date .
+
+rgn:r01KJ72TWJBTJZZD9F9BM7BC211_1999_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJ72TWJBTJZZD9F9BM7BC211_2003_0 ;
+	dct:replaces	rgn:r01KJ72TWJBTJZZD9F9BM7BC211_1997_0 ;
+	dct:source	"https://cefta.int/"^^xsd:anyURI ;
+	foaf:name	"Accord de libre-échange centre-européen"@fr , "Accordo centroeuropeo di libero scambio"@it , "Acordo de comércio livre da Europa Central"@pt , "Acordul central european de comerț liber"@ro , "Acuerdo Centroeuropeo de Libre Comercio"@es , "Central European Free Trade Agreement"@en , "Centraleuropeiska frihandelsavtalet"@sv , "Centrāleiropas Brīvās tirdzniecības nolīgums"@lv , "Comhaontú Saorthrádála Lár na hEorpa"@ga , "Den centraleuropæiske frihandelsaftale"@da , "Ftehim dwar il-Kummerċ Ħieles tal-Ewropa Ċentrali"@mt , "Közép-európai Szabadkereskedelmi Megállapodás"@hu , "Kesk-Euroopa vabakaubandusleping"@et , "Keski-Euroopan vapaakauppasopimus"@fi , "Midden-Europese Vrijhandelsovereenkomst"@nl , "Mitteleuropäisches Freihandelsabkommen"@de , "Orta Avrupa Serbest Ticaret Anlaşması"@tr , "Srednjeevropski sporazum o prosti trgovini"@sl , "Srednjoeuropski ugovor o slobodnoj trgovini"@hr , "Středoevropská dohoda o volném obchodu"@cs , "Stredoeurópska dohoda o voľnom obchode"@sk , "Vidurio Europos laisvosios prekybos susitarimas"@lt , "Środkowoeuropejska umowa o wolnym handlu"@pl , "Συμφωνία Ελεύθερων Συναλλαγών της Κεντρικής Ευρώπης"@el , "Централноевропейско споразумение за свободна търговия"@bg , "Централноевропски уговор о слободној трговини"@sr ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BG , lcc-3166-1-adj:CZ , lcc-3166-1-adj:HU , lcc-3166-1-adj:PL , lcc-3166-1-adj:RO , lcc-3166-1-adj:SI , lcc-3166-1-adj:SK ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
+	rgn:hasCurrentVariant	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
+	skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
+	tempo:validFrom	"1999-01-01"^^xsd:date ;
+	tempo:validTill	"2003-03-01"^^xsd:date .
+
+rgn:r01KJ72TWJBTJZZD9F9BM7BC211_2003_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJ72TWJBTJZZD9F9BM7BC211_2004_0 ;
+	dct:replaces	rgn:r01KJ72TWJBTJZZD9F9BM7BC211_1999_0 ;
+	dct:source	"https://cefta.int/"^^xsd:anyURI ;
+	foaf:name	"Accord de libre-échange centre-européen"@fr , "Accordo centroeuropeo di libero scambio"@it , "Acordo de comércio livre da Europa Central"@pt , "Acordul central european de comerț liber"@ro , "Acuerdo Centroeuropeo de Libre Comercio"@es , "Central European Free Trade Agreement"@en , "Centraleuropeiska frihandelsavtalet"@sv , "Centrāleiropas Brīvās tirdzniecības nolīgums"@lv , "Comhaontú Saorthrádála Lár na hEorpa"@ga , "Den centraleuropæiske frihandelsaftale"@da , "Ftehim dwar il-Kummerċ Ħieles tal-Ewropa Ċentrali"@mt , "Közép-európai Szabadkereskedelmi Megállapodás"@hu , "Kesk-Euroopa vabakaubandusleping"@et , "Keski-Euroopan vapaakauppasopimus"@fi , "Midden-Europese Vrijhandelsovereenkomst"@nl , "Mitteleuropäisches Freihandelsabkommen"@de , "Orta Avrupa Serbest Ticaret Anlaşması"@tr , "Srednjeevropski sporazum o prosti trgovini"@sl , "Srednjoeuropski ugovor o slobodnoj trgovini"@hr , "Středoevropská dohoda o volném obchodu"@cs , "Stredoeurópska dohoda o voľnom obchode"@sk , "Vidurio Europos laisvosios prekybos susitarimas"@lt , "Środkowoeuropejska umowa o wolnym handlu"@pl , "Συμφωνία Ελεύθερων Συναλλαγών της Κεντρικής Ευρώπης"@el , "Централноевропейско споразумение за свободна търговия"@bg , "Централноевропски уговор о слободној трговини"@sr ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BG , lcc-3166-1-adj:CZ , lcc-3166-1-adj:HR , lcc-3166-1-adj:HU , lcc-3166-1-adj:PL , lcc-3166-1-adj:RO , lcc-3166-1-adj:SI , lcc-3166-1-adj:SK ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
+	rgn:hasCurrentVariant	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
+	skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
+	tempo:validFrom	"2003-03-01"^^xsd:date ;
+	tempo:validTill	"2004-05-01"^^xsd:date .
+
+rgn:r01KJ72TWJBTJZZD9F9BM7BC211_2004_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJ72TWJBTJZZD9F9BM7BC211_2006_0 ;
+	dct:replaces	rgn:r01KJ72TWJBTJZZD9F9BM7BC211_2003_0 ;
+	dct:source	"https://cefta.int/"^^xsd:anyURI ;
+	foaf:name	"Accord de libre-échange centre-européen"@fr , "Accordo centroeuropeo di libero scambio"@it , "Acordo de comércio livre da Europa Central"@pt , "Acordul central european de comerț liber"@ro , "Acuerdo Centroeuropeo de Libre Comercio"@es , "Central European Free Trade Agreement"@en , "Centraleuropeiska frihandelsavtalet"@sv , "Centrāleiropas Brīvās tirdzniecības nolīgums"@lv , "Comhaontú Saorthrádála Lár na hEorpa"@ga , "Den centraleuropæiske frihandelsaftale"@da , "Ftehim dwar il-Kummerċ Ħieles tal-Ewropa Ċentrali"@mt , "Közép-európai Szabadkereskedelmi Megállapodás"@hu , "Kesk-Euroopa vabakaubandusleping"@et , "Keski-Euroopan vapaakauppasopimus"@fi , "Midden-Europese Vrijhandelsovereenkomst"@nl , "Mitteleuropäisches Freihandelsabkommen"@de , "Orta Avrupa Serbest Ticaret Anlaşması"@tr , "Srednjeevropski sporazum o prosti trgovini"@sl , "Srednjoeuropski ugovor o slobodnoj trgovini"@hr , "Středoevropská dohoda o volném obchodu"@cs , "Stredoeurópska dohoda o voľnom obchode"@sk , "Vidurio Europos laisvosios prekybos susitarimas"@lt , "Środkowoeuropejska umowa o wolnym handlu"@pl , "Συμφωνία Ελεύθερων Συναλλαγών της Κεντρικής Ευρώπης"@el , "Централноевропейско споразумение за свободна търговия"@bg , "Централноевропски уговор о слободној трговини"@sr ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BG , lcc-3166-1-adj:HR , lcc-3166-1-adj:RO ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
+	rgn:hasCurrentVariant	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
+	skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
+	tempo:validFrom	"2004-05-01"^^xsd:date ;
+	tempo:validTill	"2006-01-01"^^xsd:date .
+
+rgn:r01KJ72TWJBTJZZD9F9BM7BC211_2006_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJ72TWJBTJZZD9F9BM7BC211_2007_0 ;
+	dct:replaces	rgn:r01KJ72TWJBTJZZD9F9BM7BC211_2004_0 ;
+	dct:source	"https://cefta.int/"^^xsd:anyURI ;
+	foaf:name	"Accord de libre-échange centre-européen"@fr , "Accordo centroeuropeo di libero scambio"@it , "Acordo de comércio livre da Europa Central"@pt , "Acordul central european de comerț liber"@ro , "Acuerdo Centroeuropeo de Libre Comercio"@es , "Central European Free Trade Agreement"@en , "Centraleuropeiska frihandelsavtalet"@sv , "Centrāleiropas Brīvās tirdzniecības nolīgums"@lv , "Comhaontú Saorthrádála Lár na hEorpa"@ga , "Den centraleuropæiske frihandelsaftale"@da , "Ftehim dwar il-Kummerċ Ħieles tal-Ewropa Ċentrali"@mt , "Közép-európai Szabadkereskedelmi Megállapodás"@hu , "Kesk-Euroopa vabakaubandusleping"@et , "Keski-Euroopan vapaakauppasopimus"@fi , "Midden-Europese Vrijhandelsovereenkomst"@nl , "Mitteleuropäisches Freihandelsabkommen"@de , "Orta Avrupa Serbest Ticaret Anlaşması"@tr , "Srednjeevropski sporazum o prosti trgovini"@sl , "Srednjoeuropski ugovor o slobodnoj trgovini"@hr , "Středoevropská dohoda o volném obchodu"@cs , "Stredoeurópska dohoda o voľnom obchode"@sk , "Vidurio Europos laisvosios prekybos susitarimas"@lt , "Środkowoeuropejska umowa o wolnym handlu"@pl , "Συμφωνία Ελεύθερων Συναλλαγών της Κεντρικής Ευρώπης"@el , "Централноевропейско споразумение за свободна търговия"@bg , "Централноевропски уговор о слободној трговини"@sr ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BG , lcc-3166-1-adj:HR , lcc-3166-1-adj:MK , lcc-3166-1-adj:RO ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
+	rgn:hasCurrentVariant	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
+	skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
+	tempo:validFrom	"2006-01-01"^^xsd:date ;
+	tempo:validTill	"2007-01-01"^^xsd:date .
+
+rgn:r01KJ72TWJBTJZZD9F9BM7BC211_2007_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJ72TWJBTJZZD9F9BM7BC211_2007_1 ;
+	dct:replaces	rgn:r01KJ72TWJBTJZZD9F9BM7BC211_2006_0 ;
+	dct:source	"https://cefta.int/"^^xsd:anyURI ;
+	foaf:name	"Accord de libre-échange centre-européen"@fr , "Accordo centroeuropeo di libero scambio"@it , "Acordo de comércio livre da Europa Central"@pt , "Acordul central european de comerț liber"@ro , "Acuerdo Centroeuropeo de Libre Comercio"@es , "Central European Free Trade Agreement"@en , "Centraleuropeiska frihandelsavtalet"@sv , "Centrāleiropas Brīvās tirdzniecības nolīgums"@lv , "Comhaontú Saorthrádála Lár na hEorpa"@ga , "Den centraleuropæiske frihandelsaftale"@da , "Ftehim dwar il-Kummerċ Ħieles tal-Ewropa Ċentrali"@mt , "Közép-európai Szabadkereskedelmi Megállapodás"@hu , "Kesk-Euroopa vabakaubandusleping"@et , "Keski-Euroopan vapaakauppasopimus"@fi , "Midden-Europese Vrijhandelsovereenkomst"@nl , "Mitteleuropäisches Freihandelsabkommen"@de , "Orta Avrupa Serbest Ticaret Anlaşması"@tr , "Srednjeevropski sporazum o prosti trgovini"@sl , "Srednjoeuropski ugovor o slobodnoj trgovini"@hr , "Středoevropská dohoda o volném obchodu"@cs , "Stredoeurópska dohoda o voľnom obchode"@sk , "Vidurio Europos laisvosios prekybos susitarimas"@lt , "Środkowoeuropejska umowa o wolnym handlu"@pl , "Συμφωνία Ελεύθερων Συναλλαγών της Κεντρικής Ευρώπης"@el , "Централноевропейско споразумение за свободна търговия"@bg , "Централноевропски уговор о слободној трговини"@sr ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:HR , lcc-3166-1-adj:MK ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
+	rgn:hasCurrentVariant	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
+	skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
+	tempo:validFrom	"2007-01-01"^^xsd:date ;
+	tempo:validTill	"2007-05-01"^^xsd:date .
+
+rgn:r01KJ72TWJBTJZZD9F9BM7BC211_2007_1
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJ72TWJBTJZZD9F9BM7BC211_2013_0 ;
+	dct:replaces	rgn:r01KJ72TWJBTJZZD9F9BM7BC211_2007_0 ;
+	dct:source	"https://cefta.int/"^^xsd:anyURI ;
+	foaf:name	"Accord de libre-échange centre-européen"@fr , "Accordo centroeuropeo di libero scambio"@it , "Acordo de comércio livre da Europa Central"@pt , "Acordul central european de comerț liber"@ro , "Acuerdo Centroeuropeo de Libre Comercio"@es , "Central European Free Trade Agreement"@en , "Centraleuropeiska frihandelsavtalet"@sv , "Centrāleiropas Brīvās tirdzniecības nolīgums"@lv , "Comhaontú Saorthrádála Lár na hEorpa"@ga , "Den centraleuropæiske frihandelsaftale"@da , "Ftehim dwar il-Kummerċ Ħieles tal-Ewropa Ċentrali"@mt , "Közép-európai Szabadkereskedelmi Megállapodás"@hu , "Kesk-Euroopa vabakaubandusleping"@et , "Keski-Euroopan vapaakauppasopimus"@fi , "Midden-Europese Vrijhandelsovereenkomst"@nl , "Mitteleuropäisches Freihandelsabkommen"@de , "Orta Avrupa Serbest Ticaret Anlaşması"@tr , "Srednjeevropski sporazum o prosti trgovini"@sl , "Srednjoeuropski ugovor o slobodnoj trgovini"@hr , "Středoevropská dohoda o volném obchodu"@cs , "Stredoeurópska dohoda o voľnom obchode"@sk , "Vidurio Europos laisvosios prekybos susitarimas"@lt , "Środkowoeuropejska umowa o wolnym handlu"@pl , "Συμφωνία Ελεύθερων Συναλλαγών της Κεντρικής Ευρώπης"@el , "Централноевропейско споразумение за свободна търговия"@bg , "Централноевропски уговор о слободној трговини"@sr ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AL , lcc-3166-1-adj:BA , lcc-3166-1-adj:HR , lcc-3166-1-adj:MD , lcc-3166-1-adj:ME , lcc-3166-1-adj:MK , lcc-3166-1-adj:RS , lcc-3166-1-adj:XK ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
+	rgn:hasCurrentVariant	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
+	skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
+	tempo:validFrom	"2007-05-01"^^xsd:date ;
+	tempo:validTill	"2013-07-01"^^xsd:date .
+
+rgn:r01KJ72TWJBTJZZD9F9BM7BC211_2013_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:replaces	rgn:r01KJ72TWJBTJZZD9F9BM7BC211_2007_1 ;
+	dct:source	"https://cefta.int/"^^xsd:anyURI ;
+	foaf:name	"Accord de libre-échange centre-européen"@fr , "Accordo centroeuropeo di libero scambio"@it , "Acordo de comércio livre da Europa Central"@pt , "Acordul central european de comerț liber"@ro , "Acuerdo Centroeuropeo de Libre Comercio"@es , "Central European Free Trade Agreement"@en , "Centraleuropeiska frihandelsavtalet"@sv , "Centrāleiropas Brīvās tirdzniecības nolīgums"@lv , "Comhaontú Saorthrádála Lár na hEorpa"@ga , "Den centraleuropæiske frihandelsaftale"@da , "Ftehim dwar il-Kummerċ Ħieles tal-Ewropa Ċentrali"@mt , "Közép-európai Szabadkereskedelmi Megállapodás"@hu , "Kesk-Euroopa vabakaubandusleping"@et , "Keski-Euroopan vapaakauppasopimus"@fi , "Midden-Europese Vrijhandelsovereenkomst"@nl , "Mitteleuropäisches Freihandelsabkommen"@de , "Orta Avrupa Serbest Ticaret Anlaşması"@tr , "Srednjeevropski sporazum o prosti trgovini"@sl , "Srednjoeuropski ugovor o slobodnoj trgovini"@hr , "Středoevropská dohoda o volném obchodu"@cs , "Stredoeurópska dohoda o voľnom obchode"@sk , "Vidurio Europos laisvosios prekybos susitarimas"@lt , "Środkowoeuropejska umowa o wolnym handlu"@pl , "Συμφωνία Ελεύθερων Συναλλαγών της Κεντρικής Ευρώπης"@el , "Централноевропейско споразумение за свободна търговия"@bg , "Централноевропски уговор о слободној трговини"@sr ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AL , lcc-3166-1-adj:BA , lcc-3166-1-adj:MD , lcc-3166-1-adj:ME , lcc-3166-1-adj:MK , lcc-3166-1-adj:RS , lcc-3166-1-adj:XK ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
+	rgn:hasCurrentVariant	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
+	skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
+	tempo:validFrom	"2013-07-01"^^xsd:date .

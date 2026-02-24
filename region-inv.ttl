@@ -27,7 +27,7 @@ lcc-3166-1-adj:AE
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.gcc-sg.org/"^^xsd:anyURI ;
-		foaf:name	"Gulf Cooperation Council"@en ;
+		foaf:name	"Gulf Cooperation Council"@en , "مجلس التعاون الخليجي"@ar ;
 		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
 		pav:derivedFrom	rgn:r01KHZFZG2DZC1QSNBPMWW9AB7V ;
 		rdfs:label	"GCC" ;
@@ -39,16 +39,16 @@ lcc-3166-1-adj:AG
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://oecs.int/"^^xsd:anyURI ;
-		foaf:name	"Organisation des États de la Caraïbe orientale"@fr ;
+		dct:source	"http://oecs.int/"^^xsd:anyURI , "http://www.oecs.org/"^^xsd:anyURI ;
+		foaf:name	"Organisation des États de la Caraïbe orientale"@fr , "Organisation of Eastern Caribbean States"@en ;
 		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
 		pav:derivedFrom	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 ;
-		rdfs:label	"OECS" ;
+		rdfs:label	"OECO"@fr , "OECS" ;
 		skos:definition	"individual representing the Organisation of Eastern Caribbean States (OECS)"@en ;
 		tempo:validFrom	"1981-06-18"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"https://caricom.org/"^^xsd:anyURI ;
+		dct:source	"https://caricom.org/"^^xsd:anyURI , "https://caricom.org/wp-content/uploads/Final-Act-Declaration-and-Resolution-ALONG-with-The-Treaty-Establishing-The-Caribbean-Community-with-signature.pdf"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/caricom"^^xsd:anyURI ;
 		foaf:name	"Caribbean Community"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
@@ -79,11 +79,11 @@ lcc-3166-1-adj:AI
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://oecs.int/"^^xsd:anyURI ;
-		foaf:name	"Organisation des États de la Caraïbe orientale"@fr ;
+		dct:source	"http://oecs.int/"^^xsd:anyURI , "http://www.oecs.org/"^^xsd:anyURI ;
+		foaf:name	"Organisation des États de la Caraïbe orientale"@fr , "Organisation of Eastern Caribbean States"@en ;
 		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
 		pav:derivedFrom	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 ;
-		rdfs:label	"OECS" ;
+		rdfs:label	"OECO"@fr , "OECS" ;
 		skos:definition	"individual representing the Organisation of Eastern Caribbean States (OECS)"@en ;
 		tempo:validFrom	"1995-12-19"^^xsd:date ;
 	] , [
@@ -106,11 +106,24 @@ lcc-3166-1-adj:AI
 		tempo:validFrom	"1967-03-01"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:AL
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://cefta.int/"^^xsd:anyURI ;
+		foaf:name	"Accord de libre-échange centre-européen"@fr , "Accordo centroeuropeo di libero scambio"@it , "Acordo de comércio livre da Europa Central"@pt , "Acordul central european de comerț liber"@ro , "Acuerdo Centroeuropeo de Libre Comercio"@es , "Central European Free Trade Agreement"@en , "Centraleuropeiska frihandelsavtalet"@sv , "Centrāleiropas Brīvās tirdzniecības nolīgums"@lv , "Comhaontú Saorthrádála Lár na hEorpa"@ga , "Den centraleuropæiske frihandelsaftale"@da , "Ftehim dwar il-Kummerċ Ħieles tal-Ewropa Ċentrali"@mt , "Közép-európai Szabadkereskedelmi Megállapodás"@hu , "Kesk-Euroopa vabakaubandusleping"@et , "Keski-Euroopan vapaakauppasopimus"@fi , "Midden-Europese Vrijhandelsovereenkomst"@nl , "Mitteleuropäisches Freihandelsabkommen"@de , "Orta Avrupa Serbest Ticaret Anlaşması"@tr , "Srednjeevropski sporazum o prosti trgovini"@sl , "Srednjoeuropski ugovor o slobodnoj trgovini"@hr , "Středoevropská dohoda o volném obchodu"@cs , "Stredoeurópska dohoda o voľnom obchode"@sk , "Vidurio Europos laisvosios prekybos susitarimas"@lt , "Środkowoeuropejska umowa o wolnym handlu"@pl , "Συμφωνία Ελεύθερων Συναλλαγών της Κεντρικής Ευρώπης"@el , "Централноевропейско споразумение за свободна търговия"@bg , "Централноевропски уговор о слободној трговини"@sr ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
+		rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
+		skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
+		tempo:validFrom	"2007-05-01"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:AO
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
@@ -125,10 +138,10 @@ lcc-3166-1-adj:AR
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.mercosur.int/"^^xsd:anyURI ;
-		foaf:name	"Mercado Comum do Sul"@pt ;
+		foaf:name	"Common Market of the South"@en , "Mercado Común del Sur"@es , "Mercado Comum do Sul"@pt ;
 		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
 		pav:derivedFrom	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A ;
-		rdfs:label	"Mercosul"@pt ;
+		rdfs:label	"Mercosul"@pt , "Mercosur" , "Mercosur"@es ;
 		skos:definition	"individual representing the Common Market of the South (Mercosur)"@en ;
 		tempo:validFrom	"1991-03-26"^^xsd:date ;
 	] .
@@ -165,11 +178,24 @@ lcc-3166-1-adj:AU
 		tempo:validFrom	"1971-08-05"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:BA
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://cefta.int/"^^xsd:anyURI ;
+		foaf:name	"Accord de libre-échange centre-européen"@fr , "Accordo centroeuropeo di libero scambio"@it , "Acordo de comércio livre da Europa Central"@pt , "Acordul central european de comerț liber"@ro , "Acuerdo Centroeuropeo de Libre Comercio"@es , "Central European Free Trade Agreement"@en , "Centraleuropeiska frihandelsavtalet"@sv , "Centrāleiropas Brīvās tirdzniecības nolīgums"@lv , "Comhaontú Saorthrádála Lár na hEorpa"@ga , "Den centraleuropæiske frihandelsaftale"@da , "Ftehim dwar il-Kummerċ Ħieles tal-Ewropa Ċentrali"@mt , "Közép-európai Szabadkereskedelmi Megállapodás"@hu , "Kesk-Euroopa vabakaubandusleping"@et , "Keski-Euroopan vapaakauppasopimus"@fi , "Midden-Europese Vrijhandelsovereenkomst"@nl , "Mitteleuropäisches Freihandelsabkommen"@de , "Orta Avrupa Serbest Ticaret Anlaşması"@tr , "Srednjeevropski sporazum o prosti trgovini"@sl , "Srednjoeuropski ugovor o slobodnoj trgovini"@hr , "Středoevropská dohoda o volném obchodu"@cs , "Stredoeurópska dohoda o voľnom obchode"@sk , "Vidurio Europos laisvosios prekybos susitarimas"@lt , "Środkowoeuropejska umowa o wolnym handlu"@pl , "Συμφωνία Ελεύθερων Συναλλαγών της Κεντρικής Ευρώπης"@el , "Централноевропейско споразумение за свободна търговия"@bg , "Централноевропски уговор о слободној трговини"@sr ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
+		rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
+		skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
+		tempo:validFrom	"2007-05-01"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:BB
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"https://caricom.org/"^^xsd:anyURI ;
+		dct:source	"https://caricom.org/"^^xsd:anyURI , "https://caricom.org/wp-content/uploads/Final-Act-Declaration-and-Resolution-ALONG-with-The-Treaty-Establishing-The-Caribbean-Community-with-signature.pdf"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/caricom"^^xsd:anyURI ;
 		foaf:name	"Caribbean Community"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
@@ -192,6 +218,15 @@ lcc-3166-1-adj:BE
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://benelux.int/"^^xsd:anyURI ;
+		foaf:name	"Benelux Union"@en , "Benelux-unie"@nl , "Union Benelux"@fr ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KJ6WZ7XT77T82ZAW2TQW6RB4 ;
+		rdfs:label	"Benelux" ;
+		skos:definition	"individual representing the Belgium-Netherlands-Luxembourg Union"@en ;
+		tempo:validFrom	"1948-01-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
 		foaf:name	"Eurozone" ;
 		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
@@ -206,6 +241,14 @@ lcc-3166-1-adj:BE
 		rdfs:label	"Eurozone with monetary agreement" ;
 		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Belgium–Luxembourg Economic Union"@en , "Union économique belgo-luxembourgeoise"@fr ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KJ6W4F5VW3GH00A6SV8RC6FG ;
+		rdfs:label	"BLEU" , "BLEU"@en , "UEBL"@fr ;
+		skos:definition	"individual representing the Belgium-Luxembourg Economic Union"@en ;
+		tempo:validFrom	"1922-12-22"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:BF
@@ -213,7 +256,7 @@ lcc-3166-1-adj:BF
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://www.uemoa.int/"^^xsd:anyURI ;
-		foaf:name	"Union économique et monétaire ouest-africaine"@fr ;
+		foaf:name	"Union économique et monétaire ouest-africaine"@fr , "West African Economic and Monetary Union"@en ;
 		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P ;
 		rdfs:label	"UEMOA" ;
@@ -221,8 +264,8 @@ lcc-3166-1-adj:BF
 		tempo:validFrom	"1962-01-10"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
-		foaf:name	"Confederation of Sahel States"@en ;
-		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		foaf:name	"Confédération des États du Sahel"@fr , "Confederation of Sahel States"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition , rgn:TradeBloc ;
 		pav:derivedFrom	rgn:r01KJ5E5GH4N3CNCVF0EHXH3SW3 ;
 		rdfs:label	"AES" ;
 		skos:definition	"individual representing the Confederation of Sahel States"@en ;
@@ -232,6 +275,16 @@ lcc-3166-1-adj:BF
 lcc-3166-1-adj:BG
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://cefta.int/"^^xsd:anyURI ;
+		foaf:name	"Accord de libre-échange centre-européen"@fr , "Accordo centroeuropeo di libero scambio"@it , "Acordo de comércio livre da Europa Central"@pt , "Acordul central european de comerț liber"@ro , "Acuerdo Centroeuropeo de Libre Comercio"@es , "Central European Free Trade Agreement"@en , "Centraleuropeiska frihandelsavtalet"@sv , "Centrāleiropas Brīvās tirdzniecības nolīgums"@lv , "Comhaontú Saorthrádála Lár na hEorpa"@ga , "Den centraleuropæiske frihandelsaftale"@da , "Ftehim dwar il-Kummerċ Ħieles tal-Ewropa Ċentrali"@mt , "Közép-európai Szabadkereskedelmi Megállapodás"@hu , "Kesk-Euroopa vabakaubandusleping"@et , "Keski-Euroopan vapaakauppasopimus"@fi , "Midden-Europese Vrijhandelsovereenkomst"@nl , "Mitteleuropäisches Freihandelsabkommen"@de , "Orta Avrupa Serbest Ticaret Anlaşması"@tr , "Srednjeevropski sporazum o prosti trgovini"@sl , "Srednjoeuropski ugovor o slobodnoj trgovini"@hr , "Středoevropská dohoda o volném obchodu"@cs , "Stredoeurópska dohoda o voľnom obchode"@sk , "Vidurio Europos laisvosios prekybos susitarimas"@lt , "Środkowoeuropejska umowa o wolnym handlu"@pl , "Συμφωνία Ελεύθερων Συναλλαγών της Κεντρικής Ευρώπης"@el , "Централноевропейско споразумение за свободна търговия"@bg , "Централноевропски уговор о слободној трговини"@sr ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
+		rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
+		skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
+		tempo:validFrom	"1999-01-01"^^xsd:date ;
+		tempo:validTill	"2007-01-01"^^xsd:date ;
+	] , [
 		a	lcc-cr:GeographicRegion ;
 		foaf:name	"Eurozone" ;
 		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
@@ -254,7 +307,7 @@ lcc-3166-1-adj:BH
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.gcc-sg.org/"^^xsd:anyURI ;
-		foaf:name	"Gulf Cooperation Council"@en ;
+		foaf:name	"Gulf Cooperation Council"@en , "مجلس التعاون الخليجي"@ar ;
 		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
 		pav:derivedFrom	rgn:r01KHZFZG2DZC1QSNBPMWW9AB7V ;
 		rdfs:label	"GCC" ;
@@ -266,7 +319,7 @@ lcc-3166-1-adj:BI
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
@@ -275,7 +328,7 @@ lcc-3166-1-adj:BI
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Preferential Trade Area"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
@@ -290,7 +343,7 @@ lcc-3166-1-adj:BJ
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://www.uemoa.int/"^^xsd:anyURI ;
-		foaf:name	"Union économique et monétaire ouest-africaine"@fr ;
+		foaf:name	"Union économique et monétaire ouest-africaine"@fr , "West African Economic and Monetary Union"@en ;
 		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P ;
 		rdfs:label	"UEMOA" ;
@@ -315,7 +368,7 @@ lcc-3166-1-adj:BO
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comunidadandina.org/"^^xsd:anyURI ;
-		foaf:name	"Andean Community"@en ;
+		foaf:name	"Andean Community"@en , "Comunidad Andina de Naciones"@es ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHV4VB0HT5E1MNHHF861K9E2 ;
 		rdfs:label	"CAN" ;
@@ -324,10 +377,10 @@ lcc-3166-1-adj:BO
 	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.mercosur.int/"^^xsd:anyURI ;
-		foaf:name	"Mercado Comum do Sul"@pt ;
+		foaf:name	"Common Market of the South"@en , "Mercado Común del Sur"@es , "Mercado Comum do Sul"@pt ;
 		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
 		pav:derivedFrom	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A ;
-		rdfs:label	"Mercosul"@pt ;
+		rdfs:label	"Mercosul"@pt , "Mercosur" , "Mercosur"@es ;
 		skos:definition	"individual representing the Common Market of the South (Mercosur)"@en ;
 		tempo:validFrom	"2024-07-08"^^xsd:date ;
 	] .
@@ -337,10 +390,10 @@ lcc-3166-1-adj:BR
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.mercosur.int/"^^xsd:anyURI ;
-		foaf:name	"Mercado Comum do Sul"@pt ;
+		foaf:name	"Common Market of the South"@en , "Mercado Común del Sur"@es , "Mercado Comum do Sul"@pt ;
 		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
 		pav:derivedFrom	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A ;
-		rdfs:label	"Mercosul"@pt ;
+		rdfs:label	"Mercosul"@pt , "Mercosur" , "Mercosur"@es ;
 		skos:definition	"individual representing the Common Market of the South (Mercosur)"@en ;
 		tempo:validFrom	"1991-03-26"^^xsd:date ;
 	] .
@@ -349,7 +402,7 @@ lcc-3166-1-adj:BS
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"https://caricom.org/"^^xsd:anyURI ;
+		dct:source	"https://caricom.org/"^^xsd:anyURI , "https://caricom.org/wp-content/uploads/Final-Act-Declaration-and-Resolution-ALONG-with-The-Treaty-Establishing-The-Caribbean-Community-with-signature.pdf"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/caricom"^^xsd:anyURI ;
 		foaf:name	"Caribbean Community"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
@@ -362,7 +415,7 @@ lcc-3166-1-adj:BZ
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"https://caricom.org/"^^xsd:anyURI ;
+		dct:source	"https://caricom.org/"^^xsd:anyURI , "https://caricom.org/wp-content/uploads/Final-Act-Declaration-and-Resolution-ALONG-with-The-Treaty-Establishing-The-Caribbean-Community-with-signature.pdf"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/caricom"^^xsd:anyURI ;
 		foaf:name	"Caribbean Community"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
@@ -375,16 +428,16 @@ lcc-3166-1-adj:CA
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		foaf:name	"North American Free Trade Agreement"@en ;
+		foaf:name	"Accord de libre-échange nord-américain"@fr , "North American Free Trade Agreement"@en , "Tratado de Libre Comercio de América del Norte"@es ;
 		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
 		pav:derivedFrom	rgn:r01KHZN214KFVTC3DRGVNXK87EN ;
-		rdfs:label	"TLCAN"@es ;
+		rdfs:label	"ALÉNA"@fr , "NAFTA" , "TLCAN"@es ;
 		skos:definition	"individual representing the North American Free Trade Agreement (NAFTA)"@en ;
 		tempo:validFrom	"1994-01-01"^^xsd:date ;
 		tempo:validTill	"2020-07-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
-		foaf:name	"Canada–United States Free Trade Agreement"@en ;
+		foaf:name	"Accord de libre-échange entre le Canada et les États-Unis d'Amérique"@fr , "Canada–United States Free Trade Agreement"@en ;
 		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
 		pav:derivedFrom	rgn:r01KJ1WFQ2KZ8A5230B6SMSP8Y0 ;
 		rdfs:label	"CUSFTA" ;
@@ -393,10 +446,10 @@ lcc-3166-1-adj:CA
 		tempo:validTill	"1994-01-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
-		foaf:name	"Accord Canada–États-Unis–Mexique"@fr ;
+		foaf:name	"Accord Canada–États-Unis–Mexique"@fr , "Tratado entre México, Estados Unidos y Canadá"@es , "United States-Mexico-Canada Agreement"@en ;
 		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
 		pav:derivedFrom	rgn:r01KJ1VPTGM2JZW8QGF05NZ39QB ;
-		rdfs:label	"USMCA" ;
+		rdfs:label	"ACEUM"@fr , "T-MEC"@es , "USMCA" ;
 		skos:definition	"individual representing the United States-Mexico-Canada Agreement (USMCA)"@en ;
 		tempo:validFrom	"2020-07-01"^^xsd:date ;
 	] .
@@ -405,7 +458,7 @@ lcc-3166-1-adj:CD
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
@@ -414,7 +467,7 @@ lcc-3166-1-adj:CD
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Preferential Trade Area"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
@@ -428,8 +481,8 @@ lcc-3166-1-adj:CF
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.cemac.cf/"^^xsd:anyURI ;
-		foaf:name	"Economic and Monetary Community of Central Africa"@en ;
+		dct:source	"http://www.cemac.cf/"^^xsd:anyURI , "https://www.cemac.int/"^^xsd:anyURI ;
+		foaf:name	"Communauté économique et monétaire de l'Afrique centrale"@fr , "Economic and Monetary Community of Central Africa"@en ;
 		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KJ4S7380KH3G4RA7EM7XJBFA ;
 		rdfs:label	"CEMAC" ;
@@ -441,8 +494,8 @@ lcc-3166-1-adj:CG
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.cemac.cf/"^^xsd:anyURI ;
-		foaf:name	"Economic and Monetary Community of Central Africa"@en ;
+		dct:source	"http://www.cemac.cf/"^^xsd:anyURI , "https://www.cemac.int/"^^xsd:anyURI ;
+		foaf:name	"Communauté économique et monétaire de l'Afrique centrale"@fr , "Economic and Monetary Community of Central Africa"@en ;
 		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KJ4S7380KH3G4RA7EM7XJBFA ;
 		rdfs:label	"CEMAC" ;
@@ -455,7 +508,7 @@ lcc-3166-1-adj:CI
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://www.uemoa.int/"^^xsd:anyURI ;
-		foaf:name	"Union économique et monétaire ouest-africaine"@fr ;
+		foaf:name	"Union économique et monétaire ouest-africaine"@fr , "West African Economic and Monetary Union"@en ;
 		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P ;
 		rdfs:label	"UEMOA" ;
@@ -480,7 +533,7 @@ lcc-3166-1-adj:CL
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comunidadandina.org/"^^xsd:anyURI ;
-		foaf:name	"Andean Community"@en ;
+		foaf:name	"Andean Community"@en , "Comunidad Andina de Naciones"@es ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHV4VB0HT5E1MNHHF861K9E2 ;
 		rdfs:label	"CAN" ;
@@ -493,8 +546,8 @@ lcc-3166-1-adj:CM
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.cemac.cf/"^^xsd:anyURI ;
-		foaf:name	"Economic and Monetary Community of Central Africa"@en ;
+		dct:source	"http://www.cemac.cf/"^^xsd:anyURI , "https://www.cemac.int/"^^xsd:anyURI ;
+		foaf:name	"Communauté économique et monétaire de l'Afrique centrale"@fr , "Economic and Monetary Community of Central Africa"@en ;
 		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KJ4S7380KH3G4RA7EM7XJBFA ;
 		rdfs:label	"CEMAC" ;
@@ -507,7 +560,7 @@ lcc-3166-1-adj:CO
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comunidadandina.org/"^^xsd:anyURI ;
-		foaf:name	"Andean Community"@en ;
+		foaf:name	"Andean Community"@en , "Comunidad Andina de Naciones"@es ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHV4VB0HT5E1MNHHF861K9E2 ;
 		rdfs:label	"CAN" ;
@@ -535,6 +588,20 @@ lcc-3166-1-adj:CY
 		tempo:validFrom	"2008-01-01"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:CZ
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://cefta.int/"^^xsd:anyURI ;
+		foaf:name	"Accord de libre-échange centre-européen"@fr , "Accordo centroeuropeo di libero scambio"@it , "Acordo de comércio livre da Europa Central"@pt , "Acordul central european de comerț liber"@ro , "Acuerdo Centroeuropeo de Libre Comercio"@es , "Central European Free Trade Agreement"@en , "Centraleuropeiska frihandelsavtalet"@sv , "Centrāleiropas Brīvās tirdzniecības nolīgums"@lv , "Comhaontú Saorthrádála Lár na hEorpa"@ga , "Den centraleuropæiske frihandelsaftale"@da , "Ftehim dwar il-Kummerċ Ħieles tal-Ewropa Ċentrali"@mt , "Közép-európai Szabadkereskedelmi Megállapodás"@hu , "Kesk-Euroopa vabakaubandusleping"@et , "Keski-Euroopan vapaakauppasopimus"@fi , "Midden-Europese Vrijhandelsovereenkomst"@nl , "Mitteleuropäisches Freihandelsabkommen"@de , "Orta Avrupa Serbest Ticaret Anlaşması"@tr , "Srednjeevropski sporazum o prosti trgovini"@sl , "Srednjoeuropski ugovor o slobodnoj trgovini"@hr , "Středoevropská dohoda o volném obchodu"@cs , "Stredoeurópska dohoda o voľnom obchode"@sk , "Vidurio Europos laisvosios prekybos susitarimas"@lt , "Środkowoeuropejska umowa o wolnym handlu"@pl , "Συμφωνία Ελεύθερων Συναλλαγών της Κεντρικής Ευρώπης"@el , "Централноевропейско споразумение за свободна търговия"@bg , "Централноевропски уговор о слободној трговини"@sr ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
+		rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
+		skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
+		tempo:validFrom	"1993-03-01"^^xsd:date ;
+		tempo:validTill	"2004-05-01"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:DE
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -559,7 +626,7 @@ lcc-3166-1-adj:DJ
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
@@ -568,7 +635,7 @@ lcc-3166-1-adj:DJ
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Preferential Trade Area"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
@@ -582,16 +649,16 @@ lcc-3166-1-adj:DM
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://oecs.int/"^^xsd:anyURI ;
-		foaf:name	"Organisation des États de la Caraïbe orientale"@fr ;
+		dct:source	"http://oecs.int/"^^xsd:anyURI , "http://www.oecs.org/"^^xsd:anyURI ;
+		foaf:name	"Organisation des États de la Caraïbe orientale"@fr , "Organisation of Eastern Caribbean States"@en ;
 		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
 		pav:derivedFrom	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 ;
-		rdfs:label	"OECS" ;
+		rdfs:label	"OECO"@fr , "OECS" ;
 		skos:definition	"individual representing the Organisation of Eastern Caribbean States (OECS)"@en ;
 		tempo:validFrom	"1981-06-18"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"https://caricom.org/"^^xsd:anyURI ;
+		dct:source	"https://caricom.org/"^^xsd:anyURI , "https://caricom.org/wp-content/uploads/Final-Act-Declaration-and-Resolution-ALONG-with-The-Treaty-Establishing-The-Caribbean-Community-with-signature.pdf"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/caricom"^^xsd:anyURI ;
 		foaf:name	"Caribbean Community"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
@@ -623,7 +690,7 @@ lcc-3166-1-adj:EC
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comunidadandina.org/"^^xsd:anyURI ;
-		foaf:name	"Andean Community"@en ;
+		foaf:name	"Andean Community"@en , "Comunidad Andina de Naciones"@es ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHV4VB0HT5E1MNHHF861K9E2 ;
 		rdfs:label	"CAN" ;
@@ -655,7 +722,7 @@ lcc-3166-1-adj:EG
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
@@ -668,7 +735,7 @@ lcc-3166-1-adj:ER
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
@@ -701,7 +768,7 @@ lcc-3166-1-adj:ET
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
@@ -710,7 +777,7 @@ lcc-3166-1-adj:ET
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Preferential Trade Area"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
@@ -789,8 +856,8 @@ lcc-3166-1-adj:GA
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.cemac.cf/"^^xsd:anyURI ;
-		foaf:name	"Economic and Monetary Community of Central Africa"@en ;
+		dct:source	"http://www.cemac.cf/"^^xsd:anyURI , "https://www.cemac.int/"^^xsd:anyURI ;
+		foaf:name	"Communauté économique et monétaire de l'Afrique centrale"@fr , "Economic and Monetary Community of Central Africa"@en ;
 		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KJ4S7380KH3G4RA7EM7XJBFA ;
 		rdfs:label	"CEMAC" ;
@@ -802,16 +869,16 @@ lcc-3166-1-adj:GD
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://oecs.int/"^^xsd:anyURI ;
-		foaf:name	"Organisation des États de la Caraïbe orientale"@fr ;
+		dct:source	"http://oecs.int/"^^xsd:anyURI , "http://www.oecs.org/"^^xsd:anyURI ;
+		foaf:name	"Organisation des États de la Caraïbe orientale"@fr , "Organisation of Eastern Caribbean States"@en ;
 		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
 		pav:derivedFrom	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 ;
-		rdfs:label	"OECS" ;
+		rdfs:label	"OECO"@fr , "OECS" ;
 		skos:definition	"individual representing the Organisation of Eastern Caribbean States (OECS)"@en ;
 		tempo:validFrom	"1981-06-18"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"https://caricom.org/"^^xsd:anyURI ;
+		dct:source	"https://caricom.org/"^^xsd:anyURI , "https://caricom.org/wp-content/uploads/Final-Act-Declaration-and-Resolution-ALONG-with-The-Treaty-Establishing-The-Caribbean-Community-with-signature.pdf"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/caricom"^^xsd:anyURI ;
 		foaf:name	"Caribbean Community"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
@@ -842,11 +909,11 @@ lcc-3166-1-adj:GP
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://oecs.int/"^^xsd:anyURI ;
-		foaf:name	"Organisation des États de la Caraïbe orientale"@fr ;
+		dct:source	"http://oecs.int/"^^xsd:anyURI , "http://www.oecs.org/"^^xsd:anyURI ;
+		foaf:name	"Organisation des États de la Caraïbe orientale"@fr , "Organisation of Eastern Caribbean States"@en ;
 		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
 		pav:derivedFrom	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 ;
-		rdfs:label	"OECS" ;
+		rdfs:label	"OECO"@fr , "OECS" ;
 		skos:definition	"individual representing the Organisation of Eastern Caribbean States (OECS)"@en ;
 		tempo:validFrom	"2019-03-14"^^xsd:date ;
 	] .
@@ -855,8 +922,8 @@ lcc-3166-1-adj:GQ
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.cemac.cf/"^^xsd:anyURI ;
-		foaf:name	"Economic and Monetary Community of Central Africa"@en ;
+		dct:source	"http://www.cemac.cf/"^^xsd:anyURI , "https://www.cemac.int/"^^xsd:anyURI ;
+		foaf:name	"Communauté économique et monétaire de l'Afrique centrale"@fr , "Economic and Monetary Community of Central Africa"@en ;
 		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KJ4S7380KH3G4RA7EM7XJBFA ;
 		rdfs:label	"CEMAC" ;
@@ -889,7 +956,7 @@ lcc-3166-1-adj:GW
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://www.uemoa.int/"^^xsd:anyURI ;
-		foaf:name	"Union économique et monétaire ouest-africaine"@fr ;
+		foaf:name	"Union économique et monétaire ouest-africaine"@fr , "West African Economic and Monetary Union"@en ;
 		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P ;
 		rdfs:label	"UEMOA" ;
@@ -901,7 +968,7 @@ lcc-3166-1-adj:GY
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"https://caricom.org/"^^xsd:anyURI ;
+		dct:source	"https://caricom.org/"^^xsd:anyURI , "https://caricom.org/wp-content/uploads/Final-Act-Declaration-and-Resolution-ALONG-with-The-Treaty-Establishing-The-Caribbean-Community-with-signature.pdf"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/caricom"^^xsd:anyURI ;
 		foaf:name	"Caribbean Community"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
@@ -913,6 +980,16 @@ lcc-3166-1-adj:GY
 lcc-3166-1-adj:HR
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://cefta.int/"^^xsd:anyURI ;
+		foaf:name	"Accord de libre-échange centre-européen"@fr , "Accordo centroeuropeo di libero scambio"@it , "Acordo de comércio livre da Europa Central"@pt , "Acordul central european de comerț liber"@ro , "Acuerdo Centroeuropeo de Libre Comercio"@es , "Central European Free Trade Agreement"@en , "Centraleuropeiska frihandelsavtalet"@sv , "Centrāleiropas Brīvās tirdzniecības nolīgums"@lv , "Comhaontú Saorthrádála Lár na hEorpa"@ga , "Den centraleuropæiske frihandelsaftale"@da , "Ftehim dwar il-Kummerċ Ħieles tal-Ewropa Ċentrali"@mt , "Közép-európai Szabadkereskedelmi Megállapodás"@hu , "Kesk-Euroopa vabakaubandusleping"@et , "Keski-Euroopan vapaakauppasopimus"@fi , "Midden-Europese Vrijhandelsovereenkomst"@nl , "Mitteleuropäisches Freihandelsabkommen"@de , "Orta Avrupa Serbest Ticaret Anlaşması"@tr , "Srednjeevropski sporazum o prosti trgovini"@sl , "Srednjoeuropski ugovor o slobodnoj trgovini"@hr , "Středoevropská dohoda o volném obchodu"@cs , "Stredoeurópska dohoda o voľnom obchode"@sk , "Vidurio Europos laisvosios prekybos susitarimas"@lt , "Środkowoeuropejska umowa o wolnym handlu"@pl , "Συμφωνία Ελεύθερων Συναλλαγών της Κεντρικής Ευρώπης"@el , "Централноевропейско споразумение за свободна търговия"@bg , "Централноевропски уговор о слободној трговини"@sr ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
+		rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
+		skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
+		tempo:validFrom	"2003-03-01"^^xsd:date ;
+		tempo:validTill	"2013-07-01"^^xsd:date ;
+	] , [
 		a	lcc-cr:GeographicRegion ;
 		foaf:name	"Eurozone" ;
 		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
@@ -934,13 +1011,27 @@ lcc-3166-1-adj:HT
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"https://caricom.org/"^^xsd:anyURI ;
+		dct:source	"https://caricom.org/"^^xsd:anyURI , "https://caricom.org/wp-content/uploads/Final-Act-Declaration-and-Resolution-ALONG-with-The-Treaty-Establishing-The-Caribbean-Community-with-signature.pdf"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/caricom"^^xsd:anyURI ;
 		foaf:name	"Caribbean Community"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
 		rdfs:label	"CARICOM" ;
 		skos:definition	"individual representing CARICOM"@en ;
 		tempo:validFrom	"2002-07-02"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:HU
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://cefta.int/"^^xsd:anyURI ;
+		foaf:name	"Accord de libre-échange centre-européen"@fr , "Accordo centroeuropeo di libero scambio"@it , "Acordo de comércio livre da Europa Central"@pt , "Acordul central european de comerț liber"@ro , "Acuerdo Centroeuropeo de Libre Comercio"@es , "Central European Free Trade Agreement"@en , "Centraleuropeiska frihandelsavtalet"@sv , "Centrāleiropas Brīvās tirdzniecības nolīgums"@lv , "Comhaontú Saorthrádála Lár na hEorpa"@ga , "Den centraleuropæiske frihandelsaftale"@da , "Ftehim dwar il-Kummerċ Ħieles tal-Ewropa Ċentrali"@mt , "Közép-európai Szabadkereskedelmi Megállapodás"@hu , "Kesk-Euroopa vabakaubandusleping"@et , "Keski-Euroopan vapaakauppasopimus"@fi , "Midden-Europese Vrijhandelsovereenkomst"@nl , "Mitteleuropäisches Freihandelsabkommen"@de , "Orta Avrupa Serbest Ticaret Anlaşması"@tr , "Srednjeevropski sporazum o prosti trgovini"@sl , "Srednjoeuropski ugovor o slobodnoj trgovini"@hr , "Středoevropská dohoda o volném obchodu"@cs , "Stredoeurópska dohoda o voľnom obchode"@sk , "Vidurio Europos laisvosios prekybos susitarimas"@lt , "Środkowoeuropejska umowa o wolnym handlu"@pl , "Συμφωνία Ελεύθερων Συναλλαγών της Κεντρικής Ευρώπης"@el , "Централноевропейско споразумение за свободна търговия"@bg , "Централноевропски уговор о слободној трговини"@sr ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
+		rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
+		skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
+		tempo:validFrom	"1993-03-01"^^xsd:date ;
+		tempo:validTill	"2004-05-01"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:ID
@@ -999,7 +1090,7 @@ lcc-3166-1-adj:JM
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"https://caricom.org/"^^xsd:anyURI ;
+		dct:source	"https://caricom.org/"^^xsd:anyURI , "https://caricom.org/wp-content/uploads/Final-Act-Declaration-and-Resolution-ALONG-with-The-Treaty-Establishing-The-Caribbean-Community-with-signature.pdf"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/caricom"^^xsd:anyURI ;
 		foaf:name	"Caribbean Community"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
@@ -1012,7 +1103,7 @@ lcc-3166-1-adj:KE
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
@@ -1021,7 +1112,7 @@ lcc-3166-1-adj:KE
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Preferential Trade Area"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
@@ -1060,7 +1151,7 @@ lcc-3166-1-adj:KM
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
@@ -1069,7 +1160,7 @@ lcc-3166-1-adj:KM
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Preferential Trade Area"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
@@ -1083,16 +1174,16 @@ lcc-3166-1-adj:KN
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://oecs.int/"^^xsd:anyURI ;
-		foaf:name	"Organisation des États de la Caraïbe orientale"@fr ;
+		dct:source	"http://oecs.int/"^^xsd:anyURI , "http://www.oecs.org/"^^xsd:anyURI ;
+		foaf:name	"Organisation des États de la Caraïbe orientale"@fr , "Organisation of Eastern Caribbean States"@en ;
 		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
 		pav:derivedFrom	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 ;
-		rdfs:label	"OECS" ;
+		rdfs:label	"OECO"@fr , "OECS" ;
 		skos:definition	"individual representing the Organisation of Eastern Caribbean States (OECS)"@en ;
 		tempo:validFrom	"1981-06-18"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"https://caricom.org/"^^xsd:anyURI ;
+		dct:source	"https://caricom.org/"^^xsd:anyURI , "https://caricom.org/wp-content/uploads/Final-Act-Declaration-and-Resolution-ALONG-with-The-Treaty-Establishing-The-Caribbean-Community-with-signature.pdf"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/caricom"^^xsd:anyURI ;
 		foaf:name	"Caribbean Community"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
@@ -1124,7 +1215,7 @@ lcc-3166-1-adj:KW
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.gcc-sg.org/"^^xsd:anyURI ;
-		foaf:name	"Gulf Cooperation Council"@en ;
+		foaf:name	"Gulf Cooperation Council"@en , "مجلس التعاون الخليجي"@ar ;
 		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
 		pav:derivedFrom	rgn:r01KHZFZG2DZC1QSNBPMWW9AB7V ;
 		rdfs:label	"GCC" ;
@@ -1148,16 +1239,16 @@ lcc-3166-1-adj:LC
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://oecs.int/"^^xsd:anyURI ;
-		foaf:name	"Organisation des États de la Caraïbe orientale"@fr ;
+		dct:source	"http://oecs.int/"^^xsd:anyURI , "http://www.oecs.org/"^^xsd:anyURI ;
+		foaf:name	"Organisation des États de la Caraïbe orientale"@fr , "Organisation of Eastern Caribbean States"@en ;
 		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
 		pav:derivedFrom	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 ;
-		rdfs:label	"OECS" ;
+		rdfs:label	"OECO"@fr , "OECS" ;
 		skos:definition	"individual representing the Organisation of Eastern Caribbean States (OECS)"@en ;
 		tempo:validFrom	"1981-06-18"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"https://caricom.org/"^^xsd:anyURI ;
+		dct:source	"https://caricom.org/"^^xsd:anyURI , "https://caricom.org/wp-content/uploads/Final-Act-Declaration-and-Resolution-ALONG-with-The-Treaty-Establishing-The-Caribbean-Community-with-signature.pdf"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/caricom"^^xsd:anyURI ;
 		foaf:name	"Caribbean Community"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
@@ -1188,7 +1279,7 @@ lcc-3166-1-adj:LS
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
@@ -1222,6 +1313,15 @@ lcc-3166-1-adj:LU
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://benelux.int/"^^xsd:anyURI ;
+		foaf:name	"Benelux Union"@en , "Benelux-unie"@nl , "Union Benelux"@fr ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KJ6WZ7XT77T82ZAW2TQW6RB4 ;
+		rdfs:label	"Benelux" ;
+		skos:definition	"individual representing the Belgium-Netherlands-Luxembourg Union"@en ;
+		tempo:validFrom	"1948-01-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
 		foaf:name	"Eurozone" ;
 		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
@@ -1236,6 +1336,14 @@ lcc-3166-1-adj:LU
 		rdfs:label	"Eurozone with monetary agreement" ;
 		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		foaf:name	"Belgium–Luxembourg Economic Union"@en , "Union économique belgo-luxembourgeoise"@fr ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KJ6W4F5VW3GH00A6SV8RC6FG ;
+		rdfs:label	"BLEU" , "BLEU"@en , "UEBL"@fr ;
+		skos:definition	"individual representing the Belgium-Luxembourg Economic Union"@en ;
+		tempo:validFrom	"1922-12-22"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:LV
@@ -1262,7 +1370,7 @@ lcc-3166-1-adj:LY
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
@@ -1283,11 +1391,37 @@ lcc-3166-1-adj:MC
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:MD
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://cefta.int/"^^xsd:anyURI ;
+		foaf:name	"Accord de libre-échange centre-européen"@fr , "Accordo centroeuropeo di libero scambio"@it , "Acordo de comércio livre da Europa Central"@pt , "Acordul central european de comerț liber"@ro , "Acuerdo Centroeuropeo de Libre Comercio"@es , "Central European Free Trade Agreement"@en , "Centraleuropeiska frihandelsavtalet"@sv , "Centrāleiropas Brīvās tirdzniecības nolīgums"@lv , "Comhaontú Saorthrádála Lár na hEorpa"@ga , "Den centraleuropæiske frihandelsaftale"@da , "Ftehim dwar il-Kummerċ Ħieles tal-Ewropa Ċentrali"@mt , "Közép-európai Szabadkereskedelmi Megállapodás"@hu , "Kesk-Euroopa vabakaubandusleping"@et , "Keski-Euroopan vapaakauppasopimus"@fi , "Midden-Europese Vrijhandelsovereenkomst"@nl , "Mitteleuropäisches Freihandelsabkommen"@de , "Orta Avrupa Serbest Ticaret Anlaşması"@tr , "Srednjeevropski sporazum o prosti trgovini"@sl , "Srednjoeuropski ugovor o slobodnoj trgovini"@hr , "Středoevropská dohoda o volném obchodu"@cs , "Stredoeurópska dohoda o voľnom obchode"@sk , "Vidurio Europos laisvosios prekybos susitarimas"@lt , "Środkowoeuropejska umowa o wolnym handlu"@pl , "Συμφωνία Ελεύθερων Συναλλαγών της Κεντρικής Ευρώπης"@el , "Централноевропейско споразумение за свободна търговия"@bg , "Централноевропски уговор о слободној трговини"@sr ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
+		rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
+		skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
+		tempo:validFrom	"2007-05-01"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:ME
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://cefta.int/"^^xsd:anyURI ;
+		foaf:name	"Accord de libre-échange centre-européen"@fr , "Accordo centroeuropeo di libero scambio"@it , "Acordo de comércio livre da Europa Central"@pt , "Acordul central european de comerț liber"@ro , "Acuerdo Centroeuropeo de Libre Comercio"@es , "Central European Free Trade Agreement"@en , "Centraleuropeiska frihandelsavtalet"@sv , "Centrāleiropas Brīvās tirdzniecības nolīgums"@lv , "Comhaontú Saorthrádála Lár na hEorpa"@ga , "Den centraleuropæiske frihandelsaftale"@da , "Ftehim dwar il-Kummerċ Ħieles tal-Ewropa Ċentrali"@mt , "Közép-európai Szabadkereskedelmi Megállapodás"@hu , "Kesk-Euroopa vabakaubandusleping"@et , "Keski-Euroopan vapaakauppasopimus"@fi , "Midden-Europese Vrijhandelsovereenkomst"@nl , "Mitteleuropäisches Freihandelsabkommen"@de , "Orta Avrupa Serbest Ticaret Anlaşması"@tr , "Srednjeevropski sporazum o prosti trgovini"@sl , "Srednjoeuropski ugovor o slobodnoj trgovini"@hr , "Středoevropská dohoda o volném obchodu"@cs , "Stredoeurópska dohoda o voľnom obchode"@sk , "Vidurio Europos laisvosios prekybos susitarimas"@lt , "Środkowoeuropejska umowa o wolnym handlu"@pl , "Συμφωνία Ελεύθερων Συναλλαγών της Κεντρικής Ευρώπης"@el , "Централноевропейско споразумение за свободна търговия"@bg , "Централноевропски уговор о слободној трговини"@sr ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
+		rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
+		skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
+		tempo:validFrom	"2007-05-01"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:MG
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
@@ -1296,7 +1430,7 @@ lcc-3166-1-adj:MG
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Preferential Trade Area"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
@@ -1318,12 +1452,25 @@ lcc-3166-1-adj:MH
 		tempo:validFrom	"1988-09-20"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:MK
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://cefta.int/"^^xsd:anyURI ;
+		foaf:name	"Accord de libre-échange centre-européen"@fr , "Accordo centroeuropeo di libero scambio"@it , "Acordo de comércio livre da Europa Central"@pt , "Acordul central european de comerț liber"@ro , "Acuerdo Centroeuropeo de Libre Comercio"@es , "Central European Free Trade Agreement"@en , "Centraleuropeiska frihandelsavtalet"@sv , "Centrāleiropas Brīvās tirdzniecības nolīgums"@lv , "Comhaontú Saorthrádála Lár na hEorpa"@ga , "Den centraleuropæiske frihandelsaftale"@da , "Ftehim dwar il-Kummerċ Ħieles tal-Ewropa Ċentrali"@mt , "Közép-európai Szabadkereskedelmi Megállapodás"@hu , "Kesk-Euroopa vabakaubandusleping"@et , "Keski-Euroopan vapaakauppasopimus"@fi , "Midden-Europese Vrijhandelsovereenkomst"@nl , "Mitteleuropäisches Freihandelsabkommen"@de , "Orta Avrupa Serbest Ticaret Anlaşması"@tr , "Srednjeevropski sporazum o prosti trgovini"@sl , "Srednjoeuropski ugovor o slobodnoj trgovini"@hr , "Středoevropská dohoda o volném obchodu"@cs , "Stredoeurópska dohoda o voľnom obchode"@sk , "Vidurio Europos laisvosios prekybos susitarimas"@lt , "Środkowoeuropejska umowa o wolnym handlu"@pl , "Συμφωνία Ελεύθερων Συναλλαγών της Κεντρικής Ευρώπης"@el , "Централноевропейско споразумение за свободна търговия"@bg , "Централноевропски уговор о слободној трговини"@sr ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
+		rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
+		skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
+		tempo:validFrom	"2006-01-01"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:ML
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://www.uemoa.int/"^^xsd:anyURI ;
-		foaf:name	"Union économique et monétaire ouest-africaine"@fr ;
+		foaf:name	"Union économique et monétaire ouest-africaine"@fr , "West African Economic and Monetary Union"@en ;
 		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P ;
 		rdfs:label	"UEMOA" ;
@@ -1331,8 +1478,8 @@ lcc-3166-1-adj:ML
 		tempo:validFrom	"1962-01-10"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
-		foaf:name	"Confederation of Sahel States"@en ;
-		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		foaf:name	"Confédération des États du Sahel"@fr , "Confederation of Sahel States"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition , rgn:TradeBloc ;
 		pav:derivedFrom	rgn:r01KJ5E5GH4N3CNCVF0EHXH3SW3 ;
 		rdfs:label	"AES" ;
 		skos:definition	"individual representing the Confederation of Sahel States"@en ;
@@ -1355,11 +1502,11 @@ lcc-3166-1-adj:MQ
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://oecs.int/"^^xsd:anyURI ;
-		foaf:name	"Organisation des États de la Caraïbe orientale"@fr ;
+		dct:source	"http://oecs.int/"^^xsd:anyURI , "http://www.oecs.org/"^^xsd:anyURI ;
+		foaf:name	"Organisation des États de la Caraïbe orientale"@fr , "Organisation of Eastern Caribbean States"@en ;
 		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
 		pav:derivedFrom	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 ;
-		rdfs:label	"OECS" ;
+		rdfs:label	"OECO"@fr , "OECS" ;
 		skos:definition	"individual representing the Organisation of Eastern Caribbean States (OECS)"@en ;
 		tempo:validFrom	"2016-04-12"^^xsd:date ;
 	] .
@@ -1368,16 +1515,16 @@ lcc-3166-1-adj:MS
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://oecs.int/"^^xsd:anyURI ;
-		foaf:name	"Organisation des États de la Caraïbe orientale"@fr ;
+		dct:source	"http://oecs.int/"^^xsd:anyURI , "http://www.oecs.org/"^^xsd:anyURI ;
+		foaf:name	"Organisation des États de la Caraïbe orientale"@fr , "Organisation of Eastern Caribbean States"@en ;
 		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
 		pav:derivedFrom	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 ;
-		rdfs:label	"OECS" ;
+		rdfs:label	"OECO"@fr , "OECS" ;
 		skos:definition	"individual representing the Organisation of Eastern Caribbean States (OECS)"@en ;
 		tempo:validFrom	"1981-06-18"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"https://caricom.org/"^^xsd:anyURI ;
+		dct:source	"https://caricom.org/"^^xsd:anyURI , "https://caricom.org/wp-content/uploads/Final-Act-Declaration-and-Resolution-ALONG-with-The-Treaty-Establishing-The-Caribbean-Community-with-signature.pdf"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/caricom"^^xsd:anyURI ;
 		foaf:name	"Caribbean Community"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
@@ -1428,7 +1575,7 @@ lcc-3166-1-adj:MU
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
@@ -1437,7 +1584,7 @@ lcc-3166-1-adj:MU
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Preferential Trade Area"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
@@ -1451,7 +1598,7 @@ lcc-3166-1-adj:MW
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
@@ -1460,7 +1607,7 @@ lcc-3166-1-adj:MW
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Preferential Trade Area"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
@@ -1474,19 +1621,19 @@ lcc-3166-1-adj:MX
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		foaf:name	"North American Free Trade Agreement"@en ;
+		foaf:name	"Accord de libre-échange nord-américain"@fr , "North American Free Trade Agreement"@en , "Tratado de Libre Comercio de América del Norte"@es ;
 		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
 		pav:derivedFrom	rgn:r01KHZN214KFVTC3DRGVNXK87EN ;
-		rdfs:label	"TLCAN"@es ;
+		rdfs:label	"ALÉNA"@fr , "NAFTA" , "TLCAN"@es ;
 		skos:definition	"individual representing the North American Free Trade Agreement (NAFTA)"@en ;
 		tempo:validFrom	"1994-01-01"^^xsd:date ;
 		tempo:validTill	"2020-07-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
-		foaf:name	"Accord Canada–États-Unis–Mexique"@fr ;
+		foaf:name	"Accord Canada–États-Unis–Mexique"@fr , "Tratado entre México, Estados Unidos y Canadá"@es , "United States-Mexico-Canada Agreement"@en ;
 		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
 		pav:derivedFrom	rgn:r01KJ1VPTGM2JZW8QGF05NZ39QB ;
-		rdfs:label	"USMCA" ;
+		rdfs:label	"ACEUM"@fr , "T-MEC"@es , "USMCA" ;
 		skos:definition	"individual representing the United States-Mexico-Canada Agreement (USMCA)"@en ;
 		tempo:validFrom	"2020-07-01"^^xsd:date ;
 	] .
@@ -1507,7 +1654,7 @@ lcc-3166-1-adj:MZ
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
@@ -1521,7 +1668,7 @@ lcc-3166-1-adj:NA
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
@@ -1548,7 +1695,7 @@ lcc-3166-1-adj:NE
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://www.uemoa.int/"^^xsd:anyURI ;
-		foaf:name	"Union économique et monétaire ouest-africaine"@fr ;
+		foaf:name	"Union économique et monétaire ouest-africaine"@fr , "West African Economic and Monetary Union"@en ;
 		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P ;
 		rdfs:label	"UEMOA" ;
@@ -1556,8 +1703,8 @@ lcc-3166-1-adj:NE
 		tempo:validFrom	"1962-01-10"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
-		foaf:name	"Confederation of Sahel States"@en ;
-		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		foaf:name	"Confédération des États du Sahel"@fr , "Confederation of Sahel States"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition , rgn:TradeBloc ;
 		pav:derivedFrom	rgn:r01KJ5E5GH4N3CNCVF0EHXH3SW3 ;
 		rdfs:label	"AES" ;
 		skos:definition	"individual representing the Confederation of Sahel States"@en ;
@@ -1567,6 +1714,15 @@ lcc-3166-1-adj:NE
 lcc-3166-1-adj:NL
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://benelux.int/"^^xsd:anyURI ;
+		foaf:name	"Benelux Union"@en , "Benelux-unie"@nl , "Union Benelux"@fr ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KJ6WZ7XT77T82ZAW2TQW6RB4 ;
+		rdfs:label	"Benelux" ;
+		skos:definition	"individual representing the Belgium-Netherlands-Luxembourg Union"@en ;
+		tempo:validFrom	"1948-01-01"^^xsd:date ;
+	] , [
 		a	lcc-cr:GeographicRegion ;
 		foaf:name	"Eurozone" ;
 		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
@@ -1625,7 +1781,7 @@ lcc-3166-1-adj:OM
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.gcc-sg.org/"^^xsd:anyURI ;
-		foaf:name	"Gulf Cooperation Council"@en ;
+		foaf:name	"Gulf Cooperation Council"@en , "مجلس التعاون الخليجي"@ar ;
 		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
 		pav:derivedFrom	rgn:r01KHZFZG2DZC1QSNBPMWW9AB7V ;
 		rdfs:label	"GCC" ;
@@ -1638,7 +1794,7 @@ lcc-3166-1-adj:PE
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comunidadandina.org/"^^xsd:anyURI ;
-		foaf:name	"Andean Community"@en ;
+		foaf:name	"Andean Community"@en , "Comunidad Andina de Naciones"@es ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHV4VB0HT5E1MNHHF861K9E2 ;
 		rdfs:label	"CAN" ;
@@ -1691,6 +1847,20 @@ lcc-3166-1-adj:PH
 		tempo:validTill	"1967-08-08"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:PL
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://cefta.int/"^^xsd:anyURI ;
+		foaf:name	"Accord de libre-échange centre-européen"@fr , "Accordo centroeuropeo di libero scambio"@it , "Acordo de comércio livre da Europa Central"@pt , "Acordul central european de comerț liber"@ro , "Acuerdo Centroeuropeo de Libre Comercio"@es , "Central European Free Trade Agreement"@en , "Centraleuropeiska frihandelsavtalet"@sv , "Centrāleiropas Brīvās tirdzniecības nolīgums"@lv , "Comhaontú Saorthrádála Lár na hEorpa"@ga , "Den centraleuropæiske frihandelsaftale"@da , "Ftehim dwar il-Kummerċ Ħieles tal-Ewropa Ċentrali"@mt , "Közép-európai Szabadkereskedelmi Megállapodás"@hu , "Kesk-Euroopa vabakaubandusleping"@et , "Keski-Euroopan vapaakauppasopimus"@fi , "Midden-Europese Vrijhandelsovereenkomst"@nl , "Mitteleuropäisches Freihandelsabkommen"@de , "Orta Avrupa Serbest Ticaret Anlaşması"@tr , "Srednjeevropski sporazum o prosti trgovini"@sl , "Srednjoeuropski ugovor o slobodnoj trgovini"@hr , "Středoevropská dohoda o volném obchodu"@cs , "Stredoeurópska dohoda o voľnom obchode"@sk , "Vidurio Europos laisvosios prekybos susitarimas"@lt , "Środkowoeuropejska umowa o wolnym handlu"@pl , "Συμφωνία Ελεύθερων Συναλλαγών της Κεντρικής Ευρώπης"@el , "Централноевропейско споразумение за свободна търговия"@bg , "Централноевропски уговор о слободној трговини"@sr ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
+		rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
+		skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
+		tempo:validFrom	"1993-03-01"^^xsd:date ;
+		tempo:validTill	"2004-05-01"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:PT
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -1728,10 +1898,10 @@ lcc-3166-1-adj:PY
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.mercosur.int/"^^xsd:anyURI ;
-		foaf:name	"Mercado Comum do Sul"@pt ;
+		foaf:name	"Common Market of the South"@en , "Mercado Común del Sur"@es , "Mercado Comum do Sul"@pt ;
 		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
 		pav:derivedFrom	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A ;
-		rdfs:label	"Mercosul"@pt ;
+		rdfs:label	"Mercosul"@pt , "Mercosur" , "Mercosur"@es ;
 		skos:definition	"individual representing the Common Market of the South (Mercosur)"@en ;
 		tempo:validFrom	"1991-03-26"^^xsd:date , "2013-08-01"^^xsd:date ;
 		tempo:validTill	"2012-06-29"^^xsd:date ;
@@ -1742,7 +1912,7 @@ lcc-3166-1-adj:QA
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.gcc-sg.org/"^^xsd:anyURI ;
-		foaf:name	"Gulf Cooperation Council"@en ;
+		foaf:name	"Gulf Cooperation Council"@en , "مجلس التعاون الخليجي"@ar ;
 		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
 		pav:derivedFrom	rgn:r01KHZFZG2DZC1QSNBPMWW9AB7V ;
 		rdfs:label	"GCC" ;
@@ -1750,11 +1920,38 @@ lcc-3166-1-adj:QA
 		tempo:validFrom	"1981-05-25"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:RO
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://cefta.int/"^^xsd:anyURI ;
+		foaf:name	"Accord de libre-échange centre-européen"@fr , "Accordo centroeuropeo di libero scambio"@it , "Acordo de comércio livre da Europa Central"@pt , "Acordul central european de comerț liber"@ro , "Acuerdo Centroeuropeo de Libre Comercio"@es , "Central European Free Trade Agreement"@en , "Centraleuropeiska frihandelsavtalet"@sv , "Centrāleiropas Brīvās tirdzniecības nolīgums"@lv , "Comhaontú Saorthrádála Lár na hEorpa"@ga , "Den centraleuropæiske frihandelsaftale"@da , "Ftehim dwar il-Kummerċ Ħieles tal-Ewropa Ċentrali"@mt , "Közép-európai Szabadkereskedelmi Megállapodás"@hu , "Kesk-Euroopa vabakaubandusleping"@et , "Keski-Euroopan vapaakauppasopimus"@fi , "Midden-Europese Vrijhandelsovereenkomst"@nl , "Mitteleuropäisches Freihandelsabkommen"@de , "Orta Avrupa Serbest Ticaret Anlaşması"@tr , "Srednjeevropski sporazum o prosti trgovini"@sl , "Srednjoeuropski ugovor o slobodnoj trgovini"@hr , "Středoevropská dohoda o volném obchodu"@cs , "Stredoeurópska dohoda o voľnom obchode"@sk , "Vidurio Europos laisvosios prekybos susitarimas"@lt , "Środkowoeuropejska umowa o wolnym handlu"@pl , "Συμφωνία Ελεύθερων Συναλλαγών της Κεντρικής Ευρώπης"@el , "Централноевропейско споразумение за свободна търговия"@bg , "Централноевропски уговор о слободној трговини"@sr ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
+		rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
+		skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
+		tempo:validFrom	"1997-07-01"^^xsd:date ;
+		tempo:validTill	"2007-01-01"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:RS
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://cefta.int/"^^xsd:anyURI ;
+		foaf:name	"Accord de libre-échange centre-européen"@fr , "Accordo centroeuropeo di libero scambio"@it , "Acordo de comércio livre da Europa Central"@pt , "Acordul central european de comerț liber"@ro , "Acuerdo Centroeuropeo de Libre Comercio"@es , "Central European Free Trade Agreement"@en , "Centraleuropeiska frihandelsavtalet"@sv , "Centrāleiropas Brīvās tirdzniecības nolīgums"@lv , "Comhaontú Saorthrádála Lár na hEorpa"@ga , "Den centraleuropæiske frihandelsaftale"@da , "Ftehim dwar il-Kummerċ Ħieles tal-Ewropa Ċentrali"@mt , "Közép-európai Szabadkereskedelmi Megállapodás"@hu , "Kesk-Euroopa vabakaubandusleping"@et , "Keski-Euroopan vapaakauppasopimus"@fi , "Midden-Europese Vrijhandelsovereenkomst"@nl , "Mitteleuropäisches Freihandelsabkommen"@de , "Orta Avrupa Serbest Ticaret Anlaşması"@tr , "Srednjeevropski sporazum o prosti trgovini"@sl , "Srednjoeuropski ugovor o slobodnoj trgovini"@hr , "Středoevropská dohoda o volném obchodu"@cs , "Stredoeurópska dohoda o voľnom obchode"@sk , "Vidurio Europos laisvosios prekybos susitarimas"@lt , "Środkowoeuropejska umowa o wolnym handlu"@pl , "Συμφωνία Ελεύθερων Συναλλαγών της Κεντρικής Ευρώπης"@el , "Централноевропейско споразумение за свободна търговия"@bg , "Централноевропски уговор о слободној трговини"@sr ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
+		rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
+		skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
+		tempo:validFrom	"2007-05-01"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:RW
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
@@ -1763,7 +1960,7 @@ lcc-3166-1-adj:RW
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Preferential Trade Area"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
@@ -1778,7 +1975,7 @@ lcc-3166-1-adj:SA
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.gcc-sg.org/"^^xsd:anyURI ;
-		foaf:name	"Gulf Cooperation Council"@en ;
+		foaf:name	"Gulf Cooperation Council"@en , "مجلس التعاون الخليجي"@ar ;
 		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
 		pav:derivedFrom	rgn:r01KHZFZG2DZC1QSNBPMWW9AB7V ;
 		rdfs:label	"GCC" ;
@@ -1802,7 +1999,7 @@ lcc-3166-1-adj:SC
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
@@ -1815,7 +2012,7 @@ lcc-3166-1-adj:SD
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
@@ -1824,7 +2021,7 @@ lcc-3166-1-adj:SD
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Preferential Trade Area"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
@@ -1850,6 +2047,16 @@ lcc-3166-1-adj:SI
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://cefta.int/"^^xsd:anyURI ;
+		foaf:name	"Accord de libre-échange centre-européen"@fr , "Accordo centroeuropeo di libero scambio"@it , "Acordo de comércio livre da Europa Central"@pt , "Acordul central european de comerț liber"@ro , "Acuerdo Centroeuropeo de Libre Comercio"@es , "Central European Free Trade Agreement"@en , "Centraleuropeiska frihandelsavtalet"@sv , "Centrāleiropas Brīvās tirdzniecības nolīgums"@lv , "Comhaontú Saorthrádála Lár na hEorpa"@ga , "Den centraleuropæiske frihandelsaftale"@da , "Ftehim dwar il-Kummerċ Ħieles tal-Ewropa Ċentrali"@mt , "Közép-európai Szabadkereskedelmi Megállapodás"@hu , "Kesk-Euroopa vabakaubandusleping"@et , "Keski-Euroopan vapaakauppasopimus"@fi , "Midden-Europese Vrijhandelsovereenkomst"@nl , "Mitteleuropäisches Freihandelsabkommen"@de , "Orta Avrupa Serbest Ticaret Anlaşması"@tr , "Srednjeevropski sporazum o prosti trgovini"@sl , "Srednjoeuropski ugovor o slobodnoj trgovini"@hr , "Středoevropská dohoda o volném obchodu"@cs , "Stredoeurópska dohoda o voľnom obchode"@sk , "Vidurio Europos laisvosios prekybos susitarimas"@lt , "Środkowoeuropejska umowa o wolnym handlu"@pl , "Συμφωνία Ελεύθερων Συναλλαγών της Κεντρικής Ευρώπης"@el , "Централноевропейско споразумение за свободна търговия"@bg , "Централноевропски уговор о слободној трговини"@sr ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
+		rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
+		skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
+		tempo:validFrom	"1996-01-01"^^xsd:date ;
+		tempo:validTill	"2004-05-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
 		foaf:name	"Eurozone" ;
 		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
@@ -1869,6 +2076,16 @@ lcc-3166-1-adj:SI
 lcc-3166-1-adj:SK
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://cefta.int/"^^xsd:anyURI ;
+		foaf:name	"Accord de libre-échange centre-européen"@fr , "Accordo centroeuropeo di libero scambio"@it , "Acordo de comércio livre da Europa Central"@pt , "Acordul central european de comerț liber"@ro , "Acuerdo Centroeuropeo de Libre Comercio"@es , "Central European Free Trade Agreement"@en , "Centraleuropeiska frihandelsavtalet"@sv , "Centrāleiropas Brīvās tirdzniecības nolīgums"@lv , "Comhaontú Saorthrádála Lár na hEorpa"@ga , "Den centraleuropæiske frihandelsaftale"@da , "Ftehim dwar il-Kummerċ Ħieles tal-Ewropa Ċentrali"@mt , "Közép-európai Szabadkereskedelmi Megállapodás"@hu , "Kesk-Euroopa vabakaubandusleping"@et , "Keski-Euroopan vapaakauppasopimus"@fi , "Midden-Europese Vrijhandelsovereenkomst"@nl , "Mitteleuropäisches Freihandelsabkommen"@de , "Orta Avrupa Serbest Ticaret Anlaşması"@tr , "Srednjeevropski sporazum o prosti trgovini"@sl , "Srednjoeuropski ugovor o slobodnoj trgovini"@hr , "Středoevropská dohoda o volném obchodu"@cs , "Stredoeurópska dohoda o voľnom obchode"@sk , "Vidurio Europos laisvosios prekybos susitarimas"@lt , "Środkowoeuropejska umowa o wolnym handlu"@pl , "Συμφωνία Ελεύθερων Συναλλαγών της Κεντρικής Ευρώπης"@el , "Централноевропейско споразумение за свободна търговия"@bg , "Централноевропски уговор о слободној трговини"@sr ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
+		rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
+		skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
+		tempo:validFrom	"1993-03-01"^^xsd:date ;
+		tempo:validTill	"2004-05-01"^^xsd:date ;
+	] , [
 		a	lcc-cr:GeographicRegion ;
 		foaf:name	"Eurozone" ;
 		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
@@ -1903,7 +2120,7 @@ lcc-3166-1-adj:SN
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://www.uemoa.int/"^^xsd:anyURI ;
-		foaf:name	"Union économique et monétaire ouest-africaine"@fr ;
+		foaf:name	"Union économique et monétaire ouest-africaine"@fr , "West African Economic and Monetary Union"@en ;
 		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P ;
 		rdfs:label	"UEMOA" ;
@@ -1915,7 +2132,7 @@ lcc-3166-1-adj:SO
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Preferential Trade Area"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
@@ -1925,7 +2142,7 @@ lcc-3166-1-adj:SO
 		tempo:validTill	"1994-12-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
@@ -1938,7 +2155,7 @@ lcc-3166-1-adj:SR
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"https://caricom.org/"^^xsd:anyURI ;
+		dct:source	"https://caricom.org/"^^xsd:anyURI , "https://caricom.org/wp-content/uploads/Final-Act-Declaration-and-Resolution-ALONG-with-The-Treaty-Establishing-The-Caribbean-Community-with-signature.pdf"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/caricom"^^xsd:anyURI ;
 		foaf:name	"Caribbean Community"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
@@ -1951,7 +2168,7 @@ lcc-3166-1-adj:SZ
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
@@ -1960,7 +2177,7 @@ lcc-3166-1-adj:SZ
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Preferential Trade Area"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
@@ -1974,8 +2191,8 @@ lcc-3166-1-adj:TD
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.cemac.cf/"^^xsd:anyURI ;
-		foaf:name	"Economic and Monetary Community of Central Africa"@en ;
+		dct:source	"http://www.cemac.cf/"^^xsd:anyURI , "https://www.cemac.int/"^^xsd:anyURI ;
+		foaf:name	"Communauté économique et monétaire de l'Afrique centrale"@fr , "Economic and Monetary Community of Central Africa"@en ;
 		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KJ4S7380KH3G4RA7EM7XJBFA ;
 		rdfs:label	"CEMAC" ;
@@ -1988,7 +2205,7 @@ lcc-3166-1-adj:TG
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://www.uemoa.int/"^^xsd:anyURI ;
-		foaf:name	"Union économique et monétaire ouest-africaine"@fr ;
+		foaf:name	"Union économique et monétaire ouest-africaine"@fr , "West African Economic and Monetary Union"@en ;
 		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P ;
 		rdfs:label	"UEMOA" ;
@@ -2032,7 +2249,7 @@ lcc-3166-1-adj:TN
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
@@ -2057,7 +2274,7 @@ lcc-3166-1-adj:TT
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"https://caricom.org/"^^xsd:anyURI ;
+		dct:source	"https://caricom.org/"^^xsd:anyURI , "https://caricom.org/wp-content/uploads/Final-Act-Declaration-and-Resolution-ALONG-with-The-Treaty-Establishing-The-Caribbean-Community-with-signature.pdf"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/caricom"^^xsd:anyURI ;
 		foaf:name	"Caribbean Community"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
@@ -2082,7 +2299,7 @@ lcc-3166-1-adj:TZ
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
@@ -2096,7 +2313,7 @@ lcc-3166-1-adj:UG
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
@@ -2105,7 +2322,7 @@ lcc-3166-1-adj:UG
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Preferential Trade Area"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
@@ -2119,16 +2336,16 @@ lcc-3166-1-adj:US
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		foaf:name	"North American Free Trade Agreement"@en ;
+		foaf:name	"Accord de libre-échange nord-américain"@fr , "North American Free Trade Agreement"@en , "Tratado de Libre Comercio de América del Norte"@es ;
 		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
 		pav:derivedFrom	rgn:r01KHZN214KFVTC3DRGVNXK87EN ;
-		rdfs:label	"TLCAN"@es ;
+		rdfs:label	"ALÉNA"@fr , "NAFTA" , "TLCAN"@es ;
 		skos:definition	"individual representing the North American Free Trade Agreement (NAFTA)"@en ;
 		tempo:validFrom	"1994-01-01"^^xsd:date ;
 		tempo:validTill	"2020-07-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
-		foaf:name	"Canada–United States Free Trade Agreement"@en ;
+		foaf:name	"Accord de libre-échange entre le Canada et les États-Unis d'Amérique"@fr , "Canada–United States Free Trade Agreement"@en ;
 		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
 		pav:derivedFrom	rgn:r01KJ1WFQ2KZ8A5230B6SMSP8Y0 ;
 		rdfs:label	"CUSFTA" ;
@@ -2137,10 +2354,10 @@ lcc-3166-1-adj:US
 		tempo:validTill	"1994-01-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
-		foaf:name	"Accord Canada–États-Unis–Mexique"@fr ;
+		foaf:name	"Accord Canada–États-Unis–Mexique"@fr , "Tratado entre México, Estados Unidos y Canadá"@es , "United States-Mexico-Canada Agreement"@en ;
 		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
 		pav:derivedFrom	rgn:r01KJ1VPTGM2JZW8QGF05NZ39QB ;
-		rdfs:label	"USMCA" ;
+		rdfs:label	"ACEUM"@fr , "T-MEC"@es , "USMCA" ;
 		skos:definition	"individual representing the United States-Mexico-Canada Agreement (USMCA)"@en ;
 		tempo:validFrom	"2020-07-01"^^xsd:date ;
 	] .
@@ -2150,10 +2367,10 @@ lcc-3166-1-adj:UY
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.mercosur.int/"^^xsd:anyURI ;
-		foaf:name	"Mercado Comum do Sul"@pt ;
+		foaf:name	"Common Market of the South"@en , "Mercado Común del Sur"@es , "Mercado Comum do Sul"@pt ;
 		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
 		pav:derivedFrom	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A ;
-		rdfs:label	"Mercosul"@pt ;
+		rdfs:label	"Mercosul"@pt , "Mercosur" , "Mercosur"@es ;
 		skos:definition	"individual representing the Common Market of the South (Mercosur)"@en ;
 		tempo:validFrom	"1991-03-26"^^xsd:date ;
 	] .
@@ -2174,16 +2391,16 @@ lcc-3166-1-adj:VC
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://oecs.int/"^^xsd:anyURI ;
-		foaf:name	"Organisation des États de la Caraïbe orientale"@fr ;
+		dct:source	"http://oecs.int/"^^xsd:anyURI , "http://www.oecs.org/"^^xsd:anyURI ;
+		foaf:name	"Organisation des États de la Caraïbe orientale"@fr , "Organisation of Eastern Caribbean States"@en ;
 		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
 		pav:derivedFrom	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 ;
-		rdfs:label	"OECS" ;
+		rdfs:label	"OECO"@fr , "OECS" ;
 		skos:definition	"individual representing the Organisation of Eastern Caribbean States (OECS)"@en ;
 		tempo:validFrom	"1981-06-18"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"https://caricom.org/"^^xsd:anyURI ;
+		dct:source	"https://caricom.org/"^^xsd:anyURI , "https://caricom.org/wp-content/uploads/Final-Act-Declaration-and-Resolution-ALONG-with-The-Treaty-Establishing-The-Caribbean-Community-with-signature.pdf"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/caricom"^^xsd:anyURI ;
 		foaf:name	"Caribbean Community"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
@@ -2214,35 +2431,35 @@ lcc-3166-1-adj:VE
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.mercosur.int/"^^xsd:anyURI ;
-		foaf:name	"Mercado Comum do Sul"@pt ;
-		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
-		pav:derivedFrom	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A ;
-		rdfs:label	"Mercosul"@pt ;
-		skos:definition	"individual representing the Common Market of the South (Mercosur)"@en ;
-		tempo:validFrom	"2012-07-31"^^xsd:date ;
-		tempo:validTill	"2016-12-01"^^xsd:date ;
-	] , [
-		a	lcc-cr:GeographicRegion ;
 		dct:source	"http://www.comunidadandina.org/"^^xsd:anyURI ;
-		foaf:name	"Andean Community"@en ;
+		foaf:name	"Andean Community"@en , "Comunidad Andina de Naciones"@es ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHV4VB0HT5E1MNHHF861K9E2 ;
 		rdfs:label	"CAN" ;
 		skos:definition	"individual representing the Andean Community (CAN)"@en ;
 		tempo:validFrom	"1973"^^xsd:gYear ;
 		tempo:validTill	"2006-04-20"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://www.mercosur.int/"^^xsd:anyURI ;
+		foaf:name	"Common Market of the South"@en , "Mercado Común del Sur"@es , "Mercado Comum do Sul"@pt ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A ;
+		rdfs:label	"Mercosul"@pt , "Mercosur" , "Mercosur"@es ;
+		skos:definition	"individual representing the Common Market of the South (Mercosur)"@en ;
+		tempo:validFrom	"2012-07-31"^^xsd:date ;
+		tempo:validTill	"2016-12-01"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:VG
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://oecs.int/"^^xsd:anyURI ;
-		foaf:name	"Organisation des États de la Caraïbe orientale"@fr ;
+		dct:source	"http://oecs.int/"^^xsd:anyURI , "http://www.oecs.org/"^^xsd:anyURI ;
+		foaf:name	"Organisation des États de la Caraïbe orientale"@fr , "Organisation of Eastern Caribbean States"@en ;
 		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
 		pav:derivedFrom	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 ;
-		rdfs:label	"OECS" ;
+		rdfs:label	"OECO"@fr , "OECS" ;
 		skos:definition	"individual representing the Organisation of Eastern Caribbean States (OECS)"@en ;
 		tempo:validFrom	"1984-11-22"^^xsd:date ;
 	] .
@@ -2283,11 +2500,24 @@ lcc-3166-1-adj:WS
 		tempo:validFrom	"1971-08-05"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:XK
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://cefta.int/"^^xsd:anyURI ;
+		foaf:name	"Accord de libre-échange centre-européen"@fr , "Accordo centroeuropeo di libero scambio"@it , "Acordo de comércio livre da Europa Central"@pt , "Acordul central european de comerț liber"@ro , "Acuerdo Centroeuropeo de Libre Comercio"@es , "Central European Free Trade Agreement"@en , "Centraleuropeiska frihandelsavtalet"@sv , "Centrāleiropas Brīvās tirdzniecības nolīgums"@lv , "Comhaontú Saorthrádála Lár na hEorpa"@ga , "Den centraleuropæiske frihandelsaftale"@da , "Ftehim dwar il-Kummerċ Ħieles tal-Ewropa Ċentrali"@mt , "Közép-európai Szabadkereskedelmi Megállapodás"@hu , "Kesk-Euroopa vabakaubandusleping"@et , "Keski-Euroopan vapaakauppasopimus"@fi , "Midden-Europese Vrijhandelsovereenkomst"@nl , "Mitteleuropäisches Freihandelsabkommen"@de , "Orta Avrupa Serbest Ticaret Anlaşması"@tr , "Srednjeevropski sporazum o prosti trgovini"@sl , "Srednjoeuropski ugovor o slobodnoj trgovini"@hr , "Středoevropská dohoda o volném obchodu"@cs , "Stredoeurópska dohoda o voľnom obchode"@sk , "Vidurio Europos laisvosios prekybos susitarimas"@lt , "Środkowoeuropejska umowa o wolnym handlu"@pl , "Συμφωνία Ελεύθερων Συναλλαγών της Κεντρικής Ευρώπης"@el , "Централноевропейско споразумение за свободна търговия"@bg , "Централноевропски уговор о слободној трговини"@sr ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
+		rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
+		skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
+		tempo:validFrom	"2007-05-01"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:ZM
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
@@ -2296,7 +2526,7 @@ lcc-3166-1-adj:ZM
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Preferential Trade Area"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;
@@ -2310,7 +2540,7 @@ lcc-3166-1-adj:ZW
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Common Market for Eastern and Southern Africa"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
@@ -2319,7 +2549,7 @@ lcc-3166-1-adj:ZW
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
-		dct:source	"http://www.comesa.int/"^^xsd:anyURI ;
+		dct:source	"http://www.comesa.int/"^^xsd:anyURI , "https://globaledge.msu.edu/trade-blocs/comesa"^^xsd:anyURI ;
 		foaf:name	"Preferential Trade Area"@en ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KHRMWC1272ZYBMQ0M5NF0EQB ;

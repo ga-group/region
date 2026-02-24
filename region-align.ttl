@@ -142,3 +142,31 @@ rgn:r01KJ5E5GH4N3CNCVF0EHXH3SW3_align_2024_0
 	pav:lastRefreshedOn	"2026-02-23T15:46:58Z"^^xsd:date ;
 	skal:constituent	rgn:r01KJ5E5GH4N3CNCVF0EHXH3SW3 , wd:Q122624387 ;
 	tempo:validTill	"2024-07-06"^^xsd:date .
+
+rgn:r01KJ6W4F5VW3GH00A6SV8RC6FG_align
+	a	skal:ExactMatch ;
+	pav:createdOn	"2026-02-24T15:46:58Z"^^xsd:date ;
+	pav:lastRefreshedOn	"2026-02-24T15:46:58Z"^^xsd:date ;
+	skal:constituent	<http://eurovoc.europa.eu/4588> , <http://publications.europa.eu/resource/authority/corporate-body/BLEU> , rgn:r01KJ6W4F5VW3GH00A6SV8RC6FG , wd:Q1542735 .
+
+rgn:r01KJ6WZ7XT77T82ZAW2TQW6RB4_align
+	a	skal:ExactMatch ;
+	dct:replaces	rgn:r01KJ6WZ7XT77T82ZAW2TQW6RB4_align_2012_0 ;
+	pav:createdOn	"2026-02-24T15:46:58Z"^^xsd:date ;
+	pav:lastRefreshedOn	"2026-02-24T15:46:58Z"^^xsd:date ;
+	skal:constituent	<http://eurovoc.europa.eu/4844> , <http://publications.europa.eu/resource/authority/corporate-body/BENELUX> , rgn:r01KJ6WZ7XT77T82ZAW2TQW6RB4 , wd:Q13116 ;
+	tempo:validFrom	"2012-01-01"^^xsd:date .
+
+rgn:r01KJ6WZ7XT77T82ZAW2TQW6RB4_align_2012_0
+	a	skal:ExactMatch ;
+	dct:isReplacedBy	rgn:r01KJ6WZ7XT77T82ZAW2TQW6RB4_align ;
+	pav:createdOn	"2026-02-24T15:46:58Z"^^xsd:date ;
+	pav:lastRefreshedOn	"2026-02-24T15:46:58Z"^^xsd:date ;
+	skal:constituent	<http://publications.europa.eu/resource/authority/corporate-body/BENELUX_1960_0> , rgn:r01KJ6WZ7XT77T82ZAW2TQW6RB4 , wd:Q13116 ;
+	tempo:validTill	"2012-01-01"^^xsd:date .
+
+rgn:r01KJ72TWJBTJZZD9F9BM7BC211_align
+	a	skal:ExactMatch ;
+	pav:createdOn	"2026-02-24T15:46:58Z"^^xsd:date ;
+	pav:lastRefreshedOn	"2026-02-24T15:46:58Z"^^xsd:date ;
+	skal:constituent	<http://publications.europa.eu/resource/authority/corporate-body/CEFTA> , rgn:r01KJ72TWJBTJZZD9F9BM7BC211 , wd:Q319014 .
