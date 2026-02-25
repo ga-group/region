@@ -2155,3 +2155,225 @@ rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5_1990_0
 	rgn:hasCurrentVariant	rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5 ;
 	skos:definition	"individual representing the Southern African Customs Union (SACU)"@en ;
 	tempo:validFrom	"1990-03-21"^^xsd:date .
+
+rgn:r01KJ9N0CD1RPVJ1WTSJ7CBF5Q0
+	owl:sameAs	rgn:r01KJ9N0CD1RPVJ1WTSJ7CBF5Q0_1948_0 .
+
+rgn:r01KJ9N0CD1RPVJ1WTSJ7CBF5Q0_1948_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.eac.int/"^^xsd:anyURI ;
+	foaf:name	"East Africa High Commission" ;
+	geopol:isPredecessorOf	rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2_1961_0 ;
+	lcc-cr:hasSubregion	wd:Q1097943 , wd:Q158725 , wd:Q2538511 ;
+	lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"EAHC" ;
+	rgn:hasCurrentVariant	rgn:r01KJ9N0CD1RPVJ1WTSJ7CBF5Q0 ;
+	skos:definition	"individual representing the East Africa High Commission (EAHC)"@en ;
+	tempo:validFrom	"1948-01-01"^^xsd:date ;
+	tempo:validTill	"1961-12-09"^^xsd:date .
+
+rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2
+	owl:sameAs	rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2_1964_0 .
+
+rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2_1961_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2_1962_0 ;
+	dct:source	"https://www.eac.int/"^^xsd:anyURI ;
+	foaf:name	"East African Common Services Organization" ;
+	geopol:isSuccessorOf	rgn:r01KJ9N0CD1RPVJ1WTSJ7CBF5Q0_1948_0 ;
+	lcc-cr:hasSubregion	wd:Q1097943 , wd:Q2538511 , wd:Q431731 ;
+	lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"EACSO" ;
+	rgn:hasCurrentVariant	rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2 ;
+	skos:definition	"individual representing the East African Common Services Organization (EACSO)"@en ;
+	tempo:validFrom	"1961-12-09"^^xsd:date ;
+	tempo:validTill	"1962-10-09"^^xsd:date .
+
+rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2_1962_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2_1963_0 ;
+	dct:replaces	rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2_1961_0 ;
+	dct:source	"https://www.eac.int/"^^xsd:anyURI ;
+	foaf:name	"East African Common Services Organization" ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:UG , wd:Q2538511 , wd:Q431731 ;
+	lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"EACSO" ;
+	rgn:hasCurrentVariant	rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2 ;
+	skos:definition	"individual representing the East African Common Services Organization (EACSO)"@en ;
+	tempo:validFrom	"1962-10-09"^^xsd:date ;
+	tempo:validTill	"1963-12-12"^^xsd:date .
+
+rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2_1963_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2_1964_0 ;
+	dct:replaces	rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2_1962_0 ;
+	dct:source	"https://www.eac.int/"^^xsd:anyURI ;
+	foaf:name	"East African Common Services Organization" ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:KE , lcc-3166-1-adj:UG , wd:Q431731 ;
+	lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"EACSO" ;
+	rgn:hasCurrentVariant	rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2 ;
+	skos:definition	"individual representing the East African Common Services Organization (EACSO)"@en ;
+	tempo:validFrom	"1963-12-12"^^xsd:date ;
+	tempo:validTill	"1964-04-26"^^xsd:date .
+
+rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2_1964_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:replaces	rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2_1963_0 ;
+	dct:source	"https://www.eac.int/"^^xsd:anyURI ;
+	foaf:name	"East African Common Services Organization" ;
+	geopol:isPredecessorOf	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_1967_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:KE , lcc-3166-1-adj:TZ , lcc-3166-1-adj:UG ;
+	lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"EACSO" ;
+	rgn:hasCurrentVariant	rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2 ;
+	skos:definition	"individual representing the East African Common Services Organization (EACSO)"@en ;
+	tempo:validFrom	"1964-04-26"^^xsd:date ;
+	tempo:validTill	"1967-12-01"^^xsd:date .
+
+rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3
+	owl:sameAs	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2024_0 .
+
+rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_1967_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2000_0 ;
+	dct:source	"https://www.eac.int/"^^xsd:anyURI ;
+	foaf:name	"East African Community" ;
+	geopol:isSuccessorOf	rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2_1964_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:KE , lcc-3166-1-adj:TZ , lcc-3166-1-adj:UG ;
+	lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"EAC" ;
+	rgn:hasCurrentVariant	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3 ;
+	skos:definition	"individual representing the Eastern African Community (EAC)"@en ;
+	tempo:validFrom	"1967-12-01"^^xsd:date ;
+	tempo:validTill	"1977-07-31"^^xsd:date .
+
+rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2000_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2005_0 ;
+	dct:replaces	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_1967_0 ;
+	dct:source	"https://www.eac.int/"^^xsd:anyURI ;
+	foaf:name	"East African Community" ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:KE , lcc-3166-1-adj:TZ , lcc-3166-1-adj:UG ;
+	lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"EAC" ;
+	rgn:hasCurrentVariant	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3 ;
+	skos:definition	"individual representing the Eastern African Community (EAC)"@en ;
+	tempo:validFrom	"2000-07-07"^^xsd:date ;
+	tempo:validTill	"2005-01-01"^^xsd:date .
+
+rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2005_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2007_0 ;
+	dct:replaces	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2000_0 ;
+	dct:source	"https://www.eac.int/"^^xsd:anyURI ;
+	foaf:name	"East African Community" ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:KE , lcc-3166-1-adj:TZ , lcc-3166-1-adj:UG ;
+	lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"EAC" ;
+	rgn:hasCurrentVariant	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3 ;
+	skos:definition	"individual representing the Eastern African Community (EAC)"@en ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-07-01"^^xsd:date .
+
+rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2007_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2016_0 ;
+	dct:replaces	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2005_0 ;
+	dct:source	"https://www.eac.int/"^^xsd:anyURI ;
+	foaf:name	"East African Community" ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BI , lcc-3166-1-adj:KE , lcc-3166-1-adj:RW , lcc-3166-1-adj:TZ , lcc-3166-1-adj:UG ;
+	lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"EAC" ;
+	rgn:hasCurrentVariant	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3 ;
+	skos:definition	"individual representing the Eastern African Community (EAC)"@en ;
+	tempo:validFrom	"2007-07-01"^^xsd:date ;
+	tempo:validTill	"2016-09-05"^^xsd:date .
+
+rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2016_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2022_0 ;
+	dct:replaces	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2007_0 ;
+	dct:source	"https://www.eac.int/"^^xsd:anyURI ;
+	foaf:name	"East African Community" ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BI , lcc-3166-1-adj:KE , lcc-3166-1-adj:RW , lcc-3166-1-adj:SS , lcc-3166-1-adj:TZ , lcc-3166-1-adj:UG ;
+	lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"EAC" ;
+	rgn:hasCurrentVariant	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3 ;
+	skos:definition	"individual representing the Eastern African Community (EAC)"@en ;
+	tempo:validFrom	"2016-09-05"^^xsd:date ;
+	tempo:validTill	"2022-04-08"^^xsd:date .
+
+rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2022_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2024_0 ;
+	dct:replaces	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2016_0 ;
+	dct:source	"https://www.eac.int/"^^xsd:anyURI ;
+	foaf:name	"East African Community" ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BI , lcc-3166-1-adj:CD , lcc-3166-1-adj:KE , lcc-3166-1-adj:RW , lcc-3166-1-adj:SS , lcc-3166-1-adj:TZ , lcc-3166-1-adj:UG ;
+	lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"EAC" ;
+	rgn:hasCurrentVariant	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3 ;
+	skos:definition	"individual representing the Eastern African Community (EAC)"@en ;
+	tempo:validFrom	"2022-04-08"^^xsd:date ;
+	tempo:validTill	"2024-03-04"^^xsd:date .
+
+rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2024_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:replaces	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2022_0 ;
+	dct:source	"https://www.eac.int/"^^xsd:anyURI ;
+	foaf:name	"East African Community" ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BI , lcc-3166-1-adj:CD , lcc-3166-1-adj:KE , lcc-3166-1-adj:RW , lcc-3166-1-adj:SO , lcc-3166-1-adj:SS , lcc-3166-1-adj:TZ , lcc-3166-1-adj:UG ;
+	lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"EAC" ;
+	rgn:hasCurrentVariant	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3 ;
+	skos:definition	"individual representing the Eastern African Community (EAC)"@en ;
+	tempo:validFrom	"2024-03-04"^^xsd:date .

@@ -336,6 +336,15 @@ lcc-3166-1-adj:BI
 		skos:definition	"individual representing the precursor to COMESA, established in 1981"@en ;
 		tempo:validFrom	"1982-09-30"^^xsd:date ;
 		tempo:validTill	"1994-12-08"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.eac.int/"^^xsd:anyURI ;
+		foaf:name	"East African Community" ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3 ;
+		rdfs:label	"EAC" ;
+		skos:definition	"individual representing the Eastern African Community (EAC)"@en ;
+		tempo:validFrom	"2007-07-01"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:BJ
@@ -488,6 +497,15 @@ lcc-3166-1-adj:CD
 		skos:definition	"individual representing the precursor to COMESA, established in 1981"@en ;
 		tempo:validFrom	"1982-09-30"^^xsd:date ;
 		tempo:validTill	"1994-12-08"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.eac.int/"^^xsd:anyURI ;
+		foaf:name	"East African Community" ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3 ;
+		rdfs:label	"EAC" ;
+		skos:definition	"individual representing the Eastern African Community (EAC)"@en ;
+		tempo:validFrom	"2022-04-08"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:CF
@@ -1133,6 +1151,26 @@ lcc-3166-1-adj:KE
 		skos:definition	"individual representing the precursor to COMESA, established in 1981"@en ;
 		tempo:validFrom	"1982-09-30"^^xsd:date ;
 		tempo:validTill	"1994-12-08"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.eac.int/"^^xsd:anyURI ;
+		foaf:name	"East African Common Services Organization" ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2 ;
+		rdfs:label	"EACSO" ;
+		skos:definition	"individual representing the East African Common Services Organization (EACSO)"@en ;
+		tempo:validFrom	"1963-12-12"^^xsd:date ;
+		tempo:validTill	"1967-12-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.eac.int/"^^xsd:anyURI ;
+		foaf:name	"East African Community" ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3 ;
+		rdfs:label	"EAC" ;
+		skos:definition	"individual representing the Eastern African Community (EAC)"@en ;
+		tempo:validFrom	"1967-12-01"^^xsd:date , "2000-07-07"^^xsd:date ;
+		tempo:validTill	"1977-07-31"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:KH
@@ -1999,6 +2037,15 @@ lcc-3166-1-adj:RW
 		skos:definition	"individual representing the precursor to COMESA, established in 1981"@en ;
 		tempo:validFrom	"1982-09-30"^^xsd:date ;
 		tempo:validTill	"1994-12-08"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.eac.int/"^^xsd:anyURI ;
+		foaf:name	"East African Community" ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3 ;
+		rdfs:label	"EAC" ;
+		skos:definition	"individual representing the Eastern African Community (EAC)"@en ;
+		tempo:validFrom	"2007-07-01"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:SA
@@ -2180,6 +2227,15 @@ lcc-3166-1-adj:SO
 		rdfs:label	"COMESA"@en ;
 		skos:definition	"individual representing COMESA"@en ;
 		tempo:validFrom	"2018-07-19"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.eac.int/"^^xsd:anyURI ;
+		foaf:name	"East African Community" ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3 ;
+		rdfs:label	"EAC" ;
+		skos:definition	"individual representing the Eastern African Community (EAC)"@en ;
+		tempo:validFrom	"2024-03-04"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:SR
@@ -2193,6 +2249,19 @@ lcc-3166-1-adj:SR
 		rdfs:label	"CARICOM" ;
 		skos:definition	"individual representing CARICOM"@en ;
 		tempo:validFrom	"1995-07-04"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:SS
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.eac.int/"^^xsd:anyURI ;
+		foaf:name	"East African Community" ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3 ;
+		rdfs:label	"EAC" ;
+		skos:definition	"individual representing the Eastern African Community (EAC)"@en ;
+		tempo:validFrom	"2016-09-05"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:SZ
@@ -2347,6 +2416,26 @@ lcc-3166-1-adj:TZ
 		skos:definition	"individual representing COMESA"@en ;
 		tempo:validFrom	"1994-12-08"^^xsd:date ;
 		tempo:validTill	"2001-09-02"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.eac.int/"^^xsd:anyURI ;
+		foaf:name	"East African Common Services Organization" ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2 ;
+		rdfs:label	"EACSO" ;
+		skos:definition	"individual representing the East African Common Services Organization (EACSO)"@en ;
+		tempo:validFrom	"1964-04-26"^^xsd:date ;
+		tempo:validTill	"1967-12-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.eac.int/"^^xsd:anyURI ;
+		foaf:name	"East African Community" ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3 ;
+		rdfs:label	"EAC" ;
+		skos:definition	"individual representing the Eastern African Community (EAC)"@en ;
+		tempo:validFrom	"1967-12-01"^^xsd:date , "2000-07-07"^^xsd:date ;
+		tempo:validTill	"1977-07-31"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:UG
@@ -2370,6 +2459,26 @@ lcc-3166-1-adj:UG
 		skos:definition	"individual representing the precursor to COMESA, established in 1981"@en ;
 		tempo:validFrom	"1982-09-30"^^xsd:date ;
 		tempo:validTill	"1994-12-08"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.eac.int/"^^xsd:anyURI ;
+		foaf:name	"East African Common Services Organization" ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2 ;
+		rdfs:label	"EACSO" ;
+		skos:definition	"individual representing the East African Common Services Organization (EACSO)"@en ;
+		tempo:validFrom	"1962-10-09"^^xsd:date ;
+		tempo:validTill	"1967-12-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.eac.int/"^^xsd:anyURI ;
+		foaf:name	"East African Community" ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3 ;
+		rdfs:label	"EAC" ;
+		skos:definition	"individual representing the Eastern African Community (EAC)"@en ;
+		tempo:validFrom	"1967-12-01"^^xsd:date , "2000-07-07"^^xsd:date ;
+		tempo:validTill	"1977-07-31"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:US
@@ -2625,6 +2734,30 @@ lcc-3166-3-adj:GEHH
 		tempo:validTill	"1979-07-09"^^xsd:date ;
 	] .
 
+wd:Q1097943
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.eac.int/"^^xsd:anyURI ;
+		foaf:name	"East Africa High Commission" ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJ9N0CD1RPVJ1WTSJ7CBF5Q0 ;
+		rdfs:label	"EAHC" ;
+		skos:definition	"individual representing the East Africa High Commission (EAHC)"@en ;
+		tempo:validFrom	"1948-01-01"^^xsd:date ;
+		tempo:validTill	"1961-12-09"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.eac.int/"^^xsd:anyURI ;
+		foaf:name	"East African Common Services Organization" ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2 ;
+		rdfs:label	"EACSO" ;
+		skos:definition	"individual representing the East African Common Services Organization (EACSO)"@en ;
+		tempo:validFrom	"1961-12-09"^^xsd:date ;
+		tempo:validTill	"1962-10-09"^^xsd:date ;
+	] .
+
 wd:Q1479726
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -2635,6 +2768,20 @@ wd:Q1479726
 		skos:definition	"individual representing the Association of Southeast Asia"@en ;
 		tempo:validFrom	"1961-07-31"^^xsd:date ;
 		tempo:validTill	"1967-08-08"^^xsd:date ;
+	] .
+
+wd:Q158725
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.eac.int/"^^xsd:anyURI ;
+		foaf:name	"East Africa High Commission" ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJ9N0CD1RPVJ1WTSJ7CBF5Q0 ;
+		rdfs:label	"EAHC" ;
+		skos:definition	"individual representing the East Africa High Commission (EAHC)"@en ;
+		tempo:validFrom	"1948-01-01"^^xsd:date ;
+		tempo:validTill	"1961-12-09"^^xsd:date ;
 	] .
 
 wd:Q183416
@@ -2703,6 +2850,30 @@ wd:Q2340665
 		tempo:validTill	"1970-03-01"^^xsd:date ;
 	] .
 
+wd:Q2538511
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.eac.int/"^^xsd:anyURI ;
+		foaf:name	"East Africa High Commission" ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJ9N0CD1RPVJ1WTSJ7CBF5Q0 ;
+		rdfs:label	"EAHC" ;
+		skos:definition	"individual representing the East Africa High Commission (EAHC)"@en ;
+		tempo:validFrom	"1948-01-01"^^xsd:date ;
+		tempo:validTill	"1961-12-09"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.eac.int/"^^xsd:anyURI ;
+		foaf:name	"East African Common Services Organization" ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2 ;
+		rdfs:label	"EACSO" ;
+		skos:definition	"individual representing the East African Common Services Organization (EACSO)"@en ;
+		tempo:validFrom	"1961-12-09"^^xsd:date ;
+		tempo:validTill	"1963-12-12"^^xsd:date ;
+	] .
+
 wd:Q29971
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -2725,6 +2896,20 @@ wd:Q29971
 		skos:definition	"individual representing the Eastern Caribbean Currency Authority (ECCA)"@en ;
 		tempo:validFrom	"1965-10-06"^^xsd:date ;
 		tempo:validTill	"1967-03-01"^^xsd:date ;
+	] .
+
+wd:Q431731
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.eac.int/"^^xsd:anyURI ;
+		foaf:name	"East African Common Services Organization" ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2 ;
+		rdfs:label	"EACSO" ;
+		skos:definition	"individual representing the East African Common Services Organization (EACSO)"@en ;
+		tempo:validFrom	"1961-12-09"^^xsd:date ;
+		tempo:validTill	"1964-04-26"^^xsd:date ;
 	] .
 
 wd:Q747314

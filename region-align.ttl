@@ -176,3 +176,15 @@ rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5_align
 	pav:createdOn	"2026-02-24T15:46:58Z"^^xsd:date ;
 	pav:lastRefreshedOn	"2026-02-24T15:46:58Z"^^xsd:date ;
 	skal:constituent	<http://eurovoc.europa.eu/8403> , <http://publications.europa.eu/resource/authority/corporate-body/SACU> , rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5 , wd:Q1344350 .
+
+rgn:r01KJ9N0CD1RPVJ1WTSJ7CBF5Q0_align
+	a	skal:ExactMatch ;
+	pav:createdOn	"2026-02-25T15:46:58Z"^^xsd:date ;
+	pav:lastRefreshedOn	"2026-02-25T15:46:58Z"^^xsd:date ;
+	skal:constituent	rgn:r01KJ9N0CD1RPVJ1WTSJ7CBF5Q0 , wd:Q63616623 .
+
+rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_align
+	a	skal:ExactMatch ;
+	pav:createdOn	"2026-02-24T15:46:58Z"^^xsd:date ;
+	pav:lastRefreshedOn	"2026-02-24T15:46:58Z"^^xsd:date ;
+	skal:constituent	<http://eurovoc.europa.eu/5017> , <http://publications.europa.eu/resource/authority/corporate-body/EACOM> , rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3 , wd:Q337456 .

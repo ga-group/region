@@ -1169,3 +1169,116 @@ rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5_1990_0_delta
 	delta:subject-old	rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5_1970_0 ;
 	prov:generatedAtTime	"2026-02-25T05:12:21.890182"^^xsd:dateTime ;
 	rdf:subject	rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5_1990_0 .
+
+rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2_1962_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	wd:Q1097943 ;
+		delta:insertion	lcc-3166-1-adj:UG ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2_1962_0 ;
+	delta:subject-old	rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2_1961_0 ;
+	prov:generatedAtTime	"2026-02-25T09:01:55.054014"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2_1962_0 .
+
+rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2_1963_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	wd:Q2538511 ;
+		delta:insertion	lcc-3166-1-adj:KE ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2_1963_0 ;
+	delta:subject-old	rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2_1962_0 ;
+	prov:generatedAtTime	"2026-02-25T09:01:55.054014"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2_1963_0 .
+
+rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2_1964_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	wd:Q431731 ;
+		delta:insertion	lcc-3166-1-adj:TZ ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2_1964_0 ;
+	delta:subject-old	rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2_1963_0 ;
+	prov:generatedAtTime	"2026-02-25T09:01:55.054014"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2_1964_0 .
+
+rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2000_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	rgn:CustomsUnion ;
+		delta:insertion	rgn:TradeBloc ;
+		rdf:predicate	lcc-cr:isClassifiedBy ;
+	] ;
+	delta:subject-new	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2000_0 ;
+	delta:subject-old	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_1967_0 ;
+	prov:generatedAtTime	"2026-02-25T09:01:55.054014"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2000_0 .
+
+rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2005_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	rgn:TradeBloc ;
+		delta:insertion	rgn:CustomsUnion ;
+		rdf:predicate	lcc-cr:isClassifiedBy ;
+	] ;
+	delta:subject-new	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2005_0 ;
+	delta:subject-old	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2000_0 ;
+	prov:generatedAtTime	"2026-02-25T09:01:55.054014"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2005_0 .
+
+rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2007_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:BI , lcc-3166-1-adj:RW ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2007_0 ;
+	delta:subject-old	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2005_0 ;
+	prov:generatedAtTime	"2026-02-25T09:01:55.054014"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2007_0 .
+
+rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2016_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:SS ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2016_0 ;
+	delta:subject-old	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2007_0 ;
+	prov:generatedAtTime	"2026-02-25T09:01:55.054014"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2016_0 .
+
+rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2022_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:CD ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2022_0 ;
+	delta:subject-old	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2016_0 ;
+	prov:generatedAtTime	"2026-02-25T09:01:55.054014"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2022_0 .
+
+rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2024_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:SO ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2024_0 ;
+	delta:subject-old	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2022_0 ;
+	prov:generatedAtTime	"2026-02-25T09:01:55.054014"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2024_0 .

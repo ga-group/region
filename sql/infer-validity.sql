@@ -12,6 +12,9 @@ INSERT {
 WHERE {
 	?x dct:isReplacedBy ?y .
 	?y tempo:validFrom ?from .
+	FILTER NOT EXISTS {
+	?x tempo:validTill ?any
+	}
 }
 ;
 ECHO $ROWCNT"\n";
