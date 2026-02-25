@@ -170,3 +170,9 @@ rgn:r01KJ72TWJBTJZZD9F9BM7BC211_align
 	pav:createdOn	"2026-02-24T15:46:58Z"^^xsd:date ;
 	pav:lastRefreshedOn	"2026-02-24T15:46:58Z"^^xsd:date ;
 	skal:constituent	<http://publications.europa.eu/resource/authority/corporate-body/CEFTA> , rgn:r01KJ72TWJBTJZZD9F9BM7BC211 , wd:Q319014 .
+
+rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5_align
+	a	skal:ExactMatch ;
+	pav:createdOn	"2026-02-24T15:46:58Z"^^xsd:date ;
+	pav:lastRefreshedOn	"2026-02-24T15:46:58Z"^^xsd:date ;
+	skal:constituent	<http://eurovoc.europa.eu/8403> , <http://publications.europa.eu/resource/authority/corporate-body/SACU> , rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5 , wd:Q1344350 .

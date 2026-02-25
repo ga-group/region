@@ -1144,3 +1144,28 @@ rgn:r01KJ72TWJBTJZZD9F9BM7BC211_2013_0_delta
 	delta:subject-old	rgn:r01KJ72TWJBTJZZD9F9BM7BC211_2007_1 ;
 	prov:generatedAtTime	"2026-02-24T10:28:28.650381"^^xsd:dateTime ;
 	rdf:subject	rgn:r01KJ72TWJBTJZZD9F9BM7BC211_2013_0 .
+
+rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5_1970_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	wd:Q193619 , wd:Q21815946 , wd:Q2340665 , wd:Q747314 ;
+		delta:insertion	lcc-3166-1-adj:BW , lcc-3166-1-adj:LS , lcc-3166-1-adj:SZ , lcc-3166-1-adj:ZA ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5_1970_0 ;
+	delta:subject-old	rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5_1910_0 ;
+	prov:generatedAtTime	"2026-02-25T05:12:21.890182"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5_1970_0 .
+
+rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5_1990_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:NA ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5_1990_0 ;
+	delta:subject-old	rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5_1970_0 ;
+	prov:generatedAtTime	"2026-02-25T05:12:21.890182"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5_1990_0 .

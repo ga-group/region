@@ -42,6 +42,15 @@ rgn:
 	vann:preferredNamespacePrefix	"rgn" ;
 	vann:preferredNamespaceUri	"http://data.ga-group.nl/region/"^^xsd:anyURI .
 
+rgn:CustomsUnion
+	a	lcc-cr:GeographicRegionKind ;
+	a	owl:NamedIndividual ;
+	pav:createdOn	"2026-02-12T12:54:29Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"customs union"@en ;
+	skos:definition	"the kind of region that is a customs union"@en .
+
 rgn:EconomicUnion
 	a	lcc-cr:GeographicRegionKind ;
 	a	owl:NamedIndividual ;
@@ -2092,3 +2101,57 @@ rgn:r01KJ72TWJBTJZZD9F9BM7BC211_2013_0
 	rgn:hasCurrentVariant	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
 	skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
 	tempo:validFrom	"2013-07-01"^^xsd:date .
+
+rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5
+	owl:sameAs	rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5_1990_0 .
+
+rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5_1910_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5_1970_0 ;
+	dct:source	"https://www.sacu.int/"^^xsd:anyURI ;
+	foaf:name	"Southern African Customs Union" ;
+	lcc-cr:hasSubregion	wd:Q193619 , wd:Q21815946 , wd:Q2340665 , wd:Q747314 ;
+	lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"SACU" ;
+	rgn:hasCurrentVariant	rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5 ;
+	skos:definition	"individual representing the Southern African Customs Union (SACU)"@en ;
+	tempo:validFrom	"1910-07-01"^^xsd:date ;
+	tempo:validTill	"1970-03-01"^^xsd:date .
+
+rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5_1970_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5_1990_0 ;
+	dct:replaces	rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5_1910_0 ;
+	dct:source	"https://www.sacu.int/"^^xsd:anyURI ;
+	foaf:name	"Southern African Customs Union" ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BW , lcc-3166-1-adj:LS , lcc-3166-1-adj:SZ , lcc-3166-1-adj:ZA ;
+	lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"SACU" ;
+	rgn:hasCurrentVariant	rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5 ;
+	skos:definition	"individual representing the Southern African Customs Union (SACU)"@en ;
+	tempo:validFrom	"1970-03-01"^^xsd:date ;
+	tempo:validTill	"1990-03-21"^^xsd:date .
+
+rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5_1990_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:replaces	rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5_1970_0 ;
+	dct:source	"https://www.sacu.int/"^^xsd:anyURI ;
+	foaf:name	"Southern African Customs Union" ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BW , lcc-3166-1-adj:LS , lcc-3166-1-adj:NA , lcc-3166-1-adj:SZ , lcc-3166-1-adj:ZA ;
+	lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	rdfs:label	"SACU" ;
+	rgn:hasCurrentVariant	rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5 ;
+	skos:definition	"individual representing the Southern African Customs Union (SACU)"@en ;
+	tempo:validFrom	"1990-03-21"^^xsd:date .
