@@ -57,3 +57,38 @@ WHERE {
 }
 LIMIT 10000
 ;
+
+SPARQL
+DEFINE output:format "NICE_TTL"
+PREFIX tempo: <http://purl.org/tempo/>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX rgn: <http://data.ga-group.nl/region/>
+
+CONSTRUCT {
+rgn:cons.unaligned.rpt
+	a sh:ValidationReport ;
+	sh:conforms false ;
+	sh:result [
+		a sh:ValidationResult ;
+		sh:focusNode ?this ;
+		sh:resultMessage "focusNode is unaligned" ;
+		sh:resultSeverity sh:Warning ;
+		sh:sourceShape rgn:cons.unaligned ;
+	] .
+}
+FROM <$u{GRAPH}>
+FROM <http://data.ga-group.nl/region.align/>
+WHERE {
+	{
+	SELECT ?this
+	WHERE {
+	[] rgn:hasCurrentVariant ?this .
+	}
+	GROUP BY ?this
+	}
+	FILTER NOT EXISTS {
+	[] skal:constituent ?this
+	}
+}
+LIMIT 10000
+;

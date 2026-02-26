@@ -1282,3 +1282,127 @@ rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2024_0_delta
 	delta:subject-old	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2022_0 ;
 	prov:generatedAtTime	"2026-02-25T09:01:55.054014"^^xsd:dateTime ;
 	rdf:subject	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2024_0 .
+
+rgn:r01KJARMBCKBYKA7N095DR81NA4_1973_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:DK , lcc-3166-1-adj:GB , lcc-3166-1-adj:IE ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KJARMBCKBYKA7N095DR81NA4_1973_0 ;
+	delta:subject-old	rgn:r01KJARMBCKBYKA7N095DR81NA4_1958_0 ;
+	prov:generatedAtTime	"2026-02-26T13:19:06.361837"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KJARMBCKBYKA7N095DR81NA4_1973_0 .
+
+rgn:r01KJARMBCKBYKA7N095DR81NA4_1981_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:GR ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KJARMBCKBYKA7N095DR81NA4_1981_0 ;
+	delta:subject-old	rgn:r01KJARMBCKBYKA7N095DR81NA4_1973_0 ;
+	prov:generatedAtTime	"2026-02-26T13:19:06.361837"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KJARMBCKBYKA7N095DR81NA4_1981_0 .
+
+rgn:r01KJARMBCKBYKA7N095DR81NA4_1986_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:ES , lcc-3166-1-adj:PT ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KJARMBCKBYKA7N095DR81NA4_1986_0 ;
+	delta:subject-old	rgn:r01KJARMBCKBYKA7N095DR81NA4_1981_0 ;
+	prov:generatedAtTime	"2026-02-26T13:19:06.361837"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KJARMBCKBYKA7N095DR81NA4_1986_0 .
+
+rgn:r01KJARMBCKBYKA7N095DR81NA4_1993_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	"European Economic Community"@en ;
+		delta:insertion	"European Community"@en ;
+		rdf:predicate	foaf:name ;
+	] , [
+		a	delta:Hunk ;
+		delta:deletion	"individual representing the European Economic Community"@en ;
+		delta:insertion	"individual representing the European Community"@en ;
+		rdf:predicate	skos:definition ;
+	] , [
+		a	delta:Hunk ;
+		delta:deletion	lcc-3166-1-adj:BE , lcc-3166-1-adj:DE , lcc-3166-1-adj:DK , lcc-3166-1-adj:ES , lcc-3166-1-adj:FR , lcc-3166-1-adj:GB , lcc-3166-1-adj:GR , lcc-3166-1-adj:IE , lcc-3166-1-adj:IT , lcc-3166-1-adj:LU , lcc-3166-1-adj:NL , lcc-3166-1-adj:PT ;
+		delta:insertion	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_1993_0 ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] , [
+		a	delta:Hunk ;
+		delta:deletion	"EEC" ;
+		delta:insertion	"EC" ;
+		rdf:predicate	rdfs:label ;
+	] ;
+	delta:subject-new	rgn:r01KJARMBCKBYKA7N095DR81NA4_1993_0 ;
+	delta:subject-old	rgn:r01KJARMBCKBYKA7N095DR81NA4_1986_0 ;
+	prov:generatedAtTime	"2026-02-26T13:19:06.361837"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KJARMBCKBYKA7N095DR81NA4_1993_0 .
+
+rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_1995_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:AT , lcc-3166-1-adj:FI , lcc-3166-1-adj:SE ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_1995_0 ;
+	delta:subject-old	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_1993_0 ;
+	prov:generatedAtTime	"2026-02-26T13:19:06.361837"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_1995_0 .
+
+rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_2004_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:CY , lcc-3166-1-adj:CZ , lcc-3166-1-adj:EE , lcc-3166-1-adj:HU , lcc-3166-1-adj:LT , lcc-3166-1-adj:LV , lcc-3166-1-adj:MT , lcc-3166-1-adj:PL , lcc-3166-1-adj:SI , lcc-3166-1-adj:SK ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_2004_0 ;
+	delta:subject-old	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_1995_0 ;
+	prov:generatedAtTime	"2026-02-26T13:19:06.361837"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_2004_0 .
+
+rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_2007_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:BG , lcc-3166-1-adj:RO ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_2007_0 ;
+	delta:subject-old	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_2004_0 ;
+	prov:generatedAtTime	"2026-02-26T13:19:06.361837"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_2007_0 .
+
+rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_2013_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:HR ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_2013_0 ;
+	delta:subject-old	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_2007_0 ;
+	prov:generatedAtTime	"2026-02-26T13:55:33.890418"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_2013_0 .
+
+rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_2020_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	lcc-3166-1-adj:GB ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_2020_0 ;
+	delta:subject-old	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_2013_0 ;
+	prov:generatedAtTime	"2026-02-26T13:55:33.890418"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_2020_0 .

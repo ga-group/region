@@ -100,6 +100,7 @@ rgn:r01KH8R0PYDTV2B66AGWN37WS55
 	owl:sameAs	lcc-m49:World ;
 	pav:createdOn	"2026-02-12T12:54:29Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-12T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"World"@en ;
 	rgn:hasCurrentVariant	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	skos:definition	"the top individual that every region is a subregion of"@en .
@@ -910,6 +911,7 @@ rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_1994_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"COMESA"@en ;
 	rgn:hasCurrentVariant	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 	skos:definition	"individual representing COMESA"@en ;
@@ -928,6 +930,7 @@ rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_1997_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"COMESA"@en ;
 	rgn:hasCurrentVariant	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 	skos:definition	"individual representing COMESA"@en ;
@@ -946,6 +949,7 @@ rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_1999_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"COMESA"@en ;
 	rgn:hasCurrentVariant	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 	skos:definition	"individual representing COMESA"@en ;
@@ -964,6 +968,7 @@ rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2001_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"COMESA"@en ;
 	rgn:hasCurrentVariant	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 	skos:definition	"individual representing COMESA"@en ;
@@ -982,6 +987,7 @@ rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2001_1
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"COMESA"@en ;
 	rgn:hasCurrentVariant	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 	skos:definition	"individual representing COMESA"@en ;
@@ -1000,6 +1006,7 @@ rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2004_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"COMESA"@en ;
 	rgn:hasCurrentVariant	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 	skos:definition	"individual representing COMESA"@en ;
@@ -1018,6 +1025,7 @@ rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2005_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"COMESA"@en ;
 	rgn:hasCurrentVariant	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 	skos:definition	"individual representing COMESA"@en ;
@@ -1036,6 +1044,7 @@ rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2007_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"COMESA"@en ;
 	rgn:hasCurrentVariant	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 	skos:definition	"individual representing COMESA"@en ;
@@ -1053,6 +1062,7 @@ rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ_2018_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-18T00:00:00Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"COMESA"@en ;
 	rgn:hasCurrentVariant	rgn:r01KHRN39ADJBJG9K6NQCWMT4JJ ;
 	skos:definition	"individual representing COMESA"@en ;
@@ -1072,6 +1082,7 @@ rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1973_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"CARICOM" ;
 	rgn:hasCurrentVariant	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
 	skos:definition	"individual representing CARICOM"@en ;
@@ -1090,6 +1101,7 @@ rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1974_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"CARICOM" ;
 	rgn:hasCurrentVariant	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
 	skos:definition	"individual representing CARICOM"@en ;
@@ -1108,6 +1120,7 @@ rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1974_1
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"CARICOM" ;
 	rgn:hasCurrentVariant	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
 	skos:definition	"individual representing CARICOM"@en ;
@@ -1126,6 +1139,7 @@ rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1974_2
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"CARICOM" ;
 	rgn:hasCurrentVariant	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
 	skos:definition	"individual representing CARICOM"@en ;
@@ -1144,6 +1158,7 @@ rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1983_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"CARICOM" ;
 	rgn:hasCurrentVariant	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
 	skos:definition	"individual representing CARICOM"@en ;
@@ -1162,6 +1177,7 @@ rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_1995_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"CARICOM" ;
 	rgn:hasCurrentVariant	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
 	skos:definition	"individual representing CARICOM"@en ;
@@ -1179,6 +1195,7 @@ rgn:r01KHTSXNXE30ZGFCGGJTP77EBS_2002_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"CARICOM" ;
 	rgn:hasCurrentVariant	rgn:r01KHTSXNXE30ZGFCGGJTP77EBS ;
 	skos:definition	"individual representing CARICOM"@en ;
@@ -1198,6 +1215,7 @@ rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1969_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"PA" ;
 	rgn:hasCurrentVariant	rgn:r01KHV4VB0HT5E1MNHHF861K9E2 ;
 	skos:definition	"individual representing the Andean Pact"@en ;
@@ -1216,6 +1234,7 @@ rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1973_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"PA" ;
 	rgn:hasCurrentVariant	rgn:r01KHV4VB0HT5E1MNHHF861K9E2 ;
 	skos:definition	"individual representing the Andean Pact"@en ;
@@ -1234,6 +1253,7 @@ rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1976_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"PA" ;
 	rgn:hasCurrentVariant	rgn:r01KHV4VB0HT5E1MNHHF861K9E2 ;
 	skos:definition	"individual representing the Andean Pact"@en ;
@@ -1252,6 +1272,7 @@ rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1992_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"PA" ;
 	rgn:hasCurrentVariant	rgn:r01KHV4VB0HT5E1MNHHF861K9E2 ;
 	skos:definition	"individual representing the Andean Pact"@en ;
@@ -1270,6 +1291,7 @@ rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1996_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"CAN" ;
 	rgn:hasCurrentVariant	rgn:r01KHV4VB0HT5E1MNHHF861K9E2 ;
 	skos:definition	"individual representing the Andean Community (CAN)"@en ;
@@ -1288,6 +1310,7 @@ rgn:r01KHV4VB0HT5E1MNHHF861K9E2_1997_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"CAN" ;
 	rgn:hasCurrentVariant	rgn:r01KHV4VB0HT5E1MNHHF861K9E2 ;
 	skos:definition	"individual representing the Andean Community (CAN)"@en ;
@@ -1305,6 +1328,7 @@ rgn:r01KHV4VB0HT5E1MNHHF861K9E2_2006_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-19T11:19:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"CAN" ;
 	rgn:hasCurrentVariant	rgn:r01KHV4VB0HT5E1MNHHF861K9E2 ;
 	skos:definition	"individual representing the Andean Community (CAN)"@en ;
@@ -1324,6 +1348,7 @@ rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_1993_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-20T11:19:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-20T11:19:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"Mercosul"@pt , "Mercosur" , "Mercosur"@es ;
 	rgn:hasCurrentVariant	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A ;
 	skos:definition	"individual representing the Common Market of the South (Mercosur)"@en ;
@@ -1342,6 +1367,7 @@ rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2012_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-20T11:19:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-20T11:19:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"Mercosul"@pt , "Mercosur" , "Mercosur"@es ;
 	rgn:hasCurrentVariant	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A ;
 	skos:definition	"individual representing the Common Market of the South (Mercosur)"@en ;
@@ -1360,6 +1386,7 @@ rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2012_1
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-20T11:19:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-20T11:19:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"Mercosul"@pt , "Mercosur" , "Mercosur"@es ;
 	rgn:hasCurrentVariant	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A ;
 	skos:definition	"individual representing the Common Market of the South (Mercosur)"@en ;
@@ -1378,6 +1405,7 @@ rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2013_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-20T11:19:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-20T11:19:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"Mercosul"@pt , "Mercosur" , "Mercosur"@es ;
 	rgn:hasCurrentVariant	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A ;
 	skos:definition	"individual representing the Common Market of the South (Mercosur)"@en ;
@@ -1396,6 +1424,7 @@ rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2016_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-20T11:19:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-20T11:19:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"Mercosul"@pt , "Mercosur" , "Mercosur"@es ;
 	rgn:hasCurrentVariant	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A ;
 	skos:definition	"individual representing the Common Market of the South (Mercosur)"@en ;
@@ -1413,6 +1442,7 @@ rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A_2024_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-20T11:19:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-20T11:19:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"Mercosul"@pt , "Mercosur" , "Mercosur"@es ;
 	rgn:hasCurrentVariant	rgn:r01KHWMGZ3H3E3DV3QBZ2NYHW2A ;
 	skos:definition	"individual representing the Common Market of the South (Mercosur)"@en ;
@@ -1432,6 +1462,7 @@ rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1965_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-20T08:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-20T08:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"ECCA" ;
 	rgn:hasCurrentVariant	rgn:r01KHX2E9WSRBXJR976SJB9VVY5 ;
 	skos:definition	"individual representing the Eastern Caribbean Currency Authority (ECCA)"@en ;
@@ -1450,6 +1481,7 @@ rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1967_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-20T08:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-20T08:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"ECCA" ;
 	rgn:hasCurrentVariant	rgn:r01KHX2E9WSRBXJR976SJB9VVY5 ;
 	skos:definition	"individual representing the Eastern Caribbean Currency Authority (ECCA)"@en ;
@@ -1468,6 +1500,7 @@ rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1968_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-20T08:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-20T08:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"ECCA" ;
 	rgn:hasCurrentVariant	rgn:r01KHX2E9WSRBXJR976SJB9VVY5 ;
 	skos:definition	"individual representing the Eastern Caribbean Currency Authority (ECCA)"@en ;
@@ -1486,6 +1519,7 @@ rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1974_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-20T08:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-20T08:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"ECCA" ;
 	rgn:hasCurrentVariant	rgn:r01KHX2E9WSRBXJR976SJB9VVY5 ;
 	skos:definition	"individual representing the Eastern Caribbean Currency Authority (ECCA)"@en ;
@@ -1503,6 +1537,7 @@ rgn:r01KHX2E9WSRBXJR976SJB9VVY5_1983_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-20T08:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-20T08:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"ECCU" ;
 	rgn:hasCurrentVariant	rgn:r01KHX2E9WSRBXJR976SJB9VVY5 ;
 	skos:definition	"individual representing the Eastern Caribbean Currency Union (ECCU)"@en ;
@@ -1522,6 +1557,7 @@ rgn:r01KHXEQT6CC7PE5J0H643QZ0Q9_1965_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-20T08:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-20T08:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"XCD-zone" ;
 	rgn:hasCurrentVariant	rgn:r01KHXEQT6CC7PE5J0H643QZ0Q9 ;
 	skos:definition	"individual representing the Eastern Caribbean Currency Authority (ECCA)"@en ;
@@ -1539,6 +1575,7 @@ rgn:r01KHXEQT6CC7PE5J0H643QZ0Q9_1967_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-20T08:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-20T08:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"XCD-zone" ;
 	rgn:hasCurrentVariant	rgn:r01KHXEQT6CC7PE5J0H643QZ0Q9 ;
 	skos:definition	"individual representing the Eastern Caribbean Currency Authority (ECCA)"@en ;
@@ -1558,6 +1595,7 @@ rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_1981_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-20T13:27:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-20T13:27:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"OECO"@fr , "OECS" ;
 	rgn:hasCurrentVariant	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 ;
 	skos:definition	"individual representing the Organisation of Eastern Caribbean States (OECS)"@en ;
@@ -1576,6 +1614,7 @@ rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_1984_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-20T13:27:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-20T13:27:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"OECO"@fr , "OECS" ;
 	rgn:hasCurrentVariant	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 ;
 	skos:definition	"individual representing the Organisation of Eastern Caribbean States (OECS)"@en ;
@@ -1594,6 +1633,7 @@ rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_1995_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-20T13:27:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-20T13:27:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"OECO"@fr , "OECS" ;
 	rgn:hasCurrentVariant	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 ;
 	skos:definition	"individual representing the Organisation of Eastern Caribbean States (OECS)"@en ;
@@ -1612,6 +1652,7 @@ rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_2016_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-20T13:27:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-20T13:27:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"OECO"@fr , "OECS" ;
 	rgn:hasCurrentVariant	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 ;
 	skos:definition	"individual representing the Organisation of Eastern Caribbean States (OECS)"@en ;
@@ -1629,6 +1670,7 @@ rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2_2019_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-20T13:27:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-20T13:27:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"OECO"@fr , "OECS" ;
 	rgn:hasCurrentVariant	rgn:r01KHXKKAK9RVR4BXNMK6Z6PNK2 ;
 	skos:definition	"individual representing the Organisation of Eastern Caribbean States (OECS)"@en ;
@@ -1647,6 +1689,7 @@ rgn:r01KHZFZG2DZC1QSNBPMWW9AB7V_1981_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-21T13:27:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-21T13:27:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"GCC" ;
 	rgn:hasCurrentVariant	rgn:r01KHZFZG2DZC1QSNBPMWW9AB7V ;
 	skos:definition	"individual representing the Cooperation Council for the Arab States of the Gulf (GCC)"@en ;
@@ -1666,6 +1709,7 @@ rgn:r01KHZN214KFVTC3DRGVNXK87EN_1994_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-21T13:27:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-21T13:27:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"ALÉNA"@fr , "NAFTA" , "TLCAN"@es ;
 	rgn:hasCurrentVariant	rgn:r01KHZN214KFVTC3DRGVNXK87EN ;
 	skos:definition	"individual representing the North American Free Trade Agreement (NAFTA)"@en ;
@@ -1685,6 +1729,7 @@ rgn:r01KJ1VPTGM2JZW8QGF05NZ39QB_2020_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-21T13:27:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-21T13:27:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"ACEUM"@fr , "T-MEC"@es , "USMCA" ;
 	rgn:hasCurrentVariant	rgn:r01KJ1VPTGM2JZW8QGF05NZ39QB ;
 	skos:definition	"individual representing the United States-Mexico-Canada Agreement (USMCA)"@en ;
@@ -1703,6 +1748,7 @@ rgn:r01KJ1WFQ2KZ8A5230B6SMSP8Y0_1989_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-20T13:27:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-20T13:27:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"CUSFTA" ;
 	rgn:hasCurrentVariant	rgn:r01KJ1WFQ2KZ8A5230B6SMSP8Y0 ;
 	skos:definition	"individual representing the Free Trade Agreement between Canada and the United States of America"@en ;
@@ -1723,6 +1769,7 @@ rgn:r01KJ4S7380KH3G4RA7EM7XJBFA_1966_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-23T08:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-23T08:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"UDEAC" ;
 	rgn:hasCurrentVariant	rgn:r01KJ4S7380KH3G4RA7EM7XJBFA ;
 	skos:definition	"individual representing the Customs and Economic Union of Central Africa"@en ;
@@ -1741,6 +1788,7 @@ rgn:r01KJ4S7380KH3G4RA7EM7XJBFA_1983_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-23T08:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-23T08:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"UDEAC" ;
 	rgn:hasCurrentVariant	rgn:r01KJ4S7380KH3G4RA7EM7XJBFA ;
 	skos:definition	"individual representing the Customs and Economic Union of Central Africa"@en ;
@@ -1758,6 +1806,7 @@ rgn:r01KJ4S7380KH3G4RA7EM7XJBFA_1999_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-23T08:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-23T08:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"CEMAC" ;
 	rgn:hasCurrentVariant	rgn:r01KJ4S7380KH3G4RA7EM7XJBFA ;
 	skos:definition	"individual representing the Economic and Monetary Community of Central Africa (CEMAC), adopters of XAF"@en ;
@@ -1777,6 +1826,7 @@ rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P_1962_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-23T11:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-23T11:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"UMOA" ;
 	rgn:hasCurrentVariant	rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P ;
 	skos:definition	"individual representing the West African Monetary Union (UMOA), adopters of XOF"@en ;
@@ -1795,6 +1845,7 @@ rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P_1963_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-23T11:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-23T11:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"UMOA" ;
 	rgn:hasCurrentVariant	rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P ;
 	skos:definition	"individual representing the West African Monetary Union (UMOA), adopters of XOF"@en ;
@@ -1813,6 +1864,7 @@ rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P_1994_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-23T11:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-23T11:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"UEMOA" ;
 	rgn:hasCurrentVariant	rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P ;
 	skos:definition	"individual representing the West African Economic and Monetary Union (UEMOA), adopters of XOF"@en ;
@@ -1830,6 +1882,7 @@ rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P_1997_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-23T11:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-23T11:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"UEMOA" ;
 	rgn:hasCurrentVariant	rgn:r01KJ54KCTBCTP7BDK6SJYRJY8P ;
 	skos:definition	"individual representing the West African Economic and Monetary Union (UEMOA), adopters of XOF"@en ;
@@ -1848,6 +1901,7 @@ rgn:r01KJ5E5GH4N3CNCVF0EHXH3SW3_2023_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-23T14:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-23T14:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"AES" ;
 	rgn:hasCurrentVariant	rgn:r01KJ5E5GH4N3CNCVF0EHXH3SW3 ;
 	skos:definition	"individual representing the Alliance of Sahel States"@en ;
@@ -1864,6 +1918,7 @@ rgn:r01KJ5E5GH4N3CNCVF0EHXH3SW3_2024_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-23T14:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-23T14:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"AES" ;
 	rgn:hasCurrentVariant	rgn:r01KJ5E5GH4N3CNCVF0EHXH3SW3 ;
 	skos:definition	"individual representing the Confederation of Sahel States"@en ;
@@ -1881,6 +1936,7 @@ rgn:r01KJ6W4F5VW3GH00A6SV8RC6FG_1922_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"BLEU" , "BLEU"@en , "UEBL"@fr ;
 	rgn:hasCurrentVariant	rgn:r01KJ6W4F5VW3GH00A6SV8RC6FG ;
 	skos:definition	"individual representing the Belgium-Luxembourg Economic Union"@en ;
@@ -1900,6 +1956,7 @@ rgn:r01KJ6WZ7XT77T82ZAW2TQW6RB4_1948_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"Benelux" ;
 	rgn:hasCurrentVariant	rgn:r01KJ6WZ7XT77T82ZAW2TQW6RB4 ;
 	skos:definition	"individual representing the Belgium-Netherlands-Luxembourg Union"@en ;
@@ -1917,6 +1974,7 @@ rgn:r01KJ6WZ7XT77T82ZAW2TQW6RB4_2012_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"Benelux" ;
 	rgn:hasCurrentVariant	rgn:r01KJ6WZ7XT77T82ZAW2TQW6RB4 ;
 	skos:definition	"individual representing the Belgium-Netherlands-Luxembourg Union"@en ;
@@ -1936,6 +1994,7 @@ rgn:r01KJ72TWJBTJZZD9F9BM7BC211_1993_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
 	rgn:hasCurrentVariant	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
 	skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
@@ -1954,6 +2013,7 @@ rgn:r01KJ72TWJBTJZZD9F9BM7BC211_1996_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
 	rgn:hasCurrentVariant	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
 	skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
@@ -1972,6 +2032,7 @@ rgn:r01KJ72TWJBTJZZD9F9BM7BC211_1997_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
 	rgn:hasCurrentVariant	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
 	skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
@@ -1990,6 +2051,7 @@ rgn:r01KJ72TWJBTJZZD9F9BM7BC211_1999_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
 	rgn:hasCurrentVariant	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
 	skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
@@ -2008,6 +2070,7 @@ rgn:r01KJ72TWJBTJZZD9F9BM7BC211_2003_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
 	rgn:hasCurrentVariant	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
 	skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
@@ -2026,6 +2089,7 @@ rgn:r01KJ72TWJBTJZZD9F9BM7BC211_2004_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
 	rgn:hasCurrentVariant	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
 	skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
@@ -2044,6 +2108,7 @@ rgn:r01KJ72TWJBTJZZD9F9BM7BC211_2006_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
 	rgn:hasCurrentVariant	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
 	skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
@@ -2062,6 +2127,7 @@ rgn:r01KJ72TWJBTJZZD9F9BM7BC211_2007_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
 	rgn:hasCurrentVariant	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
 	skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
@@ -2080,6 +2146,7 @@ rgn:r01KJ72TWJBTJZZD9F9BM7BC211_2007_1
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
 	rgn:hasCurrentVariant	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
 	skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
@@ -2097,6 +2164,7 @@ rgn:r01KJ72TWJBTJZZD9F9BM7BC211_2013_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
 	rgn:hasCurrentVariant	rgn:r01KJ72TWJBTJZZD9F9BM7BC211 ;
 	skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
@@ -2116,6 +2184,7 @@ rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5_1910_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"SACU" ;
 	rgn:hasCurrentVariant	rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5 ;
 	skos:definition	"individual representing the Southern African Customs Union (SACU)"@en ;
@@ -2134,6 +2203,7 @@ rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5_1970_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"SACU" ;
 	rgn:hasCurrentVariant	rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5 ;
 	skos:definition	"individual representing the Southern African Customs Union (SACU)"@en ;
@@ -2151,6 +2221,7 @@ rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5_1990_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-24T14:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"SACU" ;
 	rgn:hasCurrentVariant	rgn:r01KJ85QQ0M1T8MHTG2WG9WZ2D5 ;
 	skos:definition	"individual representing the Southern African Customs Union (SACU)"@en ;
@@ -2170,6 +2241,7 @@ rgn:r01KJ9N0CD1RPVJ1WTSJ7CBF5Q0_1948_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"EAHC" ;
 	rgn:hasCurrentVariant	rgn:r01KJ9N0CD1RPVJ1WTSJ7CBF5Q0 ;
 	skos:definition	"individual representing the East Africa High Commission (EAHC)"@en ;
@@ -2191,6 +2263,7 @@ rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2_1961_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"EACSO" ;
 	rgn:hasCurrentVariant	rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2 ;
 	skos:definition	"individual representing the East African Common Services Organization (EACSO)"@en ;
@@ -2209,6 +2282,7 @@ rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2_1962_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"EACSO" ;
 	rgn:hasCurrentVariant	rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2 ;
 	skos:definition	"individual representing the East African Common Services Organization (EACSO)"@en ;
@@ -2227,6 +2301,7 @@ rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2_1963_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"EACSO" ;
 	rgn:hasCurrentVariant	rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2 ;
 	skos:definition	"individual representing the East African Common Services Organization (EACSO)"@en ;
@@ -2245,6 +2320,7 @@ rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2_1964_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"EACSO" ;
 	rgn:hasCurrentVariant	rgn:r01KJ9Y2HGSAZ8P0MMX3V2YMWT2 ;
 	skos:definition	"individual representing the East African Common Services Organization (EACSO)"@en ;
@@ -2266,6 +2342,7 @@ rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_1967_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"EAC" ;
 	rgn:hasCurrentVariant	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3 ;
 	skos:definition	"individual representing the Eastern African Community (EAC)"@en ;
@@ -2284,6 +2361,7 @@ rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2000_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"EAC" ;
 	rgn:hasCurrentVariant	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3 ;
 	skos:definition	"individual representing the Eastern African Community (EAC)"@en ;
@@ -2302,6 +2380,7 @@ rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2005_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"EAC" ;
 	rgn:hasCurrentVariant	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3 ;
 	skos:definition	"individual representing the Eastern African Community (EAC)"@en ;
@@ -2320,6 +2399,7 @@ rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2007_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"EAC" ;
 	rgn:hasCurrentVariant	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3 ;
 	skos:definition	"individual representing the Eastern African Community (EAC)"@en ;
@@ -2338,6 +2418,7 @@ rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2016_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"EAC" ;
 	rgn:hasCurrentVariant	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3 ;
 	skos:definition	"individual representing the Eastern African Community (EAC)"@en ;
@@ -2356,6 +2437,7 @@ rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2022_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"EAC" ;
 	rgn:hasCurrentVariant	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3 ;
 	skos:definition	"individual representing the Eastern African Community (EAC)"@en ;
@@ -2373,7 +2455,220 @@ rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_2024_0
 	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
 	pav:createdOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-02-25T14:25:16Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
 	rdfs:label	"EAC" ;
 	rgn:hasCurrentVariant	rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3 ;
 	skos:definition	"individual representing the Eastern African Community (EAC)"@en ;
 	tempo:validFrom	"2024-03-04"^^xsd:date .
+
+rgn:r01KJARMBCKBYKA7N095DR81NA4
+	owl:sameAs	rgn:r01KJARMBCKBYKA7N095DR81NA4_1993_0 .
+
+rgn:r01KJARMBCKBYKA7N095DR81NA4_1958_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJARMBCKBYKA7N095DR81NA4_1973_0 ;
+	dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+	foaf:name	"European Economic Community"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BE , lcc-3166-1-adj:DE , lcc-3166-1-adj:FR , lcc-3166-1-adj:IT , lcc-3166-1-adj:LU , lcc-3166-1-adj:NL ;
+	lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-25T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-25T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"EEC" ;
+	rgn:hasCurrentVariant	rgn:r01KJARMBCKBYKA7N095DR81NA4 ;
+	skos:definition	"individual representing the European Economic Community"@en ;
+	tempo:validFrom	"1958-01-01"^^xsd:date ;
+	tempo:validTill	"1973-01-01"^^xsd:date .
+
+rgn:r01KJARMBCKBYKA7N095DR81NA4_1973_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJARMBCKBYKA7N095DR81NA4_1981_0 ;
+	dct:replaces	rgn:r01KJARMBCKBYKA7N095DR81NA4_1958_0 ;
+	dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+	foaf:name	"European Economic Community"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BE , lcc-3166-1-adj:DE , lcc-3166-1-adj:DK , lcc-3166-1-adj:FR , lcc-3166-1-adj:GB , lcc-3166-1-adj:IE , lcc-3166-1-adj:IT , lcc-3166-1-adj:LU , lcc-3166-1-adj:NL ;
+	lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-25T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-25T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"EEC" ;
+	rgn:hasCurrentVariant	rgn:r01KJARMBCKBYKA7N095DR81NA4 ;
+	skos:definition	"individual representing the European Economic Community"@en ;
+	tempo:validFrom	"1973-01-01"^^xsd:date ;
+	tempo:validTill	"1981-01-01"^^xsd:date .
+
+rgn:r01KJARMBCKBYKA7N095DR81NA4_1981_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJARMBCKBYKA7N095DR81NA4_1986_0 ;
+	dct:replaces	rgn:r01KJARMBCKBYKA7N095DR81NA4_1973_0 ;
+	dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+	foaf:name	"European Economic Community"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BE , lcc-3166-1-adj:DE , lcc-3166-1-adj:DK , lcc-3166-1-adj:FR , lcc-3166-1-adj:GB , lcc-3166-1-adj:GR , lcc-3166-1-adj:IE , lcc-3166-1-adj:IT , lcc-3166-1-adj:LU , lcc-3166-1-adj:NL ;
+	lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-25T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-25T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"EEC" ;
+	rgn:hasCurrentVariant	rgn:r01KJARMBCKBYKA7N095DR81NA4 ;
+	skos:definition	"individual representing the European Economic Community"@en ;
+	tempo:validFrom	"1981-01-01"^^xsd:date ;
+	tempo:validTill	"1986-01-01"^^xsd:date .
+
+rgn:r01KJARMBCKBYKA7N095DR81NA4_1986_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJARMBCKBYKA7N095DR81NA4_1993_0 ;
+	dct:replaces	rgn:r01KJARMBCKBYKA7N095DR81NA4_1981_0 ;
+	dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+	foaf:name	"European Economic Community"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BE , lcc-3166-1-adj:DE , lcc-3166-1-adj:DK , lcc-3166-1-adj:ES , lcc-3166-1-adj:FR , lcc-3166-1-adj:GB , lcc-3166-1-adj:GR , lcc-3166-1-adj:IE , lcc-3166-1-adj:IT , lcc-3166-1-adj:LU , lcc-3166-1-adj:NL , lcc-3166-1-adj:PT ;
+	lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-25T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-25T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"EEC" ;
+	rgn:hasCurrentVariant	rgn:r01KJARMBCKBYKA7N095DR81NA4 ;
+	skos:definition	"individual representing the European Economic Community"@en ;
+	tempo:validFrom	"1986-01-01"^^xsd:date ;
+	tempo:validTill	"1993-11-01"^^xsd:date .
+
+rgn:r01KJARMBCKBYKA7N095DR81NA4_1993_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:replaces	rgn:r01KJARMBCKBYKA7N095DR81NA4_1986_0 ;
+	dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+	foaf:name	"European Community"@en ;
+	geopol:isPredecessorOf	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_1993_0 ;
+	lcc-cr:hasSubregion	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_1993_0 ;
+	lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-25T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-25T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"EC" ;
+	rgn:hasCurrentVariant	rgn:r01KJARMBCKBYKA7N095DR81NA4 ;
+	skos:definition	"individual representing the European Community"@en ;
+	tempo:validFrom	"1993-11-01"^^xsd:date ;
+	tempo:validTill	"2009-12-01"^^xsd:date .
+
+rgn:r01KJD0ARSJTRBQRJ03GBK61MB4
+	owl:sameAs	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_2020_0 .
+
+rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_1993_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_1995_0 ;
+	dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+	foaf:name	"European Union"@en ;
+	geopol:isSuccessorOf	rgn:r01KJARMBCKBYKA7N095DR81NA4_1993_0 ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BE , lcc-3166-1-adj:DE , lcc-3166-1-adj:DK , lcc-3166-1-adj:ES , lcc-3166-1-adj:FR , lcc-3166-1-adj:GB , lcc-3166-1-adj:GR , lcc-3166-1-adj:IE , lcc-3166-1-adj:IT , lcc-3166-1-adj:LU , lcc-3166-1-adj:NL , lcc-3166-1-adj:PT ;
+	lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-25T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-25T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"EU" ;
+	rgn:hasCurrentVariant	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
+	skos:definition	"individual representing the European Union"@en ;
+	tempo:validFrom	"1993-11-01"^^xsd:date ;
+	tempo:validTill	"1995-01-01"^^xsd:date .
+
+rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_1995_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_2004_0 ;
+	dct:replaces	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_1993_0 ;
+	dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+	foaf:name	"European Union"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AT , lcc-3166-1-adj:BE , lcc-3166-1-adj:DE , lcc-3166-1-adj:DK , lcc-3166-1-adj:ES , lcc-3166-1-adj:FI , lcc-3166-1-adj:FR , lcc-3166-1-adj:GB , lcc-3166-1-adj:GR , lcc-3166-1-adj:IE , lcc-3166-1-adj:IT , lcc-3166-1-adj:LU , lcc-3166-1-adj:NL , lcc-3166-1-adj:PT , lcc-3166-1-adj:SE ;
+	lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-25T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-25T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"EU" ;
+	rgn:hasCurrentVariant	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
+	skos:definition	"individual representing the European Union"@en ;
+	tempo:validFrom	"1995-01-01"^^xsd:date ;
+	tempo:validTill	"2004-05-01"^^xsd:date .
+
+rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_2004_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_2007_0 ;
+	dct:replaces	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_1995_0 ;
+	dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+	foaf:name	"European Union"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AT , lcc-3166-1-adj:BE , lcc-3166-1-adj:CY , lcc-3166-1-adj:CZ , lcc-3166-1-adj:DE , lcc-3166-1-adj:DK , lcc-3166-1-adj:EE , lcc-3166-1-adj:ES , lcc-3166-1-adj:FI , lcc-3166-1-adj:FR , lcc-3166-1-adj:GB , lcc-3166-1-adj:GR , lcc-3166-1-adj:HU , lcc-3166-1-adj:IE , lcc-3166-1-adj:IT , lcc-3166-1-adj:LT , lcc-3166-1-adj:LU , lcc-3166-1-adj:LV , lcc-3166-1-adj:MT , lcc-3166-1-adj:NL , lcc-3166-1-adj:PL , lcc-3166-1-adj:PT , lcc-3166-1-adj:SE , lcc-3166-1-adj:SI , lcc-3166-1-adj:SK ;
+	lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-25T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-25T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"EU" ;
+	rgn:hasCurrentVariant	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
+	skos:definition	"individual representing the European Union"@en ;
+	tempo:validFrom	"2004-05-01"^^xsd:date ;
+	tempo:validTill	"2007-01-01"^^xsd:date .
+
+rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_2007_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_2013_0 ;
+	dct:replaces	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_2004_0 ;
+	dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+	foaf:name	"European Union"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AT , lcc-3166-1-adj:BE , lcc-3166-1-adj:BG , lcc-3166-1-adj:CY , lcc-3166-1-adj:CZ , lcc-3166-1-adj:DE , lcc-3166-1-adj:DK , lcc-3166-1-adj:EE , lcc-3166-1-adj:ES , lcc-3166-1-adj:FI , lcc-3166-1-adj:FR , lcc-3166-1-adj:GB , lcc-3166-1-adj:GR , lcc-3166-1-adj:HU , lcc-3166-1-adj:IE , lcc-3166-1-adj:IT , lcc-3166-1-adj:LT , lcc-3166-1-adj:LU , lcc-3166-1-adj:LV , lcc-3166-1-adj:MT , lcc-3166-1-adj:NL , lcc-3166-1-adj:PL , lcc-3166-1-adj:PT , lcc-3166-1-adj:RO , lcc-3166-1-adj:SE , lcc-3166-1-adj:SI , lcc-3166-1-adj:SK ;
+	lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-25T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-25T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"EU" ;
+	rgn:hasCurrentVariant	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
+	skos:definition	"individual representing the European Union"@en ;
+	tempo:validFrom	"2007-01-01"^^xsd:date ;
+	tempo:validTill	"2013-07-01"^^xsd:date .
+
+rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_2013_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_2020_0 ;
+	dct:replaces	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_2007_0 ;
+	dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+	foaf:name	"European Union"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AT , lcc-3166-1-adj:BE , lcc-3166-1-adj:BG , lcc-3166-1-adj:CY , lcc-3166-1-adj:CZ , lcc-3166-1-adj:DE , lcc-3166-1-adj:DK , lcc-3166-1-adj:EE , lcc-3166-1-adj:ES , lcc-3166-1-adj:FI , lcc-3166-1-adj:FR , lcc-3166-1-adj:GB , lcc-3166-1-adj:GR , lcc-3166-1-adj:HR , lcc-3166-1-adj:HU , lcc-3166-1-adj:IE , lcc-3166-1-adj:IT , lcc-3166-1-adj:LT , lcc-3166-1-adj:LU , lcc-3166-1-adj:LV , lcc-3166-1-adj:MT , lcc-3166-1-adj:NL , lcc-3166-1-adj:PL , lcc-3166-1-adj:PT , lcc-3166-1-adj:RO , lcc-3166-1-adj:SE , lcc-3166-1-adj:SI , lcc-3166-1-adj:SK ;
+	lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-25T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-25T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"EU" ;
+	rgn:hasCurrentVariant	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
+	skos:definition	"individual representing the European Union"@en ;
+	tempo:validFrom	"2013-07-01"^^xsd:date ;
+	tempo:validTill	"2020-02-01"^^xsd:date .
+
+rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_2020_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:replaces	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_2013_0 ;
+	dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+	foaf:name	"European Union"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AT , lcc-3166-1-adj:BE , lcc-3166-1-adj:BG , lcc-3166-1-adj:CY , lcc-3166-1-adj:CZ , lcc-3166-1-adj:DE , lcc-3166-1-adj:DK , lcc-3166-1-adj:EE , lcc-3166-1-adj:ES , lcc-3166-1-adj:FI , lcc-3166-1-adj:FR , lcc-3166-1-adj:GR , lcc-3166-1-adj:HR , lcc-3166-1-adj:HU , lcc-3166-1-adj:IE , lcc-3166-1-adj:IT , lcc-3166-1-adj:LT , lcc-3166-1-adj:LU , lcc-3166-1-adj:LV , lcc-3166-1-adj:MT , lcc-3166-1-adj:NL , lcc-3166-1-adj:PL , lcc-3166-1-adj:PT , lcc-3166-1-adj:RO , lcc-3166-1-adj:SE , lcc-3166-1-adj:SI , lcc-3166-1-adj:SK ;
+	lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-25T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-25T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"EU" ;
+	rgn:hasCurrentVariant	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
+	skos:definition	"individual representing the European Union"@en ;
+	tempo:validFrom	"2020-02-01"^^xsd:date .

@@ -188,3 +188,15 @@ rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3_align
 	pav:createdOn	"2026-02-24T15:46:58Z"^^xsd:date ;
 	pav:lastRefreshedOn	"2026-02-24T15:46:58Z"^^xsd:date ;
 	skal:constituent	<http://eurovoc.europa.eu/5017> , <http://publications.europa.eu/resource/authority/corporate-body/EACOM> , rgn:r01KJ9Y9WAZ2NHRFC14YEV43SM3 , wd:Q337456 .
+
+rgn:r01KJARMBCKBYKA7N095DR81NA4_align
+	a	skal:ExactMatch ;
+	pav:createdOn	"2026-02-26T15:46:58Z"^^xsd:date ;
+	pav:lastRefreshedOn	"2026-02-24T15:46:58Z"^^xsd:date ;
+	skal:constituent	<http://publications.europa.eu/resource/authority/corporate-body/EEC> , rgn:r01KJARMBCKBYKA7N095DR81NA4 , wd:Q52847 .
+
+rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_align
+	a	skal:ExactMatch ;
+	pav:createdOn	"2026-02-26T15:46:58Z"^^xsd:date ;
+	pav:lastRefreshedOn	"2026-02-24T15:46:58Z"^^xsd:date ;
+	skal:constituent	<http://eurovoc.europa.eu/4060> , <http://publications.europa.eu/resource/authority/corporate-body/EURUN> , <http://www.wikidata.org/entity/458> , rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 .

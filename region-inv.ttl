@@ -164,6 +164,15 @@ lcc-3166-1-adj:AT
 		rdfs:label	"Eurozone with monetary agreement" ;
 		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
+		rdfs:label	"EU" ;
+		skos:definition	"individual representing the European Union"@en ;
+		tempo:validFrom	"1995-01-01"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:AU
@@ -243,6 +252,25 @@ lcc-3166-1-adj:BE
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
+		rdfs:label	"EU" ;
+		skos:definition	"individual representing the European Union"@en ;
+		tempo:validFrom	"1993-11-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Community"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJARMBCKBYKA7N095DR81NA4 ;
+		rdfs:label	"EC" ;
+		skos:definition	"individual representing the European Community"@en ;
+		tempo:validFrom	"1958-01-01"^^xsd:date ;
+		tempo:validTill	"2009-12-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
 		foaf:name	"Belgium–Luxembourg Economic Union"@en , "Union économique belgo-luxembourgeoise"@fr ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KJ6W4F5VW3GH00A6SV8RC6FG ;
@@ -284,6 +312,15 @@ lcc-3166-1-adj:BG
 		skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 		tempo:validTill	"2007-01-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
+		rdfs:label	"EU" ;
+		skos:definition	"individual representing the European Union"@en ;
+		tempo:validFrom	"2007-01-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
 		foaf:name	"Eurozone" ;
@@ -603,6 +640,15 @@ lcc-3166-1-adj:CY
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
+		rdfs:label	"EU" ;
+		skos:definition	"individual representing the European Union"@en ;
+		tempo:validFrom	"2004-05-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
 		foaf:name	"Eurozone" ;
 		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
@@ -631,6 +677,15 @@ lcc-3166-1-adj:CZ
 		skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
 		tempo:validFrom	"1993-03-01"^^xsd:date ;
 		tempo:validTill	"2004-05-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
+		rdfs:label	"EU" ;
+		skos:definition	"individual representing the European Union"@en ;
+		tempo:validFrom	"2004-05-01"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:DE
@@ -651,6 +706,25 @@ lcc-3166-1-adj:DE
 		rdfs:label	"Eurozone with monetary agreement" ;
 		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
+		rdfs:label	"EU" ;
+		skos:definition	"individual representing the European Union"@en ;
+		tempo:validFrom	"1993-11-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Community"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJARMBCKBYKA7N095DR81NA4 ;
+		rdfs:label	"EC" ;
+		skos:definition	"individual representing the European Community"@en ;
+		tempo:validFrom	"1958-01-01"^^xsd:date ;
+		tempo:validTill	"2009-12-01"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:DJ
@@ -674,6 +748,29 @@ lcc-3166-1-adj:DJ
 		skos:definition	"individual representing the precursor to COMESA, established in 1981"@en ;
 		tempo:validFrom	"1982-09-30"^^xsd:date ;
 		tempo:validTill	"1994-12-08"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:DK
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
+		rdfs:label	"EU" ;
+		skos:definition	"individual representing the European Union"@en ;
+		tempo:validFrom	"1993-11-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Community"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJARMBCKBYKA7N095DR81NA4 ;
+		rdfs:label	"EC" ;
+		skos:definition	"individual representing the European Community"@en ;
+		tempo:validFrom	"1973-01-01"^^xsd:date ;
+		tempo:validTill	"2009-12-01"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:DM
@@ -732,6 +829,15 @@ lcc-3166-1-adj:EC
 lcc-3166-1-adj:EE
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
+		rdfs:label	"EU" ;
+		skos:definition	"individual representing the European Union"@en ;
+		tempo:validFrom	"2004-05-01"^^xsd:date ;
+	] , [
 		a	lcc-cr:GeographicRegion ;
 		foaf:name	"Eurozone" ;
 		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
@@ -793,6 +899,25 @@ lcc-3166-1-adj:ES
 		rdfs:label	"Eurozone with monetary agreement" ;
 		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
+		rdfs:label	"EU" ;
+		skos:definition	"individual representing the European Union"@en ;
+		tempo:validFrom	"1993-11-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Community"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJARMBCKBYKA7N095DR81NA4 ;
+		rdfs:label	"EC" ;
+		skos:definition	"individual representing the European Community"@en ;
+		tempo:validFrom	"1986-01-01"^^xsd:date ;
+		tempo:validTill	"2009-12-01"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:ET
@@ -836,6 +961,15 @@ lcc-3166-1-adj:FI
 		rdfs:label	"Eurozone with monetary agreement" ;
 		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
+		rdfs:label	"EU" ;
+		skos:definition	"individual representing the European Union"@en ;
+		tempo:validFrom	"1995-01-01"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:FJ
@@ -881,6 +1015,25 @@ lcc-3166-1-adj:FR
 		rdfs:label	"Eurozone with monetary agreement" ;
 		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
+		rdfs:label	"EU" ;
+		skos:definition	"individual representing the European Union"@en ;
+		tempo:validFrom	"1993-11-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Community"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJARMBCKBYKA7N095DR81NA4 ;
+		rdfs:label	"EC" ;
+		skos:definition	"individual representing the European Community"@en ;
+		tempo:validFrom	"1958-01-01"^^xsd:date ;
+		tempo:validTill	"2009-12-01"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:GA
@@ -894,6 +1047,30 @@ lcc-3166-1-adj:GA
 		rdfs:label	"CEMAC" ;
 		skos:definition	"individual representing the Economic and Monetary Community of Central Africa (CEMAC), adopters of XAF"@en ;
 		tempo:validFrom	"1966-01-01"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:GB
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
+		rdfs:label	"EU" ;
+		skos:definition	"individual representing the European Union"@en ;
+		tempo:validFrom	"1993-11-01"^^xsd:date ;
+		tempo:validTill	"2020-02-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Community"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJARMBCKBYKA7N095DR81NA4 ;
+		rdfs:label	"EC" ;
+		skos:definition	"individual representing the European Community"@en ;
+		tempo:validFrom	"1973-01-01"^^xsd:date ;
+		tempo:validTill	"2009-12-01"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:GD
@@ -966,6 +1143,15 @@ lcc-3166-1-adj:GR
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
+		rdfs:label	"EU" ;
+		skos:definition	"individual representing the European Union"@en ;
+		tempo:validFrom	"1993-11-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
 		foaf:name	"Eurozone" ;
 		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
@@ -980,6 +1166,16 @@ lcc-3166-1-adj:GR
 		rdfs:label	"Eurozone with monetary agreement" ;
 		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"2001-01-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Community"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJARMBCKBYKA7N095DR81NA4 ;
+		rdfs:label	"EC" ;
+		skos:definition	"individual representing the European Community"@en ;
+		tempo:validFrom	"1981-01-01"^^xsd:date ;
+		tempo:validTill	"2009-12-01"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:GW
@@ -1020,6 +1216,15 @@ lcc-3166-1-adj:HR
 		skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
 		tempo:validFrom	"2003-03-01"^^xsd:date ;
 		tempo:validTill	"2013-07-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
+		rdfs:label	"EU" ;
+		skos:definition	"individual representing the European Union"@en ;
+		tempo:validFrom	"2013-07-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
 		foaf:name	"Eurozone" ;
@@ -1063,6 +1268,15 @@ lcc-3166-1-adj:HU
 		skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
 		tempo:validFrom	"1993-03-01"^^xsd:date ;
 		tempo:validTill	"2004-05-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
+		rdfs:label	"EU" ;
+		skos:definition	"individual representing the European Union"@en ;
+		tempo:validFrom	"2004-05-01"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:ID
@@ -1095,6 +1309,25 @@ lcc-3166-1-adj:IE
 		rdfs:label	"Eurozone with monetary agreement" ;
 		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
+		rdfs:label	"EU" ;
+		skos:definition	"individual representing the European Union"@en ;
+		tempo:validFrom	"1993-11-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Community"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJARMBCKBYKA7N095DR81NA4 ;
+		rdfs:label	"EC" ;
+		skos:definition	"individual representing the European Community"@en ;
+		tempo:validFrom	"1973-01-01"^^xsd:date ;
+		tempo:validTill	"2009-12-01"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:IT
@@ -1115,6 +1348,25 @@ lcc-3166-1-adj:IT
 		rdfs:label	"Eurozone with monetary agreement" ;
 		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
+		rdfs:label	"EU" ;
+		skos:definition	"individual representing the European Union"@en ;
+		tempo:validFrom	"1993-11-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Community"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJARMBCKBYKA7N095DR81NA4 ;
+		rdfs:label	"EC" ;
+		skos:definition	"individual representing the European Community"@en ;
+		tempo:validFrom	"1958-01-01"^^xsd:date ;
+		tempo:validTill	"2009-12-01"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:JM
@@ -1353,6 +1605,15 @@ lcc-3166-1-adj:LT
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
+		rdfs:label	"EU" ;
+		skos:definition	"individual representing the European Union"@en ;
+		tempo:validFrom	"2004-05-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
 		foaf:name	"Eurozone" ;
 		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
@@ -1398,6 +1659,25 @@ lcc-3166-1-adj:LU
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
+		rdfs:label	"EU" ;
+		skos:definition	"individual representing the European Union"@en ;
+		tempo:validFrom	"1993-11-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Community"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJARMBCKBYKA7N095DR81NA4 ;
+		rdfs:label	"EC" ;
+		skos:definition	"individual representing the European Community"@en ;
+		tempo:validFrom	"1958-01-01"^^xsd:date ;
+		tempo:validTill	"2009-12-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
 		foaf:name	"Belgium–Luxembourg Economic Union"@en , "Union économique belgo-luxembourgeoise"@fr ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
 		pav:derivedFrom	rgn:r01KJ6W4F5VW3GH00A6SV8RC6FG ;
@@ -1409,6 +1689,15 @@ lcc-3166-1-adj:LU
 lcc-3166-1-adj:LV
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
+		rdfs:label	"EU" ;
+		skos:definition	"individual representing the European Union"@en ;
+		tempo:validFrom	"2004-05-01"^^xsd:date ;
+	] , [
 		a	lcc-cr:GeographicRegion ;
 		foaf:name	"Eurozone" ;
 		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
@@ -1615,6 +1904,15 @@ lcc-3166-1-adj:MT
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
+		rdfs:label	"EU" ;
+		skos:definition	"individual representing the European Union"@en ;
+		tempo:validFrom	"2004-05-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
 		foaf:name	"Eurozone" ;
 		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
@@ -1807,6 +2105,25 @@ lcc-3166-1-adj:NL
 		rdfs:label	"Eurozone with monetary agreement" ;
 		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
+		rdfs:label	"EU" ;
+		skos:definition	"individual representing the European Union"@en ;
+		tempo:validFrom	"1993-11-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Community"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJARMBCKBYKA7N095DR81NA4 ;
+		rdfs:label	"EC" ;
+		skos:definition	"individual representing the European Community"@en ;
+		tempo:validFrom	"1958-01-01"^^xsd:date ;
+		tempo:validTill	"2009-12-01"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:NR
@@ -1928,6 +2245,15 @@ lcc-3166-1-adj:PL
 		skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
 		tempo:validFrom	"1993-03-01"^^xsd:date ;
 		tempo:validTill	"2004-05-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
+		rdfs:label	"EU" ;
+		skos:definition	"individual representing the European Union"@en ;
+		tempo:validFrom	"2004-05-01"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:PT
@@ -1948,6 +2274,25 @@ lcc-3166-1-adj:PT
 		rdfs:label	"Eurozone with monetary agreement" ;
 		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"1999-01-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
+		rdfs:label	"EU" ;
+		skos:definition	"individual representing the European Union"@en ;
+		tempo:validFrom	"1993-11-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Community"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJARMBCKBYKA7N095DR81NA4 ;
+		rdfs:label	"EC" ;
+		skos:definition	"individual representing the European Community"@en ;
+		tempo:validFrom	"1986-01-01"^^xsd:date ;
+		tempo:validTill	"2009-12-01"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:PW
@@ -2001,6 +2346,15 @@ lcc-3166-1-adj:RO
 		skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
 		tempo:validFrom	"1997-07-01"^^xsd:date ;
 		tempo:validTill	"2007-01-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
+		rdfs:label	"EU" ;
+		skos:definition	"individual representing the European Union"@en ;
+		tempo:validFrom	"2007-01-01"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:RS
@@ -2109,6 +2463,19 @@ lcc-3166-1-adj:SD
 		tempo:validTill	"1994-12-08"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:SE
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
+		rdfs:label	"EU" ;
+		skos:definition	"individual representing the European Union"@en ;
+		tempo:validFrom	"1995-01-01"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:SG
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -2133,6 +2500,15 @@ lcc-3166-1-adj:SI
 		skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
 		tempo:validFrom	"1996-01-01"^^xsd:date ;
 		tempo:validTill	"2004-05-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
+		rdfs:label	"EU" ;
+		skos:definition	"individual representing the European Union"@en ;
+		tempo:validFrom	"2004-05-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
 		foaf:name	"Eurozone" ;
@@ -2163,6 +2539,15 @@ lcc-3166-1-adj:SK
 		skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
 		tempo:validFrom	"1993-03-01"^^xsd:date ;
 		tempo:validTill	"2004-05-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+		pav:derivedFrom	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
+		rdfs:label	"EU" ;
+		skos:definition	"individual representing the European Union"@en ;
+		tempo:validFrom	"2004-05-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
 		foaf:name	"Eurozone" ;
