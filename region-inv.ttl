@@ -150,6 +150,16 @@ lcc-3166-1-adj:AT
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://efta.int/"^^xsd:anyURI , "https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Free Trade Association"@en ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KJJE8ZF1VS02FQESQWNQ02F7 ;
+		rdfs:label	"EFTA" ;
+		skos:definition	"individual representing the European Free Trade Association (EFTA)"@en ;
+		tempo:validFrom	"1960-05-03"^^xsd:date ;
+		tempo:validTill	"1995-01-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
 		foaf:name	"Eurozone" ;
 		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
@@ -571,6 +581,19 @@ lcc-3166-1-adj:CG
 		tempo:validFrom	"1966-01-01"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:CH
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://efta.int/"^^xsd:anyURI , "https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Free Trade Association"@en ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KJJE8ZF1VS02FQESQWNQ02F7 ;
+		rdfs:label	"EFTA" ;
+		skos:definition	"individual representing the European Free Trade Association (EFTA)"@en ;
+		tempo:validFrom	"1960-05-03"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:CI
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -753,6 +776,16 @@ lcc-3166-1-adj:DJ
 lcc-3166-1-adj:DK
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://efta.int/"^^xsd:anyURI , "https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Free Trade Association"@en ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KJJE8ZF1VS02FQESQWNQ02F7 ;
+		rdfs:label	"EFTA" ;
+		skos:definition	"individual representing the European Free Trade Association (EFTA)"@en ;
+		tempo:validFrom	"1960-05-03"^^xsd:date ;
+		tempo:validTill	"1973-01-01"^^xsd:date ;
+	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
 		foaf:name	"European Union"@en ;
@@ -947,6 +980,16 @@ lcc-3166-1-adj:FI
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://efta.int/"^^xsd:anyURI , "https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Free Trade Association"@en ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KJJE8ZF1VS02FQESQWNQ02F7 ;
+		rdfs:label	"EFTA" ;
+		skos:definition	"individual representing the European Free Trade Association (EFTA)"@en ;
+		tempo:validFrom	"1986-01-01"^^xsd:date ;
+		tempo:validTill	"1995-01-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
 		foaf:name	"Eurozone" ;
 		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
 		pav:derivedFrom	rgn:r01KH9049WY3VRF1RS69KHZS47P ;
@@ -1052,6 +1095,16 @@ lcc-3166-1-adj:GA
 lcc-3166-1-adj:GB
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://efta.int/"^^xsd:anyURI , "https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Free Trade Association"@en ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KJJE8ZF1VS02FQESQWNQ02F7 ;
+		rdfs:label	"EFTA" ;
+		skos:definition	"individual representing the European Free Trade Association (EFTA)"@en ;
+		tempo:validFrom	"1960-05-03"^^xsd:date ;
+		tempo:validTill	"1973-01-01"^^xsd:date ;
+	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
 		foaf:name	"European Union"@en ;
@@ -1330,6 +1383,19 @@ lcc-3166-1-adj:IE
 		tempo:validTill	"2009-12-01"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:IS
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://efta.int/"^^xsd:anyURI , "https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Free Trade Association"@en ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KJJE8ZF1VS02FQESQWNQ02F7 ;
+		rdfs:label	"EFTA" ;
+		skos:definition	"individual representing the European Free Trade Association (EFTA)"@en ;
+		tempo:validFrom	"1970-01-01"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:IT
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -1576,6 +1642,19 @@ lcc-3166-1-adj:LC
 		rdfs:label	"XCD-zone" ;
 		skos:definition	"individual representing the Eastern Caribbean Currency Authority (ECCA)"@en ;
 		tempo:validFrom	"1967-03-01"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:LI
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://efta.int/"^^xsd:anyURI , "https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Free Trade Association"@en ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KJJE8ZF1VS02FQESQWNQ02F7 ;
+		rdfs:label	"EFTA" ;
+		skos:definition	"individual representing the European Free Trade Association (EFTA)"@en ;
+		tempo:validFrom	"1991-09-01"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:LS
@@ -2126,6 +2205,19 @@ lcc-3166-1-adj:NL
 		tempo:validTill	"2009-12-01"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:NO
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://efta.int/"^^xsd:anyURI , "https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Free Trade Association"@en ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KJJE8ZF1VS02FQESQWNQ02F7 ;
+		rdfs:label	"EFTA" ;
+		skos:definition	"individual representing the European Free Trade Association (EFTA)"@en ;
+		tempo:validFrom	"1960-05-03"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:NR
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -2259,6 +2351,16 @@ lcc-3166-1-adj:PL
 lcc-3166-1-adj:PT
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://efta.int/"^^xsd:anyURI , "https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Free Trade Association"@en ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KJJE8ZF1VS02FQESQWNQ02F7 ;
+		rdfs:label	"EFTA" ;
+		skos:definition	"individual representing the European Free Trade Association (EFTA)"@en ;
+		tempo:validFrom	"1960-05-03"^^xsd:date ;
+		tempo:validTill	"1986-01-01"^^xsd:date ;
+	] , [
 		a	lcc-cr:GeographicRegion ;
 		foaf:name	"Eurozone" ;
 		lcc-cr:isClassifiedBy	rgn:MonetaryUnion ;
@@ -2466,6 +2568,16 @@ lcc-3166-1-adj:SD
 lcc-3166-1-adj:SE
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://efta.int/"^^xsd:anyURI , "https://european-union.europa.eu/"^^xsd:anyURI ;
+		foaf:name	"European Free Trade Association"@en ;
+		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+		pav:derivedFrom	rgn:r01KJJE8ZF1VS02FQESQWNQ02F7 ;
+		rdfs:label	"EFTA" ;
+		skos:definition	"individual representing the European Free Trade Association (EFTA)"@en ;
+		tempo:validFrom	"1960-05-03"^^xsd:date ;
+		tempo:validTill	"1995-01-01"^^xsd:date ;
+	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
 		foaf:name	"European Union"@en ;

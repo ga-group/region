@@ -2672,3 +2672,117 @@ rgn:r01KJD0ARSJTRBQRJ03GBK61MB4_2020_0
 	rgn:hasCurrentVariant	rgn:r01KJD0ARSJTRBQRJ03GBK61MB4 ;
 	skos:definition	"individual representing the European Union"@en ;
 	tempo:validFrom	"2020-02-01"^^xsd:date .
+
+rgn:r01KJJE8ZF1VS02FQESQWNQ02F7
+	owl:sameAs	rgn:r01KJJE8ZF1VS02FQESQWNQ02F7_1995_0 .
+
+rgn:r01KJJE8ZF1VS02FQESQWNQ02F7_1960_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJJE8ZF1VS02FQESQWNQ02F7_1970_0 ;
+	dct:source	"http://efta.int/"^^xsd:anyURI , "https://european-union.europa.eu/"^^xsd:anyURI ;
+	foaf:name	"European Free Trade Association"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AT , lcc-3166-1-adj:CH , lcc-3166-1-adj:DK , lcc-3166-1-adj:GB , lcc-3166-1-adj:NO , lcc-3166-1-adj:PT , lcc-3166-1-adj:SE ;
+	lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-28T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-28T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"EFTA" ;
+	rgn:hasCurrentVariant	rgn:r01KJJE8ZF1VS02FQESQWNQ02F7 ;
+	skos:definition	"individual representing the European Free Trade Association (EFTA)"@en ;
+	tempo:validFrom	"1960-05-03"^^xsd:date ;
+	tempo:validTill	"1970-01-01"^^xsd:date .
+
+rgn:r01KJJE8ZF1VS02FQESQWNQ02F7_1970_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJJE8ZF1VS02FQESQWNQ02F7_1973_0 ;
+	dct:replaces	rgn:r01KJJE8ZF1VS02FQESQWNQ02F7_1960_0 ;
+	dct:source	"http://efta.int/"^^xsd:anyURI , "https://european-union.europa.eu/"^^xsd:anyURI ;
+	foaf:name	"European Free Trade Association"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AT , lcc-3166-1-adj:CH , lcc-3166-1-adj:DK , lcc-3166-1-adj:GB , lcc-3166-1-adj:IS , lcc-3166-1-adj:NO , lcc-3166-1-adj:PT , lcc-3166-1-adj:SE ;
+	lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-28T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-28T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"EFTA" ;
+	rgn:hasCurrentVariant	rgn:r01KJJE8ZF1VS02FQESQWNQ02F7 ;
+	skos:definition	"individual representing the European Free Trade Association (EFTA)"@en ;
+	tempo:validFrom	"1970-01-01"^^xsd:date ;
+	tempo:validTill	"1973-01-01"^^xsd:date .
+
+rgn:r01KJJE8ZF1VS02FQESQWNQ02F7_1973_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJJE8ZF1VS02FQESQWNQ02F7_1986_0 ;
+	dct:replaces	rgn:r01KJJE8ZF1VS02FQESQWNQ02F7_1970_0 ;
+	dct:source	"http://efta.int/"^^xsd:anyURI , "https://european-union.europa.eu/"^^xsd:anyURI ;
+	foaf:name	"European Free Trade Association"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AT , lcc-3166-1-adj:CH , lcc-3166-1-adj:IS , lcc-3166-1-adj:NO , lcc-3166-1-adj:PT , lcc-3166-1-adj:SE ;
+	lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-28T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-28T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"EFTA" ;
+	rgn:hasCurrentVariant	rgn:r01KJJE8ZF1VS02FQESQWNQ02F7 ;
+	skos:definition	"individual representing the European Free Trade Association (EFTA)"@en ;
+	tempo:validFrom	"1973-01-01"^^xsd:date ;
+	tempo:validTill	"1986-01-01"^^xsd:date .
+
+rgn:r01KJJE8ZF1VS02FQESQWNQ02F7_1986_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJJE8ZF1VS02FQESQWNQ02F7_1991_0 ;
+	dct:replaces	rgn:r01KJJE8ZF1VS02FQESQWNQ02F7_1973_0 ;
+	dct:source	"http://efta.int/"^^xsd:anyURI , "https://european-union.europa.eu/"^^xsd:anyURI ;
+	foaf:name	"European Free Trade Association"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AT , lcc-3166-1-adj:CH , lcc-3166-1-adj:FI , lcc-3166-1-adj:IS , lcc-3166-1-adj:NO , lcc-3166-1-adj:SE ;
+	lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-28T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-28T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"EFTA" ;
+	rgn:hasCurrentVariant	rgn:r01KJJE8ZF1VS02FQESQWNQ02F7 ;
+	skos:definition	"individual representing the European Free Trade Association (EFTA)"@en ;
+	tempo:validFrom	"1986-01-01"^^xsd:date ;
+	tempo:validTill	"1991-09-01"^^xsd:date .
+
+rgn:r01KJJE8ZF1VS02FQESQWNQ02F7_1991_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJJE8ZF1VS02FQESQWNQ02F7_1995_0 ;
+	dct:replaces	rgn:r01KJJE8ZF1VS02FQESQWNQ02F7_1986_0 ;
+	dct:source	"http://efta.int/"^^xsd:anyURI , "https://european-union.europa.eu/"^^xsd:anyURI ;
+	foaf:name	"European Free Trade Association"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AT , lcc-3166-1-adj:CH , lcc-3166-1-adj:FI , lcc-3166-1-adj:IS , lcc-3166-1-adj:LI , lcc-3166-1-adj:NO , lcc-3166-1-adj:SE ;
+	lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-28T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-28T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"EFTA" ;
+	rgn:hasCurrentVariant	rgn:r01KJJE8ZF1VS02FQESQWNQ02F7 ;
+	skos:definition	"individual representing the European Free Trade Association (EFTA)"@en ;
+	tempo:validFrom	"1991-09-01"^^xsd:date ;
+	tempo:validTill	"1995-01-01"^^xsd:date .
+
+rgn:r01KJJE8ZF1VS02FQESQWNQ02F7_1995_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:replaces	rgn:r01KJJE8ZF1VS02FQESQWNQ02F7_1991_0 ;
+	dct:source	"http://efta.int/"^^xsd:anyURI , "https://european-union.europa.eu/"^^xsd:anyURI ;
+	foaf:name	"European Free Trade Association"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:CH , lcc-3166-1-adj:IS , lcc-3166-1-adj:LI , lcc-3166-1-adj:NO ;
+	lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-02-28T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-02-28T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"EFTA" ;
+	rgn:hasCurrentVariant	rgn:r01KJJE8ZF1VS02FQESQWNQ02F7 ;
+	skos:definition	"individual representing the European Free Trade Association (EFTA)"@en ;
+	tempo:validFrom	"1995-01-01"^^xsd:date .
