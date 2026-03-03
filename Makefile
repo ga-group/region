@@ -37,13 +37,13 @@ stardogd.region: ADDITIONAL =
 	$(csvsql) < $< \
 	&& touch $@
 
-/var/scratch/lakshmi/freundt/%.ttl: sql/dump-%.sql .imported.%
+/var/scratch/otto/freundt/%.ttl: sql/dump-%.sql .imported.%
 	m4 $< | $(csvsql)
 
-/var/scratch/lakshmi/freundt/%.ttl: sql/dump-%.sql .inferred.%
+/var/scratch/otto/freundt/%.ttl: sql/dump-%.sql .inferred.%
 	m4 $< | $(csvsql)
 
-export.%: /var/scratch/lakshmi/freundt/%.ttl
+export.%: /var/scratch/otto/freundt/%.ttl
 	-mawk 'END{if (x<3){exit 1}}(x+=$$0=="")<=3&&($$0==""||(x=0)||1)' $*.ttl > $@ \
 	|| { grep -F @prefix $<; echo; echo; echo; } > $@
 	sed 's/rdf:type/a/' $< \

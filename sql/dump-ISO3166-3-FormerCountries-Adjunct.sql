@@ -47,5 +47,5 @@ WHERE {
 }
 );
 
-dump_iso3166_3adj('/var/scratch/lakshmi/freundt/ISO3166-3-FormerCountries-Adjunct.ttl');
+dump_iso3166_3adj('/var/scratch/otto/freundt/ISO3166-3-FormerCountries-Adjunct.ttl');
 CHECKPOINT;

@@ -47,5 +47,5 @@ WHERE {
 }
 );
 
-dump_iso3166_3('/var/scratch/lakshmi/freundt/ISO3166-3-FormerCountries.ttl');
+dump_iso3166_3('/var/scratch/otto/freundt/ISO3166-3-FormerCountries.ttl');
 CHECKPOINT;

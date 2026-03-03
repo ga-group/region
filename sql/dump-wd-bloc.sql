@@ -30,5 +30,5 @@ WHERE {
 }
 );
 
-dump_bloc('/var/scratch/lakshmi/freundt/wd-bloc.ttl');
+dump_bloc('/var/scratch/otto/freundt/wd-bloc.ttl');
 CHECKPOINT;

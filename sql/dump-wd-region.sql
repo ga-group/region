@@ -30,5 +30,5 @@ WHERE {
 }
 );
 
-dump_region('/var/scratch/lakshmi/freundt/wd-region.ttl');
+dump_region('/var/scratch/otto/freundt/wd-region.ttl');
 CHECKPOINT;

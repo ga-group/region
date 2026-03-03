@@ -30,5 +30,5 @@ WHERE {
 }
 );
 
-dump_milcoal('/var/scratch/lakshmi/freundt/wd-milcoal.ttl');
+dump_milcoal('/var/scratch/otto/freundt/wd-milcoal.ttl');
 CHECKPOINT;

@@ -37,5 +37,5 @@ WHERE {
 }
 );
 
-dump_rgn_dlt('/var/scratch/lakshmi/freundt/region-delta.ttl');
+dump_rgn_dlt('/var/scratch/otto/freundt/region-delta.ttl');
 CHECKPOINT;

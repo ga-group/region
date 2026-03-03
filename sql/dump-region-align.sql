@@ -39,5 +39,5 @@ WHERE {
 }
 );
 
-dump_rgn_algn('/var/scratch/lakshmi/freundt/region-align.ttl');
+dump_rgn_algn('/var/scratch/otto/freundt/region-align.ttl');
 CHECKPOINT;

@@ -39,5 +39,5 @@ WHERE {
 }
 );
 
-dump_country('/var/scratch/lakshmi/freundt/countries.ttl');
+dump_country('/var/scratch/otto/freundt/countries.ttl');
 CHECKPOINT;

@@ -2786,3 +2786,155 @@ rgn:r01KJJE8ZF1VS02FQESQWNQ02F7_1995_0
 	rgn:hasCurrentVariant	rgn:r01KJJE8ZF1VS02FQESQWNQ02F7 ;
 	skos:definition	"individual representing the European Free Trade Association (EFTA)"@en ;
 	tempo:validFrom	"1995-01-01"^^xsd:date .
+
+rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA
+	owl:sameAs	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2015_2 .
+
+rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2000_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2005_0 ;
+	dct:source	"http://eaeunion.org/"^^xsd:anyURI ;
+	foaf:name	"Eurasian Economic Community"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BY , lcc-3166-1-adj:KG , lcc-3166-1-adj:KZ , lcc-3166-1-adj:RU , lcc-3166-1-adj:TJ ;
+	lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-03-01T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-03-01T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"EurAsEC" ;
+	rgn:hasCurrentVariant	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA ;
+	skos:definition	"individual representing the Eurasian Economic Community"@en ;
+	tempo:validFrom	"2000-10-10"^^xsd:date ;
+	tempo:validTill	"2005-10-07"^^xsd:date .
+
+rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2005_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2008_0 ;
+	dct:replaces	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2000_0 ;
+	dct:source	"http://eaeunion.org/"^^xsd:anyURI ;
+	foaf:name	"Eurasian Economic Community"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BY , lcc-3166-1-adj:KG , lcc-3166-1-adj:KZ , lcc-3166-1-adj:RU , lcc-3166-1-adj:TJ , lcc-3166-1-adj:UZ ;
+	lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-03-01T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-03-01T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"EurAsEC" ;
+	rgn:hasCurrentVariant	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA ;
+	skos:definition	"individual representing the Eurasian Economic Community"@en ;
+	tempo:validFrom	"2005-10-07"^^xsd:date ;
+	tempo:validTill	"2008-10-16"^^xsd:date .
+
+rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2008_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2010_0 ;
+	dct:replaces	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2005_0 ;
+	dct:source	"http://eaeunion.org/"^^xsd:anyURI ;
+	foaf:name	"Eurasian Economic Community"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BY , lcc-3166-1-adj:KG , lcc-3166-1-adj:KZ , lcc-3166-1-adj:RU , lcc-3166-1-adj:TJ ;
+	lcc-cr:isClassifiedBy	rgn:TradeBloc ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-03-01T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-03-01T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"EurAsEC" ;
+	rgn:hasCurrentVariant	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA ;
+	skos:definition	"individual representing the Eurasian Economic Community"@en ;
+	tempo:validFrom	"2008-10-16"^^xsd:date ;
+	tempo:validTill	"2010-01-01"^^xsd:date .
+
+rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2010_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2012_0 ;
+	dct:replaces	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2008_0 ;
+	dct:source	"http://eaeunion.org/"^^xsd:anyURI ;
+	foaf:name	"Eurasian Customs Union"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BY , lcc-3166-1-adj:KZ , lcc-3166-1-adj:RU ;
+	lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-03-01T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-03-01T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"EACU" ;
+	rgn:hasCurrentVariant	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA ;
+	skos:definition	"individual representing the Customs Union of the Eurasian Economic Union"@en ;
+	tempo:validFrom	"2010-01-01"^^xsd:date ;
+	tempo:validTill	"2012-01-01"^^xsd:date .
+
+rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2012_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2015_0 ;
+	dct:replaces	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2010_0 ;
+	dct:source	"http://eaeunion.org/"^^xsd:anyURI ;
+	foaf:name	"Eurasian Economic Space"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BY , lcc-3166-1-adj:KZ , lcc-3166-1-adj:RU ;
+	lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-03-01T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-03-01T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"EAES" ;
+	rgn:hasCurrentVariant	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA ;
+	skos:definition	"individual representing the Single Economic Space of the Eurasian Economic Union"@en ;
+	tempo:validFrom	"2012-01-01"^^xsd:date ;
+	tempo:validTill	"2015-01-01"^^xsd:date .
+
+rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2015_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2015_1 ;
+	dct:replaces	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2012_0 ;
+	dct:source	"http://eaeunion.org/"^^xsd:anyURI ;
+	foaf:name	"Eurasian Economic Union"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BY , lcc-3166-1-adj:KZ , lcc-3166-1-adj:RU ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-03-01T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-03-01T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"EAEU" ;
+	rgn:hasCurrentVariant	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA ;
+	skos:definition	"individual representing the Eurasian Economic Union"@en ;
+	tempo:validFrom	"2015-01-01"^^xsd:date ;
+	tempo:validTill	"2015-01-02"^^xsd:date .
+
+rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2015_1
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2015_2 ;
+	dct:replaces	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2015_0 ;
+	dct:source	"http://eaeunion.org/"^^xsd:anyURI ;
+	foaf:name	"Eurasian Economic Union"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AM , lcc-3166-1-adj:BY , lcc-3166-1-adj:KZ , lcc-3166-1-adj:RU ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-03-01T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-03-01T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"EAEU" ;
+	rgn:hasCurrentVariant	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA ;
+	skos:definition	"individual representing the Eurasian Economic Union"@en ;
+	tempo:validFrom	"2015-01-02"^^xsd:date ;
+	tempo:validTill	"2015-08-06"^^xsd:date .
+
+rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2015_2
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:replaces	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2015_1 ;
+	dct:source	"http://eaeunion.org/"^^xsd:anyURI ;
+	foaf:name	"Eurasian Economic Union"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AM , lcc-3166-1-adj:BY , lcc-3166-1-adj:KG , lcc-3166-1-adj:KZ , lcc-3166-1-adj:RU ;
+	lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-03-01T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-03-01T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"EAEU" ;
+	rgn:hasCurrentVariant	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA ;
+	skos:definition	"individual representing the Eurasian Economic Union"@en ;
+	tempo:validFrom	"2015-08-06"^^xsd:date .

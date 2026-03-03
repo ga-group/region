@@ -39,5 +39,5 @@ WHERE {
 }
 );
 
-dump_place('/var/scratch/lakshmi/freundt/places.ttl');
+dump_place('/var/scratch/otto/freundt/places.ttl');
 CHECKPOINT;

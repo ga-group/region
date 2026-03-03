@@ -206,3 +206,19 @@ rgn:r01KJJE8ZF1VS02FQESQWNQ02F7_align
 	pav:createdOn	"2026-02-26T15:46:58Z"^^xsd:date ;
 	pav:lastRefreshedOn	"2026-02-24T15:46:58Z"^^xsd:date ;
 	skal:constituent	<http://eurovoc.europa.eu/176> , <http://publications.europa.eu/resource/authority/corporate-body/EFTA> , rgn:r01KJJE8ZF1VS02FQESQWNQ02F7 , wd:Q166546 .
+
+rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_align
+	a	skal:ExactMatch ;
+	dct:replaces	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_align_2015_0 ;
+	pav:createdOn	"2026-03-03T15:46:58Z"^^xsd:date ;
+	pav:lastRefreshedOn	"2026-03-03T15:46:58Z"^^xsd:date ;
+	skal:constituent	<http://publications.europa.eu/resource/authority/corporate-body/EEU> , rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA , wd:Q4173083 ;
+	tempo:validFrom	"2015-01-01"^^xsd:date .
+
+rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_align_2015_0
+	a	skal:ExactMatch ;
+	dct:isReplacedBy	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_align ;
+	pav:createdOn	"2026-03-03T15:46:58Z"^^xsd:date ;
+	pav:lastRefreshedOn	"2026-03-03T15:46:58Z"^^xsd:date ;
+	skal:constituent	<http://publications.europa.eu/resource/authority/corporate-body/EEU_2000_0> , rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA , wd:Q473996 ;
+	tempo:validTill	"2015-01-01"^^xsd:date .

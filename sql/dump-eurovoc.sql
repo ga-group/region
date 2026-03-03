@@ -39,5 +39,5 @@ WHERE {
 }
 );
 
-dump_eurovoc('/var/scratch/lakshmi/freundt/eurovoc.ttl');
+dump_eurovoc('/var/scratch/otto/freundt/eurovoc.ttl');
 CHECKPOINT;

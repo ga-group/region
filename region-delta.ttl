@@ -1467,3 +1467,134 @@ rgn:r01KJJE8ZF1VS02FQESQWNQ02F7_1995_0_delta
 	delta:subject-old	rgn:r01KJJE8ZF1VS02FQESQWNQ02F7_1991_0 ;
 	prov:generatedAtTime	"2026-03-01T07:42:38.881509"^^xsd:dateTime ;
 	rdf:subject	rgn:r01KJJE8ZF1VS02FQESQWNQ02F7_1995_0 .
+
+rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2005_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:UZ ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2005_0 ;
+	delta:subject-old	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2000_0 ;
+	prov:generatedAtTime	"2026-03-03T12:39:47.788216"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2005_0 .
+
+rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2008_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	lcc-3166-1-adj:UZ ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2008_0 ;
+	delta:subject-old	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2005_0 ;
+	prov:generatedAtTime	"2026-03-03T12:39:47.788216"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2008_0 .
+
+rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2010_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	"EurAsEC" ;
+		delta:insertion	"EACU" ;
+		rdf:predicate	rdfs:label ;
+	] , [
+		a	delta:Hunk ;
+		delta:deletion	rgn:TradeBloc ;
+		delta:insertion	rgn:CustomsUnion ;
+		rdf:predicate	lcc-cr:isClassifiedBy ;
+	] , [
+		a	delta:Hunk ;
+		delta:deletion	lcc-3166-1-adj:KG , lcc-3166-1-adj:TJ ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] , [
+		a	delta:Hunk ;
+		delta:deletion	"individual representing the Eurasian Economic Community"@en ;
+		delta:insertion	"individual representing the Customs Union of the Eurasian Economic Union"@en ;
+		rdf:predicate	skos:definition ;
+	] , [
+		a	delta:Hunk ;
+		delta:deletion	"Eurasian Economic Community"@en ;
+		delta:insertion	"Eurasian Customs Union"@en ;
+		rdf:predicate	foaf:name ;
+	] ;
+	delta:subject-new	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2010_0 ;
+	delta:subject-old	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2008_0 ;
+	prov:generatedAtTime	"2026-03-03T12:39:47.788216"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2010_0 .
+
+rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2012_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	"Eurasian Customs Union"@en ;
+		delta:insertion	"Eurasian Economic Space"@en ;
+		rdf:predicate	foaf:name ;
+	] , [
+		a	delta:Hunk ;
+		delta:deletion	"EACU" ;
+		delta:insertion	"EAES" ;
+		rdf:predicate	rdfs:label ;
+	] , [
+		a	delta:Hunk ;
+		delta:deletion	"individual representing the Customs Union of the Eurasian Economic Union"@en ;
+		delta:insertion	"individual representing the Single Economic Space of the Eurasian Economic Union"@en ;
+		rdf:predicate	skos:definition ;
+	] ;
+	delta:subject-new	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2012_0 ;
+	delta:subject-old	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2010_0 ;
+	prov:generatedAtTime	"2026-03-03T12:39:47.788216"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2012_0 .
+
+rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2015_0_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	"Eurasian Economic Space"@en ;
+		delta:insertion	"Eurasian Economic Union"@en ;
+		rdf:predicate	foaf:name ;
+	] , [
+		a	delta:Hunk ;
+		delta:deletion	rgn:CustomsUnion ;
+		delta:insertion	rgn:EconomicUnion ;
+		rdf:predicate	lcc-cr:isClassifiedBy ;
+	] , [
+		a	delta:Hunk ;
+		delta:deletion	"EAES" ;
+		delta:insertion	"EAEU" ;
+		rdf:predicate	rdfs:label ;
+	] , [
+		a	delta:Hunk ;
+		delta:deletion	"individual representing the Single Economic Space of the Eurasian Economic Union"@en ;
+		delta:insertion	"individual representing the Eurasian Economic Union"@en ;
+		rdf:predicate	skos:definition ;
+	] ;
+	delta:subject-new	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2015_0 ;
+	delta:subject-old	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2012_0 ;
+	prov:generatedAtTime	"2026-03-03T12:39:47.788216"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2015_0 .
+
+rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2015_1_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:AM ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2015_1 ;
+	delta:subject-old	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2015_0 ;
+	prov:generatedAtTime	"2026-03-03T12:39:47.788216"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2015_1 .
+
+rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2015_2_delta
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	lcc-3166-1-adj:KG ;
+		rdf:predicate	lcc-cr:hasSubregion ;
+	] ;
+	delta:subject-new	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2015_2 ;
+	delta:subject-old	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2015_1 ;
+	prov:generatedAtTime	"2026-03-03T12:39:47.788216"^^xsd:dateTime ;
+	rdf:subject	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2015_2 .

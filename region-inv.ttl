@@ -119,6 +119,19 @@ lcc-3166-1-adj:AL
 		tempo:validFrom	"2007-05-01"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:AM
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://eaeunion.org/"^^xsd:anyURI ;
+		foaf:name	"Eurasian Economic Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA ;
+		rdfs:label	"EAEU" ;
+		skos:definition	"individual representing the Eurasian Economic Union"@en ;
+		tempo:validFrom	"2015-01-02"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:AO
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -478,6 +491,19 @@ lcc-3166-1-adj:BW
 		rdfs:label	"SACU" ;
 		skos:definition	"individual representing the Southern African Customs Union (SACU)"@en ;
 		tempo:validFrom	"1970-03-01"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:BY
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://eaeunion.org/"^^xsd:anyURI ;
+		foaf:name	"Eurasian Economic Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA ;
+		rdfs:label	"EAEU" ;
+		skos:definition	"individual representing the Eurasian Economic Union"@en ;
+		tempo:validFrom	"2000-10-10"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:BZ
@@ -1491,6 +1517,20 @@ lcc-3166-1-adj:KE
 		tempo:validTill	"1977-07-31"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:KG
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://eaeunion.org/"^^xsd:anyURI ;
+		foaf:name	"Eurasian Economic Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA ;
+		rdfs:label	"EAEU" ;
+		skos:definition	"individual representing the Eurasian Economic Union"@en ;
+		tempo:validFrom	"2000-10-10"^^xsd:date , "2015-08-06"^^xsd:date ;
+		tempo:validTill	"2010-01-01"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:KH
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -1590,6 +1630,19 @@ lcc-3166-1-adj:KW
 		rdfs:label	"GCC" ;
 		skos:definition	"individual representing the Cooperation Council for the Arab States of the Gulf (GCC)"@en ;
 		tempo:validFrom	"1981-05-25"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:KZ
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://eaeunion.org/"^^xsd:anyURI ;
+		foaf:name	"Eurasian Economic Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA ;
+		rdfs:label	"EAEU" ;
+		skos:definition	"individual representing the Eurasian Economic Union"@en ;
+		tempo:validFrom	"2000-10-10"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:LA
@@ -2472,6 +2525,19 @@ lcc-3166-1-adj:RS
 		tempo:validFrom	"2007-05-01"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:RU
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://eaeunion.org/"^^xsd:anyURI ;
+		foaf:name	"Eurasian Economic Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA ;
+		rdfs:label	"EAEU" ;
+		skos:definition	"individual representing the Eurasian Economic Union"@en ;
+		tempo:validFrom	"2000-10-10"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:RW
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -2839,6 +2905,20 @@ lcc-3166-1-adj:TH
 		tempo:validTill	"1967-08-08"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:TJ
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://eaeunion.org/"^^xsd:anyURI ;
+		foaf:name	"Eurasian Economic Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA ;
+		rdfs:label	"EAEU" ;
+		skos:definition	"individual representing the Eurasian Economic Union"@en ;
+		tempo:validFrom	"2000-10-10"^^xsd:date ;
+		tempo:validTill	"2010-01-01"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:TL
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -3019,6 +3099,20 @@ lcc-3166-1-adj:UY
 		rdfs:label	"Mercosul"@pt , "Mercosur" , "Mercosur"@es ;
 		skos:definition	"individual representing the Common Market of the South (Mercosur)"@en ;
 		tempo:validFrom	"1991-03-26"^^xsd:date ;
+	] .
+
+lcc-3166-1-adj:UZ
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"http://eaeunion.org/"^^xsd:anyURI ;
+		foaf:name	"Eurasian Economic Union"@en ;
+		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
+		pav:derivedFrom	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA ;
+		rdfs:label	"EAEU" ;
+		skos:definition	"individual representing the Eurasian Economic Union"@en ;
+		tempo:validFrom	"2005-10-07"^^xsd:date ;
+		tempo:validTill	"2008-10-16"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:VA

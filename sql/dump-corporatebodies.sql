@@ -39,5 +39,5 @@ WHERE {
 }
 );
 
-dump_corpbody('/var/scratch/lakshmi/freundt/corporatebodies.ttl');
+dump_corpbody('/var/scratch/otto/freundt/corporatebodies.ttl');
 CHECKPOINT;

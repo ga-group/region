@@ -34,5 +34,5 @@ WHERE {
 }
 );
 
-dump_rgn_inv('/var/scratch/lakshmi/freundt/region-inv.ttl');
+dump_rgn_inv('/var/scratch/otto/freundt/region-inv.ttl');
 CHECKPOINT;
