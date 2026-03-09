@@ -345,6 +345,16 @@ lcc-3166-1-adj:BG
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://en.wikipedia.org/wiki/Warsaw_Pact"^^xsd:anyURI ;
+		foaf:name	"Warsaw Pact"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK9ASEQ358875FNBB8EEB10Y ;
+		rdfs:label	"Warsaw Pact" ;
+		skos:definition	"individual representing the Warsaw Pact Organisation"@en ;
+		tempo:validFrom	"1955-05-14"^^xsd:date ;
+		tempo:validTill	"1991-07-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://cefta.int/"^^xsd:anyURI ;
 		foaf:name	"Accord de libre-échange centre-européen"@fr , "Accordo centroeuropeo di libero scambio"@it , "Acordo de comércio livre da Europa Central"@pt , "Acordul central european de comerț liber"@ro , "Acuerdo Centroeuropeo de Libre Comercio"@es , "Central European Free Trade Agreement"@en , "Centraleuropeiska frihandelsavtalet"@sv , "Centrāleiropas Brīvās tirdzniecības nolīgums"@lv , "Comhaontú Saorthrádála Lár na hEorpa"@ga , "Den centraleuropæiske frihandelsaftale"@da , "Ftehim dwar il-Kummerċ Ħieles tal-Ewropa Ċentrali"@mt , "Közép-európai Szabadkereskedelmi Megállapodás"@hu , "Kesk-Euroopa vabakaubandusleping"@et , "Keski-Euroopan vapaakauppasopimus"@fi , "Midden-Europese Vrijhandelsovereenkomst"@nl , "Mitteleuropäisches Freihandelsabkommen"@de , "Orta Avrupa Serbest Ticaret Anlaşması"@tr , "Srednjeevropski sporazum o prosti trgovini"@sl , "Srednjoeuropski ugovor o slobodnoj trgovini"@hr , "Středoevropská dohoda o volném obchodu"@cs , "Stredoeurópska dohoda o voľnom obchode"@sk , "Vidurio Europos laisvosios prekybos susitarimas"@lt , "Środkowoeuropejska umowa o wolnym handlu"@pl , "Συμφωνία Ελεύθερων Συναλλαγών της Κεντρικής Ευρώπης"@el , "Централноевропейско споразумение за свободна търговия"@bg , "Централноевропски уговор о слободној трговини"@sr ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
@@ -1464,6 +1474,16 @@ lcc-3166-1-adj:HT
 lcc-3166-1-adj:HU
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://en.wikipedia.org/wiki/Warsaw_Pact"^^xsd:anyURI ;
+		foaf:name	"Warsaw Pact"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK9ASEQ358875FNBB8EEB10Y ;
+		rdfs:label	"Warsaw Pact" ;
+		skos:definition	"individual representing the Warsaw Pact Organisation"@en ;
+		tempo:validFrom	"1955-05-14"^^xsd:date , "1956-11-05"^^xsd:date ;
+		tempo:validTill	"1956-11-01"^^xsd:date , "1991-07-01"^^xsd:date ;
+	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://cefta.int/"^^xsd:anyURI ;
 		foaf:name	"Accord de libre-échange centre-européen"@fr , "Accordo centroeuropeo di libero scambio"@it , "Acordo de comércio livre da Europa Central"@pt , "Acordul central european de comerț liber"@ro , "Acuerdo Centroeuropeo de Libre Comercio"@es , "Central European Free Trade Agreement"@en , "Centraleuropeiska frihandelsavtalet"@sv , "Centrāleiropas Brīvās tirdzniecības nolīgums"@lv , "Comhaontú Saorthrádála Lár na hEorpa"@ga , "Den centraleuropæiske frihandelsaftale"@da , "Ftehim dwar il-Kummerċ Ħieles tal-Ewropa Ċentrali"@mt , "Közép-európai Szabadkereskedelmi Megállapodás"@hu , "Kesk-Euroopa vabakaubandusleping"@et , "Keski-Euroopan vapaakauppasopimus"@fi , "Midden-Europese Vrijhandelsovereenkomst"@nl , "Mitteleuropäisches Freihandelsabkommen"@de , "Orta Avrupa Serbest Ticaret Anlaşması"@tr , "Srednjeevropski sporazum o prosti trgovini"@sl , "Srednjoeuropski ugovor o slobodnoj trgovini"@hr , "Středoevropská dohoda o volném obchodu"@cs , "Stredoeurópska dohoda o voľnom obchode"@sk , "Vidurio Europos laisvosios prekybos susitarimas"@lt , "Środkowoeuropejska umowa o wolnym handlu"@pl , "Συμφωνία Ελεύθερων Συναλλαγών της Κεντρικής Ευρώπης"@el , "Централноевропейско споразумение за свободна търговия"@bg , "Централноевропски уговор о слободној трговини"@sr ;
@@ -2598,6 +2618,16 @@ lcc-3166-1-adj:PL
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
 		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://en.wikipedia.org/wiki/Warsaw_Pact"^^xsd:anyURI ;
+		foaf:name	"Warsaw Pact"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK9ASEQ358875FNBB8EEB10Y ;
+		rdfs:label	"Warsaw Pact" ;
+		skos:definition	"individual representing the Warsaw Pact Organisation"@en ;
+		tempo:validFrom	"1955-05-14"^^xsd:date ;
+		tempo:validTill	"1991-07-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://cefta.int/"^^xsd:anyURI ;
 		foaf:name	"Accord de libre-échange centre-européen"@fr , "Accordo centroeuropeo di libero scambio"@it , "Acordo de comércio livre da Europa Central"@pt , "Acordul central european de comerț liber"@ro , "Acuerdo Centroeuropeo de Libre Comercio"@es , "Central European Free Trade Agreement"@en , "Centraleuropeiska frihandelsavtalet"@sv , "Centrāleiropas Brīvās tirdzniecības nolīgums"@lv , "Comhaontú Saorthrádála Lár na hEorpa"@ga , "Den centraleuropæiske frihandelsaftale"@da , "Ftehim dwar il-Kummerċ Ħieles tal-Ewropa Ċentrali"@mt , "Közép-európai Szabadkereskedelmi Megállapodás"@hu , "Kesk-Euroopa vabakaubandusleping"@et , "Keski-Euroopan vapaakauppasopimus"@fi , "Midden-Europese Vrijhandelsovereenkomst"@nl , "Mitteleuropäisches Freihandelsabkommen"@de , "Orta Avrupa Serbest Ticaret Anlaşması"@tr , "Srednjeevropski sporazum o prosti trgovini"@sl , "Srednjoeuropski ugovor o slobodnoj trgovini"@hr , "Středoevropská dohoda o volném obchodu"@cs , "Stredoeurópska dohoda o voľnom obchode"@sk , "Vidurio Europos laisvosios prekybos susitarimas"@lt , "Środkowoeuropejska umowa o wolnym handlu"@pl , "Συμφωνία Ελεύθερων Συναλλαγών της Κεντρικής Ευρώπης"@el , "Централноевропейско споразумение за свободна търговия"@bg , "Централноевропски уговор о слободној трговини"@sr ;
 		lcc-cr:isClassifiedBy	rgn:EconomicUnion ;
@@ -2726,6 +2756,16 @@ lcc-3166-1-adj:QA
 lcc-3166-1-adj:RO
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://en.wikipedia.org/wiki/Warsaw_Pact"^^xsd:anyURI ;
+		foaf:name	"Warsaw Pact"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK9ASEQ358875FNBB8EEB10Y ;
+		rdfs:label	"Warsaw Pact" ;
+		skos:definition	"individual representing the Warsaw Pact Organisation"@en ;
+		tempo:validFrom	"1965-08-21"^^xsd:date ;
+		tempo:validTill	"1991-07-01"^^xsd:date ;
+	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://cefta.int/"^^xsd:anyURI ;
 		foaf:name	"Accord de libre-échange centre-européen"@fr , "Accordo centroeuropeo di libero scambio"@it , "Acordo de comércio livre da Europa Central"@pt , "Acordul central european de comerț liber"@ro , "Acuerdo Centroeuropeo de Libre Comercio"@es , "Central European Free Trade Agreement"@en , "Centraleuropeiska frihandelsavtalet"@sv , "Centrāleiropas Brīvās tirdzniecības nolīgums"@lv , "Comhaontú Saorthrádála Lár na hEorpa"@ga , "Den centraleuropæiske frihandelsaftale"@da , "Ftehim dwar il-Kummerċ Ħieles tal-Ewropa Ċentrali"@mt , "Közép-európai Szabadkereskedelmi Megállapodás"@hu , "Kesk-Euroopa vabakaubandusleping"@et , "Keski-Euroopan vapaakauppasopimus"@fi , "Midden-Europese Vrijhandelsovereenkomst"@nl , "Mitteleuropäisches Freihandelsabkommen"@de , "Orta Avrupa Serbest Ticaret Anlaşması"@tr , "Srednjeevropski sporazum o prosti trgovini"@sl , "Srednjoeuropski ugovor o slobodnoj trgovini"@hr , "Středoevropská dohoda o volném obchodu"@cs , "Stredoeurópska dohoda o voľnom obchode"@sk , "Vidurio Europos laisvosios prekybos susitarimas"@lt , "Środkowoeuropejska umowa o wolnym handlu"@pl , "Συμφωνία Ελεύθερων Συναλλαγών της Κεντρικής Ευρώπης"@el , "Централноевропейско споразумение за свободна търговия"@bg , "Централноевропски уговор о слободној трговини"@sr ;
@@ -3604,6 +3644,34 @@ lcc-3166-1-adj:ZW
 		tempo:validTill	"1994-12-08"^^xsd:date ;
 	] .
 
+lcc-3166-3-adj:CSHH
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://en.wikipedia.org/wiki/Warsaw_Pact"^^xsd:anyURI ;
+		foaf:name	"Warsaw Pact"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK9ASEQ358875FNBB8EEB10Y ;
+		rdfs:label	"Warsaw Pact" ;
+		skos:definition	"individual representing the Warsaw Pact Organisation"@en ;
+		tempo:validFrom	"1960-07-11"^^xsd:date ;
+		tempo:validTill	"1991-07-01"^^xsd:date ;
+	] .
+
+lcc-3166-3-adj:DDDE
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://en.wikipedia.org/wiki/Warsaw_Pact"^^xsd:anyURI ;
+		foaf:name	"Warsaw Pact"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK9ASEQ358875FNBB8EEB10Y ;
+		rdfs:label	"Warsaw Pact" ;
+		skos:definition	"individual representing the Warsaw Pact Organisation"@en ;
+		tempo:validFrom	"1955-05-14"^^xsd:date ;
+		tempo:validTill	"1990-09-24"^^xsd:date ;
+	] .
+
 lcc-3166-3-adj:GEHH
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -3615,6 +3683,20 @@ lcc-3166-3-adj:GEHH
 		skos:definition	"individual representing the Pacific Islands Forum"@en ;
 		tempo:validFrom	"1976-07-26"^^xsd:date ;
 		tempo:validTill	"1979-07-09"^^xsd:date ;
+	] .
+
+lcc-3166-3-adj:SUHH
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://en.wikipedia.org/wiki/Warsaw_Pact"^^xsd:anyURI ;
+		foaf:name	"Warsaw Pact"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK9ASEQ358875FNBB8EEB10Y ;
+		rdfs:label	"Warsaw Pact" ;
+		skos:definition	"individual representing the Warsaw Pact Organisation"@en ;
+		tempo:validFrom	"1955-05-14"^^xsd:date ;
+		tempo:validTill	"1991-07-01"^^xsd:date ;
 	] .
 
 wd:Q1097943
@@ -3639,6 +3721,20 @@ wd:Q1097943
 		skos:definition	"individual representing the East African Common Services Organization (EACSO)"@en ;
 		tempo:validFrom	"1961-12-09"^^xsd:date ;
 		tempo:validTill	"1962-10-09"^^xsd:date ;
+	] .
+
+wd:Q11178782
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://en.wikipedia.org/wiki/Warsaw_Pact"^^xsd:anyURI ;
+		foaf:name	"Warsaw Pact"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK9ASEQ358875FNBB8EEB10Y ;
+		rdfs:label	"Warsaw Pact" ;
+		skos:definition	"individual representing the Warsaw Pact Organisation"@en ;
+		tempo:validFrom	"1955-05-14"^^xsd:date ;
+		tempo:validTill	"1960-07-11"^^xsd:date ;
 	] .
 
 wd:Q1479726
@@ -3705,6 +3801,20 @@ wd:Q193619
 		tempo:validTill	"1970-03-01"^^xsd:date ;
 	] .
 
+wd:Q19915237
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://en.wikipedia.org/wiki/Warsaw_Pact"^^xsd:anyURI ;
+		foaf:name	"Warsaw Pact"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK9ASEQ358875FNBB8EEB10Y ;
+		rdfs:label	"Warsaw Pact" ;
+		skos:definition	"individual representing the Warsaw Pact Organisation"@en ;
+		tempo:validFrom	"1955-05-14"^^xsd:date ;
+		tempo:validTill	"1968-09-13"^^xsd:date ;
+	] .
+
 wd:Q21815946
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -3755,6 +3865,20 @@ wd:Q2538511
 		skos:definition	"individual representing the East African Common Services Organization (EACSO)"@en ;
 		tempo:validFrom	"1961-12-09"^^xsd:date ;
 		tempo:validTill	"1963-12-12"^^xsd:date ;
+	] .
+
+wd:Q2685298
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://en.wikipedia.org/wiki/Warsaw_Pact"^^xsd:anyURI ;
+		foaf:name	"Warsaw Pact"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK9ASEQ358875FNBB8EEB10Y ;
+		rdfs:label	"Warsaw Pact" ;
+		skos:definition	"individual representing the Warsaw Pact Organisation"@en ;
+		tempo:validFrom	"1955-05-14"^^xsd:date ;
+		tempo:validTill	"1965-08-21"^^xsd:date ;
 	] .
 
 wd:Q29971

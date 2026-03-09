@@ -3147,3 +3147,137 @@ rgn:r01KK913HWGTRRQX0Q1V50PR8B6_2024_0
 	rgn:hasCurrentVariant	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
 	skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
 	tempo:validFrom	"2024-03-07"^^xsd:date .
+
+rgn:r01KK9ASEQ358875FNBB8EEB10Y
+	owl:sameAs	rgn:r01KK9ASEQ358875FNBB8EEB10Y_1990_0 .
+
+rgn:r01KK9ASEQ358875FNBB8EEB10Y_1955_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KK9ASEQ358875FNBB8EEB10Y_1956_0 ;
+	dct:source	"https://en.wikipedia.org/wiki/Warsaw_Pact"^^xsd:anyURI ;
+	foaf:name	"Warsaw Pact"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BG , lcc-3166-1-adj:HU , lcc-3166-1-adj:PL , lcc-3166-3-adj:DDDE , lcc-3166-3-adj:SUHH , wd:Q11178782 , wd:Q19915237 , wd:Q2685298 ;
+	lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"Warsaw Pact" ;
+	rgn:hasCurrentVariant	rgn:r01KK9ASEQ358875FNBB8EEB10Y ;
+	skos:definition	"individual representing the Warsaw Pact Organisation"@en ;
+	tempo:validFrom	"1955-05-14"^^xsd:date ;
+	tempo:validTill	"1956-11-01"^^xsd:date .
+
+rgn:r01KK9ASEQ358875FNBB8EEB10Y_1956_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KK9ASEQ358875FNBB8EEB10Y_1956_1 ;
+	dct:replaces	rgn:r01KK9ASEQ358875FNBB8EEB10Y_1955_0 ;
+	dct:source	"https://en.wikipedia.org/wiki/Warsaw_Pact"^^xsd:anyURI ;
+	foaf:name	"Warsaw Pact"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BG , lcc-3166-1-adj:PL , lcc-3166-3-adj:DDDE , lcc-3166-3-adj:SUHH , wd:Q11178782 , wd:Q19915237 , wd:Q2685298 ;
+	lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"Warsaw Pact" ;
+	rgn:hasCurrentVariant	rgn:r01KK9ASEQ358875FNBB8EEB10Y ;
+	skos:definition	"individual representing the Warsaw Pact Organisation"@en ;
+	tempo:validFrom	"1956-11-01"^^xsd:date ;
+	tempo:validTill	"1956-11-05"^^xsd:date .
+
+rgn:r01KK9ASEQ358875FNBB8EEB10Y_1956_1
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KK9ASEQ358875FNBB8EEB10Y_1960_0 ;
+	dct:replaces	rgn:r01KK9ASEQ358875FNBB8EEB10Y_1956_0 ;
+	dct:source	"https://en.wikipedia.org/wiki/Warsaw_Pact"^^xsd:anyURI ;
+	foaf:name	"Warsaw Pact"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BG , lcc-3166-1-adj:HU , lcc-3166-1-adj:PL , lcc-3166-3-adj:DDDE , lcc-3166-3-adj:SUHH , wd:Q11178782 , wd:Q19915237 , wd:Q2685298 ;
+	lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"Warsaw Pact" ;
+	rgn:hasCurrentVariant	rgn:r01KK9ASEQ358875FNBB8EEB10Y ;
+	skos:definition	"individual representing the Warsaw Pact Organisation"@en ;
+	tempo:validFrom	"1956-11-05"^^xsd:date ;
+	tempo:validTill	"1960-07-11"^^xsd:date .
+
+rgn:r01KK9ASEQ358875FNBB8EEB10Y_1960_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KK9ASEQ358875FNBB8EEB10Y_1965_0 ;
+	dct:replaces	rgn:r01KK9ASEQ358875FNBB8EEB10Y_1956_1 ;
+	dct:source	"https://en.wikipedia.org/wiki/Warsaw_Pact"^^xsd:anyURI ;
+	foaf:name	"Warsaw Pact"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BG , lcc-3166-1-adj:HU , lcc-3166-1-adj:PL , lcc-3166-3-adj:CSHH , lcc-3166-3-adj:DDDE , lcc-3166-3-adj:SUHH , wd:Q19915237 , wd:Q2685298 ;
+	lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"Warsaw Pact" ;
+	rgn:hasCurrentVariant	rgn:r01KK9ASEQ358875FNBB8EEB10Y ;
+	skos:definition	"individual representing the Warsaw Pact Organisation"@en ;
+	tempo:validFrom	"1960-07-11"^^xsd:date ;
+	tempo:validTill	"1965-08-21"^^xsd:date .
+
+rgn:r01KK9ASEQ358875FNBB8EEB10Y_1965_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KK9ASEQ358875FNBB8EEB10Y_1968_0 ;
+	dct:replaces	rgn:r01KK9ASEQ358875FNBB8EEB10Y_1960_0 ;
+	dct:source	"https://en.wikipedia.org/wiki/Warsaw_Pact"^^xsd:anyURI ;
+	foaf:name	"Warsaw Pact"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BG , lcc-3166-1-adj:HU , lcc-3166-1-adj:PL , lcc-3166-1-adj:RO , lcc-3166-3-adj:CSHH , lcc-3166-3-adj:DDDE , lcc-3166-3-adj:SUHH , wd:Q19915237 ;
+	lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"Warsaw Pact" ;
+	rgn:hasCurrentVariant	rgn:r01KK9ASEQ358875FNBB8EEB10Y ;
+	skos:definition	"individual representing the Warsaw Pact Organisation"@en ;
+	tempo:validFrom	"1965-08-21"^^xsd:date ;
+	tempo:validTill	"1968-09-13"^^xsd:date .
+
+rgn:r01KK9ASEQ358875FNBB8EEB10Y_1968_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KK9ASEQ358875FNBB8EEB10Y_1990_0 ;
+	dct:replaces	rgn:r01KK9ASEQ358875FNBB8EEB10Y_1965_0 ;
+	dct:source	"https://en.wikipedia.org/wiki/Warsaw_Pact"^^xsd:anyURI ;
+	foaf:name	"Warsaw Pact"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BG , lcc-3166-1-adj:HU , lcc-3166-1-adj:PL , lcc-3166-1-adj:RO , lcc-3166-3-adj:CSHH , lcc-3166-3-adj:DDDE , lcc-3166-3-adj:SUHH ;
+	lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"Warsaw Pact" ;
+	rgn:hasCurrentVariant	rgn:r01KK9ASEQ358875FNBB8EEB10Y ;
+	skos:definition	"individual representing the Warsaw Pact Organisation"@en ;
+	tempo:validFrom	"1968-09-13"^^xsd:date ;
+	tempo:validTill	"1990-09-24"^^xsd:date .
+
+rgn:r01KK9ASEQ358875FNBB8EEB10Y_1990_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:replaces	rgn:r01KK9ASEQ358875FNBB8EEB10Y_1968_0 ;
+	dct:source	"https://en.wikipedia.org/wiki/Warsaw_Pact"^^xsd:anyURI ;
+	foaf:name	"Warsaw Pact"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BG , lcc-3166-1-adj:HU , lcc-3166-1-adj:PL , lcc-3166-1-adj:RO , lcc-3166-3-adj:CSHH , lcc-3166-3-adj:SUHH ;
+	lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"Warsaw Pact" ;
+	rgn:hasCurrentVariant	rgn:r01KK9ASEQ358875FNBB8EEB10Y ;
+	skos:definition	"individual representing the Warsaw Pact Organisation"@en ;
+	tempo:validFrom	"1990-09-24"^^xsd:date ;
+	tempo:validTill	"1991-07-01"^^xsd:date .
