@@ -2938,3 +2938,212 @@ rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA_2015_2
 	rgn:hasCurrentVariant	rgn:r01KJME4KYDZJ2C8V1V3MMCNEZA ;
 	skos:definition	"individual representing the Eurasian Economic Union"@en ;
 	tempo:validFrom	"2015-08-06"^^xsd:date .
+
+rgn:r01KK913HWGTRRQX0Q1V50PR8B6
+	owl:sameAs	rgn:r01KK913HWGTRRQX0Q1V50PR8B6_2024_0 .
+
+rgn:r01KK913HWGTRRQX0Q1V50PR8B6_1949_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KK913HWGTRRQX0Q1V50PR8B6_1952_0 ;
+	dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+	foaf:name	"North Atlantic Treaty Organization"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BE , lcc-3166-1-adj:CA , lcc-3166-1-adj:DK , lcc-3166-1-adj:FR , lcc-3166-1-adj:GB , lcc-3166-1-adj:IS , lcc-3166-1-adj:IT , lcc-3166-1-adj:LU , lcc-3166-1-adj:NL , lcc-3166-1-adj:NO , lcc-3166-1-adj:PT , lcc-3166-1-adj:US ;
+	lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"NATO" , "OTAN"@fr ;
+	rgn:hasCurrentVariant	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+	skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+	tempo:validFrom	"1949-08-24"^^xsd:date ;
+	tempo:validTill	"1952-02-18"^^xsd:date .
+
+rgn:r01KK913HWGTRRQX0Q1V50PR8B6_1952_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KK913HWGTRRQX0Q1V50PR8B6_1955_0 ;
+	dct:replaces	rgn:r01KK913HWGTRRQX0Q1V50PR8B6_1949_0 ;
+	dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+	foaf:name	"North Atlantic Treaty Organization"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BE , lcc-3166-1-adj:CA , lcc-3166-1-adj:DK , lcc-3166-1-adj:FR , lcc-3166-1-adj:GB , lcc-3166-1-adj:GR , lcc-3166-1-adj:IS , lcc-3166-1-adj:IT , lcc-3166-1-adj:LU , lcc-3166-1-adj:NL , lcc-3166-1-adj:NO , lcc-3166-1-adj:PT , lcc-3166-1-adj:TR , lcc-3166-1-adj:US ;
+	lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"NATO" , "OTAN"@fr ;
+	rgn:hasCurrentVariant	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+	skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+	tempo:validFrom	"1952-02-18"^^xsd:date ;
+	tempo:validTill	"1955-05-06"^^xsd:date .
+
+rgn:r01KK913HWGTRRQX0Q1V50PR8B6_1955_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KK913HWGTRRQX0Q1V50PR8B6_1982_0 ;
+	dct:replaces	rgn:r01KK913HWGTRRQX0Q1V50PR8B6_1952_0 ;
+	dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+	foaf:name	"North Atlantic Treaty Organization"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BE , lcc-3166-1-adj:CA , lcc-3166-1-adj:DE , lcc-3166-1-adj:DK , lcc-3166-1-adj:FR , lcc-3166-1-adj:GB , lcc-3166-1-adj:GR , lcc-3166-1-adj:IS , lcc-3166-1-adj:IT , lcc-3166-1-adj:LU , lcc-3166-1-adj:NL , lcc-3166-1-adj:NO , lcc-3166-1-adj:PT , lcc-3166-1-adj:TR , lcc-3166-1-adj:US ;
+	lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"NATO" , "OTAN"@fr ;
+	rgn:hasCurrentVariant	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+	skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+	tempo:validFrom	"1955-05-06"^^xsd:date ;
+	tempo:validTill	"1982-05-30"^^xsd:date .
+
+rgn:r01KK913HWGTRRQX0Q1V50PR8B6_1982_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KK913HWGTRRQX0Q1V50PR8B6_1999_0 ;
+	dct:replaces	rgn:r01KK913HWGTRRQX0Q1V50PR8B6_1955_0 ;
+	dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+	foaf:name	"North Atlantic Treaty Organization"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BE , lcc-3166-1-adj:CA , lcc-3166-1-adj:DE , lcc-3166-1-adj:DK , lcc-3166-1-adj:ES , lcc-3166-1-adj:FR , lcc-3166-1-adj:GB , lcc-3166-1-adj:GR , lcc-3166-1-adj:IS , lcc-3166-1-adj:IT , lcc-3166-1-adj:LU , lcc-3166-1-adj:NL , lcc-3166-1-adj:NO , lcc-3166-1-adj:PT , lcc-3166-1-adj:TR , lcc-3166-1-adj:US ;
+	lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"NATO" , "OTAN"@fr ;
+	rgn:hasCurrentVariant	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+	skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+	tempo:validFrom	"1982-05-30"^^xsd:date ;
+	tempo:validTill	"1999-03-12"^^xsd:date .
+
+rgn:r01KK913HWGTRRQX0Q1V50PR8B6_1999_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KK913HWGTRRQX0Q1V50PR8B6_2004_0 ;
+	dct:replaces	rgn:r01KK913HWGTRRQX0Q1V50PR8B6_1982_0 ;
+	dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+	foaf:name	"North Atlantic Treaty Organization"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BE , lcc-3166-1-adj:CA , lcc-3166-1-adj:CZ , lcc-3166-1-adj:DE , lcc-3166-1-adj:DK , lcc-3166-1-adj:ES , lcc-3166-1-adj:FR , lcc-3166-1-adj:GB , lcc-3166-1-adj:GR , lcc-3166-1-adj:HU , lcc-3166-1-adj:IS , lcc-3166-1-adj:IT , lcc-3166-1-adj:LU , lcc-3166-1-adj:NL , lcc-3166-1-adj:NO , lcc-3166-1-adj:PL , lcc-3166-1-adj:PT , lcc-3166-1-adj:TR , lcc-3166-1-adj:US ;
+	lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"NATO" , "OTAN"@fr ;
+	rgn:hasCurrentVariant	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+	skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+	tempo:validFrom	"1999-03-12"^^xsd:date ;
+	tempo:validTill	"2004-03-29"^^xsd:date .
+
+rgn:r01KK913HWGTRRQX0Q1V50PR8B6_2004_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KK913HWGTRRQX0Q1V50PR8B6_2009_0 ;
+	dct:replaces	rgn:r01KK913HWGTRRQX0Q1V50PR8B6_1999_0 ;
+	dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+	foaf:name	"North Atlantic Treaty Organization"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:BE , lcc-3166-1-adj:BG , lcc-3166-1-adj:CA , lcc-3166-1-adj:CZ , lcc-3166-1-adj:DE , lcc-3166-1-adj:DK , lcc-3166-1-adj:EE , lcc-3166-1-adj:ES , lcc-3166-1-adj:FR , lcc-3166-1-adj:GB , lcc-3166-1-adj:GR , lcc-3166-1-adj:HU , lcc-3166-1-adj:IS , lcc-3166-1-adj:IT , lcc-3166-1-adj:LT , lcc-3166-1-adj:LU , lcc-3166-1-adj:LV , lcc-3166-1-adj:NL , lcc-3166-1-adj:NO , lcc-3166-1-adj:PL , lcc-3166-1-adj:PT , lcc-3166-1-adj:RO , lcc-3166-1-adj:SI , lcc-3166-1-adj:SK , lcc-3166-1-adj:TR , lcc-3166-1-adj:US ;
+	lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"NATO" , "OTAN"@fr ;
+	rgn:hasCurrentVariant	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+	skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+	tempo:validFrom	"2004-03-29"^^xsd:date ;
+	tempo:validTill	"2009-04-01"^^xsd:date .
+
+rgn:r01KK913HWGTRRQX0Q1V50PR8B6_2009_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KK913HWGTRRQX0Q1V50PR8B6_2017_0 ;
+	dct:replaces	rgn:r01KK913HWGTRRQX0Q1V50PR8B6_2004_0 ;
+	dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+	foaf:name	"North Atlantic Treaty Organization"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AL , lcc-3166-1-adj:BE , lcc-3166-1-adj:BG , lcc-3166-1-adj:CA , lcc-3166-1-adj:CZ , lcc-3166-1-adj:DE , lcc-3166-1-adj:DK , lcc-3166-1-adj:EE , lcc-3166-1-adj:ES , lcc-3166-1-adj:FR , lcc-3166-1-adj:GB , lcc-3166-1-adj:GR , lcc-3166-1-adj:HR , lcc-3166-1-adj:HU , lcc-3166-1-adj:IS , lcc-3166-1-adj:IT , lcc-3166-1-adj:LT , lcc-3166-1-adj:LU , lcc-3166-1-adj:LV , lcc-3166-1-adj:NL , lcc-3166-1-adj:NO , lcc-3166-1-adj:PL , lcc-3166-1-adj:PT , lcc-3166-1-adj:RO , lcc-3166-1-adj:SI , lcc-3166-1-adj:SK , lcc-3166-1-adj:TR , lcc-3166-1-adj:US ;
+	lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"NATO" , "OTAN"@fr ;
+	rgn:hasCurrentVariant	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+	skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+	tempo:validFrom	"2009-04-01"^^xsd:date ;
+	tempo:validTill	"2017-06-05"^^xsd:date .
+
+rgn:r01KK913HWGTRRQX0Q1V50PR8B6_2017_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KK913HWGTRRQX0Q1V50PR8B6_2020_0 ;
+	dct:replaces	rgn:r01KK913HWGTRRQX0Q1V50PR8B6_2009_0 ;
+	dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+	foaf:name	"North Atlantic Treaty Organization"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AL , lcc-3166-1-adj:BE , lcc-3166-1-adj:BG , lcc-3166-1-adj:CA , lcc-3166-1-adj:CZ , lcc-3166-1-adj:DE , lcc-3166-1-adj:DK , lcc-3166-1-adj:EE , lcc-3166-1-adj:ES , lcc-3166-1-adj:FR , lcc-3166-1-adj:GB , lcc-3166-1-adj:GR , lcc-3166-1-adj:HR , lcc-3166-1-adj:HU , lcc-3166-1-adj:IS , lcc-3166-1-adj:IT , lcc-3166-1-adj:LT , lcc-3166-1-adj:LU , lcc-3166-1-adj:LV , lcc-3166-1-adj:ME , lcc-3166-1-adj:NL , lcc-3166-1-adj:NO , lcc-3166-1-adj:PL , lcc-3166-1-adj:PT , lcc-3166-1-adj:RO , lcc-3166-1-adj:SI , lcc-3166-1-adj:SK , lcc-3166-1-adj:TR , lcc-3166-1-adj:US ;
+	lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"NATO" , "OTAN"@fr ;
+	rgn:hasCurrentVariant	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+	skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+	tempo:validFrom	"2017-06-05"^^xsd:date ;
+	tempo:validTill	"2020-03-27"^^xsd:date .
+
+rgn:r01KK913HWGTRRQX0Q1V50PR8B6_2020_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KK913HWGTRRQX0Q1V50PR8B6_2023_0 ;
+	dct:replaces	rgn:r01KK913HWGTRRQX0Q1V50PR8B6_2017_0 ;
+	dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+	foaf:name	"North Atlantic Treaty Organization"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AL , lcc-3166-1-adj:BE , lcc-3166-1-adj:BG , lcc-3166-1-adj:CA , lcc-3166-1-adj:CZ , lcc-3166-1-adj:DE , lcc-3166-1-adj:DK , lcc-3166-1-adj:EE , lcc-3166-1-adj:ES , lcc-3166-1-adj:FR , lcc-3166-1-adj:GB , lcc-3166-1-adj:GR , lcc-3166-1-adj:HR , lcc-3166-1-adj:HU , lcc-3166-1-adj:IS , lcc-3166-1-adj:IT , lcc-3166-1-adj:LT , lcc-3166-1-adj:LU , lcc-3166-1-adj:LV , lcc-3166-1-adj:ME , lcc-3166-1-adj:MK , lcc-3166-1-adj:NL , lcc-3166-1-adj:NO , lcc-3166-1-adj:PL , lcc-3166-1-adj:PT , lcc-3166-1-adj:RO , lcc-3166-1-adj:SI , lcc-3166-1-adj:SK , lcc-3166-1-adj:TR , lcc-3166-1-adj:US ;
+	lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"NATO" , "OTAN"@fr ;
+	rgn:hasCurrentVariant	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+	skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+	tempo:validFrom	"2020-03-27"^^xsd:date ;
+	tempo:validTill	"2023-04-04"^^xsd:date .
+
+rgn:r01KK913HWGTRRQX0Q1V50PR8B6_2023_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:isReplacedBy	rgn:r01KK913HWGTRRQX0Q1V50PR8B6_2024_0 ;
+	dct:replaces	rgn:r01KK913HWGTRRQX0Q1V50PR8B6_2020_0 ;
+	dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+	foaf:name	"North Atlantic Treaty Organization"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AL , lcc-3166-1-adj:BE , lcc-3166-1-adj:BG , lcc-3166-1-adj:CA , lcc-3166-1-adj:CZ , lcc-3166-1-adj:DE , lcc-3166-1-adj:DK , lcc-3166-1-adj:EE , lcc-3166-1-adj:ES , lcc-3166-1-adj:FI , lcc-3166-1-adj:FR , lcc-3166-1-adj:GB , lcc-3166-1-adj:GR , lcc-3166-1-adj:HR , lcc-3166-1-adj:HU , lcc-3166-1-adj:IS , lcc-3166-1-adj:IT , lcc-3166-1-adj:LT , lcc-3166-1-adj:LU , lcc-3166-1-adj:LV , lcc-3166-1-adj:ME , lcc-3166-1-adj:MK , lcc-3166-1-adj:NL , lcc-3166-1-adj:NO , lcc-3166-1-adj:PL , lcc-3166-1-adj:PT , lcc-3166-1-adj:RO , lcc-3166-1-adj:SI , lcc-3166-1-adj:SK , lcc-3166-1-adj:TR , lcc-3166-1-adj:US ;
+	lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"NATO" , "OTAN"@fr ;
+	rgn:hasCurrentVariant	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+	skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+	tempo:validFrom	"2023-04-04"^^xsd:date ;
+	tempo:validTill	"2024-03-07"^^xsd:date .
+
+rgn:r01KK913HWGTRRQX0Q1V50PR8B6_2024_0
+	a	lcc-cr:GeographicRegion ;
+	a	owl:NamedIndividual ;
+	dct:replaces	rgn:r01KK913HWGTRRQX0Q1V50PR8B6_2023_0 ;
+	dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+	foaf:name	"North Atlantic Treaty Organization"@en ;
+	lcc-cr:hasSubregion	lcc-3166-1-adj:AL , lcc-3166-1-adj:BE , lcc-3166-1-adj:BG , lcc-3166-1-adj:CA , lcc-3166-1-adj:CZ , lcc-3166-1-adj:DE , lcc-3166-1-adj:DK , lcc-3166-1-adj:EE , lcc-3166-1-adj:ES , lcc-3166-1-adj:FI , lcc-3166-1-adj:FR , lcc-3166-1-adj:GB , lcc-3166-1-adj:GR , lcc-3166-1-adj:HR , lcc-3166-1-adj:HU , lcc-3166-1-adj:IS , lcc-3166-1-adj:IT , lcc-3166-1-adj:LT , lcc-3166-1-adj:LU , lcc-3166-1-adj:LV , lcc-3166-1-adj:ME , lcc-3166-1-adj:MK , lcc-3166-1-adj:NL , lcc-3166-1-adj:NO , lcc-3166-1-adj:PL , lcc-3166-1-adj:PT , lcc-3166-1-adj:RO , lcc-3166-1-adj:SE , lcc-3166-1-adj:SI , lcc-3166-1-adj:SK , lcc-3166-1-adj:TR , lcc-3166-1-adj:US ;
+	lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+	lcc-cr:isSubregionOf	rgn:r01KH8R0PYDTV2B66AGWN37WS55 ;
+	pav:createdOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-03-09T13:48:10Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	rgn: ;
+	rdfs:label	"NATO" , "OTAN"@fr ;
+	rgn:hasCurrentVariant	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+	skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+	tempo:validFrom	"2024-03-07"^^xsd:date .

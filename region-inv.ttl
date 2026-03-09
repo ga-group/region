@@ -117,6 +117,15 @@ lcc-3166-1-adj:AL
 		rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
 		skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
 		tempo:validFrom	"2007-05-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+		foaf:name	"North Atlantic Treaty Organization"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+		rdfs:label	"NATO" , "OTAN"@fr ;
+		skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+		tempo:validFrom	"2009-04-01"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:AM
@@ -284,6 +293,15 @@ lcc-3166-1-adj:BE
 		tempo:validFrom	"1993-11-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+		foaf:name	"North Atlantic Treaty Organization"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+		rdfs:label	"NATO" , "OTAN"@fr ;
+		skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+		tempo:validFrom	"1949-08-24"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
 		foaf:name	"European Community"@en ;
 		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
@@ -344,6 +362,15 @@ lcc-3166-1-adj:BG
 		rdfs:label	"EU" ;
 		skos:definition	"individual representing the European Union"@en ;
 		tempo:validFrom	"2007-01-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+		foaf:name	"North Atlantic Treaty Organization"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+		rdfs:label	"NATO" , "OTAN"@fr ;
+		skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+		tempo:validFrom	"2004-03-29"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
 		foaf:name	"Eurozone" ;
@@ -541,6 +568,15 @@ lcc-3166-1-adj:CA
 		tempo:validTill	"1994-01-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+		foaf:name	"North Atlantic Treaty Organization"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+		rdfs:label	"NATO" , "OTAN"@fr ;
+		skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+		tempo:validFrom	"1949-08-24"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
 		foaf:name	"Accord Canada–États-Unis–Mexique"@fr , "Tratado entre México, Estados Unidos y Canadá"@es , "United States-Mexico-Canada Agreement"@en ;
 		lcc-cr:isClassifiedBy	rgn:TradeBloc ;
 		pav:derivedFrom	rgn:r01KJ1VPTGM2JZW8QGF05NZ39QB ;
@@ -735,6 +771,15 @@ lcc-3166-1-adj:CZ
 		rdfs:label	"EU" ;
 		skos:definition	"individual representing the European Union"@en ;
 		tempo:validFrom	"2004-05-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+		foaf:name	"North Atlantic Treaty Organization"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+		rdfs:label	"NATO" , "OTAN"@fr ;
+		skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+		tempo:validFrom	"1999-03-12"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:DE
@@ -764,6 +809,15 @@ lcc-3166-1-adj:DE
 		rdfs:label	"EU" ;
 		skos:definition	"individual representing the European Union"@en ;
 		tempo:validFrom	"1993-11-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+		foaf:name	"North Atlantic Treaty Organization"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+		rdfs:label	"NATO" , "OTAN"@fr ;
+		skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+		tempo:validFrom	"1955-05-06"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
@@ -820,6 +874,15 @@ lcc-3166-1-adj:DK
 		rdfs:label	"EU" ;
 		skos:definition	"individual representing the European Union"@en ;
 		tempo:validFrom	"1993-11-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+		foaf:name	"North Atlantic Treaty Organization"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+		rdfs:label	"NATO" , "OTAN"@fr ;
+		skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+		tempo:validFrom	"1949-08-24"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
@@ -912,6 +975,15 @@ lcc-3166-1-adj:EE
 		rdfs:label	"Eurozone with monetary agreement" ;
 		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"2011-01-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+		foaf:name	"North Atlantic Treaty Organization"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+		rdfs:label	"NATO" , "OTAN"@fr ;
+		skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+		tempo:validFrom	"2004-03-29"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:EG
@@ -967,6 +1039,15 @@ lcc-3166-1-adj:ES
 		rdfs:label	"EU" ;
 		skos:definition	"individual representing the European Union"@en ;
 		tempo:validFrom	"1993-11-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+		foaf:name	"North Atlantic Treaty Organization"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+		rdfs:label	"NATO" , "OTAN"@fr ;
+		skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+		tempo:validFrom	"1982-05-30"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
@@ -1039,6 +1120,15 @@ lcc-3166-1-adj:FI
 		rdfs:label	"EU" ;
 		skos:definition	"individual representing the European Union"@en ;
 		tempo:validFrom	"1995-01-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+		foaf:name	"North Atlantic Treaty Organization"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+		rdfs:label	"NATO" , "OTAN"@fr ;
+		skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+		tempo:validFrom	"2023-04-04"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:FJ
@@ -1095,6 +1185,15 @@ lcc-3166-1-adj:FR
 		tempo:validFrom	"1993-11-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+		foaf:name	"North Atlantic Treaty Organization"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+		rdfs:label	"NATO" , "OTAN"@fr ;
+		skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+		tempo:validFrom	"1949-08-24"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
 		foaf:name	"European Community"@en ;
 		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
@@ -1140,6 +1239,15 @@ lcc-3166-1-adj:GB
 		skos:definition	"individual representing the European Union"@en ;
 		tempo:validFrom	"1993-11-01"^^xsd:date ;
 		tempo:validTill	"2020-02-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+		foaf:name	"North Atlantic Treaty Organization"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+		rdfs:label	"NATO" , "OTAN"@fr ;
+		skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+		tempo:validFrom	"1949-08-24"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
@@ -1247,6 +1355,15 @@ lcc-3166-1-adj:GR
 		tempo:validFrom	"2001-01-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+		foaf:name	"North Atlantic Treaty Organization"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+		rdfs:label	"NATO" , "OTAN"@fr ;
+		skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+		tempo:validFrom	"1952-02-18"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
 		foaf:name	"European Community"@en ;
 		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
@@ -1320,6 +1437,15 @@ lcc-3166-1-adj:HR
 		rdfs:label	"Eurozone with monetary agreement" ;
 		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"2023-01-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+		foaf:name	"North Atlantic Treaty Organization"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+		rdfs:label	"NATO" , "OTAN"@fr ;
+		skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+		tempo:validFrom	"2009-04-01"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:HT
@@ -1356,6 +1482,15 @@ lcc-3166-1-adj:HU
 		rdfs:label	"EU" ;
 		skos:definition	"individual representing the European Union"@en ;
 		tempo:validFrom	"2004-05-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+		foaf:name	"North Atlantic Treaty Organization"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+		rdfs:label	"NATO" , "OTAN"@fr ;
+		skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+		tempo:validFrom	"1999-03-12"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:ID
@@ -1420,6 +1555,15 @@ lcc-3166-1-adj:IS
 		rdfs:label	"EFTA" ;
 		skos:definition	"individual representing the European Free Trade Association (EFTA)"@en ;
 		tempo:validFrom	"1970-01-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+		foaf:name	"North Atlantic Treaty Organization"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+		rdfs:label	"NATO" , "OTAN"@fr ;
+		skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+		tempo:validFrom	"1949-08-24"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:IT
@@ -1449,6 +1593,15 @@ lcc-3166-1-adj:IT
 		rdfs:label	"EU" ;
 		skos:definition	"individual representing the European Union"@en ;
 		tempo:validFrom	"1993-11-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+		foaf:name	"North Atlantic Treaty Organization"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+		rdfs:label	"NATO" , "OTAN"@fr ;
+		skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+		tempo:validFrom	"1949-08-24"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
@@ -1760,6 +1913,15 @@ lcc-3166-1-adj:LT
 		rdfs:label	"Eurozone with monetary agreement" ;
 		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"2015-01-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+		foaf:name	"North Atlantic Treaty Organization"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+		rdfs:label	"NATO" , "OTAN"@fr ;
+		skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+		tempo:validFrom	"2004-03-29"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:LU
@@ -1798,6 +1960,15 @@ lcc-3166-1-adj:LU
 		rdfs:label	"EU" ;
 		skos:definition	"individual representing the European Union"@en ;
 		tempo:validFrom	"1993-11-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+		foaf:name	"North Atlantic Treaty Organization"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+		rdfs:label	"NATO" , "OTAN"@fr ;
+		skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+		tempo:validFrom	"1949-08-24"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
@@ -1845,6 +2016,15 @@ lcc-3166-1-adj:LV
 		rdfs:label	"Eurozone with monetary agreement" ;
 		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"2014-01-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+		foaf:name	"North Atlantic Treaty Organization"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+		rdfs:label	"NATO" , "OTAN"@fr ;
+		skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+		tempo:validFrom	"2004-03-29"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:LY
@@ -1896,6 +2076,15 @@ lcc-3166-1-adj:ME
 		rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
 		skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
 		tempo:validFrom	"2007-05-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+		foaf:name	"North Atlantic Treaty Organization"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+		rdfs:label	"NATO" , "OTAN"@fr ;
+		skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+		tempo:validFrom	"2017-06-05"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:MG
@@ -1944,6 +2133,15 @@ lcc-3166-1-adj:MK
 		rdfs:label	"ACELC"@es , "ACLEC"@pt , "ALECE"@fr , "CBTN"@lv , "CEFTA"@cs , "CEFTA"@da , "CEFTA"@de , "CEFTA"@en , "CEFTA"@et , "CEFTA"@ga , "CEFTA"@hr , "CEFTA"@hu , "CEFTA"@it , "CEFTA"@mt , "CEFTA"@pl , "CEFTA"@ro , "CEFTA"@sk , "CEFTA"@sl , "Cefta"@fi , "Cefta"@nl , "Cefta"@sv , "VELPS"@lt , "ЦЕФТА"@bg ;
 		skos:definition	"individual representing the Central European Free Trade Agreement"@en ;
 		tempo:validFrom	"2006-01-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+		foaf:name	"North Atlantic Treaty Organization"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+		rdfs:label	"NATO" , "OTAN"@fr ;
+		skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+		tempo:validFrom	"2020-03-27"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:ML
@@ -2248,6 +2446,15 @@ lcc-3166-1-adj:NL
 		tempo:validFrom	"1993-11-01"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+		foaf:name	"North Atlantic Treaty Organization"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+		rdfs:label	"NATO" , "OTAN"@fr ;
+		skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+		tempo:validFrom	"1949-08-24"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
 		foaf:name	"European Community"@en ;
 		lcc-cr:isClassifiedBy	rgn:CustomsUnion ;
@@ -2269,6 +2476,15 @@ lcc-3166-1-adj:NO
 		rdfs:label	"EFTA" ;
 		skos:definition	"individual representing the European Free Trade Association (EFTA)"@en ;
 		tempo:validFrom	"1960-05-03"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+		foaf:name	"North Atlantic Treaty Organization"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+		rdfs:label	"NATO" , "OTAN"@fr ;
+		skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+		tempo:validFrom	"1949-08-24"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:NR
@@ -2399,6 +2615,15 @@ lcc-3166-1-adj:PL
 		rdfs:label	"EU" ;
 		skos:definition	"individual representing the European Union"@en ;
 		tempo:validFrom	"2004-05-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+		foaf:name	"North Atlantic Treaty Organization"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+		rdfs:label	"NATO" , "OTAN"@fr ;
+		skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+		tempo:validFrom	"1999-03-12"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:PT
@@ -2438,6 +2663,15 @@ lcc-3166-1-adj:PT
 		rdfs:label	"EU" ;
 		skos:definition	"individual representing the European Union"@en ;
 		tempo:validFrom	"1993-11-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+		foaf:name	"North Atlantic Treaty Organization"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+		rdfs:label	"NATO" , "OTAN"@fr ;
+		skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+		tempo:validFrom	"1949-08-24"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
 		dct:source	"https://european-union.europa.eu/"^^xsd:anyURI ;
@@ -2510,6 +2744,15 @@ lcc-3166-1-adj:RO
 		rdfs:label	"EU" ;
 		skos:definition	"individual representing the European Union"@en ;
 		tempo:validFrom	"2007-01-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+		foaf:name	"North Atlantic Treaty Organization"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+		rdfs:label	"NATO" , "OTAN"@fr ;
+		skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+		tempo:validFrom	"2004-03-29"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:RS
@@ -2652,6 +2895,15 @@ lcc-3166-1-adj:SE
 		rdfs:label	"EU" ;
 		skos:definition	"individual representing the European Union"@en ;
 		tempo:validFrom	"1995-01-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+		foaf:name	"North Atlantic Treaty Organization"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+		rdfs:label	"NATO" , "OTAN"@fr ;
+		skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+		tempo:validFrom	"2024-03-07"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:SG
@@ -2703,6 +2955,15 @@ lcc-3166-1-adj:SI
 		rdfs:label	"Eurozone with monetary agreement" ;
 		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"2007-01-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+		foaf:name	"North Atlantic Treaty Organization"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+		rdfs:label	"NATO" , "OTAN"@fr ;
+		skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+		tempo:validFrom	"2004-03-29"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:SK
@@ -2742,6 +3003,15 @@ lcc-3166-1-adj:SK
 		rdfs:label	"Eurozone with monetary agreement" ;
 		skos:definition	"individual representing countries that adopted the Euro with a de-jure monetary agreement"@en ;
 		tempo:validFrom	"2009-01-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+		foaf:name	"North Atlantic Treaty Organization"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+		rdfs:label	"NATO" , "OTAN"@fr ;
+		skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+		tempo:validFrom	"2004-03-29"^^xsd:date ;
 	] .
 
 lcc-3166-1-adj:SM
@@ -2956,6 +3226,19 @@ lcc-3166-1-adj:TO
 		tempo:validFrom	"1971-08-05"^^xsd:date ;
 	] .
 
+lcc-3166-1-adj:TR
+	a	lcc-cr:GeographicRegion ;
+	lcc-cr:isSubregionOf	[
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+		foaf:name	"North Atlantic Treaty Organization"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+		rdfs:label	"NATO" , "OTAN"@fr ;
+		skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+		tempo:validFrom	"1952-02-18"^^xsd:date ;
+	] .
+
 lcc-3166-1-adj:TT
 	a	lcc-cr:GeographicRegion ;
 	lcc-cr:isSubregionOf	[
@@ -3078,6 +3361,15 @@ lcc-3166-1-adj:US
 		skos:definition	"individual representing the Free Trade Agreement between Canada and the United States of America"@en ;
 		tempo:validFrom	"1989-01-01"^^xsd:date ;
 		tempo:validTill	"1994-01-01"^^xsd:date ;
+	] , [
+		a	lcc-cr:GeographicRegion ;
+		dct:source	"https://www.nato.int/"^^xsd:anyURI ;
+		foaf:name	"North Atlantic Treaty Organization"@en ;
+		lcc-cr:isClassifiedBy	rgn:MilitaryCoalition ;
+		pav:derivedFrom	rgn:r01KK913HWGTRRQX0Q1V50PR8B6 ;
+		rdfs:label	"NATO" , "OTAN"@fr ;
+		skos:definition	"individual representing the North Atlantic Treaty Organization (NATO)"@en ;
+		tempo:validFrom	"1949-08-24"^^xsd:date ;
 	] , [
 		a	lcc-cr:GeographicRegion ;
 		foaf:name	"Accord Canada–États-Unis–Mexique"@fr , "Tratado entre México, Estados Unidos y Canadá"@es , "United States-Mexico-Canada Agreement"@en ;
